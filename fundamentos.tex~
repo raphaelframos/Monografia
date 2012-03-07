@@ -11,6 +11,10 @@ próximo capítulo. Uma breve formalização dos descritores de Hu é feita na s
 \ref{sec:desc_hu}. E por fim, alguns conceitos chave sobre imagens digitais são
 apresentados na seção \ref{sec:img_dig}.
 
+\section{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
+
+Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1}
+
 \section{Características de Sistemas RAV}\label{sec:red_neu}
 
 Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os mais importantes são: o estilo de pronuncia que é aceito, ao tamanho do vocabulário e à dependência ou independencia do locutor. \cite{Carac1} Essas categorias que definem a precisão do sistema de reconhecimento.
@@ -28,10 +32,12 @@ muitas vezes  é dito como “ele vai morrerem dois dias”.\cite{RavPtBr}
 \subsection{Tamanho do vocabulário}
 Um fator muito importante na precisão de um RAV, é o tamanho do vocabulário, quanto maior seu tamanho, maior a quantidade de palavras ambíguas, com realizações sonoras semelhantes, ocasionando maior chance de erros por parte do decodificador responsável pelo reconhecimento.\cite{RavPtBr} Segundo \cite{RavIsoladas} vocabulários podem ser definidos como:
 
-Vocabulário pequeno: reconhecem até 20 palavras. 
-Vocabulário médio: reconhecem entre 20 e 100 palavras. 
-Vocabulário grande: reconhecem entre 100 e 1000 palavras. 
-Vocabulário muito grande: reconhecem mais de 1000 palavras. 
+\begin{itemize}
+\item Vocabulário pequeno: reconhecem até 20 palavras. 
+\item Vocabulário médio: reconhecem entre 20 e 100 palavras. 
+\item Vocabulário grande: reconhecem entre 100 e 1000 palavras. 
+\item Vocabulário muito grande: reconhecem mais de 1000 palavras. 
+\end{itemize}
 
 \subsection{Perplexidade} 
 
@@ -42,90 +48,6 @@ Vocabulário muito grande: reconhecem mais de 1000 palavras.
 \input{./graficos/neuronio}
 \caption{Texto da figura}
 \end{figure}
-
-\section{Principais tipos de redes neurais}\label{sec:red_tip}
-
-Dentre a grande variedade de tipos de redes neurais artificiais, as mais
-importantes, seja por sua contribuição teórica ou pela praticidade, são:
-
-\subsection{Rede perceptron multicamada}
-
-A perceptron multicamada é (a) uma rede direta, isto é, o sinal passa da entrada
-até a saída sem ciclos; (b) possui camadas intermediárias de neurônios entre as
-camadas de entrada e saída, ditas camadas ocultas; (c) utiliza funções de
-ativação não lineares, comumente a função sigmoide e (d) os neurônios são
-altamente conectados, em geral cada neurônio é conectado a todos os neurônios
-da camada anterior e da camada seguinte.
-
-\begin{figure}[H]
-\centering
-\input{./graficos/perceptron_mult}
-\caption{Texto da figura}
-\end{figure}
-
-A presença de múltiplas camadas permite a este tipo de rede resolver uma enorme
-variedade de problemas, ou em outros termos, reconhecer uma vasta variedade de
-padrões. As redes multicamadas são computacionalmente completas, ou seja, são
-equivalentes à classe das máquinas de Turing.
-
-A retropropagação é o algoritmo de treinamento mais utilizado para esta variante
-de rede neural. Cada iteração deste algoritmo é dividido em dois passos, no
-primeiro a rede é alimentada com um dos exemplos, o resultado é capturado e
-comparado com o valor esperado, com isso o erro geral da rede é calculado;
-segue-se então ao segundo passo, que atualiza os pesos sinápticos penalizando
-cada neurônio segundo sua influência no erro geral, essa etapa é feita da camada
-de saída para a de entrada, retroativamente.
-
-\subsection{Rede de Hopfield}
-
-A rede de Hofield é (a) uma forma de rede neural recorrente, isto é,
-determinadas conexões realimentam alguns neurônios, formando ciclos na rede; (b)
-apresenta um atraso temporal, ou seja, a propagação dos sinais não é instantânea
-e (c) a saída é um estado de convergência, isto é, após se apresentar uma entrada
-a rede opera em ciclos até que a saída não mude mais, situação onde se diz que a
-rede alcançou o equilíbrio.
-
-ESQUEMA DE UMA REDE DE HOPFIELD AQUI
-
-A rede de Hopfield funciona como uma memória endereçada por conteúdo, ou memória
-associativa, por exemplo, muitas vezes lembramos de fatos inteiros apenas com uma
-pequena lembrança do acontecimento. Uma memória associativa é, deste modo, um
-conjunto de padrões armazenados de tal modo que, quando se apresenta um novo padrão,
-a resposta será o padrão armazenado que seja mais parecido a este que foi apresentado.
-
-Geralmente as redes de Hopfield não possuiem um método de aprendizado associado,
-os pesos sinápticos são calculados por métodos matemáticos provenientes de sua
-definição formal. A definição formal garante que a rede sempre irá convergir,
-contudo, em algumas situações esta convergência pode não ocorrer para o padrão
-mais próximo da entrada, e ainda não existe um método conhecido que resolva
-este problema.
-
-\subsection{Redes de Kohonen}
-
-As redes de Kohonen apresentam apenas duas camadas de neurônios, a camada de
-entrada e a de saída. A camada de saída é uma espécie de malha de neurônios não
-conectados entre si, mas amplamente conectados com os neurônios da camada de
-entrada. Esta malha funciona como um mapa, onde para cada padrão de entrada
-apenas um neurônio é ativado, padrões semelhantes ativam neurônios dentro de
-uma mesma região da malha.
-
-ESQUEMA DE UMA REDE DE KOHONEN AQUI
-
-As redes de Kohonen possuem um algoritmo próprio de treinamento, dividido em
-três etapas; na primeira, chamado de processo competitivo, uma determinada entrada
-ativa apenas um neurônio da malha; na segunda, chamado de processo cooperativo,
-o neurônio escolhido estabelece uma vizinhança de neurônios que serão ajustados
-para, junto com ele, identificar padrões semelhantes ao que foi apresentado; e
-por fim, na terceira etapa, chamada de processo adaptativo, os pesos são
-atualizados com base no neurônio vencedor e na vizinhança topológica. Este
-algoritmo de treinamento é dito não supervisionado, pois não depende de um
-par \textit{(entrada, saída esperada)}, já que a própria rede estabelece como
-será a configuração dos resultados.
-
-\section{Redes neurais de Kohonen}\label{sec:red_khn}
-
-Esta seção irá apresentar mais detalhadamente como é a configuração de uma rede
-de Kohonen, seu algoritmo de treinamento e os usos comuns deste tipo de rede.
 
 \subsection{Topologia de uma rede de Kohonen}
 

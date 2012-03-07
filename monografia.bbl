@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[Cunha 2003]{Historico1}
+\abntrefinfo{Cunha}{CUNHA}{2003}
+{CUNHA, A.~M. da.
+\emph{Métodos probabilísticos para reconhecimento de voz}.
+Monografia (Graduação), Rio de Janeiro, 2003.}
+
 \bibitem[Martins 1997]{Carac1}
 \abntrefinfo{Martins}{MARTINS}{1997}
 {MARTINS, J.~A.

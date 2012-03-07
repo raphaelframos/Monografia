@@ -4,21 +4,15 @@
 \BOOKMARK [1][-]{section.resumo.1.1}{Objetivos}{chapter.resumo.1}
 \BOOKMARK [1][-]{section.resumo.1.2}{Vis\343o Geral do Trabalho}{chapter.resumo.1}
 \BOOKMARK [0][-]{chapter.resumo.2}{Referencial te\363rico}{}
-\BOOKMARK [1][-]{section.resumo.2.1}{Caracter\355sticas de Sistemas RAV}{chapter.resumo.2}
-\BOOKMARK [2][-]{subsection.resumo.2.1.1}{Depend\352ncia do locutor}{section.resumo.2.1}
-\BOOKMARK [2][-]{subsection.resumo.2.1.2}{Modo de pron\372ncia}{section.resumo.2.1}
-\BOOKMARK [2][-]{subsection.resumo.2.1.3}{Tamanho do vocabul\341rio}{section.resumo.2.1}
-\BOOKMARK [2][-]{subsection.resumo.2.1.4}{Perplexidade}{section.resumo.2.1}
-\BOOKMARK [2][-]{subsection.resumo.2.1.5}{Rela\347\343o sinal \205 ru\355do}{section.resumo.2.1}
-\BOOKMARK [1][-]{section.resumo.2.2}{Principais tipos de redes neurais}{chapter.resumo.2}
-\BOOKMARK [2][-]{subsection.resumo.2.2.1}{Rede perceptron multicamada}{section.resumo.2.2}
-\BOOKMARK [2][-]{subsection.resumo.2.2.2}{Rede de Hopfield}{section.resumo.2.2}
-\BOOKMARK [2][-]{subsection.resumo.2.2.3}{Redes de Kohonen}{section.resumo.2.2}
-\BOOKMARK [1][-]{section.resumo.2.3}{Redes neurais de Kohonen}{chapter.resumo.2}
-\BOOKMARK [2][-]{subsection.resumo.2.3.1}{Topologia de uma rede de Kohonen}{section.resumo.2.3}
-\BOOKMARK [2][-]{subsection.resumo.2.3.2}{Treinamento da rede}{section.resumo.2.3}
-\BOOKMARK [1][-]{section.resumo.2.4}{Descritores de Hu}{chapter.resumo.2}
-\BOOKMARK [1][-]{section.resumo.2.5}{Imagens digitais}{chapter.resumo.2}
-\BOOKMARK [2][-]{subsection.resumo.2.5.1}{Mapas de bits}{section.resumo.2.5}
-\BOOKMARK [2][-]{subsection.resumo.2.5.2}{Imagens vetoriais}{section.resumo.2.5}
-\BOOKMARK [0][-]{subsection.resumo.2.5.2}{Refer\352ncias Bibliogr\341ficas}{}
+\BOOKMARK [1][-]{section.resumo.2.1}{Hist\363rico dos Sistemas de Reconhecimento de Voz}{chapter.resumo.2}
+\BOOKMARK [1][-]{section.resumo.2.2}{Caracter\355sticas de Sistemas RAV}{chapter.resumo.2}
+\BOOKMARK [2][-]{subsection.resumo.2.2.1}{Depend\352ncia do locutor}{section.resumo.2.2}
+\BOOKMARK [2][-]{subsection.resumo.2.2.2}{Modo de pron\372ncia}{section.resumo.2.2}
+\BOOKMARK [2][-]{subsection.resumo.2.2.3}{Tamanho do vocabul\341rio}{section.resumo.2.2}
+\BOOKMARK [2][-]{subsection.resumo.2.2.4}{Perplexidade}{section.resumo.2.2}
+\BOOKMARK [2][-]{subsection.resumo.2.2.5}{Rela\347\343o sinal \205 ru\355do}{section.resumo.2.2}
+\BOOKMARK [1][-]{section.resumo.2.3}{Descritores de Hu}{chapter.resumo.2}
+\BOOKMARK [1][-]{section.resumo.2.4}{Imagens digitais}{chapter.resumo.2}
+\BOOKMARK [2][-]{subsection.resumo.2.4.1}{Mapas de bits}{section.resumo.2.4}
+\BOOKMARK [2][-]{subsection.resumo.2.4.2}{Imagens vetoriais}{section.resumo.2.4}
+\BOOKMARK [0][-]{subsection.resumo.2.4.2}{Refer\352ncias Bibliogr\341ficas}{}
