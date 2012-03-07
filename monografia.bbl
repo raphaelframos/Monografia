@@ -1,0 +1,20 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.53 }
+
+\bibitem[Silva 2009]{RavIsoladas}
+\abntrefinfo{Silva}{SILVA}{2009}
+{SILVA, A.~G. da.
+\emph{Reconhecimento de voz para palavras isoladas}.
+Monografia (Graduação), Recife, 2009.}
+
+\bibitem[Silva 2010]{RavPtBr}
+\abntrefinfo{Silva}{SILVA}{2010}
+{SILVA, C. P.~A. da.
+\emph{Um Software de Reconhecimento de Voz para Português Brasileiro}.
+Monografia (Pós-Graduação), Belém, 2010.}
+
+\end{thebibliography}
