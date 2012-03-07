@@ -27,12 +27,11 @@ muitas vezes  é dito como “ele vai morrerem dois dias”.\cite{RavPtBr}
 
 \subsection{Tamanho do vocabulário}
 Um fator muito importante na precisão de um RAV, é o tamanho do vocabulário, quanto maior seu tamanho, maior a quantidade de palavras ambíguas, com realizações sonoras semelhantes, ocasionando maior chance de erros por parte do decodificador responsável pelo reconhecimento.\cite{RavPtBr} Segundo \cite{RavIsoladas} vocabulários podem ser definidos como:
-\begin{itemize}
-\item Vocabulário pequeno: reconhecem até 20 palavras. 
-\item Vocabulário médio: reconhecem entre 20 e 100 palavras. 
-\item Vocabulário grande: reconhecem entre 100 e 1000 palavras. 
-\item Vocabulário muito grande: reconhecem mais de 1000 palavras. 
-\end{itemize}
+
+Vocabulário pequeno: reconhecem até 20 palavras. 
+Vocabulário médio: reconhecem entre 20 e 100 palavras. 
+Vocabulário grande: reconhecem entre 100 e 1000 palavras. 
+Vocabulário muito grande: reconhecem mais de 1000 palavras. 
 
 \subsection{Perplexidade} 
 

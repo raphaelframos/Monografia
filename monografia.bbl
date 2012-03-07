@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[Martins 1997]{Carac1}
+\abntrefinfo{Martins}{MARTINS}{1997}
+{MARTINS, J.~A.
+\emph{Reconhecimento de voz para palavras isoladas}.
+Monografia (Doutorado), Campinas, 1997.}
+
 \bibitem[Silva 2009]{RavIsoladas}
 \abntrefinfo{Silva}{SILVA}{2009}
 {SILVA, A.~G. da.

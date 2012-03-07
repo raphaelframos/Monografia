@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 10:21
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 11:05
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1098,19 +1098,19 @@ Package hyperref Warning: No destination for bookmark of \addcontentsline,
 
 
 
-] (./monografia.toc)
+] (./monografia.toc [5
+
+])
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
- [5
 
-]
+[6]
 \openout2 = `introducao.aux'.
 
-
-(./introducao.tex
+ (./introducao.tex
 Cap\'{\i }tulo 1.
-) [6
+) [7
 
 
 
@@ -1119,22 +1119,23 @@ Cap\'{\i }tulo 1.
 
  (./fundamentos.tex
 Cap\'{\i }tulo 2.
-(./graficos/neuronio.tex
+[8
+
+
+
+] (./graficos/neuronio.tex
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 54.
- (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-[7
-
-
-
-] (./graficos/perceptron_mult.tex) [8] [9]
-Overfull \hbox (0.97337pt too wide) in paragraph at lines 134--141
+)) [9]
+(./graficos/perceptron_mult.tex) [10] [11]
+Overfull \hbox (0.97337pt too wide) in paragraph at lines 133--140
 \OT1/cmr/m/n/12 Como dito an-te-ri-or-mente, a rede de Koho-nen apre-senta ape-
 nas duas ca-ma-das de neur^onios,
  []
 
-[10] [11] [12] [13] [14] [15]) [16] (./monografia.bbl)
+[12] [13] [14] [15] [16] [17]) [18] (./monografia.bbl)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1143,7 +1144,7 @@ nas duas ca-ma-das de neur^onios,
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
 See the caption package documentation for explanation.
 
-[17
+[19
 
 
 ] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1153,12 +1154,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 14013 strings out of 495042
- 193455 string characters out of 1181921
- 386541 words of memory out of 3000000
- 16866 multiletter control sequences out of 15000+50000
+ 14023 strings out of 495042
+ 193647 string characters out of 1181921
+ 388516 words of memory out of 3000000
+ 16876 multiletter control sequences out of 15000+50000
  17092 words of font info for 57 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,16n,49p,730b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (20 pages, 112604 bytes).
+Output written on monografia.dvi (22 pages, 122836 bytes).

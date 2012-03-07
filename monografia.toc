@@ -1,24 +1,29 @@
 \select@language {brazil}
 \contentsline {chapter}{Lista de Figuras}{2}{section*.1}
 \contentsline {chapter}{Resumo}{4}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{6}{chapter.resumo.1}
-\contentsline {section}{\numberline {1.1}Objetivos}{6}{section.resumo.1.1}
-\contentsline {section}{\numberline {1.2}Vis\IeC {\~a}o Geral do Trabalho}{6}{section.resumo.1.2}
-\contentsline {chapter}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{7}{chapter.resumo.2}
-\contentsline {section}{\numberline {2.1}Redes neurais artificiais}{7}{section.resumo.2.1}
-\contentsline {section}{\numberline {2.2}Principais tipos de redes neurais}{8}{section.resumo.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Rede perceptron multicamada}{8}{subsection.resumo.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Rede de Hopfield}{9}{subsection.resumo.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Redes de Kohonen}{10}{subsection.resumo.2.2.3}
-\contentsline {section}{\numberline {2.3}Redes neurais de Kohonen}{10}{section.resumo.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Topologia de uma rede de Kohonen}{10}{subsection.resumo.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Treinamento da rede}{11}{subsection.resumo.2.3.2}
-\contentsline {subsubsection}{Processo competitivo}{11}{subsection.resumo.2.3.2}
-\contentsline {subsubsection}{Processo cooperativo}{12}{equation.resumo.2.3.1}
-\contentsline {subsubsection}{Processo adaptativo}{12}{equation.resumo.2.3.3}
-\contentsline {subsubsection}{Algoritmo geral de treinamento}{13}{equation.resumo.2.3.5}
-\contentsline {section}{\numberline {2.4}Descritores de Hu}{13}{section.resumo.2.4}
-\contentsline {section}{\numberline {2.5}Imagens digitais}{15}{section.resumo.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Mapas de bits}{15}{subsection.resumo.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Imagens vetoriais}{16}{subsection.resumo.2.5.2}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{17}{subsection.resumo.2.5.2}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{7}{chapter.resumo.1}
+\contentsline {section}{\numberline {1.1}Objetivos}{7}{section.resumo.1.1}
+\contentsline {section}{\numberline {1.2}Vis\IeC {\~a}o Geral do Trabalho}{7}{section.resumo.1.2}
+\contentsline {chapter}{\numberline {2}Referencial te\IeC {\'o}rico}{8}{chapter.resumo.2}
+\contentsline {section}{\numberline {2.1}Caracter\IeC {\'\i }sticas de Sistemas RAV}{8}{section.resumo.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Depend\IeC {\^e}ncia do locutor}{8}{subsection.resumo.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Modo de pron\IeC {\'u}ncia}{9}{subsection.resumo.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Tamanho do vocabul\IeC {\'a}rio}{9}{subsection.resumo.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Perplexidade}{10}{subsection.resumo.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Rela\IeC {\c c}\IeC {\~a}o sinal \IeC {\textendash } ru\IeC {\'\i }do}{10}{subsection.resumo.2.1.5}
+\contentsline {section}{\numberline {2.2}Principais tipos de redes neurais}{10}{section.resumo.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Rede perceptron multicamada}{10}{subsection.resumo.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Rede de Hopfield}{11}{subsection.resumo.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Redes de Kohonen}{11}{subsection.resumo.2.2.3}
+\contentsline {section}{\numberline {2.3}Redes neurais de Kohonen}{12}{section.resumo.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Topologia de uma rede de Kohonen}{12}{subsection.resumo.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Treinamento da rede}{12}{subsection.resumo.2.3.2}
+\contentsline {subsubsection}{Processo competitivo}{13}{subsection.resumo.2.3.2}
+\contentsline {subsubsection}{Processo cooperativo}{13}{equation.resumo.2.3.1}
+\contentsline {subsubsection}{Processo adaptativo}{14}{equation.resumo.2.3.3}
+\contentsline {subsubsection}{Algoritmo geral de treinamento}{15}{equation.resumo.2.3.5}
+\contentsline {section}{\numberline {2.4}Descritores de Hu}{15}{section.resumo.2.4}
+\contentsline {section}{\numberline {2.5}Imagens digitais}{17}{section.resumo.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Mapas de bits}{17}{subsection.resumo.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Imagens vetoriais}{18}{subsection.resumo.2.5.2}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{19}{subsection.resumo.2.5.2}
