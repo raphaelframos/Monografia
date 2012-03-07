@@ -11,12 +11,16 @@ próximo capítulo. Uma breve formalização dos descritores de Hu é feita na s
 \ref{sec:desc_hu}. E por fim, alguns conceitos chave sobre imagens digitais são
 apresentados na seção \ref{sec:img_dig}.
 
+\section{Fala}
+A fala é a forma de comunicação mais utilizada pelos seres humanos.\cite{RvPatrick} Através da fala, o cérebro humano consegue interpretar informações extremamente complexas, tais como identificar a pessoa que está falando, sua posição no espaço físico, seu estado emocional e outros dados como a ironia, seriedade ou tristeza. Os computadores, apesar de fazerem cálculos mais rápidos que o homem, não conseguem reconhecer através da fala informações como os seres humanos.
+
 \section{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
 
 Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1}
 
 \section{Características de Sistemas RAV}\label{sec:red_neu}
 
+Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) em modo textual. Com o resultado da tradução, 
 Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os mais importantes são: o estilo de pronuncia que é aceito, ao tamanho do vocabulário e à dependência ou independencia do locutor. \cite{Carac1} Essas categorias que definem a precisão do sistema de reconhecimento.
 
 \subsection{Dependência do locutor}
@@ -39,6 +43,8 @@ Um fator muito importante na precisão de um RAV, é o tamanho do vocabulário, 
 \item Vocabulário muito grande: reconhecem mais de 1000 palavras. 
 \end{itemize}
 
+Sistemas RAV com suporte a grandes vocabulários são chamados de Large Vocabulary Continuos Speech Recognition (LVCSR). Existem muitas dificuldades encontradas na criação de sistemas LVCSR, como: a disponibilidade de um corpus de voz digitalizada e transcrita grande o suficiente para treinamento do sistema, recursos como bases de textos de
+tamanho elevado e um dicionario fonético de amplo vocabulário.\cite{RvPatrick}
 \subsection{Perplexidade} 
 
 \subsection{Relação sinal – ruído}
@@ -49,24 +55,11 @@ Um fator muito importante na precisão de um RAV, é o tamanho do vocabulário, 
 \caption{Texto da figura}
 \end{figure}
 
-\subsection{Topologia de uma rede de Kohonen}
+\section{Fatores que Interferem no Desempenho}
 
-Como dito anteriormente, a rede de Kohonen apresenta apenas duas camadas de
-neurônios, a camada de entrada e a camada de saída. A camada de entrada deve
-possuir tantos neurônios quanto forem à quantidade de elementos do padrão de
-entrada. A camada de saída é uma grade de geometria livre, geralmente
-retangular, de neurônios que não estão ligados entre si, mas estão, cada um,
-ligados a todos os neurônios da camada de entrada. As conexões apresentam pesos
-para escalar o sinal enviado.
+\chapter{Modelos Ocultos de Markov}
 
-ESQUEMA DE UMA CONEXÃO DA REDE DE KOHONEN AQUI
-
-\subsection{Treinamento da rede}
-
-O treinamento requer que os pesos sinápticos sejam iniciados com valores bem
-pequenos, para que a rede não apresente inicialmente nenhuma configuração. Três
-processos são executados para cada entrada do conjunto de treinamento, o
-processo competitivo, o processo cooperativo e o processo adaptativo.
+\chapter{Resultado}
 
 \subsubsection{Processo competitivo}
 
@@ -95,67 +88,6 @@ neurônio $ i $ e o vetor de entradas na iteração $ t $;
 \item $ w_{ij}(t) $ é o valor do peso sináptico entre o neurônio de
 entrada $ j $ e o neurônio da grade $ i $ na iteração $ t $.
 \end{itemize}
-
-\subsubsection{Processo cooperativo}
-
-Estudos biológicos indicam que ao ser excitado, um neurônio estimula seus
-vizinhos topológicos, de forma que quanto mais próximo um neurônio está do
-neurônio ativo, mais excitado pelo estímulo do neurônio ativo ele é. O processo
-cooperativo busca simular este mecanismo biológico.
-
-Em termos matemáticos, o que se deseja é um parâmetro $ h_{ik} $ , dito
-\textit{vizinhança topológica}, que indica o gral de cooperação entre o
-neurônio vencedor $ i $ e o seu vizinho $ k $, que deve ser simétrico em relação
-ao neurônio $ k $ e deve decrescer constantemente com o aumento da
-distância $ l_{ik} $ , até que $ \lim\limits_{ l_{ik} \to \infty } h_{ik} = 0 $ .
-A função gaussiana \ref{eq:gauss} atende a estas duas exigências:
-
-\begin{equation}\label{eq:gauss}
-h_{ik} = e^{ \left( \frac{ l_{ik}^2 }{ 2 \sigma^2 } \right) }
-\end{equation}
-
-O parâmetro $ \sigma $ é denominado \textit{largura efetiva da vizinhança},
-e deve diminuir a cada iteração, indicando uma tendência de especialização da
-rede. Neste trabalho o parâmetro $ \sigma $ é a equação \ref{eq:leg_eft}:
-
-\begin{equation}\label{eq:leg_eft}
-\sigma(t) = \sigma_0 e^{ t / \tau_l }
-\end{equation}
-
-Onde:
-
-\begin{itemize}
-\item $ \sigma_0 $ é o valor inicial de $ \sigma $;
-\item $ t $ é a iteração atual;
-\item $ \tau_l $ é uma constante de tempo.
-\end{itemize}
-
-\subsubsection{Processo adaptativo}
-
-O processo adaptativo atualiza os pesos sinápticos a cada iteração, levando em
-consideração o neurônio vencedor e a vizinhança topológica. O ajuste dos pesos
-deve decrescer com o tempo, para evitar que novos dados comprometam seriamente
-o conhecimento já adquirido, substituindo padrões já estabelecidos por novos.
-Algo semelhante ocorre com o cérebro humano, ao decorrer do envelhecimento o
-aprendizado vai se tornando mais difícil.
-
-O ajuste $ \Delta w_{ij} $ que a sinapse entre o neurônio de entrada $ i $ e
-um neurônio da malha $ j $ deve sofrer é expresso pela equação \ref{eq:ajus}:
-
-\begin{equation}\label{eq:ajus}
-\Delta w_{ij} = \eta(t) h_{ik}(t) (x_j - w_{ij})
-\end{equation}
-
-Onde $ h_{ik}(t) $ é o parâmetro vizinhança topológica na iteração $ t $ ,
-referente ao neurônio vencedor $ k $ . O
-parâmetro \textit{taxa de aprendizagem} $ \eta(t) $ é definido pela
-expressão \ref{eq:tx_aprd}:
-
-\begin{equation}\label{eq:tx_aprd}
-\eta(t) = \eta_0 e^{ t / \tau_l }, \eta_0 \in [0, 1]
-\end{equation}
-
-Onde $ \tau_l $ é uma constante de tempo.
 
 \subsubsection{Algoritmo geral de treinamento}
 

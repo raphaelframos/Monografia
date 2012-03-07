@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 14:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 15:40
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1098,47 +1098,54 @@ Package hyperref Warning: No destination for bookmark of \addcontentsline,
 
 
 
-] (./monografia.toc)
+] (./monografia.toc [5
+
+])
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
- [5
 
-]
+[6]
 \openout2 = `introducao.aux'.
 
-
-(./introducao.tex
+ (./introducao.tex
 Cap\'{\i }tulo 1.
-) [6
+[7
 
 
 
-]
+]) [8]
 \openout2 = `fundamentos.aux'.
 
  (./fundamentos.tex
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Reference `sec:red_tip' on page 7 undefined on input line 4.
+LaTeX Warning: Reference `sec:red_tip' on page 9 undefined on input line 4.
 
 
-Overfull \hbox (3.61772pt too wide) in paragraph at lines 14--14
+Overfull \hbox (3.61772pt too wide) in paragraph at lines 17--17
 []\OT1/cmr/bx/n/17.28 Hist^^Sorico dos Sis-te-mas de Re-co-nhe-ci-mento de Voz 
 
  []
 
-[7
+[9
 
 
 
-] [8] (./graficos/neuronio.tex
+] [10] (./graficos/neuronio.tex
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 54.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) [9] [10] [11] [12])
-[13] (./monografia.bbl)
+)) [11]
+Cap\'{\i }tulo 3.
+[12
+
+]
+Cap\'{\i }tulo 4.
+[13
+
+] [14] [15] [16]) [17] (./monografia.bbl)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1147,7 +1154,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
 See the caption package documentation for explanation.
 
-[14
+[18
 
 
 ] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1160,12 +1167,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 14013 strings out of 495042
- 193439 string characters out of 1181921
- 366784 words of memory out of 3000000
- 16869 multiletter control sequences out of 15000+50000
+ 14028 strings out of 495042
+ 193686 string characters out of 1181921
+ 365784 words of memory out of 3000000
+ 16884 multiletter control sequences out of 15000+50000
  17092 words of font info for 57 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,16n,49p,730b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (17 pages, 64988 bytes).
+Output written on monografia.dvi (21 pages, 74972 bytes).

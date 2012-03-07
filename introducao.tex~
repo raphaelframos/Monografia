@@ -4,13 +4,7 @@ A fala é a principal forma de comunicação dos seres humanos, desde o início 
 Para esses estudos virarem realidade, os computadores terão de possuir total entendimento da fala humana, capacidades como: falar, ouvir, ler, escrever, alem do reconhecimento de pessoas pela voz, devem ser estabelecidas. Essas capacidades são os objetivos dos sistemas de RAV, permitindo que o computador "entenda" o que está sendo dito.\cite{RvPatrick}
 Os sistemas de reconhecimento automático de voz \textit{(RAV)} evoluiram considerávelmente com o passar dos anos, e 
 sua aplicação se encontra em diversas áreas, como: sistemas para atendimento automático, ditado, interfaces para computadores pessoais, controle de equipamentos, robôs domésticos, indústrias totalmente à base de robôs inteligentes, etc. \cite{RavPtBr} Mas mesmo com toda evolução do hardware dos computadores e otimização dos algoritmos e métodos, os sistemas \textit{(RAV)} estão longe de compreender um discurso sobre qualquer assunto, falado de forma natural, por qualquer pessoa, em qualquer ambiente.\cite{RavIsoladas} 
-Com a melhoria do hardware, os jogos de computadores, se tornaram cada vez mais parecidos com a realidade em gráficos e na interatividade, a tendencia sugere que os famosos joysticks poderão ser aposentados em pouco tempo.
-
-	O primeiro jogo, foi desenvolvido em 30 de julho de 1961, por Steve Russel, não tinha 
-objetivos comerciais, apenas acadêmicos. O principal objetivo de Steve Russel era poder 
-mostrar todo o poder de processamento do computador DEC PDP-1, Para isso criou 
-SpaceWar. Inicialmente a ideia de Russel era fazer um filme interativo, mas acabou se 
-tornando o pai dos jogos eletrônicos. [Henrique Moraes Ramos , 2007(Historia dos jogos)]
+   
 
 \section{Objetivos}
 O objetivo geral deste trabalho é desenvolver um jogo interativo guiado por comandos voz ditados pelo usuário, o jogo é baseado em um clássico do mundo dos games, pacman, onde o objetivo do personagem principal é comer todas as pastilhas, e não ser devorado pelos 4 fanstamas que o perseguem por um labirinto. A interação é feita usando comandos de fala pré-definidos em sua gramática, que são: DIREITA, ESQUERDA, SUBIR, DESCER. Além de ser guiado por esses comandos, o jogo também reconhece determinadas palavras que podem caracterizar o humor do usuário, como: BURRO, DROGA, MERDA, pronunciadas essas ofensas, o usuário recebe uma penalidade, até perder a partida. 

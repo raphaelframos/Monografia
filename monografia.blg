@@ -12,6 +12,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--faltando school em Historico1
 Warning--faltando school em Carac1
 Warning--faltando school em RavIsoladas
+Warning--faltando school em RvPatrick
 Warning--faltando school em RavPtBr
 +---------------------------------------------------------+
 | Estilo bibliografico abnt-alf.bst versao 1.53           |
@@ -19,45 +20,45 @@ Warning--faltando school em RavPtBr
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 7 entries,
+You've used 8 entries,
             6522 wiz_defined-function locations,
-            1195 strings with 9769 characters,
-and the built_in function-call counts, 3598 in all, are:
-= -- 356
-> -- 60
+            1199 strings with 9893 characters,
+and the built_in function-call counts, 4147 in all, are:
+= -- 392
+> -- 75
 < -- 0
-+ -- 65
-- -- 20
-* -- 207
-:= -- 542
-add.period$ -- 12
-call.type$ -- 8
-change.case$ -- 33
-chr.to.int$ -- 5
-cite$ -- 8
-duplicate$ -- 126
-empty$ -- 327
-format.name$ -- 92
-if$ -- 851
++ -- 70
+- -- 25
+* -- 246
+:= -- 624
+add.period$ -- 15
+call.type$ -- 9
+change.case$ -- 39
+chr.to.int$ -- 6
+cite$ -- 10
+duplicate$ -- 155
+empty$ -- 372
+format.name$ -- 115
+if$ -- 972
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 99
-newline$ -- 32
-num.names$ -- 20
-pop$ -- 93
+missing$ -- 116
+newline$ -- 38
+num.names$ -- 25
+pop$ -- 108
 preamble$ -- 1
-purify$ -- 21
+purify$ -- 24
 quote$ -- 0
-skip$ -- 315
+skip$ -- 346
 stack$ -- 1
-substring$ -- 124
-swap$ -- 64
+substring$ -- 141
+swap$ -- 80
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 16
-warning$ -- 4
-while$ -- 26
+type$ -- 20
+warning$ -- 5
+while$ -- 32
 width$ -- 0
-write$ -- 68
-(There were 4 warnings)
+write$ -- 83
+(There were 5 warnings)
