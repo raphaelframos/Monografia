@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 15:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 20:12
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1014,7 +1014,11 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 ) (./monografia.aux
-(./epigrafe.aux) (./agradecimentos.aux) (./introducao.aux) (./fundamentos.aux))
+(./epigrafe.aux) (./agradecimentos.aux) (./introducao.aux) (./fundamentos.aux
+
+LaTeX Warning: Label `sec:red_khn' multiply defined.
+
+))
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -1033,7 +1037,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
-(/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
+ (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -1122,12 +1126,6 @@ Cap\'{\i }tulo 2.
 
 LaTeX Warning: Reference `sec:red_tip' on page 9 undefined on input line 4.
 
-
-Overfull \hbox (3.61772pt too wide) in paragraph at lines 17--17
-[]\OT1/cmr/bx/n/17.28 Hist^^Sorico dos Sis-te-mas de Re-co-nhe-ci-mento de Voz 
-
- []
-
 [9
 
 
@@ -1137,15 +1135,15 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 54.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) [11]
+)) [11] [12]
 Cap\'{\i }tulo 3.
-[12
+[13
 
 ]
 Cap\'{\i }tulo 4.
-[13
+[14
 
-] [14] [15] [16]) [17] (./monografia.bbl)
+] [15] [16] [17]) [18] (./monografia.bbl)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1154,7 +1152,7 @@ Cap\'{\i }tulo 4.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
 See the caption package documentation for explanation.
 
-[18
+[19
 
 
 ] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1163,16 +1161,16 @@ See the caption package documentation for explanation.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14028 strings out of 495042
- 193686 string characters out of 1181921
+ 14025 strings out of 495042
+ 193616 string characters out of 1181921
  365784 words of memory out of 3000000
- 16884 multiletter control sequences out of 15000+50000
+ 16881 multiletter control sequences out of 15000+50000
  17092 words of font info for 57 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 38i,16n,49p,730b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,16n,49p,730b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (21 pages, 74972 bytes).
+Output written on monografia.dvi (22 pages, 76492 bytes).

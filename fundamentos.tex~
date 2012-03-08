@@ -14,26 +14,31 @@ apresentados na seção \ref{sec:img_dig}.
 \section{Fala}
 A fala é a forma de comunicação mais utilizada pelos seres humanos.\cite{RvPatrick} Através da fala, o cérebro humano consegue interpretar informações extremamente complexas, tais como identificar a pessoa que está falando, sua posição no espaço físico, seu estado emocional e outros dados como a ironia, seriedade ou tristeza. Os computadores, apesar de fazerem cálculos mais rápidos que o homem, não conseguem reconhecer através da fala informações como os seres humanos.
 
-\section{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
+\section{O Sistema de Reconhecimento de Voz}\label{sec:red_khn}
+Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor, mapeando-o a fim de descobrir a palavra falada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
+O sistema de reconhecimento de voz pode ser dividido em quarto fases: aquisição do sinal de voz, pré-processamento,
+extração de informações e geração dos padrões de voz. \cite{RavIsoladas}
 
-Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1}
+\subsection{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
 
-\section{Características de Sistemas RAV}\label{sec:red_neu}
+Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1} As redes neurais também surgiram nos anos 50, mas não houve prosseguimento nos estudos, devido a problemas práticos. Nos anos 70, 
+os 
 
-Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) em modo textual. Com o resultado da tradução, 
+\subsection{Características de Sistemas RAV}\label{sec:red_neu}
+
 Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os mais importantes são: o estilo de pronuncia que é aceito, ao tamanho do vocabulário e à dependência ou independencia do locutor. \cite{Carac1} Essas categorias que definem a precisão do sistema de reconhecimento.
 
-\subsection{Dependência do locutor}
+\subsubsection{Dependência do locutor}
 Podemos classificar sistemas de reconhecimento como dependentes e independentes do locutor. Um sistema dependente de locutor reconhece a fala das pessoas cujas vozes foram utilizadas para treinar o sistema, apresentando uma pequena taxa de erros, para o locutor para qual foi treinado o sistema,  implementação mais simples que sistemas independentes do locutor, que reconhecem a fala de qualquer pessoa com uma taxa de acerto aceitável. Neste caso é necessário realizar o treino do sistema com uma base que inclua diferentes pessoas com diferentes idades, sexo, sotaques, etc. O que dificulta a construção desses sistemas.
 
-\subsection{Modo de pronúncia}
+\subsubsection{Modo de pronúncia}
 Sistemas RAV podem ser classificados quanto ao modo de pronúncia de duas formas, sistemas de palavras isoladas e os de fala conectadas(contínua). Reconhecedor de palavras isoladas são sistemas que reconhecem palavras faladas isoladamente, isto é, entre cada palavra deve existir uma pausa mínima, para que seja detectado o início e o fim da mesma. Isso proporciona um resultado muito superior aos de fala contínua, estes sistemas são os mais simples de serem implementados. Um exemplo clássico de reconhecedores de palavras isoladas são os reconhecedores de dígitos, que alcançam taxa de menos de 2{\%} de erro para dígitos de 0 à 10.\cite{RavPtBr}
 Já o reconhecedor de palavras conectadas são sistemas mais complexos que os de palavras isoladas e utilizam palavras como unidade fonética padrão. São capazes de reconhecer sentenças completas, pronunciadas sem pausa entre as palavras, e por isso não se tem informação de onde começam 
 e terminam determinadas palavras, muitas palavras são mascaradas, encurtadas e as vezes não 
 pronunciadas. Esses sistemas precisam lidar com todas as características e vícios da linguagem natural, como o sotaque, a duração das palavras, a pronúncia descuidada, etc. Tornando ainda mais difíceis as tarefas do reconhecedor em casos como “ele vai morrer em dois dias” que 
 muitas vezes  é dito como “ele vai morrerem dois dias”.\cite{RavPtBr}
 
-\subsection{Tamanho do vocabulário}
+\subsubsection{Tamanho do vocabulário}
 Um fator muito importante na precisão de um RAV, é o tamanho do vocabulário, quanto maior seu tamanho, maior a quantidade de palavras ambíguas, com realizações sonoras semelhantes, ocasionando maior chance de erros por parte do decodificador responsável pelo reconhecimento.\cite{RavPtBr} Segundo \cite{RavIsoladas} vocabulários podem ser definidos como:
 
 \begin{itemize}
@@ -45,9 +50,9 @@ Um fator muito importante na precisão de um RAV, é o tamanho do vocabulário, 
 
 Sistemas RAV com suporte a grandes vocabulários são chamados de Large Vocabulary Continuos Speech Recognition (LVCSR). Existem muitas dificuldades encontradas na criação de sistemas LVCSR, como: a disponibilidade de um corpus de voz digitalizada e transcrita grande o suficiente para treinamento do sistema, recursos como bases de textos de
 tamanho elevado e um dicionario fonético de amplo vocabulário.\cite{RvPatrick}
-\subsection{Perplexidade} 
+\subsubsection{Perplexidade} 
 
-\subsection{Relação sinal – ruído}
+\subsubsection{Relação sinal – ruído}
 
 \begin{figure}[H]
 \centering
