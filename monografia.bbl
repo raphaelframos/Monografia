@@ -11,11 +11,34 @@
 \emph{Métodos probabilísticos para reconhecimento de voz}.
 Monografia (Graduação), Rio de Janeiro, 2003.}
 
+\bibitem[Furui 1989]{RavDigitalSadaoki}
+\abntrefinfo{Furui}{FURUI}{1989}
+{FURUI, S.
+\emph{Digital Speech Processing, Synthesis, and Recognition. Marcel Dekker}.
+Monografia, 1989.}
+
+\bibitem[Furui 1995]{RavSpeechSadaoki}
+\abntrefinfo{Furui}{FURUI}{1995}
+{FURUI, S.
+\emph{Speech Recognition - Past, Present and Future. NTT Review}.
+Monografia, 1995.}
+
+\bibitem[Martins 1997]{AvaliaTecJose}
+\abntrefinfo{Martins}{MARTINS}{1997a}
+{MARTINS, J.~A.
+\emph{Avaliação de diferentes técnicas para reconhecimento de fala}.
+Monografia (Doutorado), Campinas, 1997.}
+
 \bibitem[Martins 1997]{Carac1}
-\abntrefinfo{Martins}{MARTINS}{1997}
+\abntrefinfo{Martins}{MARTINS}{1997b}
 {MARTINS, J.~A.
 \emph{Reconhecimento de voz para palavras isoladas}.
 Monografia (Doutorado), Campinas, 1997.}
+
+\bibitem[Rabiner 1993]{FundamentRabiner}
+\abntrefinfo{Rabiner}{RABINER}{1993}
+{RABINER, L.~R. \emph{Fundamentals of speech recognition}. [S.l.]: PTR Prentice
+  Hall, 1993.}
 
 \bibitem[Silva 2009]{RavIsoladas}
 \abntrefinfo{Silva}{SILVA}{2009}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  7 MAR 2012 20:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  9 MAR 2012 09:31
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1130,20 +1130,20 @@ LaTeX Warning: Reference `sec:red_tip' on page 9 undefined on input line 4.
 
 
 
-] [10] (./graficos/neuronio.tex
+] [10] [11] (./graficos/neuronio.tex
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 54.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) [11] [12]
+)) [12] [13]
 Cap\'{\i }tulo 3.
-[13
+[14
 
 ]
 Cap\'{\i }tulo 4.
-[14
+[15
 
-] [15] [16] [17]) [18] (./monografia.bbl)
+] [16] [17] [18]) [19] (./monografia.bbl)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1152,7 +1152,7 @@ Cap\'{\i }tulo 4.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
 See the caption package documentation for explanation.
 
-[19
+[20
 
 
 ] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1165,12 +1165,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14025 strings out of 495042
- 193616 string characters out of 1181921
+ 14047 strings out of 495042
+ 194124 string characters out of 1181921
  365784 words of memory out of 3000000
- 16881 multiletter control sequences out of 15000+50000
+ 16903 multiletter control sequences out of 15000+50000
  17092 words of font info for 57 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 38i,16n,49p,730b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,16n,49p,1131b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (22 pages, 76492 bytes).
+Output written on monografia.dvi (23 pages, 85180 bytes).

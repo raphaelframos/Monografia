@@ -10,6 +10,9 @@ Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--faltando school em Historico1
+Warning--faltando school em RavDigitalSadaoki
+Warning--faltando school em RavSpeechSadaoki
+Warning--faltando school em AvaliaTecJose
 Warning--faltando school em Carac1
 Warning--faltando school em RavIsoladas
 Warning--faltando school em RvPatrick
@@ -20,45 +23,45 @@ Warning--faltando school em RavPtBr
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 12 entries,
             6522 wiz_defined-function locations,
-            1199 strings with 9893 characters,
-and the built_in function-call counts, 4147 in all, are:
-= -- 392
-> -- 75
+            1218 strings with 10322 characters,
+and the built_in function-call counts, 6386 in all, are:
+= -- 541
+> -- 135
 < -- 0
-+ -- 70
-- -- 25
-* -- 246
-:= -- 624
-add.period$ -- 15
-call.type$ -- 9
-change.case$ -- 39
-chr.to.int$ -- 6
-cite$ -- 10
-duplicate$ -- 155
-empty$ -- 372
-format.name$ -- 115
-if$ -- 972
-int.to.chr$ -- 2
++ -- 91
+- -- 45
+* -- 393
+:= -- 957
+add.period$ -- 27
+call.type$ -- 13
+change.case$ -- 63
+chr.to.int$ -- 9
+cite$ -- 17
+duplicate$ -- 278
+empty$ -- 567
+format.name$ -- 207
+if$ -- 1480
+int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 116
-newline$ -- 38
-num.names$ -- 25
-pop$ -- 108
+missing$ -- 186
+newline$ -- 60
+num.names$ -- 45
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 36
 quote$ -- 0
-skip$ -- 346
+skip$ -- 473
 stack$ -- 1
-substring$ -- 141
-swap$ -- 80
+substring$ -- 209
+swap$ -- 139
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 5
-while$ -- 32
+type$ -- 30
+warning$ -- 8
+while$ -- 56
 width$ -- 0
-write$ -- 83
-(There were 5 warnings)
+write$ -- 140
+(There were 8 warnings)

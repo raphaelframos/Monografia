@@ -8,21 +8,23 @@
 \contentsline {section}{\numberline {1.4}Vis\IeC {\~a}o Geral do Trabalho}{8}{section.resumo.1.4}
 \contentsline {chapter}{\numberline {2}Referencial te\IeC {\'o}rico}{9}{chapter.resumo.2}
 \contentsline {section}{\numberline {2.1}Fala}{9}{section.resumo.2.1}
-\contentsline {section}{\numberline {2.2}O Sistema de Reconhecimento de Voz}{9}{section.resumo.2.2}
+\contentsline {subsection}{\numberline {2.1.1}Vantagens da comunica\IeC {\c c}\IeC {\~a}o pela fala em sistemas hom\IeC {\'e}m-m\IeC {\'a}quina}{9}{subsection.resumo.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Desvantagens no uso da fala em sistemas homem-m\IeC {\'a}quina}{10}{subsection.resumo.2.1.2}
+\contentsline {section}{\numberline {2.2}O Sistema de Reconhecimento de Voz}{10}{section.resumo.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Hist\IeC {\'o}rico dos Sistemas de Reconhecimento de Voz}{10}{subsection.resumo.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Caracter\IeC {\'\i }sticas de Sistemas RAV}{10}{subsection.resumo.2.2.2}
-\contentsline {subsubsection}{Depend\IeC {\^e}ncia do locutor}{10}{subsection.resumo.2.2.2}
-\contentsline {subsubsection}{Modo de pron\IeC {\'u}ncia}{10}{subsection.resumo.2.2.2}
-\contentsline {subsubsection}{Tamanho do vocabul\IeC {\'a}rio}{11}{subsection.resumo.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Caracter\IeC {\'\i }sticas de Sistemas RAV}{11}{subsection.resumo.2.2.2}
+\contentsline {subsubsection}{Depend\IeC {\^e}ncia do locutor}{11}{subsection.resumo.2.2.2}
+\contentsline {subsubsection}{Modo de pron\IeC {\'u}ncia}{11}{subsection.resumo.2.2.2}
+\contentsline {subsubsection}{Tamanho do vocabul\IeC {\'a}rio}{12}{subsection.resumo.2.2.2}
 \contentsline {subsubsection}{Perplexidade}{12}{subsection.resumo.2.2.2}
 \contentsline {subsubsection}{Rela\IeC {\c c}\IeC {\~a}o sinal \IeC {\textendash } ru\IeC {\'\i }do}{12}{subsection.resumo.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Fatores que Interferem no Desempenho}{12}{subsection.resumo.2.2.3}
-\contentsline {chapter}{\numberline {3}Modelos Ocultos de Markov}{13}{chapter.resumo.3}
-\contentsline {chapter}{\numberline {4}Resultado}{14}{chapter.resumo.4}
-\contentsline {subsubsection}{Processo competitivo}{14}{chapter.resumo.4}
-\contentsline {subsubsection}{Algoritmo geral de treinamento}{15}{equation.resumo.4.0.1}
-\contentsline {section}{\numberline {4.1}Descritores de Hu}{15}{section.resumo.4.1}
-\contentsline {section}{\numberline {4.2}Imagens digitais}{17}{section.resumo.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Mapas de bits}{17}{subsection.resumo.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Imagens vetoriais}{18}{subsection.resumo.4.2.2}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{19}{subsection.resumo.4.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Fatores que Interferem no Desempenho}{13}{subsection.resumo.2.2.3}
+\contentsline {chapter}{\numberline {3}Modelos Ocultos de Markov}{14}{chapter.resumo.3}
+\contentsline {chapter}{\numberline {4}Resultado}{15}{chapter.resumo.4}
+\contentsline {subsubsection}{Processo competitivo}{15}{chapter.resumo.4}
+\contentsline {subsubsection}{Algoritmo geral de treinamento}{16}{equation.resumo.4.0.1}
+\contentsline {section}{\numberline {4.1}Descritores de Hu}{16}{section.resumo.4.1}
+\contentsline {section}{\numberline {4.2}Imagens digitais}{18}{section.resumo.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Mapas de bits}{18}{subsection.resumo.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Imagens vetoriais}{19}{subsection.resumo.4.2.2}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{20}{subsection.resumo.4.2.2}

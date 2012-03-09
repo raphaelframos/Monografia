@@ -14,15 +14,35 @@ apresentados na seção \ref{sec:img_dig}.
 \section{Fala}
 A fala é a forma de comunicação mais utilizada pelos seres humanos.\cite{RvPatrick} Através da fala, o cérebro humano consegue interpretar informações extremamente complexas, tais como identificar a pessoa que está falando, sua posição no espaço físico, seu estado emocional e outros dados como a ironia, seriedade ou tristeza. Os computadores, apesar de fazerem cálculos mais rápidos que o homem, não conseguem reconhecer através da fala informações como os seres humanos.
 
+\subsection{Vantagens da comunicação pela fala em sistemas homém-máquina}
+
+Segundo \cite{RavDigitalSadaoki} podemos citar:
+
+\begin{itemize}
+\item Natural: Não precisa de treinamento especial e nem de habilidades especiais;
+\item Rapidez: A informação é transmitida mais rapidamente que pelas outras formas de comunicação.
+\item Flexível: Deixa as mãos, olhos livres;
+\item Eficiente: Tem uma elevada taxa de informação;
+\end{itemize}
+
+\subsection{Desvantagens no uso da fala em sistemas homem-máquina}
+Mesmo possuindo vantagens significativas, a comunicação por fala também possui desvantagens, como \cite{RavDigitalSadaoki} descreveu:
+
+\begin{itemize}
+\item Ruidos: O sistema fica suscetível a interferência do ambiente, necessitando de um removedor de ruídos para ambientes com alto índice de ruídos.
+\item Diversidade da língua: Características que variam de pessoa para pessoa, como sotaque, velocidade da fala, condições físicas e emocionais do locutor. 
+\end{itemize}
+%Tentar procurar mais desvantanges e argumentos para diversidade.
+
 \section{O Sistema de Reconhecimento de Voz}\label{sec:red_khn}
-Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor, mapeando-o a fim de descobrir a palavra falada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
+Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
+Reconhecedores de voz, podem ser divididos em três grandes classes: reconhecimento por comparação de padrões, reconhecimento baseado na análise acústico-fonética
 O sistema de reconhecimento de voz pode ser dividido em quarto fases: aquisição do sinal de voz, pré-processamento,
 extração de informações e geração dos padrões de voz. \cite{RavIsoladas}
 
 \subsection{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
 
-Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1} As redes neurais também surgiram nos anos 50, mas não houve prosseguimento nos estudos, devido a problemas práticos. Nos anos 70, 
-os 
+Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1} As redes neurais também surgiram nos anos 50, mas não houve prosseguimento nos estudos, devido a problemas práticos. Muitos reconhecedores de voz, foram criados nas décadas de 50 e 60.\cite{RavSpeechSadaoki} No início dos anos 70, surgiram os algoritmos para sistemas de fala contínua, graças as técnicas de \textit{Linear Predictive Coding} (LPC) e \textit{Dynamic Time Warping} (DTW). \cite{FundamentRabiner} E os anos 80 foram marcados pela disseminação dos metodos estáticos, como \textit Modelos Ocultos de Markov (HMM). \cite{FundamentRabiner} Esse período foi de grande evolução para os sistemas de reconhecimento de voz, as redes neurais passaram a ser usadas no desenvolvimento dos sistemas, sendo possível implementar sistemas mais robustos, com vocabulários grandes e com taxas de acerto de mais de 90{\%}.\cite{AvaliaTecJose} 
 
 \subsection{Características de Sistemas RAV}\label{sec:red_neu}
 
