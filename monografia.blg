@@ -23,45 +23,45 @@ Warning--faltando school em RavPtBr
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 12 entries,
+You've used 13 entries,
             6522 wiz_defined-function locations,
-            1218 strings with 10322 characters,
-and the built_in function-call counts, 6386 in all, are:
-= -- 541
-> -- 135
+            1225 strings with 10474 characters,
+and the built_in function-call counts, 7022 in all, are:
+= -- 589
+> -- 150
 < -- 0
-+ -- 91
-- -- 45
-* -- 393
-:= -- 957
-add.period$ -- 27
-call.type$ -- 13
-change.case$ -- 63
-chr.to.int$ -- 9
-cite$ -- 17
-duplicate$ -- 278
-empty$ -- 567
-format.name$ -- 207
-if$ -- 1480
++ -- 96
+- -- 50
+* -- 430
+:= -- 1049
+add.period$ -- 31
+call.type$ -- 14
+change.case$ -- 69
+chr.to.int$ -- 10
+cite$ -- 18
+duplicate$ -- 318
+empty$ -- 629
+format.name$ -- 230
+if$ -- 1634
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 186
-newline$ -- 60
-num.names$ -- 45
-pop$ -- 176
+missing$ -- 205
+newline$ -- 65
+num.names$ -- 50
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 39
 quote$ -- 0
-skip$ -- 473
+skip$ -- 507
 stack$ -- 1
-substring$ -- 209
-swap$ -- 139
+substring$ -- 226
+swap$ -- 155
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 30
 warning$ -- 8
-while$ -- 56
+while$ -- 62
 width$ -- 0
-write$ -- 140
+write$ -- 155
 (There were 8 warnings)

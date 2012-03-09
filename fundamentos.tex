@@ -1,5 +1,6 @@
 \chapter{Referencial teórico}
 
+%Escrever isso ainda!
 Este capítulo descreve os principais elementos teóricos utilizados no
 desenvolvimento desta pesquisa. As seções \ref{sec:red_neu} e \ref{sec:red_tip}
 resumem os principais conceitos sobre redes neurais, assim como as principais
@@ -36,9 +37,13 @@ Mesmo possuindo vantagens significativas, a comunicação por fala também possu
 
 \section{O Sistema de Reconhecimento de Voz}\label{sec:red_khn}
 Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
-Reconhecedores de voz, podem ser divididos em três grandes classes: reconhecimento por comparação de padrões, reconhecimento baseado na análise acústico-fonética
-O sistema de reconhecimento de voz pode ser dividido em quarto fases: aquisição do sinal de voz, pré-processamento,
-extração de informações e geração dos padrões de voz. \cite{RavIsoladas}
+Reconhecedores de voz, podem ser divididos em três grandes classes: reconhecimento por comparação de padrões, reconhecimento baseado na análise acústico-fonética e reconhecimento empregando inteligência artificial.\cite{FundamentRabiner} No reconhecimento por comparação de padrões, existem duas formas distintas: treinamento e reconhecimento. Na fase de treinamento, são apresentados padrões ao sistema para criação de representantes, para cada um dos padrões. A fase de reconhecimento compara um padrão ainda desconhecido, com os padrões existentes no sistema, o que mais se aproximar do padrão existente, é escolhido como o padrão reconhecido. A fase de treinamento é fundamental para o sucesso do sistema, portanto uma quantidade considerável de material será necessário para a fase de treinamento. Sistemas com Modelos Ocultos de Markov (HMM) utilizam essa classe de reconhecimento.\cite{AvaliaTecJose} Nos sistemas com reconhecimento baseado na análise acústico-fonema, o sinal de fala é decodificado baseado em suas características acústicas e nas relações entre essas características. \cite{DigSpeechNejat} É identificada as unidades fonéticas da fala a ser reconhecida, e concatenando essas unidades é reconhecida a palavra. Nessa análise é necessário considerar as propriedades invariantes da fala. Segundo \cite{AvaliaTecJose} Um analisador acústico-fonética apresenta as sequintes fases: análise espectral, detecção das características que descrevem as unidades fonéticas, a fase mais importante de todo o processo que é: segmentação do sinal de fala e identificação das unidades fonéticas e escolha da palavra que melhor corresponde a sequência de unidades. Reconhecimento empregando inteligência artificial explora os conceitos tanto do reconhecimento por padrões quanto o baseado em análise acústico-fonema. \cite{FundamentRabiner} Utilizando redes neurais, cria-se uma matriz de ponderações que representa os nós das redes, e suas saídas, estão relacionadas as unidades a serem reconhecidas. \cite{AvaliaTecJose}
+O processo para o reconhecimento de voz pode ser dividio em quatro fases: aquisição do sinal de voz, pré-processamento, extração de informações e geração dos padrões de voz. \cite{RavIsoladas} 
+%fazer imagem das etapas
+%por padrões te simplicidade de uso, maior entendimento, boas justificativas matemáticas e robustez. AvaliaTecJose e FundamentRabiner
+
+
+
 
 \subsection{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
 
@@ -52,10 +57,9 @@ Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os 
 Podemos classificar sistemas de reconhecimento como dependentes e independentes do locutor. Um sistema dependente de locutor reconhece a fala das pessoas cujas vozes foram utilizadas para treinar o sistema, apresentando uma pequena taxa de erros, para o locutor para qual foi treinado o sistema,  implementação mais simples que sistemas independentes do locutor, que reconhecem a fala de qualquer pessoa com uma taxa de acerto aceitável. Neste caso é necessário realizar o treino do sistema com uma base que inclua diferentes pessoas com diferentes idades, sexo, sotaques, etc. O que dificulta a construção desses sistemas.
 
 \subsubsection{Modo de pronúncia}
+%Pesquisar conectas e contínua para o caso de serem diferentes
 Sistemas RAV podem ser classificados quanto ao modo de pronúncia de duas formas, sistemas de palavras isoladas e os de fala conectadas(contínua). Reconhecedor de palavras isoladas são sistemas que reconhecem palavras faladas isoladamente, isto é, entre cada palavra deve existir uma pausa mínima, para que seja detectado o início e o fim da mesma. Isso proporciona um resultado muito superior aos de fala contínua, estes sistemas são os mais simples de serem implementados. Um exemplo clássico de reconhecedores de palavras isoladas são os reconhecedores de dígitos, que alcançam taxa de menos de 2{\%} de erro para dígitos de 0 à 10.\cite{RavPtBr}
-Já o reconhecedor de palavras conectadas são sistemas mais complexos que os de palavras isoladas e utilizam palavras como unidade fonética padrão. São capazes de reconhecer sentenças completas, pronunciadas sem pausa entre as palavras, e por isso não se tem informação de onde começam 
-e terminam determinadas palavras, muitas palavras são mascaradas, encurtadas e as vezes não 
-pronunciadas. Esses sistemas precisam lidar com todas as características e vícios da linguagem natural, como o sotaque, a duração das palavras, a pronúncia descuidada, etc. Tornando ainda mais difíceis as tarefas do reconhecedor em casos como “ele vai morrer em dois dias” que 
+Já o reconhecedor de palavras conectadas são sistemas mais complexos que os de palavras isoladas e utilizam palavras como unidade fonética padrão. São capazes de reconhecer sentenças completas, pronunciadas sem pausa entre as palavras, e por isso não se tem informação de onde começam e terminam determinadas palavras, muitas palavras são mascaradas, encurtadas e as vezes não pronunciadas. Esses sistemas precisam lidar com todas as características e vícios da linguagem natural, como o sotaque, a duração das palavras, a pronúncia descuidada, etc. Tornando ainda mais difíceis as tarefas do reconhecedor em casos como “ele vai morrer em dois dias” que 
 muitas vezes  é dito como “ele vai morrerem dois dias”.\cite{RavPtBr}
 
 \subsubsection{Tamanho do vocabulário}
@@ -74,11 +78,16 @@ tamanho elevado e um dicionario fonético de amplo vocabulário.\cite{RvPatrick}
 
 \subsubsection{Relação sinal – ruído}
 
-\begin{figure}[H]
-\centering
-\input{./graficos/neuronio}
-\caption{Texto da figura}
-\end{figure}
+\section{Reconhecimento de voz baseado em padrões}\label{sec:red_neu}
+De acordo com \cite{AvaliaTecJose}, o reconhecimento baseado em padrões, é a técnica que oferece melhor resultado nos sistemas de reconhecimento de fala, então a implementação do sistema será usando essa técnica.
+Um sistema de reconhecimento de voz usando reconhecimento de padrões poder ser representado na figura X \cite{FundamentRabiner}:
+ 
+
+
+
+
+
+
 
 \subsection{Fatores que Interferem no Desempenho}
 
@@ -92,6 +101,15 @@ Quando uma entrada $ x = \left[x_1, x_2, ..., x_n\right]^T $ é apresentado à
 rede, o neurônio da grade que melhor responder a este padrão será ativado, este
 neurônio é dito vencedor, e será recompensado ajustando-se seus componentes
 para mais próximo do vetor de entrada.
+
+
+
+\begin{figure}[H]
+\centering
+\input{./graficos/neuronio}
+\caption{Texto da figura}
+\end{figure}
+
 
 O critério escolhido para determinar o neurônio vencedor é a distância
 euclidiana entre o vetor de entradas e o vetor de pesos das sinapses do
