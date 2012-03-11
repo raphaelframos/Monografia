@@ -92,7 +92,7 @@ Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
 \sumario
 
 \include{introducao}
-\include{referencial_teorico}
+\include{referencial}
 
 %--------------------------------- Bibliografia --------------------------------
 

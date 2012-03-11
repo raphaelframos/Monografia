@@ -96,7 +96,12 @@ Um grande número de parâmetros tem sido propostos, segundo \cite{AvaliaTecJose
 Como já citado, os reconhecedores de palavras isoladas, necessitam de capturar os pontos limitantes de cada palavra. Existem vários algoritmos de detecção desse início e fim das palavras, usando parâmetros como: energia e taxa de cruzamento de zero para separar o sinal de fala do ruído. \cite{AvaliaTecJose}
 
 \subsection{Padrões de Referência}
+Padrão de referência é o processo conhecido como treinamento, pois é nessa fase, que são criados os exemplares das unidades a serem reconhecidas. Como a maioria dos sistemas de reconhecimento de voz são reconhecedores independentes de locutor, são necessários a apresentação de vários exemplos de cada unidade, com a maior variedade de diferentes locutores possível, para criação de um sistema robusto. \cite{AvaliaTecJose}
+%estudar robustez e parametros espectrais e temporais.
 
+\cite{DigSpeechNejat} sugere dois tipos de padrão: Um tipo chamado modelo estático que faz um modelamento estático das características exemplares do padrão. \textit{Modelos Ocultos de Markov} (HMM) \cite{FundamentRabiner} são exemplos desse método. Outro tipo é conhecido como padrão de referência não paramêtrico, podendo ser um exemplo do padrão a ser reconhecido ou um padrão médio do padrão a ser reconhecido. \cite{AvaliaTecJose}
+%Q eh padrão médio
+Nos \textit{Nos Modelos Ocultos de Markov} (HMM) cada padrão é representado por uma rede com N estados, que são caracterizados por uma função de probabilidade de transição entre estados e um conjunto de funções de probabilidade de símbolos de saída. \cite{AvaliaTecJose}
 
 
 \subsection{Comparação de Padrões}
