@@ -23,4 +23,5 @@
 \contentsline {subsection}{\numberline {2.3.2}Padr\IeC {\~o}es de Refer\IeC {\^e}ncia}{15}{subsection.resumo.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Compara\IeC {\c c}\IeC {\~a}o de Padr\IeC {\~o}es}{15}{subsection.resumo.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}P\IeC {\'o}s-Processador}{15}{subsection.resumo.2.3.4}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{16}{subsection.resumo.2.3.4}
+\contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{16}{section.resumo.2.4}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{17}{section.resumo.2.4}

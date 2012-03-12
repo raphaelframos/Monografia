@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  11 MAR 2012 10:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  12 MAR 2012 01:23
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1140,7 +1140,7 @@ LaTeX Warning: Reference `sec:img_dig' on page 10 undefined on input line 13.
 
 
 
-] [11] [12] [13] [14]) [15] (./monografia.bbl)
+] [11] [12] [13] [14] [15]) [16] (./monografia.bbl)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1149,7 +1149,7 @@ LaTeX Warning: Reference `sec:img_dig' on page 10 undefined on input line 13.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
 See the caption package documentation for explanation.
 
-[16
+[17
 
 
 ] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1162,12 +1162,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13985 strings out of 495042
- 193411 string characters out of 1181921
+ 13986 strings out of 495042
+ 193431 string characters out of 1181921
  364784 words of memory out of 3000000
- 16858 multiletter control sequences out of 15000+50000
+ 16859 multiletter control sequences out of 15000+50000
  12986 words of font info for 48 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,6n,49p,2162b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (19 pages, 70236 bytes).
+Output written on monografia.dvi (20 pages, 80384 bytes).
