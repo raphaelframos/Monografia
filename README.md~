@@ -3,6 +3,11 @@
 Este projeto é o controle de versão da minha monografia do curso de graduação em
 Ciência da Computação da Universidade Estadual do Norte Fluminense (UENF).
 
+O tema inicial é o modelo atual de desenvolvimento de software web, usando como
+estudo de caso o [kanban-roots](http://github.com/hugomaiavieira/kanban-roots).
+O título ainda está indefinido.
+
+
 # Dependências
 
 Para poder compilar, algumas dependências devem ser instaladas no seu sistema.
