@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  12 MAR 2012 09:30
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  13 MAR 2012 20:20
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1144,7 +1144,35 @@ LaTeX Warning: Reference `sec:img_dig' on page 10 undefined on input line 13.
 Cap\'{\i }tulo 3.
 ) [17
 
-] (./monografia.bbl)
+] (./monografia.bbl
+Overfull \hbox (59.07416pt too wide) in paragraph at lines 10--16
+[][][][]\OT1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 19--25
+[]$[]$\OT1/cmr/m/n/12 . \OT1/cmr/m/it/12 Ki-nect re-view\OT1/cmr/m/n/12 . Te-ch
+-Tudo, 2011. Dis-pon^^S^^Pvel em: 
+ []
+
+
+Overfull \hbox (21.80093pt too wide) in paragraph at lines 19--25
+[][][][]\OT1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 69--77
+[]\OT1/cmr/m/n/12 RAMOS, H. M. Dis-ci-plina: Com-pu-ta-do-res e so-ci-e-dade, \
+OT1/cmr/m/it/12 A 
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 69--77
+\OT1/cmr/m/it/12 hist^^Soria dos jo-gos de com-pu-ta-do-res\OT1/cmr/m/n/12 . 20
+07. Dis-pon^^S^^Pvel em: 
+ []
+
+)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1166,12 +1194,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13987 strings out of 495042
- 193449 string characters out of 1181921
+ 13997 strings out of 495042
+ 193676 string characters out of 1181921
  364784 words of memory out of 3000000
- 16860 multiletter control sequences out of 15000+50000
+ 16870 multiletter control sequences out of 15000+50000
  12986 words of font info for 48 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,6n,49p,2162b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (21 pages, 81524 bytes).
+Output written on monografia.dvi (21 pages, 87240 bytes).

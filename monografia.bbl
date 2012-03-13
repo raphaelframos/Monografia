@@ -5,6 +5,24 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[Borges 2010]{XBoxTechT}
+\abntrefinfo{Borges}{BORGES}{2010}
+{BORGES, D. \emph{XBox 360 review}. TechTudo, 2010.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.techtudo\-.com\-.br\-/review\-/xbox-3%
+60\-/um-dos-melhores-consoles-da-atual-geracao\-.html$>$}{http://www.techtudo.%
+com.br/review/xbox-360/um-dos-melhores-consoles-da-atual-geracao.html}. Acesso
+  em: 13/03/2012.}
+
+\bibitem[Borges 2011]{KinectTechT}
+\abntrefinfo{Borges}{BORGES}{2011}
+{\underline{\ \ \ \ \ \ \ \ }. \emph{Kinect review}. TechTudo, 2011.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.techtudo\-.com\-.br\-/review\-/kinect%
+\-/o-acessorio-revolucionario-da-microsoft\-.html$>$}{http://www.techtudo.com.%
+br/review/kinect/o-acessorio-revolucionario-da-microsoft.html}. Acesso em:
+  13/03/2012.}
+
 \bibitem[Cunha 2003]{Historico1}
 \abntrefinfo{Cunha}{CUNHA}{2003}
 {CUNHA, A.~M. da.
@@ -45,6 +63,17 @@ Monografia (Doutorado), Campinas, 1997.}
 \abntrefinfo{Rabiner}{RABINER}{1993}
 {RABINER, L.~R. \emph{Fundamentals of speech recognition}. [S.l.]: PTR Prentice
   Hall, 1993.}
+
+\bibitem[Ramos 2007]{HistJogosHenrique}
+\abntrefinfo{Ramos}{RAMOS}{2007}
+{RAMOS, H.~M.
+Disciplina: Computadores e sociedade, \emph{A história dos jogos de
+  computadores}. 2007.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www-usr\-.inf\-.ufsm\-.br\-/\~{}hramos\-/el%
+c1020\-/historia\underline{\
+  }jogos\-.pdf$>$}{http://www-usr.inf.ufsm.br/~hramos/elc1020/historia_jogos.p%
+df}. Acesso em: 13/03/2012.}
 
 \bibitem[Silva 2009]{RavIsoladas}
 \abntrefinfo{Silva}{SILVA}{2009}
