@@ -5,6 +5,16 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[Barcelos 2007]{RavCadeiraAedb}
+\abntrefinfo{Barcelos}{BARCELOS}{2007}
+{BARCELOS, A. \emph{Reconhecimento de voz para aplicação em cadeira de
+  rodas}. 2007.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.aedb\-.br\-/seget\-/artigos08\-/445\u%
+nderline{\ }Reconhecimento de Voz aplicado na cadeira de
+  rodas\-.pdf$>$}{http://www.aedb.br/seget/artigos08/445_Reconhecimento de Voz
+  aplicado na cadeira de rodas.pdf}. Acesso em: 14/03/2012.}
+
 \bibitem[Borges 2010]{XBoxTechT}
 \abntrefinfo{Borges}{BORGES}{2010}
 {BORGES, D. \emph{XBox 360 review}. TechTudo, 2010.
@@ -23,46 +33,20 @@ Dispon{\'\i}vel em:
 br/review/kinect/o-acessorio-revolucionario-da-microsoft.html}. Acesso em:
   13/03/2012.}
 
-\bibitem[Cunha 2003]{Historico1}
-\abntrefinfo{Cunha}{CUNHA}{2003}
-{CUNHA, A.~M. da.
-\emph{Métodos probabilísticos para reconhecimento de voz}.
-Monografia (Graduação), Rio de Janeiro, 2003.}
-
-\bibitem[Furui 1989]{RavDigitalSadaoki}
-\abntrefinfo{Furui}{FURUI}{1989}
-{FURUI, S.
-\emph{Digital Speech Processing, Synthesis, and Recognition. Marcel Dekker}.
-Monografia, 1989.}
-
-\bibitem[Furui 1995]{RavSpeechSadaoki}
-\abntrefinfo{Furui}{FURUI}{1995}
-{FURUI, S.
-\emph{Speech Recognition - Past, Present and Future. NTT Review}.
-Monografia, 1995.}
-
-\bibitem[Ince 1992]{DigSpeechNejat}
-\abntrefinfo{Ince}{INCE}{1992}
-{INCE, A.~N. \emph{Digital speech processing: speech coding, synthesis, and
-  recognition}. [S.l.]: Kluwer Academic Publishers, 1992.
-ISBN 0-7923-9220-5.}
+\bibitem[Damasceno 2005]{ImplementServVirtuaisDamasceno}
+\abntrefinfo{Damasceno}{DAMASCENO}{2005}
+{DAMASCENO, E.~F. \emph{Implementação de Serviços de Voz em Ambientes
+  Virtuais}. February 2005.
+Dispon{\'\i}vel em:
+  \htmladdnormallink{$<$http:\-/\-/www\-.dcc\-.ufla\-.br\-/infocomp\-/artigos\%
+-/v4\-.3\-/art09\-.pdf$>$}{http://www.dcc.ufla.br/infocomp/artigos/v4.3/art09.%
+pdf}. Acesso em: 14/03/2012.}
 
 \bibitem[Martins 1997]{AvaliaTecJose}
-\abntrefinfo{Martins}{MARTINS}{1997a}
+\abntrefinfo{Martins}{MARTINS}{1997}
 {MARTINS, J.~A.
 \emph{Avaliação de diferentes técnicas para reconhecimento de fala}.
 Monografia (Doutorado), Campinas, 1997.}
-
-\bibitem[Martins 1997]{Carac1}
-\abntrefinfo{Martins}{MARTINS}{1997b}
-{MARTINS, J.~A.
-\emph{Reconhecimento de voz para palavras isoladas}.
-Monografia (Doutorado), Campinas, 1997.}
-
-\bibitem[Rabiner 1993]{FundamentRabiner}
-\abntrefinfo{Rabiner}{RABINER}{1993}
-{RABINER, L.~R. \emph{Fundamentals of speech recognition}. [S.l.]: PTR Prentice
-  Hall, 1993.}
 
 \bibitem[Ramos 2007]{HistJogosHenrique}
 \abntrefinfo{Ramos}{RAMOS}{2007}
@@ -75,20 +59,27 @@ c1020\-/historia\underline{\
   }jogos\-.pdf$>$}{http://www-usr.inf.ufsm.br/~hramos/elc1020/historia_jogos.p%
 df}. Acesso em: 13/03/2012.}
 
-\bibitem[Silva 2009]{RavIsoladas}
+\bibitem[Rodrigues 2009]{AcionamentRoboLegoFabio}
+\abntrefinfo{Rodrigues}{RODRIGUES}{2009}
+{RODRIGUES, F.~F.
+\emph{Acionamento de um robô lego mindstorms por comandos vocais utilizando
+  redes neurais artificiais}.
+Monografia (Graduação), Ouro Preto, 2009.}
+
+\bibitem[Silva 2009]{RavIsolAnderson}
 \abntrefinfo{Silva}{SILVA}{2009}
 {SILVA, A.~G. da.
 \emph{Reconhecimento de voz para palavras isoladas}.
 Monografia (Graduação), Recife, 2009.}
 
-\bibitem[Silva 2008]{RvPatrick}
+\bibitem[Silva 2008]{RavCorporaCarlos}
 \abntrefinfo{Silva}{SILVA}{2008}
 {SILVA, C. P.~A. da.
 \emph{Sistemas de Reconhecimento de Voz para o Português brasileiro utilizando
   os Corpora Spoltech e OGI-22}.
 Monografia (Graduação), Belém, 2008.}
 
-\bibitem[Silva 2010]{RavPtBr}
+\bibitem[Silva 2010]{RavPtBrCarlos}
 \abntrefinfo{Silva}{SILVA}{2010}
 {SILVA, C. P.~A. da.
 \emph{Um Software de Reconhecimento de Voz para Português Brasileiro}.

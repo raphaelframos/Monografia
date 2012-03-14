@@ -8,64 +8,70 @@ The style file: abnt-alf.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
-Warning--entry type for "KinectTechT" isn't style-file defined
---line 131 of file bibliografia.bib
 Warning--entry type for "XBoxTechT" isn't style-file defined
---line 140 of file bibliografia.bib
+--line 70 of file bibliografia.bib
+Warning--entry type for "KinectTechT" isn't style-file defined
+--line 79 of file bibliografia.bib
+Warning--I didn't find a database entry for "RvPatrick"
+Warning--I didn't find a database entry for "RavDigitalSadaoki"
+Warning--I didn't find a database entry for "FundamentRabiner"
+Warning--I didn't find a database entry for "DigSpeechNejat"
+Warning--I didn't find a database entry for "RavIsoladas"
+Warning--I didn't find a database entry for "Historico1"
+Warning--I didn't find a database entry for "RavSpeechSadaoki"
+Warning--I didn't find a database entry for "Carac1"
+Warning--I didn't find a database entry for "RavPtBr"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Warning--faltando school em Historico1
-Warning--faltando school em RavDigitalSadaoki
-Warning--faltando school em RavSpeechSadaoki
 Warning--faltando school em AvaliaTecJose
-Warning--faltando school em Carac1
-Warning--faltando school em RavIsoladas
-Warning--faltando school em RvPatrick
-Warning--faltando school em RavPtBr
+Warning--faltando school em AcionamentRoboLegoFabio
+Warning--faltando school em RavIsolAnderson
+Warning--faltando school em RavCorporaCarlos
+Warning--faltando school em RavPtBrCarlos
 +---------------------------------------------------------+
 | Estilo bibliografico abnt-alf.bst versao 1.53           |
 | Implementa a NBR6023, NBR10520 e NBR10523               |
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 16 entries,
+You've used 13 entries,
             6522 wiz_defined-function locations,
-            1244 strings with 10951 characters,
-and the built_in function-call counts, 19836 in all, are:
-= -- 2628
-> -- 195
-< -- 476
-+ -- 588
-- -- 65
-* -- 1027
-:= -- 2280
-add.period$ -- 46
-call.type$ -- 17
-change.case$ -- 87
-chr.to.int$ -- 13
-cite$ -- 21
-duplicate$ -- 2296
-empty$ -- 826
-format.name$ -- 299
-if$ -- 4001
-int.to.chr$ -- 3
+            1249 strings with 11169 characters,
+and the built_in function-call counts, 25012 in all, are:
+= -- 3711
+> -- 150
+< -- 774
++ -- 870
+- -- 50
+* -- 1219
+:= -- 2633
+add.period$ -- 40
+call.type$ -- 14
+change.case$ -- 69
+chr.to.int$ -- 11
+cite$ -- 15
+duplicate$ -- 3372
+empty$ -- 690
+format.name$ -- 230
+if$ -- 4826
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 255
-newline$ -- 81
-num.names$ -- 65
-pop$ -- 287
+missing$ -- 198
+newline$ -- 64
+num.names$ -- 50
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 39
 quote$ -- 0
-skip$ -- 2479
+skip$ -- 3554
 stack$ -- 1
-substring$ -- 751
-swap$ -- 667
-text.length$ -- 6
+substring$ -- 996
+swap$ -- 911
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 8
-while$ -- 86
+type$ -- 20
+warning$ -- 5
+while$ -- 72
 width$ -- 0
-write$ -- 203
-(There were 10 warnings)
+write$ -- 161
+(There were 16 warnings)

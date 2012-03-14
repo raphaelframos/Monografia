@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  13 MAR 2012 20:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 11:12
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1122,52 +1122,157 @@ Cap\'{\i }tulo 1.
 
 
 
-] [8]) [9]
+] [8] [9]) [10]
 \openout2 = `referencial_teorico.aux'.
 
  (./referencial_teorico.tex
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Reference `sec:red_tip' on page 10 undefined on input line 5.
+LaTeX Warning: Reference `sec:red_tip' on page 11 undefined on input line 5.
 
 
-LaTeX Warning: Reference `sec:desc_hu' on page 10 undefined on input line 12.
+LaTeX Warning: Reference `sec:desc_hu' on page 11 undefined on input line 12.
 
 
-LaTeX Warning: Reference `sec:img_dig' on page 10 undefined on input line 13.
-
-[10
+LaTeX Warning: Reference `sec:img_dig' on page 11 undefined on input line 13.
 
 
+LaTeX Warning: Citation `RvPatrick' on page 11 undefined on input line 16.
 
-] [11] [12] [13] [14] [15] [16]
+
+LaTeX Warning: Citation `RavDigitalSadaoki' on page 11 undefined on input line 
+20.
+
+[11
+
+
+
+]
+
+LaTeX Warning: Citation `RavDigitalSadaoki' on page 12 undefined on input line 
+30.
+
+
+LaTeX Warning: Citation `FundamentRabiner' on page 12 undefined on input line 4
+0.
+
+
+LaTeX Warning: Citation `DigSpeechNejat' on page 12 undefined on input line 40.
+
+
+
+LaTeX Warning: Citation `FundamentRabiner' on page 12 undefined on input line 4
+0.
+
+
+LaTeX Warning: Citation `RavIsoladas' on page 12 undefined on input line 41.
+
+[12]
+
+LaTeX Warning: Citation `Historico1' on page 13 undefined on input line 50.
+
+
+LaTeX Warning: Citation `RavSpeechSadaoki' on page 13 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `FundamentRabiner' on page 13 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `FundamentRabiner' on page 13 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation `Carac1' on page 13 undefined on input line 54.
+
+[13]
+
+LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 61.
+
+
+LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 63.
+
+
+LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 66.
+
+
+LaTeX Warning: Citation `RavIsoladas' on page 14 undefined on input line 66.
+
+[14]
+
+LaTeX Warning: Citation `RvPatrick' on page 15 undefined on input line 76.
+
+
+LaTeX Warning: Citation `FundamentRabiner' on page 15 undefined on input line 8
+3.
+
+[15]
+
+LaTeX Warning: Citation `DigSpeechNejat' on page 16 undefined on input line 102
+.
+
+
+LaTeX Warning: Citation `FundamentRabiner' on page 16 undefined on input line 1
+02.
+
+[16] [17]
 Cap\'{\i }tulo 3.
-) [17
+) [18
 
 ] (./monografia.bbl
-Overfull \hbox (59.07416pt too wide) in paragraph at lines 10--16
+Underfull \hbox (badness 3849) in paragraph at lines 10--17
+[]\OT1/cmr/m/n/12 BARCELOS, A. \OT1/cmr/m/it/12 Re-co-nhe-ci-mento de voz para 
+
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 10--17
+\OT1/cmr/m/it/12 aplica^^Xc~ao em ca-deira de ro-das\OT1/cmr/m/n/12 . 2007. Dis
+-pon^^S^^Pvel em: 
+ []
+
+
+Overfull \hbox (115.30414pt too wide) in paragraph at lines 10--17
 [][][][]\OT1/cmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 19--25
+Overfull \hbox (59.07416pt too wide) in paragraph at lines 20--26
+[][][][]\OT1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 29--35
 []$[]$\OT1/cmr/m/n/12 . \OT1/cmr/m/it/12 Ki-nect re-view\OT1/cmr/m/n/12 . Te-ch
 -Tudo, 2011. Dis-pon^^S^^Pvel em: 
  []
 
 
-Overfull \hbox (21.80093pt too wide) in paragraph at lines 19--25
+Overfull \hbox (21.80093pt too wide) in paragraph at lines 29--35
 [][][][]\OT1/cmr/m/n/12 . 
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 69--77
+Underfull \hbox (badness 1242) in paragraph at lines 38--44
+[]\OT1/cmr/m/n/12 DAMASCENO, E. F. \OT1/cmr/m/it/12 Im-ple-menta^^Xc~ao de Serv
+i^^Xcos de Voz 
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 38--44
+\OT1/cmr/m/it/12 em Am-bi-en-tes Vir-tu-ais\OT1/cmr/m/n/12 . Fe-bru-ary 2005. D
+is-pon^^S^^Pvel em: 
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 53--61
 []\OT1/cmr/m/n/12 RAMOS, H. M. Dis-ci-plina: Com-pu-ta-do-res e so-ci-e-dade, \
 OT1/cmr/m/it/12 A 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 69--77
+Underfull \hbox (badness 1264) in paragraph at lines 53--61
 \OT1/cmr/m/it/12 hist^^Soria dos jo-gos de com-pu-ta-do-res\OT1/cmr/m/n/12 . 20
 07. Dis-pon^^S^^Pvel em: 
  []
@@ -1181,7 +1286,7 @@ Underfull \hbox (badness 1264) in paragraph at lines 69--77
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
 See the caption package documentation for explanation.
 
-[18
+[19
 
 
 ] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1194,12 +1299,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13997 strings out of 495042
- 193676 string characters out of 1181921
+ 14000 strings out of 495042
+ 193946 string characters out of 1181921
  364784 words of memory out of 3000000
- 16870 multiletter control sequences out of 15000+50000
+ 16873 multiletter control sequences out of 15000+50000
  12986 words of font info for 48 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,6n,49p,2162b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (21 pages, 87240 bytes).
+Output written on monografia.dvi (22 pages, 82020 bytes).
