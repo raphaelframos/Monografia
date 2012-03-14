@@ -9,9 +9,9 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "XBoxTechT" isn't style-file defined
---line 70 of file bibliografia.bib
+--line 85 of file bibliografia.bib
 Warning--entry type for "KinectTechT" isn't style-file defined
---line 79 of file bibliografia.bib
+--line 94 of file bibliografia.bib
 Warning--I didn't find a database entry for "RvPatrick"
 Warning--I didn't find a database entry for "RavDigitalSadaoki"
 Warning--I didn't find a database entry for "FundamentRabiner"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 11:12
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 14:07
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1299,12 +1299,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14000 strings out of 495042
- 193946 string characters out of 1181921
+ 14001 strings out of 495042
+ 193966 string characters out of 1181921
  364784 words of memory out of 3000000
- 16873 multiletter control sequences out of 15000+50000
+ 16874 multiletter control sequences out of 15000+50000
  12986 words of font info for 48 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 38i,6n,49p,2162b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,49p,2162b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (22 pages, 82020 bytes).
+Output written on monografia.dvi (22 pages, 84604 bytes).
