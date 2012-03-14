@@ -7,10 +7,10 @@
 \contentsline {section}{\numberline {1.3}Aplica\IeC {\c c}\IeC {\~o}es do reconhecimento autom\IeC {\'a}tico de fala}{9}{section.resumo.1.3}
 \contentsline {section}{\numberline {1.4}Metodologia}{10}{section.resumo.1.4}
 \contentsline {section}{\numberline {1.5}Vis\IeC {\~a}o Geral do Trabalho}{10}{section.resumo.1.5}
-\contentsline {chapter}{\numberline {2}Referencial te\IeC {\'o}rico}{11}{chapter.resumo.2}
+\contentsline {chapter}{\numberline {2}Sistemas de Reconhecimento Autom\IeC {\'a}tico de Voz}{11}{chapter.resumo.2}
 \contentsline {section}{\numberline {2.1}Fala}{11}{section.resumo.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Vantagens da comunica\IeC {\c c}\IeC {\~a}o pela fala em sistemas hom\IeC {\'e}m-m\IeC {\'a}quina}{11}{subsection.resumo.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Desvantagens no uso da fala em sistemas homem-m\IeC {\'a}quina}{12}{subsection.resumo.2.1.2}
+\contentsline {subsubsection}{Vantagens da comunica\IeC {\c c}\IeC {\~a}o pela fala em sistemas hom\IeC {\'e}m-m\IeC {\'a}quina}{11}{section.resumo.2.1}
+\contentsline {subsubsection}{Desvantagens no uso da fala em sistemas homem-m\IeC {\'a}quina}{12}{section.resumo.2.1}
 \contentsline {section}{\numberline {2.2}O Sistema de Reconhecimento de Voz}{12}{section.resumo.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Hist\IeC {\'o}rico dos Sistemas de Reconhecimento de Voz}{13}{subsection.resumo.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Caracter\IeC {\'\i }sticas de Sistemas RAV}{13}{subsection.resumo.2.2.2}
@@ -21,9 +21,9 @@
 \contentsline {subsubsection}{Rela\IeC {\c c}\IeC {\~a}o sinal \IeC {\textendash } ru\IeC {\'\i }do}{15}{subsection.resumo.2.2.2}
 \contentsline {section}{\numberline {2.3}Reconhecimento de voz baseado em padr\IeC {\~o}es}{15}{section.resumo.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Processamento do Sinal de Fala}{15}{subsection.resumo.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Padr\IeC {\~o}es de Refer\IeC {\^e}ncia}{16}{subsection.resumo.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Padr\IeC {\~o}es de Refer\IeC {\^e}ncia}{15}{subsection.resumo.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Compara\IeC {\c c}\IeC {\~a}o de Padr\IeC {\~o}es}{16}{subsection.resumo.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}P\IeC {\'o}s-Processador}{16}{subsection.resumo.2.3.4}
-\contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{17}{section.resumo.2.4}
+\contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{16}{section.resumo.2.4}
 \contentsline {chapter}{\numberline {3}Modelos Ocultos de Markov}{18}{chapter.resumo.3}
 \contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{19}{chapter.resumo.3}

@@ -9,19 +9,17 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "XBoxTechT" isn't style-file defined
---line 85 of file bibliografia.bib
+--line 111 of file bibliografia.bib
 Warning--entry type for "KinectTechT" isn't style-file defined
---line 94 of file bibliografia.bib
-Warning--I didn't find a database entry for "RvPatrick"
-Warning--I didn't find a database entry for "RavDigitalSadaoki"
-Warning--I didn't find a database entry for "FundamentRabiner"
-Warning--I didn't find a database entry for "DigSpeechNejat"
-Warning--I didn't find a database entry for "RavIsoladas"
+--line 120 of file bibliografia.bib
 Warning--I didn't find a database entry for "Historico1"
 Warning--I didn't find a database entry for "RavSpeechSadaoki"
 Warning--I didn't find a database entry for "Carac1"
 Warning--I didn't find a database entry for "RavPtBr"
+Warning--I didn't find a database entry for "RavIsoladas"
+Warning--I didn't find a database entry for "RvPatrick"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--faltando school em RavDigitalSadaoki
 Warning--faltando school em AvaliaTecJose
 Warning--faltando school em AcionamentRoboLegoFabio
 Warning--faltando school em RavIsolAnderson
@@ -33,45 +31,45 @@ Warning--faltando school em RavPtBrCarlos
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 13 entries,
+You've used 16 entries,
             6522 wiz_defined-function locations,
-            1249 strings with 11169 characters,
-and the built_in function-call counts, 25012 in all, are:
-= -- 3711
-> -- 150
+            1261 strings with 11452 characters,
+and the built_in function-call counts, 26805 in all, are:
+= -- 3838
+> -- 195
 < -- 774
-+ -- 870
-- -- 50
-* -- 1219
-:= -- 2633
-add.period$ -- 40
-call.type$ -- 14
-change.case$ -- 69
-chr.to.int$ -- 11
-cite$ -- 15
-duplicate$ -- 3372
-empty$ -- 690
-format.name$ -- 230
-if$ -- 4826
++ -- 885
+- -- 65
+* -- 1328
+:= -- 2895
+add.period$ -- 50
+call.type$ -- 17
+change.case$ -- 87
+chr.to.int$ -- 14
+cite$ -- 19
+duplicate$ -- 3479
+empty$ -- 858
+format.name$ -- 299
+if$ -- 5249
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 198
-newline$ -- 64
-num.names$ -- 50
-pop$ -- 254
+missing$ -- 253
+newline$ -- 79
+num.names$ -- 65
+pop$ -- 314
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 48
 quote$ -- 0
-skip$ -- 3554
+skip$ -- 3654
 stack$ -- 1
-substring$ -- 996
-swap$ -- 911
+substring$ -- 1047
+swap$ -- 956
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 5
-while$ -- 72
+type$ -- 23
+warning$ -- 6
+while$ -- 90
 width$ -- 0
-write$ -- 161
-(There were 16 warnings)
+write$ -- 204
+(There were 14 warnings)

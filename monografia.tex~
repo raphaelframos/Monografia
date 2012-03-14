@@ -64,7 +64,7 @@
 
 \begin{document}
 
-\titulo{Jogos fisicamente interativos baseados em reconhecimento de voz usando Modelos Ocultos de Markov}
+\titulo{Jogos fisicamente interativos baseados em reconhecimento de voz}
 \autor{Raphael Ferreira Ramos}
 \instituicao{Universidade Estadual do Norte Fluminense Darcy Ribeiro}
 \orientador[Tutor: ]{Rivera Antônio Escriba, DrSc.}
@@ -91,8 +91,8 @@ Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
 
 \sumario
 
-\include{introducao}
-\include{referencial_teorico}
+\include{tex/introducao}
+\include{tex/referencial_teorico}
 
 %--------------------------------- Bibliografia --------------------------------
 

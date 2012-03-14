@@ -1,33 +1,23 @@
-\chapter{Referencial teórico}
+\chapter{Sistemas de Reconhecimento Automático de Voz}
 
-%Escrever isso ainda!
-Este capítulo descreve os principais elementos teóricos utilizados no
-desenvolvimento desta pesquisa. As seções \ref{sec:red_neu} e \ref{sec:red_tip}
-resumem os principais conceitos sobre redes neurais, assim como as principais
-técnicas utilizadas nesta área. A seção \ref{sec:red_khn} é dedicada
-especificamente as redes de Kohonen, descrevendo sua estrutura conceitual e seu
-algorítimo de treinamento, esta categoria de rede neural é o núcleo da técnica
-de \textit{clustering} de imagens proposta neste trabalho, assunto abordado no
-próximo capítulo. Uma breve formalização dos descritores de Hu é feita na seção
-\ref{sec:desc_hu}. E por fim, alguns conceitos chave sobre imagens digitais são
-apresentados na seção \ref{sec:img_dig}.
+Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor \footnote{Dispositivo que transforma um tipo de energia em outro, utilizando para isso um elemento sensor}, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
 
 \section{Fala}
-A fala é a forma de comunicação mais utilizada pelos seres humanos.\cite{RvPatrick} Através da fala, o cérebro humano consegue interpretar informações extremamente complexas, tais como identificar a pessoa que está falando, sua posição no espaço físico, seu estado emocional e outros dados como a ironia, seriedade ou tristeza. Os computadores, apesar de fazerem cálculos mais rápidos que o homem, não conseguem reconhecer através da fala informações como os seres humanos.
+A fala é a forma de comunicação mais utilizada pelos seres humanos \cite{RavCorporaCarlos}. Através da fala, o cérebro humano consegue interpretar informações extremamente complexas, tais como identificar a pessoa que está falando, sua posição no espaço físico, seu estado emocional e outros dados como a ironia, seriedade ou tristeza. Os computadores, apesar de fazerem cálculos mais rápidos que o homem, não conseguem reconhecer através da fala informações como os seres humanos.
 
-\subsection{Vantagens da comunicação pela fala em sistemas homém-máquina}
+\subsubsection{Vantagens da comunicação pela fala em sistemas homém-máquina}
 
-Segundo \cite{RavDigitalSadaoki} podemos citar:
+Segundo \citeonline{RavDigitalSadaoki} podemos citar:
 
 \begin{itemize}
-\item Natural: Não precisa de treinamento especial e nem de habilidades especiais;
+\item Naturalidade: Não precisa de treinamento especial e nem de habilidades especiais;
 \item Rapidez: A informação é transmitida mais rapidamente que pelas outras formas de comunicação.
-\item Flexível: Deixa as mãos, olhos livres;
-\item Eficiente: Tem uma elevada taxa de informação;
+\item Flexibilidade: Deixa as mãos, olhos livres;
+\item Eficiência: Tem uma elevada taxa de informação;
 \end{itemize}
 
-\subsection{Desvantagens no uso da fala em sistemas homem-máquina}
-Mesmo possuindo vantagens significativas, a comunicação por fala também possui desvantagens, como \cite{RavDigitalSadaoki} descreveu:
+\subsubsection{Desvantagens no uso da fala em sistemas homem-máquina}
+Mesmo possuindo vantagens significativas, a comunicação por fala também possui desvantagens, como \citeonline{RavDigitalSadaoki} descreveu:
 
 \begin{itemize}
 \item Ruidos: O sistema fica suscetível a interferência do ambiente, necessitando de um removedor de ruídos para ambientes com alto índice de ruídos.
@@ -36,10 +26,16 @@ Mesmo possuindo vantagens significativas, a comunicação por fala também possu
 %Tentar procurar mais desvantanges e argumentos para diversidade.
 
 \section{O Sistema de Reconhecimento de Voz}\label{sec:red_khn}
-Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
-Reconhecedores de voz, podem ser divididos em três grandes classes: reconhecimento por comparação de padrões, reconhecimento baseado na análise acústico-fonética e reconhecimento empregando inteligência artificial.\cite{FundamentRabiner} No reconhecimento por comparação de padrões, existem duas formas distintas: treinamento e reconhecimento. Na fase de treinamento, são apresentados padrões ao sistema para criação de representantes, para cada um dos padrões. A fase de reconhecimento compara um padrão ainda desconhecido, com os padrões existentes no sistema, o que mais se aproximar do padrão existente, é escolhido como o padrão reconhecido. A fase de treinamento é fundamental para o sucesso do sistema, portanto uma quantidade considerável de material será necessário para a fase de treinamento. Sistemas com Modelos Ocultos de Markov (HMM) utilizam essa classe de reconhecimento.\cite{AvaliaTecJose} Nos sistemas com reconhecimento baseado na análise acústico-fonema, o sinal de fala é decodificado baseado em suas características acústicas e nas relações entre essas características. \cite{DigSpeechNejat} É identificada as unidades fonéticas da fala a ser reconhecida, e concatenando essas unidades é reconhecida a palavra. Nessa análise é necessário considerar as propriedades invariantes da fala. Segundo \cite{AvaliaTecJose} Um analisador acústico-fonética apresenta as sequintes fases: análise espectral, detecção das características que descrevem as unidades fonéticas, a fase mais importante de todo o processo que é: segmentação do sinal de fala e identificação das unidades fonéticas e escolha da palavra que melhor corresponde a sequência de unidades. Reconhecimento empregando inteligência artificial explora os conceitos tanto do reconhecimento por padrões quanto o baseado em análise acústico-fonema. \cite{FundamentRabiner} Utilizando redes neurais, cria-se uma matriz de ponderações que representa os nós das redes, e suas saídas, estão relacionadas as unidades a serem reconhecidas. \cite{AvaliaTecJose}
-O processo para o reconhecimento de voz pode ser dividio em quatro fases: aquisição do sinal de voz, pré-processamento, extração de informações e geração dos padrões de voz. \cite{RavIsoladas} 
+
+\citeonline{FundamentRabiner} classifica os reconhecedores de voz em três grandes classes: \textit{reconhecimento por comparação de padrões}, \textit{reconhecimento baseado na análise acústico-fonética} e \textit{reconhecimento empregando inteligência artificial}. No reconhecimento por comparação de padrões, existem duas formas distintas: treinamento e reconhecimento. Na fase de treinamento, são apresentados padrões ao sistema para criação de representantes, para cada um dos padrões. A fase de reconhecimento compara um padrão ainda desconhecido, com os padrões existentes no sistema, o que mais se aproximar do padrão existente, é escolhido como o padrão reconhecido. A fase de treinamento é fundamental para o sucesso do sistema, portanto uma quantidade considerável de material será necessário para a fase de treinamento. 
+
+Sistemas com Modelos Ocultos de Markov (HMM) utilizam essa classe de reconhecimento \cite{AvaliaTecJose}. Nos sistemas com reconhecimento baseado na análise acústico-fonema, o sinal de fala é decodificado baseado em suas características acústicas e nas relações entre essas características \cite{DigSpeechNejat}. É identificada as unidades fonéticas da fala a ser reconhecida, e concatenando essas unidades é reconhecida a palavra. Nessa análise é necessário considerar as propriedades invariantes da fala. Segundo \citeonline{AvaliaTecJose} Um analisador acústico-fonética apresenta as sequintes fases: análise espectral, detecção das características que descrevem as unidades fonéticas, a fase mais importante de todo o processo que é: segmentação do sinal de fala e identificação das unidades fonéticas e escolha da palavra que melhor corresponde a sequência de unidades. 
+
+Reconhecimento empregando inteligência artificial explora os conceitos tanto do reconhecimento por padrões quanto o baseado em análise acústico-fonema. Utilizando redes neurais, cria-se uma matriz de ponderações que representa os nós das redes, e suas saídas, estão relacionadas as unidades a serem reconhecidas \cite{AvaliaTecJose}.
+O processo para o reconhecimento de voz pode ser dividido em quatro fases: aquisição do sinal de voz, pré-processamento, extração de informações e geração dos padrões de voz \cite{RavIsolAnderson}.
 %fazer imagem das etapas
+
+
 %por padrões te simplicidade de uso, maior entendimento, boas justificativas matemáticas e robustez. AvaliaTecJose e FundamentRabiner
 
 

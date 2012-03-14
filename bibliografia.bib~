@@ -1,3 +1,12 @@
+@book{FundamentRabiner,
+  title = {Fundamentals of speech recognition},
+  author = {Lawrence R. Rabiner},
+  isbn = {},
+  year = {1993},
+  publisher = {PTR Prentice Hall}
+}
+
+
 @misc{HistJogosHenrique,
   title = {A história dos jogos de computadores},
   author = {Henrique Moraes Ramos},
@@ -25,6 +34,13 @@
   url = {http://www.dcc.ufla.br/infocomp/artigos/v4.3/art09.pdf},
   urlaccessdate = {14/03/2012}
 }
+
+
+
+
+
+
+
 
 
 @monography{RavPtBrCarlos,
@@ -58,6 +74,29 @@
   year = {1997},
   address = {Campinas}
 }
+
+@monography{AcionamentRoboLegoFabio,
+  title = {Acionamento de um robô lego mindstorms por comandos vocais utilizando redes neurais artificiais},
+  author = {Fabio Fonseca Rodrigues},
+  type = {Graduação},
+  year = {2009},
+  address = {Ouro Preto}
+}
+
+@monography{RavDigitalSadaoki,
+  title = {Digital Speech Processing, Synthesis, and Recognition. Marcel Dekker},
+  author = {Sadaoki Furui},
+  type = {},
+  year = 1989,
+  address = {}
+}
+
+
+
+
+
+
+
 
 @WWW{XBoxTechT,
 author = {Diego Borges},
