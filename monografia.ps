@@ -1,18 +1,18 @@
 %!PS-Adobe-2.0
 %%Creator: dvips(k) 5.98 Copyright 2009 Radical Eye Software
 %%Title: monografia.dvi
-%%CreationDate: Wed Mar 14 16:22:46 2012
+%%CreationDate: Wed Mar 14 17:36:35 2012
 %%Pages: 22
 %%PageOrder: Ascend
 %%BoundingBox: 0 0 596 842
 %%DocumentFonts: CMBX12 CMBXTI10 CMR12 CMCSC10 CMTI12 CMR10 CMR8 CMR7
-%%+ CMMI12
+%%+ Times-Roman CMMI12
 %%DocumentPaperSizes: a4
 %%EndComments
 %DVIPSWebPage: (www.radicaleye.com)
 %DVIPSCommandLine: dvips -o monografia.ps monografia.dvi
 %DVIPSParameters: dpi=600
-%DVIPSSource:  TeX output 2012.03.14:1622
+%DVIPSSource:  TeX output 2012.03.14:1736
 %%BeginProcSet: tex.pro 0 0
 %!
 /TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
@@ -1725,6 +1725,152 @@ end
 /PSTricksDotFont exch definefont pop
 
 %% end
+
+%%EndProcSet
+%%BeginProcSet: 8r.enc 0 0
+% File 8r.enc  TeX Base 1 Encoding  Revision 2.0  2002-10-30
+%
+% @@psencodingfile@{
+%   author    = "S. Rahtz, P. MacKay, Alan Jeffrey, B. Horn, K. Berry,
+%                W. Schmidt, P. Lehman",
+%   version   = "2.0",
+%   date      = "27nov06",
+%   filename  = "8r.enc",
+%   email     = "tex-fonts@@tug.org",
+%   docstring = "This is the encoding vector for Type1 and TrueType
+%                fonts to be used with TeX.  This file is part of the
+%                PSNFSS bundle, version 9"
+% @}
+% 
+% The idea is to have all the characters normally included in Type 1 fonts
+% available for typesetting. This is effectively the characters in Adobe
+% Standard encoding, ISO Latin 1, Windows ANSI including the euro symbol,
+% MacRoman, and some extra characters from Lucida.
+% 
+% Character code assignments were made as follows:
+% 
+% (1) the Windows ANSI characters are almost all in their Windows ANSI
+% positions, because some Windows users cannot easily reencode the
+% fonts, and it makes no difference on other systems. The only Windows
+% ANSI characters not available are those that make no sense for
+% typesetting -- rubout (127 decimal), nobreakspace (160), softhyphen
+% (173). quotesingle and grave are moved just because it's such an
+% irritation not having them in TeX positions.
+% 
+% (2) Remaining characters are assigned arbitrarily to the lower part
+% of the range, avoiding 0, 10 and 13 in case we meet dumb software.
+% 
+% (3) Y&Y Lucida Bright includes some extra text characters; in the
+% hopes that other PostScript fonts, perhaps created for public
+% consumption, will include them, they are included starting at 0x12.
+% These are /dotlessj /ff /ffi /ffl.
+% 
+% (4) hyphen appears twice for compatibility with both ASCII and Windows.
+%
+% (5) /Euro was assigned to 128, as in Windows ANSI
+%
+% (6) Missing characters from MacRoman encoding incorporated as follows:
+%
+%     PostScript      MacRoman        TeXBase1
+%     --------------  --------------  --------------
+%     /notequal       173             0x16
+%     /infinity       176             0x17
+%     /lessequal      178             0x18
+%     /greaterequal   179             0x19
+%     /partialdiff    182             0x1A
+%     /summation      183             0x1B
+%     /product        184             0x1C
+%     /pi             185             0x1D
+%     /integral       186             0x81
+%     /Omega          189             0x8D
+%     /radical        195             0x8E
+%     /approxequal    197             0x8F
+%     /Delta          198             0x9D
+%     /lozenge        215             0x9E
+%
+/TeXBase1Encoding [
+% 0x00
+ /.notdef /dotaccent /fi /fl
+ /fraction /hungarumlaut /Lslash /lslash
+ /ogonek /ring /.notdef /breve
+ /minus /.notdef /Zcaron /zcaron
+% 0x10
+ /caron /dotlessi /dotlessj /ff
+ /ffi /ffl /notequal /infinity
+ /lessequal /greaterequal /partialdiff /summation
+ /product /pi /grave /quotesingle
+% 0x20
+ /space /exclam /quotedbl /numbersign
+ /dollar /percent /ampersand /quoteright
+ /parenleft /parenright /asterisk /plus
+ /comma /hyphen /period /slash
+% 0x30
+ /zero /one /two /three
+ /four /five /six /seven
+ /eight /nine /colon /semicolon
+ /less /equal /greater /question
+% 0x40
+ /at /A /B /C
+ /D /E /F /G
+ /H /I /J /K
+ /L /M /N /O
+% 0x50
+ /P /Q /R /S
+ /T /U /V /W
+ /X /Y /Z /bracketleft
+ /backslash /bracketright /asciicircum /underscore
+% 0x60
+ /quoteleft /a /b /c
+ /d /e /f /g
+ /h /i /j /k
+ /l /m /n /o
+% 0x70
+ /p /q /r /s
+ /t /u /v /w
+ /x /y /z /braceleft
+ /bar /braceright /asciitilde /.notdef
+% 0x80
+ /Euro /integral /quotesinglbase /florin
+ /quotedblbase /ellipsis /dagger /daggerdbl
+ /circumflex /perthousand /Scaron /guilsinglleft
+ /OE /Omega /radical /approxequal
+% 0x90
+ /.notdef /.notdef /.notdef /quotedblleft
+ /quotedblright /bullet /endash /emdash
+ /tilde /trademark /scaron /guilsinglright
+ /oe /Delta /lozenge /Ydieresis
+% 0xA0
+ /.notdef /exclamdown /cent /sterling
+ /currency /yen /brokenbar /section
+ /dieresis /copyright /ordfeminine /guillemotleft
+ /logicalnot /hyphen /registered /macron
+% 0xB0
+ /degree /plusminus /twosuperior /threesuperior
+ /acute /mu /paragraph /periodcentered
+ /cedilla /onesuperior /ordmasculine /guillemotright
+ /onequarter /onehalf /threequarters /questiondown
+% 0xC0
+ /Agrave /Aacute /Acircumflex /Atilde
+ /Adieresis /Aring /AE /Ccedilla
+ /Egrave /Eacute /Ecircumflex /Edieresis
+ /Igrave /Iacute /Icircumflex /Idieresis
+% 0xD0
+ /Eth /Ntilde /Ograve /Oacute
+ /Ocircumflex /Otilde /Odieresis /multiply
+ /Oslash /Ugrave /Uacute /Ucircumflex
+ /Udieresis /Yacute /Thorn /germandbls
+% 0xE0
+ /agrave /aacute /acircumflex /atilde
+ /adieresis /aring /ae /ccedilla
+ /egrave /eacute /ecircumflex /edieresis
+ /igrave /iacute /icircumflex /idieresis
+% 0xF0
+ /eth /ntilde /ograve /oacute
+ /ocircumflex /otilde /odieresis /divide
+ /oslash /ugrave /uacute /ucircumflex
+ /udieresis /yacute /thorn /ydieresis
+] def
+
 
 %%EndProcSet
 %%BeginProcSet: texps.pro 0 0
@@ -6042,33 +6188,38 @@ cleartomark
 %%EndFont 
 TeXDict begin 39158280 55380996 1000 600 600 (monografia.dvi)
 @start /Fa 193[76 1[76 60[{}2 99.6264 /CMMI12 rf /Fb
-133[37 3[44 46 32 33 33 44 46 42 46 69 23 2[23 1[42 25
-37 46 2[42 28[63 23[23 44[{}20 83.022 /CMR10 rf /Fc 206[33
-49[{}1 58.1154 /CMR7 rf /Fd 206[35 49[{}1 66.4176 /CMR8
-rf /Fe 129[81 3[72 3[85 90 63 64 66 1[90 81 90 134 45
-1[49 45 90 81 49 74 90 72 90 78 10[122 1[112 90 120 2[121
-1[153 5[127 101 1[124 2[122 11[81 81 81 81 81 2[45 21[72
-4[81 19[{}40 143.462 /CMBX12 rf /Ff 129[122 3[101 3[110
-128 80 101 104 2[122 134 195 61 110 1[73 122 110 83 110
-122 110 110 122 2[122 7[179 2[134 178 2[177 1[222 144
-2[97 2[150 2[171 169 179 13[122 122 122 24[110 4[122
-6[139 12[{}39 206.559 /CMBXTI10 rf /Fg 129[56 2[56 50
-1[59 1[59 62 44 44 46 59 62 56 62 93 31 59 1[31 62 56
-34 51 62 50 62 54 2[56 7[85 1[78 62 84 1[77 84 88 106
-67 2[42 1[88 70 74 86 81 80 85 1[53 5[56 56 56 2[56 56
-56 56 3[37 20[50 4[56 2[31 3[62 12[{}56 99.6264 /CMBX12
-rf /Fh 198[45 45 45 45 45 45 45 45 45 45 48[{}10 90.9091
-/CMR10 rf /Fi 129[50 3[40 47 45 65 45 52 32 40 41 1[50
-50 55 80 25 45 30 30 50 45 30 45 50 45 45 50 2[50 5[72
-97 72 72 70 55 71 1[66 75 72 87 61 75 1[38 72 75 64 1[74
-70 69 72 6[30 3[50 2[50 50 1[50 1[30 35 30 2[40 40 15[45
-4[50 6[55 12[{}61 99.6264 /CMTI12 rf /Fj 134[61 2[61
-61 59 46 60 2[63 61 74 51 2[30 3[56 62 59 58 61 11[81
-2[80 3[81 7[71 74 83 68[{}22 99.6264 /CMCSC10 rf /Fk
-137[62 1[46 46 46 2[59 65 4[33 3[52 1[52 65 59 2[59 10[65
-86 12[80 89 2[88 18[33 1[33 44[{}19 119.552 /CMR12 rf
-%DVIPSBitmapFont: Fl tcrm1200 12 2
-/Fl 2 187 df<0003FF0000001FFFE000007FFFF80000FFFFFC0003FFFFFF0007FFFFFF
+10[50 11[44 1[44 3[44 104[44 1[50 1[50 50 28 39 33 50
+1[50 50 78 28 2[28 50 1[33 44 50 44 1[44 10[72 1[61 55
+66 1[55 6[33 1[72 55 61 1[66 1[72 19[33 42[55 2[{
+TeXBase1Encoding ReEncodeFont}36 99.6264 /Times-Roman
+rf /Fc 133[37 3[44 46 32 33 33 44 46 42 46 69 23 2[23
+1[42 25 37 46 2[42 28[63 23[23 44[{}20 83.022 /CMR10
+rf /Fd 206[33 49[{}1 58.1154 /CMR7 rf /Fe 206[35 49[{}1
+66.4176 /CMR8 rf /Ff 129[81 3[72 3[85 90 63 64 66 1[90
+81 90 134 45 1[49 45 90 81 49 74 90 72 90 78 10[122 1[112
+90 120 2[121 1[153 5[127 101 1[124 2[122 11[81 81 81
+81 81 2[45 21[72 4[81 19[{}40 143.462 /CMBX12 rf /Fg
+129[122 3[101 3[110 128 80 101 104 2[122 134 195 61 110
+1[73 122 110 83 110 122 110 110 122 2[122 7[179 2[134
+178 2[177 1[222 144 2[97 2[150 2[171 169 179 13[122 122
+122 24[110 4[122 6[139 12[{}39 206.559 /CMBXTI10 rf /Fh
+129[56 2[56 50 1[59 1[59 62 44 44 46 59 62 56 62 93 31
+59 1[31 62 56 34 51 62 50 62 54 2[56 7[85 1[78 62 84
+1[77 84 88 106 67 2[42 1[88 70 74 86 81 80 85 1[53 5[56
+56 56 2[56 56 56 56 3[37 20[50 4[56 2[31 3[62 12[{}56
+99.6264 /CMBX12 rf /Fi 198[45 45 45 45 45 45 45 45 45
+45 48[{}10 90.9091 /CMR10 rf /Fj 129[50 3[40 47 45 65
+45 52 32 40 41 1[50 50 55 80 25 45 30 30 50 45 30 45
+50 45 45 50 2[50 5[72 97 72 72 70 55 71 1[66 75 72 87
+61 75 1[38 72 75 64 1[74 70 69 72 6[30 3[50 2[50 50 1[50
+1[30 35 30 2[40 40 15[45 4[50 6[55 12[{}61 99.6264 /CMTI12
+rf /Fk 134[61 2[61 61 59 46 60 2[63 61 74 51 2[30 3[56
+62 59 58 61 11[81 2[80 3[81 7[71 74 83 68[{}22 99.6264
+/CMCSC10 rf /Fl 137[62 1[46 46 46 2[59 65 4[33 3[52 1[52
+65 59 2[59 10[65 86 12[80 89 2[88 18[33 1[33 44[{}19
+119.552 /CMR12 rf
+%DVIPSBitmapFont: Fm tcrm1200 12 2
+/Fm 2 187 df<0003FF0000001FFFE000007FFFF80000FFFFFC0003FFFFFF0007FFFFFF
 800FFFFFFFC01FFFFFFFE01FFFFFFFE03FFFFFFFF03FFFFFFFF07FFFFFFFF87FFFFFFFF8
 7FFFFFFFF8FFFFFFFFFCFFFFFFFFFCFFFFFFFFFCFFFFFFFFFCFFFFFFFFFCFFFFFFFFFCFF
 FFFFFFFCFFFFFFFFFCFFFFFFFFFCFFFFFFFFFC7FFFFFFFF87FFFFFFFF87FFFFFFFF83FFF
@@ -6082,14 +6233,14 @@ C01F80001F801F80001F800FC0003F0007C0003E0003E0007C0001F000F80000F801F000
 007E07E000001FFF80000003FC00000000000000000000000000000000007FFFFFFFE07F
 FFFFFFE0242E7DCD2B>186 D E
 %EndDVIPSBitmapFont
-/Fm 129[49 3[43 51 51 70 51 54 38 38 38 51 54 49 54 81
+/Fn 129[49 3[43 51 51 70 51 54 38 38 38 51 54 49 54 81
 27 51 30 27 54 49 30 43 54 43 54 49 2[49 27 49 27 2[73
 100 73 73 70 54 72 76 66 76 73 89 61 76 50 35 73 77 64
 66 75 70 69 73 5[27 27 49 49 49 49 49 49 49 49 49 49
 49 27 33 27 2[38 38 2[81 2[49 9[43 2[49 1[49 49 1[27
-2[54 54 12[{}82 99.6264 /CMR12 rf /Fn 133[84 3[92 1[66
+2[54 54 12[{}82 99.6264 /CMR12 rf /Fo 133[84 3[92 1[66
 84 86 2[102 112 163 3[61 102 92 1[92 102 92 92 102 22[105
-61[116 12[{}18 172.188 /CMBXTI10 rf /Fo 129[67 3[60 5[52
+61[116 12[{}18 172.188 /CMBXTI10 rf /Fp 129[67 3[60 5[52
 53 55 1[75 67 75 112 37 2[37 75 1[41 61 75 60 1[65 2[67
 7[102 2[75 100 1[92 7[105 1[85 2[97 1[102 12[67 67 67
 67 2[37 45 20[60 4[67 2[37 16[{}35 119.552 /CMBX12 rf
@@ -6212,12 +6363,12 @@ SDict begin [/View [/XYZ H.V]/Dest (Doc-Start) cvn /DEST pdfmark end
 SDict begin [ {Catalog} << /PageLabels<</Nums[0<</P(0)>>1<</S/D>>2<</S/D>>3<</S/D>>]>>
 >> /PUT pdfmark end
  109 156 a 0 TeXcolorgray
-0 TeXcolorgray 1283 823 a Fo(Raphael)46 b(F)-11 b(erreira)46
-b(Ramos)p 0 TeXcolorgray 0 TeXcolorgray 181 2557 a Fn(Jo)-10
+0 TeXcolorgray 1283 823 a Fp(Raphael)46 b(F)-11 b(erreira)46
+b(Ramos)p 0 TeXcolorgray 0 TeXcolorgray 181 2557 a Fo(Jo)-10
 b(gos)71 b(\014sic)-10 b(amente)70 b(inter)-10 b(ativos)71
 b(b)-10 b(ase)g(ados)69 b(em)1030 2786 y(r)-10 b(e)g(c)g(onhe)g
 (cimento)68 b(de)j(voz)p 0 TeXcolorgray 0 TeXcolorgray
-1398 5276 a Fm(Camp)s(os)34 b(dos)f(Go)m(ytacazes/RJ)1901
+1398 5276 a Fn(Camp)s(os)34 b(dos)f(Go)m(ytacazes/RJ)1901
 5467 y(2012)p 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 1 2
 TeXDict begin 1 1 bop 0 TeXcolorgray 0 0 a
@@ -6234,12 +6385,12 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.1) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 0 TeXcolorgray
-0 TeXcolorgray 0 TeXcolorgray 1283 256 a Fo(Raphael)46
+0 TeXcolorgray 0 TeXcolorgray 1283 256 a Fp(Raphael)46
 b(F)-11 b(erreira)46 b(Ramos)p 0 TeXcolorgray 0 TeXcolorgray
-181 1750 a Fn(Jo)-10 b(gos)71 b(\014sic)-10 b(amente)70
+181 1750 a Fo(Jo)-10 b(gos)71 b(\014sic)-10 b(amente)70
 b(inter)-10 b(ativos)71 b(b)-10 b(ase)g(ados)69 b(em)1030
 1978 y(r)-10 b(e)g(c)g(onhe)g(cimento)68 b(de)j(voz)1842
-2411 y Fm(Monogra\014a)52 b(apresen)m(tada)i(ao)e(Curso)h(de)g(Gra-)
+2411 y Fn(Monogra\014a)52 b(apresen)m(tada)i(ao)e(Curso)h(de)g(Gra-)
 1842 2532 y(dua\030)-43 b(c~)-49 b(ao)37 b(em)h(Ci)m(^)-46
 b(encia)39 b(da)e(Computa\030)-43 b(c~)-49 b(ao)38 b(da)f(Uni-)1842
 2652 y(v)m(ersidade)74 b(Estadual)e(do)g(Norte)g(Fluminense)1842
@@ -6247,13 +6398,13 @@ b(encia)39 b(da)e(Computa\030)-43 b(c~)-49 b(ao)38 b(da)f(Uni-)1842
 b(c~)-49 b(ao)1842 2893 y(do)44 b(t)-11 b(\023)-38 b(\020tulo)45
 b(de)g(Bac)m(harel)g(em)g(Ci)m(^)-46 b(encia)46 b(da)f(Com-)1842
 3013 y(puta\030)-43 b(c~)-49 b(ao,)57 b(sob)52 b(orien)m(ta\030)-43
-b(c~)-49 b(ao)53 b(da)f(Prof)p Fl(\272)p Fm(.)102 b(Riv)m(era)1842
+b(c~)-49 b(ao)53 b(da)f(Prof)p Fm(\272)p Fn(.)102 b(Riv)m(era)1842
 3134 y(An)m(t^)-49 b(onio)33 b(Escriba,)h(DrSc.)p 0 TeXcolorgray
-0 TeXcolorgray 1043 3696 a(T)-8 b(utor:)87 b Fk(Riv)m(era)37
+0 TeXcolorgray 1043 3696 a(T)-8 b(utor:)87 b Fl(Riv)m(era)37
 b(An)m(t^)-59 b(onio)37 b(Escriba,)g(DrSc.)p 0 TeXcolorgray
-0 TeXcolorgray 471 4444 a Fj(Universid)n(ade)g(Est)-7
+0 TeXcolorgray 471 4444 a Fk(Universid)n(ade)g(Est)-7
 b(adual)38 b(do)g(Nor)-7 b(te)38 b(Fluminense)f(D)m(ar)n(cy)h(Ribeir)n
-(o)p 0 TeXcolorgray 0 TeXcolorgray 1398 5644 a Fm(Camp)s(os)c(dos)f(Go)
+(o)p 0 TeXcolorgray 0 TeXcolorgray 1398 5644 a Fn(Camp)s(os)c(dos)f(Go)
 m(ytacazes/RJ)1901 5835 y(2012)p 0 TeXcolorgray 0 TeXcolorgray
 eop end
 %%Page: 1 3
@@ -6271,9 +6422,9 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.1) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 0 TeXcolorgray
-0 TeXcolorgray 0 TeXcolorgray 1587 1766 a Fm(\\Somos)33
+0 TeXcolorgray 0 TeXcolorgray 1587 1766 a Fn(\\Somos)33
 b(quem)h(p)s(o)s(demos)f(ser,)g(sonhos)h(que)f(p)s(o)s(demos)g(ter.")
-2982 1929 y Fi(Humb)-5 b(erto)36 b(Gessinger)p 0 TeXcolorgray
+2982 1929 y Fj(Humb)-5 b(erto)36 b(Gessinger)p 0 TeXcolorgray
 0 TeXcolorgray eop end
 %%Page: 1 4
 TeXDict begin 1 3 bop 0 TeXcolorgray 0 0 a
@@ -6290,8 +6441,8 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.1) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3843
--28 a Fh(1)p 0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray
-1442 256 a Fg(A)m(GRADECIMENTOS)286 983 y Fm(\022)274
+-28 a Fi(1)p 0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray
+1442 256 a Fh(A)m(GRADECIMENTOS)286 983 y Fn(\022)274
 1009 y(A)33 b(meu)g(pai,)g(minha)g(m~)-49 b(ae)33 b(e)g(esp)s(ecialmen)
 m(te)i(\022)-49 b(a)32 b(v)m(o)s(c)m(^)-46 b(e.)p 0 TeXcolorgray
 0 TeXcolorgray eop end
@@ -6310,7 +6461,7 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.2) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3843 -28 a Fh(2)p 0 TeXcolorgray 1149 651 a Ff(Lista)85
+3843 -28 a Fi(2)p 0 TeXcolorgray 1149 651 a Fg(Lista)85
 b(de)h(Figur)-12 b(as)109 1065 y
 SDict begin H.S end
  109 1065 a 109 1065
@@ -6325,8 +6476,19 @@ a 109 1065 a
 SDict begin 19.57509 H.A end
  109 1065 a 109 1065 a
 SDict begin [/View [/XYZ H.V]/Dest (chapter*.2) cvn /DEST pdfmark end
- 109 1065 a 0 TeXcolorgray
-0 TeXcolorgray eop end
+ 109 1065 a 255 1246
+a
+SDict begin H.S end
+ 255 1246 a Fn(1)175 b(Diagrama)32 b(de)h(blo)s(cos)g(de)g(um)g
+(sistema)h(de)f(reconhecimen)m(to)i(de)e(v)m(oz)3091
+1246 y
+SDict begin 19.57509 H.L end
+ 3091 1246 a 3091 1246 a
+SDict begin [/Subtype /Link/Dest (figure.caption.4) cvn/H /I/Border
+[0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
+ 3091 1246 a 42 w Fn(.)50
+b(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray 93 w(13)p
+0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 3 6
 TeXDict begin 3 5 bop 0 TeXcolorgray 0 0 a
 SDict begin /product where{pop product(Distiller)search{pop pop pop
@@ -6342,7 +6504,7 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.3) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3843
--28 a Fh(3)p 0 TeXcolorgray 1126 651 a Ff(Lista)86 b(de)f(C\023)-122
+-28 a Fi(3)p 0 TeXcolorgray 1126 651 a Fg(Lista)86 b(de)f(C\023)-122
 b(odigos)p 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 4 7
 TeXDict begin 4 6 bop 0 TeXcolorgray 0 0 a
@@ -6359,7 +6521,7 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.4) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3843 -28 a Fh(4)p 0 TeXcolorgray 1588 651 a Ff(R)-12
+3843 -28 a Fi(4)p 0 TeXcolorgray 1588 651 a Fg(R)-12
 b(esumo)109 1024 y
 SDict begin H.S end
  109 1024 a 109 1024 a
@@ -6367,7 +6529,7 @@ SDict begin 19.57509 H.A end
  109 1024 a 109
 1024 a
 SDict begin [/View [/XYZ H.V]/Dest (chapter*.3) cvn /DEST pdfmark end
- 109 1024 a 180 x Fm(Aqui)33 b(en)m(tra)g(o)f(resumo)i(do)e(meu)i
+ 109 1024 a 180 x Fn(Aqui)33 b(en)m(tra)g(o)f(resumo)i(do)e(meu)i
 (trabalho)e(que)i(ser\023)-49 b(a)33 b(a)i(\023)-51 b(ultima)32
 b(coisa)h(a)f(ser)h(feita.)p 0 TeXcolorgray 0 TeXcolorgray
 eop end
@@ -6386,60 +6548,60 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.5) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3843
--28 a Fh(5)p 0 TeXcolorgray 1559 651 a Ff(Sum\023)-122
+-28 a Fi(5)p 0 TeXcolorgray 1559 651 a Fg(Sum\023)-122
 b(ario)109 1344 y
 SDict begin H.S end
- 109 1344 a Fg(Lista)38 b(de)g(Figuras)901
+ 109 1344 a Fh(Lista)38 b(de)g(Figuras)901
 1344 y
 SDict begin 19.57509 H.L end
  901 1344 a 901 1344 a
 SDict begin [/Subtype /Link/Dest (section*.1) cvn/H /I/Border [0 0
 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 901 1344 a 2931 w Fg(2)109
+ 901 1344 a 2931 w Fh(2)109
 1663 y
 SDict begin H.S end
- 109 1663 a Fg(Resumo)499 1663 y
+ 109 1663 a Fh(Resumo)499 1663 y
 SDict begin 19.57509 H.L end
  499 1663 a 499
 1663 a
 SDict begin [/Subtype /Link/Dest (chapter*.2) cvn/H /I/Border [0 0
 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 499 1663 a 3333 w Fg(4)109 1982 y
+ 499 1663 a 3333 w Fh(4)109 1982 y
 SDict begin H.S end
- 109 1982 a Fg(1)90
+ 109 1982 a Fh(1)90
 b(In)m(tro)s(du\030)-50 b(c)o(~)-55 b(ao)789 1982 y
 SDict begin 19.57509 H.L end
  789
 1982 a 789 1982 a
 SDict begin [/Subtype /Link/Dest (chapter.resumo.1) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 789 1982 a 3043 w Fg(7)255 2203 y
+ 789 1982 a 3043 w Fh(7)255 2203 y
 SDict begin H.S end
  255
-2203 a Fm(1.1)99 b(Ob)5 b(jetiv)m(os)887 2203 y
+2203 a Fn(1.1)99 b(Ob)5 b(jetiv)m(os)887 2203 y
 SDict begin 19.57509 H.L end
  887 2203
 a 887 2203 a
 SDict begin [/Subtype /Link/Dest (section.resumo.1.1) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 887 2203 a 93 w Fm(.)49 b(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g
+ 887 2203 a 93 w Fn(.)49 b(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g
 (.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)
 g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray
 141 w(8)p 0 TeXcolorgray 255 2425 a
 SDict begin H.S end
- 255 2425 a Fm(1.2)99
+ 255 2425 a Fn(1.2)99
 b(Motiv)-5 b(a\030)-43 b(c~)-49 b(oes)950 2425 y
 SDict begin 19.57509 H.L end
  950
 2425 a 950 2425 a
 SDict begin [/Subtype /Link/Dest (section.resumo.1.2) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 950 2425 a 30 w Fm(.)49 b(.)h(.)g(.)g(.)g(.)g(.)g(.)g
+ 950 2425 a 30 w Fn(.)49 b(.)h(.)g(.)g(.)g(.)g(.)g(.)g
 (.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)
 g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray
 141 w(8)p 0 TeXcolorgray 255 2647 a
 SDict begin H.S end
- 255 2647 a Fm(1.3)99
+ 255 2647 a Fn(1.3)99
 b(Aplica\030)-43 b(c~)-49 b(oes)34 b(do)f(reconhecimen)m(to)i
 (autom\023)-49 b(atico)32 b(de)h(fala)2580 2647 y
 SDict begin 19.57509 H.L end
@@ -6447,56 +6609,56 @@ SDict begin 19.57509 H.L end
 2647 a 2580 2647 a
 SDict begin [/Subtype /Link/Dest (section.resumo.1.3) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 2580 2647 a 92 w Fm(.)49 b(.)h(.)g(.)g(.)g(.)g(.)g
+ 2580 2647 a 92 w Fn(.)49 b(.)h(.)g(.)g(.)g(.)g(.)g
 (.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray 141 w(9)p
 0 TeXcolorgray 255 2868 a
 SDict begin H.S end
- 255 2868 a Fm(1.4)99 b(Meto)s(dologia)1005
+ 255 2868 a Fn(1.4)99 b(Meto)s(dologia)1005
 2868 y
 SDict begin 19.57509 H.L end
  1005 2868 a 1005 2868 a
 SDict begin [/Subtype /Link/Dest (section.resumo.1.4) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 1005 2868 a 51 w Fm(.)50
+ 1005 2868 a 51 w Fn(.)50
 b(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g
 (.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p
 0 TeXcolorgray 93 w(10)p 0 TeXcolorgray 255 3090 a
 SDict begin H.S end
  255
-3090 a Fm(1.5)99 b(Vis~)-49 b(ao)33 b(Geral)f(do)h(T)-8
+3090 a Fn(1.5)99 b(Vis~)-49 b(ao)33 b(Geral)f(do)h(T)-8
 b(rabalho)1532 3090 y
 SDict begin 19.57509 H.L end
  1532 3090 a 1532 3090 a
 SDict begin [/Subtype /Link/Dest (section.resumo.1.5) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
  1532 3090
-a 63 w Fm(.)50 b(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)
+a 63 w Fn(.)50 b(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)
 f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p
 0 TeXcolorgray 93 w(10)p 0 TeXcolorgray 109 3409 a
 SDict begin H.S end
  109
-3409 a Fg(2)90 b(Sistemas)39 b(de)f(Reconhecimen)m(to)f(Autom)o(\023)
+3409 a Fh(2)90 b(Sistemas)39 b(de)f(Reconhecimen)m(to)f(Autom)o(\023)
 -55 b(atico)38 b(de)g(V)-9 b(oz)2651 3409 y
 SDict begin 19.57509 H.L end
  2651 3409
 a 2651 3409 a
 SDict begin [/Subtype /Link/Dest (chapter.resumo.2) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 2651 3409 a 1125 w Fg(11)255 3630 y
+ 2651 3409 a 1125 w Fh(11)255 3630 y
 SDict begin H.S end
  255
-3630 a Fm(2.1)99 b(F)-8 b(ala)660 3630 y
+3630 a Fn(2.1)99 b(F)-8 b(ala)660 3630 y
 SDict begin 19.57509 H.L end
  660 3630 a 660
 3630 a
 SDict begin [/Subtype /Link/Dest (section.resumo.2.1) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 660 3630 a 89 w Fm(.)50 b(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)
+ 660 3630 a 89 w Fn(.)50 b(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)
 g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g
 (.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray
 93 w(11)p 0 TeXcolorgray 255 3852 a
 SDict begin H.S end
- 255 3852 a Fm(2.2)99
+ 255 3852 a Fn(2.2)99
 b(O)33 b(Sistema)g(de)g(Reconhecimen)m(to)i(de)e(V)-8
 b(oz)2093 3852 y
 SDict begin 19.57509 H.L end
@@ -6504,11 +6666,11 @@ SDict begin 19.57509 H.L end
 SDict begin [/Subtype /Link/Dest (section.resumo.2.2) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
  2093 3852 a
-40 w Fm(.)50 b(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g
+40 w Fn(.)50 b(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g
 (.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray 93 w(12)p 0 TeXcolorgray
 479 4073 a
 SDict begin H.S end
- 479 4073 a Fm(2.2.1)112 b(Hist\023)-49 b(orico)33
+ 479 4073 a Fn(2.2.1)112 b(Hist\023)-49 b(orico)33
 b(dos)g(Sistemas)h(de)f(Reconhecimen)m(to)i(de)e(V)-8
 b(oz)2925 4073 y
 SDict begin 19.57509 H.L end
@@ -6516,22 +6678,22 @@ SDict begin 19.57509 H.L end
 SDict begin [/Subtype /Link/Dest (subsection.resumo.2.2.1) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
  2925 4073 a
-54 w Fm(.)50 b(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0
+54 w Fn(.)50 b(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0
 TeXcolorgray 93 w(13)p 0 TeXcolorgray 479 4295 a
 SDict begin H.S end
  479
-4295 a Fm(2.2.2)112 b(Caracter)-11 b(\023)-38 b(\020sticas)34
+4295 a Fn(2.2.2)112 b(Caracter)-11 b(\023)-38 b(\020sticas)34
 b(de)f(Sistemas)h(RA)-11 b(V)2193 4295 y
 SDict begin 19.57509 H.L end
  2193 4295 a
 2193 4295 a
 SDict begin [/Subtype /Link/Dest (subsection.resumo.2.2.2) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 2193 4295 a 94 w Fm(.)50 b(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g
+ 2193 4295 a 94 w Fn(.)50 b(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g
 (.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray
 93 w(13)p 0 TeXcolorgray 255 4517 a
 SDict begin H.S end
- 255 4517 a Fm(2.3)99
+ 255 4517 a Fn(2.3)99
 b(Reconhecimen)m(to)35 b(de)e(v)m(oz)h(baseado)f(em)g(padr~)-49
 b(oes)2359 4517 y
 SDict begin 19.57509 H.L end
@@ -6539,57 +6701,57 @@ SDict begin 19.57509 H.L end
 SDict begin [/Subtype /Link/Dest (section.resumo.2.3) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
  2359 4517 a
-82 w Fm(.)50 b(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g
+82 w Fn(.)50 b(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g
 (.)f(.)p 0 TeXcolorgray 93 w(15)p 0 TeXcolorgray 479
 4738 a
 SDict begin H.S end
- 479 4738 a Fm(2.3.1)112 b(Pro)s(cessamen)m(to)34
+ 479 4738 a Fn(2.3.1)112 b(Pro)s(cessamen)m(to)34
 b(do)f(Sinal)f(de)i(F)-8 b(ala)2146 4738 y
 SDict begin 19.57509 H.L end
  2146 4738
 a 2146 4738 a
 SDict begin [/Subtype /Link/Dest (subsection.resumo.2.3.1) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 2146 4738 a 64 w Fm(.)50 b(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)
+ 2146 4738 a 64 w Fn(.)50 b(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)
 g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray
 93 w(15)p 0 TeXcolorgray 479 4960 a
 SDict begin H.S end
- 479 4960 a Fm(2.3.2)112
+ 479 4960 a Fn(2.3.2)112
 b(P)m(adr~)-49 b(oes)33 b(de)g(Refer)m(^)-46 b(encia)1731
 4960 y
 SDict begin 19.57509 H.L end
  1731 4960 a 1731 4960 a
 SDict begin [/Subtype /Link/Dest (subsection.resumo.2.3.2) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 1731 4960 a 95 w Fm(.)49
+ 1731 4960 a 95 w Fn(.)49
 b(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g
-(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray 93 w(15)p
+(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray 93 w(16)p
 0 TeXcolorgray 479 5181 a
 SDict begin H.S end
- 479 5181 a Fm(2.3.3)112 b(Compara\030)-43
+ 479 5181 a Fn(2.3.3)112 b(Compara\030)-43
 b(c~)-49 b(ao)32 b(de)h(P)m(adr~)-49 b(oes)1819 5181
 y
 SDict begin 19.57509 H.L end
  1819 5181 a 1819 5181 a
 SDict begin [/Subtype /Link/Dest (subsection.resumo.2.3.3) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 1819 5181 a 83 w Fm(.)50 b(.)g(.)g(.)g(.)g(.)
+ 1819 5181 a 83 w Fn(.)50 b(.)g(.)g(.)g(.)g(.)
 g(.)g(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f
 (.)p 0 TeXcolorgray 93 w(16)p 0 TeXcolorgray 479 5403
 a
 SDict begin H.S end
- 479 5403 a Fm(2.3.4)112 b(P\023)-49 b(os-Pro)s(cessador)1486
+ 479 5403 a Fn(2.3.4)112 b(P\023)-49 b(os-Pro)s(cessador)1486
 5403 y
 SDict begin 19.57509 H.L end
  1486 5403 a 1486 5403 a
 SDict begin [/Subtype /Link/Dest (subsection.resumo.2.3.4) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 1486 5403 a 32 w Fm(.)50
+ 1486 5403 a 32 w Fn(.)50
 b(.)g(.)g(.)g(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)h(.)g
 (.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)f(.)p 0 TeXcolorgray
 93 w(16)p 0 TeXcolorgray 255 5624 a
 SDict begin H.S end
- 255 5624 a Fm(2.4)99
+ 255 5624 a Fn(2.4)99
 b(Av)-5 b(alia\030)-43 b(c~)-49 b(ao)33 b(de)g(Desemp)s(enho)h(de)f(um)
 g(Reconhecedor)2508 5624 y
 SDict begin 19.57509 H.L end
@@ -6597,8 +6759,8 @@ SDict begin 19.57509 H.L end
 SDict begin [/Subtype /Link/Dest (section.resumo.2.4) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
  2508
-5624 a 87 w Fm(.)50 b(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g
-(.)f(.)p 0 TeXcolorgray 93 w(16)p 0 TeXcolorgray 0 TeXcolorgray
+5624 a 87 w Fn(.)50 b(.)f(.)h(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g(.)g
+(.)f(.)p 0 TeXcolorgray 93 w(17)p 0 TeXcolorgray 0 TeXcolorgray
 0 TeXcolorgray eop end
 %%Page: 6 9
 TeXDict begin 6 8 bop 0 TeXcolorgray 0 0 a
@@ -6615,26 +6777,26 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.6) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3843 -28 a Fh(6)p 0 TeXcolorgray 109 256 a
+3843 -28 a Fi(6)p 0 TeXcolorgray 109 256 a
 SDict begin H.S end
  109 256 a
-Fg(3)90 b(Mo)s(delos)39 b(Ocultos)e(de)h(Mark)m(o)m(v)1636
+Fh(3)90 b(Mo)s(delos)39 b(Ocultos)e(de)h(Mark)m(o)m(v)1636
 256 y
 SDict begin 19.57509 H.L end
  1636 256 a 1636 256 a
 SDict begin [/Subtype /Link/Dest (chapter.resumo.3) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 1636 256 a 2140 w Fg(18)109
+ 1636 256 a 2140 w Fh(18)109
 575 y
 SDict begin H.S end
- 109 575 a Fg(Refer)n(^)-54 b(encias)38 b(Bibliogr)o(\023)-55
+ 109 575 a Fh(Refer)n(^)-54 b(encias)38 b(Bibliogr)o(\023)-55
 b(a\014cas)1362 575 y
 SDict begin 19.57509 H.L end
  1362 575 a 1362 575 a
 SDict begin [/Subtype /Link/Dest (chapter.resumo.3) cvn/H /I/Border
 [0 0 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
  1362 575
-a 2414 w Fg(19)p 0 TeXcolorgray 0 TeXcolorgray eop end
+a 2414 w Fh(19)p 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 7 10
 TeXDict begin 7 9 bop 0 TeXcolorgray 0 0 a
 SDict begin /product where{pop product(Distiller)search{pop pop pop
@@ -6650,7 +6812,7 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.7) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3843
--28 a Fh(7)p 0 TeXcolorgray 109 156 a
+-28 a Fi(7)p 0 TeXcolorgray 109 156 a
 SDict begin H.S end
  109 156 a 109 156
 a
@@ -6658,69 +6820,69 @@ SDict begin 19.57509 H.A end
  109 156 a 109 156 a
 SDict begin [/View [/XYZ H.V]/Dest (chapter.resumo.1) cvn /DEST pdfmark
 end
- 109 156 a 559 x Ff(1)245 b(Intr)-12
-b(o)g(du\030)-110 b(c~)-122 b(ao)109 1566 y Fm(A)27 b(fala)c(\023)-46
+ 109 156 a 559 x Fg(1)245 b(Intr)-12
+b(o)g(du\030)-110 b(c~)-122 b(ao)109 1566 y Fn(A)27 b(fala)c(\023)-46
 b(e)27 b(a)f(principal)i(forma)f(de)g(com)m(unica\030)-43
 b(c~)-49 b(ao)28 b(dos)f(seres)h(h)m(umanos,)i(desde)e(o)f(in)-11
 b(\023)-38 b(\020cio)27 b(dos)g(computa-)109 1729 y(dores,)h(a)f(busca)
 h(p)s(or)e(computadores)j(mais)e(in)m(teligen)m(tes,)k(lev)-5
 b(am)27 b(cien)m(tistas)i(ao)d(estudo)i(de)g(Sistemas)109
-1891 y(de)i Fi(R)-5 b(e)g(c)g(onhe)g(cimento)30 b(A)n(utom\023)-50
-b(atic)-5 b(o)32 b(de)f(V)-7 b(oz)42 b Fm(visando)30
+1891 y(de)i Fj(R)-5 b(e)g(c)g(onhe)g(cimento)30 b(A)n(utom\023)-50
+b(atic)-5 b(o)32 b(de)f(V)-7 b(oz)42 b Fn(visando)30
 b(uma)g(com)m(unica\030)-43 b(c~)-49 b(ao)30 b(natural)g(en)m(tre)g(o)f
 (homem)109 2054 y(e)37 b(a)g(m\023)-49 b(aquina,)39 b(in)m(tera\030)-43
 b(c~)-49 b(ao)38 b(vista)g(ap)s(enas)g(em)f(\014lmes)i(de)f(\014c\030)
 -43 b(c~)-49 b(ao)37 b(cien)m(t)-11 b(\023)-38 b(\020\014ca)39
 b(\()3005 2054 y
 SDict begin H.S end
- 3005 2054 a 0 TeXcolorgray Fm(SIL)-11
+ 3005 2054 a 0 TeXcolorgray Fn(SIL)-11
 b(V)g(A)p 0 TeXcolorgray 3280 1986 a
 SDict begin H.R end
  3280 1986 a 3280
 2054 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavPtBrCarlos) cvn H.B /ANN pdfmark end
- 3280 2054 a Fm(,)3346 2054 y
+ 3280 2054 a Fn(,)3346 2054 y
 SDict begin H.S end
  3346 2054 a 0 TeXcolorgray
-Fm(2010)p 0 TeXcolorgray 3541 1990 a
+Fn(2010)p 0 TeXcolorgray 3541 1990 a
 SDict begin H.R end
  3541 1990 a 3541
 2054 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavPtBrCarlos) cvn H.B /ANN pdfmark end
- 3541 2054 a Fm(\).)57 b(Esses)109 2216 y(sistemas)32
+ 3541 2054 a Fn(\).)57 b(Esses)109 2216 y(sistemas)32
 b(tam)m(b)m(\023)-46 b(em)32 b(s~)-49 b(ao)31 b(c)m(hamados)h(de)g
-Fi(\(RA)-10 b(V\))p Fm(.)31 b(P)m(ara)g(esses)i(estudos)f(virarem)g
+Fj(\(RA)-10 b(V\))p Fn(.)31 b(P)m(ara)g(esses)i(estudos)f(virarem)g
 (realidade,)g(os)f(com-)109 2379 y(putadores)i(ter~)-49
 b(ao)33 b(de)h(p)s(ossuir)g(total)e(en)m(tendimen)m(to)j(da)e(fala)g(h)
 m(umana,)h(capacidades)g(como:)45 b(falar,)109 2541 y(ouvir,)30
 b(ler,)g(escrev)m(er,)i(alem)d(do)g(reconhecimen)m(to)i(de)e(p)s
 (essoas)h(p)s(ela)f(v)m(oz,)i(dev)m(em)f(ser)g(estab)s(elecidas.)109
 2704 y(Essas)38 b(capacidades)g(s~)-49 b(ao)36 b(os)h(ob)5
-b(jetiv)m(os)38 b(dos)e(sistemas)j(de)e Fi(RA)-10 b(V)p
-Fm(,)37 b(p)s(ermitindo)g(que)h(o)e(computador)109 2866
+b(jetiv)m(os)38 b(dos)e(sistemas)j(de)e Fj(RA)-10 b(V)p
+Fn(,)37 b(p)s(ermitindo)g(que)h(o)e(computador)109 2866
 y(\\en)m(tenda")j(o)f(que)i(est\023)-49 b(a)39 b(sendo)g(dito)f(\()1581
 2866 y
 SDict begin H.S end
- 1581 2866 a 0 TeXcolorgray Fm(SIL)-11 b(V)g(A)p
+ 1581 2866 a 0 TeXcolorgray Fn(SIL)-11 b(V)g(A)p
 0 TeXcolorgray 1856 2798 a
 SDict begin H.R end
  1856 2798 a 1856 2866 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavCorporaCarlos) cvn H.B /ANN pdfmark end
  1856
-2866 a Fm(,)1923 2866 y
+2866 a Fn(,)1923 2866 y
 SDict begin H.S end
- 1923 2866 a 0 TeXcolorgray Fm(2008)p
+ 1923 2866 a 0 TeXcolorgray Fn(2008)p
 0 TeXcolorgray 2118 2802 a
 SDict begin H.R end
  2118 2802 a 2118 2866 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavCorporaCarlos) cvn H.B /ANN pdfmark end
  2118
-2866 a Fm(\).)61 b(Os)39 b(sistemas)h(de)f Fi(RA)-10
-b(V)58 b Fm(ev)m(oluiram)40 b(consi-)109 3029 y(der\023)-49
+2866 a Fn(\).)61 b(Os)39 b(sistemas)h(de)f Fj(RA)-10
+b(V)58 b Fn(ev)m(oluiram)40 b(consi-)109 3029 y(der\023)-49
 b(av)m(elmen)m(te)31 b(com)d(o)g(passar)g(dos)h(anos,)g(e)f(sua)g
 (aplica\030)-43 b(c~)-49 b(ao)29 b(se)f(encon)m(tra)h(em)g(div)m(ersas)
 h(\023)-49 b(areas,)29 b(como:)109 3192 y(sistemas)45
@@ -6733,48 +6895,48 @@ b(os)36 b(in)m(te-)109 3517 y(ligen)m(tes,)j(seguran\030)-43
 b(ca)37 b(etc)g(\()1144 3517 y
 SDict begin H.S end
  1144 3517 a 0 TeXcolorgray
-Fm(SIL)-11 b(V)g(A)p 0 TeXcolorgray 1419 3448 a
+Fn(SIL)-11 b(V)g(A)p 0 TeXcolorgray 1419 3448 a
 SDict begin H.R end
  1419
 3448 a 1419 3517 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavPtBrCarlos) cvn H.B /ANN pdfmark end
- 1419 3517 a Fm(,)1483 3517 y
+ 1419 3517 a Fn(,)1483 3517 y
 SDict begin H.S end
  1483
-3517 a 0 TeXcolorgray Fm(2010)p 0 TeXcolorgray 1678 3452
+3517 a 0 TeXcolorgray Fn(2010)p 0 TeXcolorgray 1678 3452
 a
 SDict begin H.R end
  1678 3452 a 1678 3517 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavPtBrCarlos) cvn H.B /ANN pdfmark end
- 1678 3517 a Fm(\).)55 b(Mas)37
+ 1678 3517 a Fn(\).)55 b(Mas)37
 b(mesmo)g(com)g(to)s(da)f(ev)m(olu\030)-43 b(c~)-49 b(ao)37
 b(do)g(hardw)m(are)g(dos)109 3679 y(computadores)j(e)g(otimiza\030)-43
 b(c~)-49 b(ao)40 b(dos)g(algoritmos)f(e)h(m)m(\023)-46
-b(eto)s(dos,)42 b(os)d(sistemas)j Fi(RA)-10 b(V)58 b
-Fm(est~)-49 b(ao)40 b(longe)g(de)109 3842 y(compreender)35
+b(eto)s(dos,)42 b(os)d(sistemas)j Fj(RA)-10 b(V)58 b
+Fn(est~)-49 b(ao)40 b(longe)g(de)109 3842 y(compreender)35
 b(um)g(discurso)g(sobre)g(qualquer)g(assun)m(to,)h(falado)d(de)h(forma)
 g(natural,)g(p)s(or)g(qualquer)109 4004 y(p)s(essoa,)f(em)g(qualquer)h
 (am)m(bien)m(te)h(\()1457 4004 y
 SDict begin H.S end
  1457 4004 a 0 TeXcolorgray
-Fm(SIL)-11 b(V)g(A)p 0 TeXcolorgray 1731 3936 a
+Fn(SIL)-11 b(V)g(A)p 0 TeXcolorgray 1731 3936 a
 SDict begin H.R end
  1731
 3936 a 1731 4004 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavIsolAnderson) cvn H.B /ANN pdfmark end
- 1731 4004 a Fm(,)1791 4004 y
+ 1731 4004 a Fn(,)1791 4004 y
 SDict begin H.S end
  1791
-4004 a 0 TeXcolorgray Fm(2009)p 0 TeXcolorgray 1986 3940
+4004 a 0 TeXcolorgray Fn(2009)p 0 TeXcolorgray 1986 3940
 a
 SDict begin H.R end
  1986 3940 a 1986 4004 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavIsolAnderson) cvn H.B /ANN pdfmark end
- 1986 4004 a Fm(\).)274 4226
+ 1986 4004 a Fn(\).)274 4226
 y(Com)25 b(a)g(tend)m(^)-46 b(encia)26 b(da)f(melhora)g(dos)h(pro)s
 (cessadores,)i(mem\023)-49 b(orias)26 b(e)f(placas)h(de)f(v)-11
 b(\023)-38 b(\020deo,)27 b(esta)f(linha)109 4388 y(de)j(pro)s(cessamen)
@@ -6803,22 +6965,22 @@ b(a)e(ideia)h(de)g(Russel)h(era)e(fazer)h(um)f(\014lme)i(in)m(terativ)m
 (jogos)f(eletr^)-49 b(onicos)32 b(\()2145 5910 y
 SDict begin H.S end
  2145
-5910 a 0 TeXcolorgray Fm(RAMOS)p 0 TeXcolorgray 2510
+5910 a 0 TeXcolorgray Fn(RAMOS)p 0 TeXcolorgray 2510
 5842 a
 SDict begin H.R end
  2510 5842 a 2510 5910 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.HistJogosHenrique) cvn H.B /ANN pdfmark end
- 2510 5910 a Fm(,)2568
+ 2510 5910 a Fn(,)2568
 5910 y
 SDict begin H.S end
- 2568 5910 a 0 TeXcolorgray Fm(2007)p 0 TeXcolorgray
+ 2568 5910 a 0 TeXcolorgray Fn(2007)p 0 TeXcolorgray
 2763 5846 a
 SDict begin H.R end
  2763 5846 a 2763 5910 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.HistJogosHenrique) cvn H.B /ANN pdfmark end
- 2763 5910 a Fm(\).)43
+ 2763 5910 a Fn(\).)43
 b(Milhares)32 b(de)f(jogos)g(foram)p 0 TeXcolorgray 0
 TeXcolorgray eop end
 %%Page: 8 11
@@ -6836,7 +6998,7 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.8) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3843 -28 a Fh(8)p 0 TeXcolorgray 109 256 a Fm(desen)m(v)m(olvidos)32
+3843 -28 a Fi(8)p 0 TeXcolorgray 109 256 a Fn(desen)m(v)m(olvidos)32
 b(nas)e(d)m(\023)-46 b(ecadas)30 b(seguin)m(tes,)j(passando)d(p)s(or)f
 (tetrix)g(do)h(russo)g(Alexey)h(P)m(a)5 b(jitno)m(v,)31
 b(sup)s(er)109 418 y(M\023)-49 b(ario)33 b(que)i(foi)e(o)h(jogo)e(mais)
@@ -6859,22 +7021,22 @@ d(o)f(seu)109 1556 y(carro,)41 b(ou)f(simplesmen)m(te)j(\\afundar")d(o)
 f(p)m(\023)-46 b(e)41 b(no)f(acelerador)g(\()2490 1556
 y
 SDict begin H.S end
- 2490 1556 a 0 TeXcolorgray Fm(BOR)m(GES)p 0 TeXcolorgray
+ 2490 1556 a 0 TeXcolorgray Fn(BOR)m(GES)p 0 TeXcolorgray
 2901 1488 a
 SDict begin H.R end
  2901 1488 a 2901 1556 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.XBoxTechT) cvn H.B /ANN pdfmark end
- 2901 1556 a Fm(,)2970
+ 2901 1556 a Fn(,)2970
 1556 y
 SDict begin H.S end
- 2970 1556 a 0 TeXcolorgray Fm(2010)p 0 TeXcolorgray
+ 2970 1556 a 0 TeXcolorgray Fn(2010)p 0 TeXcolorgray
 3165 1491 a
 SDict begin H.R end
  3165 1491 a 3165 1556 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.XBoxTechT) cvn H.B /ANN pdfmark end
- 3165 1556 a Fm(\).)66
+ 3165 1556 a Fn(\).)66
 b(Mas)40 b(a)g(grande)109 1718 y(rev)m(olu\030)-43 b(c~)-49
 b(ao)39 b(ainda)g(esta)m(v)-5 b(a)39 b(p)s(or)g(vir,)h(em)g(no)m(v)m
 (em)m(bro)g(de)f(2010,)h(a)e(Microsoft)i(lan\030)-43
@@ -6886,22 +7048,22 @@ f(m)-11 b(\023)-38 b(\020stica)32 b(de)f(que)g(jogar)f(videogame)f
 (\023)-46 b(e)31 b(sinal)109 2206 y(de)i(seden)m(tarimo)h(\()822
 2206 y
 SDict begin H.S end
- 822 2206 a 0 TeXcolorgray Fm(BOR)m(GES)p 0 TeXcolorgray
+ 822 2206 a 0 TeXcolorgray Fn(BOR)m(GES)p 0 TeXcolorgray
 1233 2138 a
 SDict begin H.R end
  1233 2138 a 1233 2206 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.KinectTechT) cvn H.B /ANN pdfmark end
- 1233 2206 a Fm(,)1293
+ 1233 2206 a Fn(,)1293
 2206 y
 SDict begin H.S end
- 1293 2206 a 0 TeXcolorgray Fm(2011)p 0 TeXcolorgray
+ 1293 2206 a 0 TeXcolorgray Fn(2011)p 0 TeXcolorgray
 1488 2142 a
 SDict begin H.R end
  1488 2142 a 1488 2206 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.KinectTechT) cvn H.B /ANN pdfmark end
- 1488 2206 a Fm(\).)109
+ 1488 2206 a Fn(\).)109
 2381 y
 SDict begin H.S end
  109 2381 a 109 2381 a
@@ -6910,8 +7072,8 @@ SDict begin 19.57509 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.1.1) cvn /DEST pdfmark
 end
  109
-2381 a 217 x Fe(1.1)160 b(Ob)9 b(jetiv)l(os)109 2918
-y Fm(O)40 b(ob)5 b(jetiv)m(o)42 b(geral)e(deste)i(trabalho)37
+2381 a 217 x Ff(1.1)160 b(Ob)9 b(jetiv)l(os)109 2918
+y Fn(O)40 b(ob)5 b(jetiv)m(o)42 b(geral)e(deste)i(trabalho)37
 b(\023)-46 b(e)41 b(desen)m(v)m(olv)m(er)j(um)d(jogo)e(in)m(terativ)m
 (o)j(guiado)e(p)s(or)g(comandos)109 3080 y(de)c(v)m(oz)i(ditados)e(p)s
 (elo)h(usu\023)-49 b(ario,)37 b(o)f(m)m(\023)-46 b(eto)s(do)37
@@ -6941,8 +7103,8 @@ SDict begin 19.57509 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.1.2) cvn /DEST pdfmark
 end
  109
-4387 a 223 x Fe(1.2)160 b(Motiv)-9 b(a\030)-72 b(c~)-81
-b(oes)109 4930 y Fm(A)45 b(maior)h(motiv)-5 b(a\030)-43
+4387 a 223 x Ff(1.2)160 b(Motiv)-9 b(a\030)-72 b(c~)-81
+b(oes)109 4930 y Fn(A)45 b(maior)h(motiv)-5 b(a\030)-43
 b(c~)-49 b(ao)45 b(seria)i(o)e(aumen)m(to)h(de)h(desemp)s(enho)g
 (individual,)k(p)s(ois)46 b(sendo)g(o)g(meio)g(de)109
 5093 y(com)m(unica\030)-43 b(c~)-49 b(ao)35 b(mais)f(natural)g(para)f
@@ -6969,7 +7131,7 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.9) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3843
--28 a Fh(9)p 0 TeXcolorgray 109 156 a
+-28 a Fi(9)p 0 TeXcolorgray 109 156 a
 SDict begin H.S end
  109 156 a 109 156
 a
@@ -6977,27 +7139,27 @@ SDict begin 19.57509 H.A end
  109 156 a 109 156 a
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.1.3) cvn /DEST pdfmark
 end
- 109 156 a 100 x Fe(1.3)160 b(Aplica\030)-72
+ 109 156 a 100 x Ff(1.3)160 b(Aplica\030)-72
 b(c~)-81 b(oes)39 b(do)h(reconhecimen)l(to)d(autom)o(\023)-80
-b(atico)40 b(de)g(fala)109 576 y Fm(Segundo)498 576 y
+b(atico)40 b(de)g(fala)109 576 y Fn(Segundo)498 576 y
 SDict begin H.S end
 
-498 576 a 0 TeXcolorgray Fm(Martins)p 0 TeXcolorgray
+498 576 a 0 TeXcolorgray Fn(Martins)p 0 TeXcolorgray
 832 508 a
 SDict begin H.R end
  832 508 a 832 576 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 832 576 a 32 w Fm(\()902
+ 832 576 a 32 w Fn(\()902
 576 y
 SDict begin H.S end
- 902 576 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
+ 902 576 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
 1097 512 a
 SDict begin H.R end
  1097 512 a 1097 576 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1097 576 a Fm(\))32
+ 1097 576 a Fn(\))32
 b(os)g(sistemas)i(com)e(reconhecimen)m(to)j(de)d(v)m(oz)h(p)s(o)s(dem)f
 (ser)h(aplicados)g(em)109 738 y(qualquer)25 b(atividade)g(que)h
 (demande)f(in)m(tera\030)-43 b(c~)-49 b(ao)25 b(homem-m\023)-49
@@ -7007,40 +7169,40 @@ b(ecada)33 b(ele)f(j\023)-49 b(a)31 b(mostra)m(v)-5 b(a)33
 b(a)e(imp)s(ort^)-49 b(ancia)32 b(do)g(uso)g(de)g(v)m(oz)h(em)f(div)m
 (ersas)i(aplica\030)-43 b(c~)-49 b(oes,)109 1063 y(algumas)33
 b(dessas)h(\023)-49 b(areas)33 b(s~)-49 b(ao:)p 0 TeXcolorgray
-255 1393 a Fl(\210)p 0 TeXcolorgray 49 w Fm(Sistemas)33
+255 1393 a Fm(\210)p 0 TeXcolorgray 49 w Fn(Sistemas)33
 b(de)g(con)m(trole)g(e)g(comando:)43 b(Estes)34 b(sistemas)h(utilizam)e
 (a)f(fala)f(para)h(realizar)h(deter-)353 1555 y(minadas)g(fun\030)-43
-b(c~)-49 b(oes;)p 0 TeXcolorgray 255 1801 a Fl(\210)p
-0 TeXcolorgray 49 w Fm(Sistemas)40 b(de)f(telefonia:)55
+b(c~)-49 b(oes;)p 0 TeXcolorgray 255 1801 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(Sistemas)40 b(de)f(telefonia:)55
 b(O)39 b(usu\023)-49 b(ario)39 b(p)s(o)s(de)f(utilizar)h(a)f(v)m(oz)h
 (para)g(fazer)f(uma)h(c)m(hamada,)i(ao)353 1963 y(in)m(v)m(\023)-46
 b(es)34 b(de)f(discar)g(o)g(n)s(\023)-51 b(umero;)p 0
-TeXcolorgray 255 2209 a Fl(\210)p 0 TeXcolorgray 49 w
-Fm(Sistemas)30 b(de)f(transcri\030)-43 b(c~)-49 b(ao:)43
+TeXcolorgray 255 2209 a Fm(\210)p 0 TeXcolorgray 49 w
+Fn(Sistemas)30 b(de)f(transcri\030)-43 b(c~)-49 b(ao:)43
 b(T)-8 b(extos)30 b(falados)e(p)s(elo)h(usu\023)-49 b(ario)30
 b(p)s(o)s(dem)f(ser)g(transcritos)h(automa-)353 2371
 y(ticamen)m(te)k(p)s(or)e(estes)i(sistemas;)p 0 TeXcolorgray
-255 2617 a Fl(\210)p 0 TeXcolorgray 49 w Fm(Acesso)i(\022)-49
+255 2617 a Fm(\210)p 0 TeXcolorgray 49 w Fn(Acesso)i(\022)-49
 b(a)34 b(informa\030)-43 b(c~)-49 b(ao:)48 b(O)35 b(usu\023)-49
 b(ario)35 b(receb)s(e)h(algum)f(tip)s(o)f(de)i(informa\030)-43
 b(c~)-49 b(ao,)35 b(que)h(se)f(encon)m(tra)353 2779 y(armazenada)j(em)g
 (um)h(banco)f(de)g(dados.)60 b(Exemplo:)c(not)-11 b(\023)-38
 b(\020cias,)40 b(previs~)-49 b(ao)39 b(do)f(temp)s(o,)i(hora)353
-2942 y(certa,)33 b(etc.)p 0 TeXcolorgray 255 3188 a Fl(\210)p
-0 TeXcolorgray 49 w Fm(Cen)m(trais)e(de)g(atendimen)m(to)h(ao)e(clien)m
+2942 y(certa,)33 b(etc.)p 0 TeXcolorgray 255 3188 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(Cen)m(trais)e(de)g(atendimen)m(to)h(ao)e(clien)m
 (te:)44 b(Uma)30 b(atenden)m(te)i(virtual)f(p)s(o)s(de)f(ser)h
 (utilizada)g(a)f(\014m)353 3350 y(de)j(realizar)f(o)h(atendimen)m(to)h
-(ao)e(clien)m(te;)p 0 TeXcolorgray 255 3596 a Fl(\210)p
-0 TeXcolorgray 49 w Fm(Op)s(era\030)-43 b(c~)-49 b(oes)39
+(ao)e(clien)m(te;)p 0 TeXcolorgray 255 3596 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(Op)s(era\030)-43 b(c~)-49 b(oes)39
 b(banc\023)-49 b(arias:)55 b(O)38 b(usu\023)-49 b(ario)39
 b(efetua)f(op)s(era\030)-43 b(c~)-49 b(oes)39 b(banc\023)-49
 b(arias,)41 b(como)d(informa\030)-43 b(c~)-49 b(oes)39
 b(do)353 3758 y(seu)33 b(saldo,)g(trasnfer)m(^)-46 b(encias)34
-b(de)f(dinheiro.)p 0 TeXcolorgray 255 4004 a Fl(\210)p
-0 TeXcolorgray 49 w Fm(Preenc)m(himen)m(to)i(de)e(form)m(ul\023)-49
+b(de)f(dinheiro.)p 0 TeXcolorgray 255 4004 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(Preenc)m(himen)m(to)i(de)e(form)m(ul\023)-49
 b(arios:)44 b(O)32 b(usu\023)-49 b(ario)33 b(en)m(tra)g(com)g(os)g
-(dados)g(via)g(fala.)p 0 TeXcolorgray 255 4249 a Fl(\210)p
-0 TeXcolorgray 49 w Fm(Rob\023)-49 b(otica:)43 b(Rob^)-49
+(dados)g(via)g(fala.)p 0 TeXcolorgray 255 4249 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(Rob\023)-49 b(otica:)43 b(Rob^)-49
 b(os)32 b(p)s(o)s(dem)h(se)g(com)m(unicar)h(p)s(ela)f(fala)f(com)h
 (seus)h(donos.)274 4579 y(Como)46 b(essas)h(\023)-49
 b(areas)45 b(s~)-49 b(ao)46 b(m)m(uito)g(imp)s(ortan)m(tes)g(para)f(os)
@@ -7050,22 +7212,22 @@ b(oes)34 b(de)f(a\030)-43 b(c~)-49 b(oes.)44 b(Como)33
 b(exemplo)h(temos:)274 4963 y
 SDict begin H.S end
  274 4963 a 0 TeXcolorgray
-Fm(Barcelos)p 0 TeXcolorgray 631 4894 a
+Fn(Barcelos)p 0 TeXcolorgray 631 4894 a
 SDict begin H.R end
  631 4894 a 631
 4963 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavCadeiraAedb) cvn H.B /ANN pdfmark end
- 631 4963 a 36 w Fm(\()705 4963 y
+ 631 4963 a 36 w Fn(\()705 4963 y
 SDict begin H.S end
  705 4963 a 0
-TeXcolorgray Fm(2007)p 0 TeXcolorgray 900 4899 a
+TeXcolorgray Fn(2007)p 0 TeXcolorgray 900 4899 a
 SDict begin H.R end
  900
 4899 a 900 4963 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavCadeiraAedb) cvn H.B /ANN pdfmark end
- 900 4963 a Fm(\))h(desen)m(v)m(olv)m(e)40
+ 900 4963 a Fn(\))h(desen)m(v)m(olv)m(e)40
 b(uma)35 b(aplica\030)-43 b(c~)-49 b(ao)36 b(de)h(reconhecimen)m(to)h
 (de)e(v)m(oz)h(para)e(aplica\030)-43 b(c~)-49 b(oes)109
 5125 y(em)52 b(cadeira)g(de)g(ro)s(das,)k(onde)c(o)g(cadeiran)m(te)g
@@ -7075,24 +7237,24 @@ b(uma)35 b(aplica\030)-43 b(c~)-49 b(ao)36 b(de)h(reconhecimen)m(to)h
 (IBM)g(Via)f(V)-8 b(oice,)34 b(que)g(segundo)109 5450
 y
 SDict begin H.S end
- 109 5450 a 0 TeXcolorgray Fm(Damasceno)p 0 TeXcolorgray
+ 109 5450 a 0 TeXcolorgray Fn(Damasceno)p 0 TeXcolorgray
 590 5382 a
 SDict begin H.R end
  590 5382 a 590 5450 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.ImplementServVirtuaisDamasceno) cvn H.B /ANN pdfmark
 end
- 590 5450 a 35 w Fm(\()663
+ 590 5450 a 35 w Fn(\()663
 5450 y
 SDict begin H.S end
- 663 5450 a 0 TeXcolorgray Fm(2005)p 0 TeXcolorgray
+ 663 5450 a 0 TeXcolorgray Fn(2005)p 0 TeXcolorgray
 858 5386 a
 SDict begin H.R end
  858 5386 a 858 5450 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.ImplementServVirtuaisDamasceno) cvn H.B /ANN pdfmark
 end
- 858 5450 a Fm(\))h(obtev)m(e)h(um)g
+ 858 5450 a Fn(\))h(obtev)m(e)h(um)g
 (melhor)f(desemp)s(enho)i(e)f(aplicabilidade)g(quando)f(comparado)g(a)
 109 5613 y(outros)27 b(soft)m(w)m(ares,)j(considerando)e(a)f(l)-11
 b(\023)-38 b(\020ngua)27 b(falada,)h(a)f(robustez)h(do)f(reconhecimen)m
@@ -7115,29 +7277,29 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.10) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3797 -28 a Fh(10)p 0 TeXcolorgray 274 256 a Fm(J\023)-49
+3797 -28 a Fi(10)p 0 TeXcolorgray 274 256 a Fn(J\023)-49
 b(a)45 b(em)588 275 y
 SDict begin H.S end
  588 275 a 0 TeXcolorgray -19 x
-Fm(Ro)s(drigues)p 0 TeXcolorgray 1015 186 a
+Fn(Ro)s(drigues)p 0 TeXcolorgray 1015 186 a
 SDict begin H.R end
  1015 186
 a 1015 256 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AcionamentRoboLegoFabio) cvn H.B /ANN pdfmark end
- 1015 256 a 45 w Fm(\()1098 256 y
+ 1015 256 a 45 w Fn(\()1098 256 y
 SDict begin H.S end
  1098 256
-a 0 TeXcolorgray Fm(2009)p 0 TeXcolorgray 1293 191 a
+a 0 TeXcolorgray Fn(2009)p 0 TeXcolorgray 1293 191 a
 SDict begin H.R end
 
 1293 191 a 1293 256 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AcionamentRoboLegoFabio) cvn H.B /ANN pdfmark end
- 1293 256 a Fm(\),)j(para)d(efetuar)g(o)g
+ 1293 256 a Fn(\),)j(para)d(efetuar)g(o)g
 (reconhecimen)m(to)i(de)f(v)m(oz)g(foi)e(utilizado)i(redes)109
 418 y(neurais)33 b(arti\014ciais,)g(tam)m(b)m(\023)-46
-b(em)33 b(c)m(hamadas)g(de)g Fi(\(RNA\))p Fm(.)g(Usando)f(como)h(base)g
+b(em)33 b(c)m(hamadas)g(de)g Fj(\(RNA\))p Fn(.)g(Usando)f(como)h(base)g
 (RNA)f(foi)g(criado)g(uma)109 581 y(rede)45 b(para)g(iden)m(ti\014car)h
 (comandos)f(b\023)-49 b(asicos)46 b(de)f(v)m(oz,)k(e)c(assim,)k
 (efetuar)c(o)g(acionamen)m(to)g(de)h(um)109 743 y(rob^)-49
@@ -7159,8 +7321,8 @@ SDict begin 19.57509 H.A end
  109 1381 a 109 1381 a
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.1.4) cvn /DEST pdfmark
 end
- 109 1381 a 241 x Fe(1.4)160
-b(Meto)t(dologia)109 1943 y Fm(P)m(ara)33 b(o)f(prop\023)-49
+ 109 1381 a 241 x Ff(1.4)160
+b(Meto)t(dologia)109 1943 y Fn(P)m(ara)33 b(o)f(prop\023)-49
 b(osito)34 b(deste)g(trabalho)e(se)i(estab)s(eleceu)h(estudos)g(de)e(t)
 m(\023)-46 b(ecnicas)35 b(de)e(reconhecimen)m(to)j(de)109
 2105 y(v)m(oz)22 b(para)g(comandos,)i(t)m(\023)-46 b(ecnicas)24
@@ -7185,10 +7347,10 @@ SDict begin 19.57509 H.A end
 2925 a
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.1.5) cvn /DEST pdfmark
 end
- 109 2925 a 222 x Fe(1.5)160 b(Vis)o(~)-80 b(ao)54
-b(Geral)f(do)g(T)-13 b(rabalho)109 3467 y Fm(Neste)43
+ 109 2925 a 222 x Ff(1.5)160 b(Vis)o(~)-80 b(ao)54
+b(Geral)f(do)g(T)-13 b(rabalho)109 3467 y Fn(Neste)43
 b(trabalhou)f(buscou-se)h(desen)m(v)m(olv)m(er)j(um)c(sistema)i
-Fi(RA)-10 b(V)61 b Fm(com)42 b(baixa)g(taxa)g(de)h(erros,)i(um)109
+Fj(RA)-10 b(V)61 b Fn(com)42 b(baixa)g(taxa)g(de)h(erros,)i(um)109
 3630 y(dicion\023)-49 b(ario)35 b(p)s(equeno)h(de)g(pala)m(vras)g(e)g
 (reconhecimen)m(to)h(de)f(pala)m(vras)g(isoladas,)g(que)g(s~)-49
 b(ao)36 b(a)f(melhor)109 3792 y(forma)e(de)h(in)m(tro)s(du\030)-43
@@ -7199,14 +7361,14 @@ h(aplica\030)-43 b(c~)-49 b(oes)37 b(com)f(reconhecimen)m(to)i(de)f
 b(e)f(v)m(o)s(cabul\023)-49 b(arios)109 4117 y(grandes.)44
 b(O)32 b(sistema)i(desen)m(v)m(olvido)f(\023)-46 b(e)33
 b(baseado)g(nos)g(mo)s(delos)g(o)s(cultos)g(de)g(Mark)m(o)m(v)h
-Fi(\(HMM\))p Fm(.)274 4339 y(Este)g(trabalho)e(est\023)-49
+Fj(\(HMM\))p Fn(.)274 4339 y(Este)g(trabalho)e(est\023)-49
 b(a)33 b(dividido)h(em)f(cap)-11 b(\023)-38 b(\020tulos,)33
 b(que)h(s~)-49 b(ao)32 b(descritos)i(a)f(seguir:)274
 4561 y(O)j(Cap)-11 b(\023)-38 b(\020tulo)37 b(2)g(tem)g(como)f(ob)5
 b(jetiv)m(o)38 b(fazer)f(as)f(refer)m(^)-46 b(encias)39
 b(te\023)-49 b(oricas)37 b(sobre)g(o)f(pro)s(cessamen)m(to)109
-4723 y(do)f(sinal)g(de)h(fala,)f(sistemas)h Fi(RA)-10
-b(V)p Fm(,)36 b(como)f(suas)h(caracter)-11 b(\023)-38
+4723 y(do)f(sinal)g(de)h(fala,)f(sistemas)h Fj(RA)-10
+b(V)p Fn(,)36 b(como)f(suas)h(caracter)-11 b(\023)-38
 b(\020sticas,)37 b(hist\023)-49 b(orico)36 b(e)f(reconhecimen)m(to)j
 (de)109 4886 y(padr~)-49 b(oes.)p 0 TeXcolorgray 0 TeXcolorgray
 eop end
@@ -7225,7 +7387,7 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.11) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3797
--28 a Fh(11)p 0 TeXcolorgray 109 156 a
+-28 a Fi(11)p 0 TeXcolorgray 109 156 a
 SDict begin H.S end
  109 156 a 109
 156 a
@@ -7233,22 +7395,22 @@ SDict begin 19.57509 H.A end
  109 156 a 109 156 a
 SDict begin [/View [/XYZ H.V]/Dest (chapter.resumo.2) cvn /DEST pdfmark
 end
- 109 156 a 559 x Ff(2)245 b(Sistemas)85
+ 109 156 a 559 x Fg(2)245 b(Sistemas)85
 b(de)h(R)-12 b(e)g(c)g(onhe)g(cimento)476 964 y(A)-6
 b(utom\023)-122 b(atic)-12 b(o)85 b(de)h(V)-18 b(oz)109
-1780 y Fm(Sistemas)30 b(de)g(reconhecimen)m(to)i(autom\023)-49
+1780 y Fn(Sistemas)30 b(de)g(reconhecimen)m(to)i(autom\023)-49
 b(atico)29 b(de)h(v)m(oz,)h(tem)e(como)h(ob)5 b(jetiv)m(o,)31
 b(transformar)e(um)h(sinal)109 1943 y(anal\023)-49 b(ogico\(fala\))36
 b(obtido)h(atra)m(v)m(\023)-46 b(es)38 b(de)g(um)f(transdutor)2216
 1943 y
 SDict begin H.S end
- 2216 1943 a -36 x Fd(1)2255 1943 y
+ 2216 1943 a -36 x Fe(1)2255 1943 y
 SDict begin 19.57509 H.L end
  2255 1943 a
 2255 1943 a
 SDict begin [/Subtype /Link/Dest (Hfootnote.1) cvn/H /I/Border [0 0
 0]BorderArrayPatch/Color [1 0 0] H.B /ANN pdfmark end
- 2255 1943 a Fm(,)i(map)s(eando-o)d(a)h(\014m)h(de)f(pro)s
+ 2255 1943 a Fn(,)i(map)s(eando-o)d(a)h(\014m)h(de)f(pro)s
 (duzir)h(como)109 2105 y(sa)-11 b(\023)-38 b(\020da)40
 b(a)g(pala)m(vra,)i(uma)f(sequencia)h(de)f(fonemas)f(ou)g(uma)h(sen)m
 (ten\030)-43 b(cas)42 b(corresp)s(onden)m(tes)h(ao)d(sinal)109
@@ -7263,29 +7425,29 @@ SDict begin 19.57509 H.A end
  109 2598 a 109 2598 a
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.2.1) cvn /DEST pdfmark
 end
- 109 2598 a 223 x Fe(2.1)160
-b(F)-13 b(ala)109 3141 y Fm(A)47 b(fala)d(\023)-46 b(e)48
+ 109 2598 a 223 x Ff(2.1)160
+b(F)-13 b(ala)109 3141 y Fn(A)47 b(fala)d(\023)-46 b(e)48
 b(a)f(forma)g(de)g(com)m(unica\030)-43 b(c~)-49 b(ao)49
 b(mais)f(utilizada)g(p)s(elos)g(seres)h(h)m(umanos)f(\()3275
 3141 y
 SDict begin H.S end
- 3275 3141 a 0 TeXcolorgray Fm(SIL)-11 b(V)g(A)p
+ 3275 3141 a 0 TeXcolorgray Fn(SIL)-11 b(V)g(A)p
 0 TeXcolorgray 3550 3073 a
 SDict begin H.R end
  3550 3073 a 3550 3141 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavCorporaCarlos) cvn H.B /ANN pdfmark end
  3550
-3141 a Fm(,)3628 3141 y
+3141 a Fn(,)3628 3141 y
 SDict begin H.S end
- 3628 3141 a 0 TeXcolorgray Fm(2008)p
+ 3628 3141 a 0 TeXcolorgray Fn(2008)p
 0 TeXcolorgray 3823 3077 a
 SDict begin H.R end
  3823 3077 a 3823 3141 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavCorporaCarlos) cvn H.B /ANN pdfmark end
  3823
-3141 a Fm(\).)109 3304 y(A)m(tra)m(v)m(\023)-46 b(es)34
+3141 a Fn(\).)109 3304 y(A)m(tra)m(v)m(\023)-46 b(es)34
 b(da)g(fala,)e(o)h(c)m(\023)-46 b(erebro)34 b(h)m(umano)g(consegue)h
 (in)m(terpretar)f(informa\030)-43 b(c~)-49 b(oes)34 b(extremamen)m(te)h
 (com-)109 3466 y(plexas,)i(tais)f(como)g(iden)m(ti\014car)g(a)g(p)s
@@ -7298,42 +7460,42 @@ b(Os)34 b(computadores,)109 3791 y(ap)s(esar)29 b(de)g(fazerem)h(c\023)
 (n~)-49 b(ao)29 b(conseguem)h(reconhecer)h(atra)m(v)m(\023)-46
 b(es)109 3954 y(da)32 b(fala)g(informa\030)-43 b(c~)-49
 b(oes)33 b(como)g(os)g(seres)h(h)m(umanos.)109 4271 y
-Fg(V)-9 b(an)m(tagens)38 b(da)g(com)m(unica\030)-50 b(c)o(~)-55
+Fh(V)-9 b(an)m(tagens)38 b(da)g(com)m(unica\030)-50 b(c)o(~)-55
 b(ao)39 b(p)s(ela)f(fala)h(em)f(sistemas)g(hom)n(\023)-54
-b(em-m)o(\023)f(aquina)109 4557 y Fm(Segundo)499 4557
+b(em-m)o(\023)f(aquina)109 4557 y Fn(Segundo)499 4557
 y
 SDict begin H.S end
- 499 4557 a 0 TeXcolorgray Fm(F)-8 b(urui)p 0 TeXcolorgray
+ 499 4557 a 0 TeXcolorgray Fn(F)-8 b(urui)p 0 TeXcolorgray
 728 4489 a
 SDict begin H.R end
  728 4489 a 728 4557 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavDigitalSadaoki) cvn H.B /ANN pdfmark end
- 728 4557 a 32 w Fm(\()798
+ 728 4557 a 32 w Fn(\()798
 4557 y
 SDict begin H.S end
- 798 4557 a 0 TeXcolorgray Fm(1989)p 0 TeXcolorgray
+ 798 4557 a 0 TeXcolorgray Fn(1989)p 0 TeXcolorgray
 993 4493 a
 SDict begin H.R end
  993 4493 a 993 4557 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavDigitalSadaoki) cvn H.B /ANN pdfmark end
- 993 4557 a Fm(\))33
+ 993 4557 a Fn(\))33
 b(p)s(o)s(demos)g(citar:)p 0 TeXcolorgray 255 4876 a
-Fl(\210)p 0 TeXcolorgray 49 w Fm(Naturalidade:)43 b(N~)-49
+Fm(\210)p 0 TeXcolorgray 49 w Fn(Naturalidade:)43 b(N~)-49
 b(ao)33 b(precisa)g(de)g(treinamen)m(to)h(esp)s(ecial)g(e)f(nem)g(de)g
 (habilidades)h(esp)s(eciais;)p 0 TeXcolorgray 255 5119
-a Fl(\210)p 0 TeXcolorgray 49 w Fm(Rapidez:)43 b(A)31
+a Fm(\210)p 0 TeXcolorgray 49 w Fn(Rapidez:)43 b(A)31
 b(informa\030)-43 b(c~)-49 b(ao)28 b(\023)-46 b(e)31
 b(transmitida)g(mais)g(rapidamen)m(te)i(que)e(p)s(elas)h(outras)f
 (formas)g(de)353 5281 y(com)m(unica\030)-43 b(c~)-49
-b(ao.)p 0 TeXcolorgray 255 5524 a Fl(\210)p 0 TeXcolorgray
-49 w Fm(Flexibilidade:)45 b(Deixa)32 b(as)h(m~)-49 b(aos,)33
-b(olhos)g(livres;)p 0 TeXcolorgray 255 5767 a Fl(\210)p
-0 TeXcolorgray 49 w Fm(E\014ci)m(^)-46 b(encia:)45 b(T)-8
+b(ao.)p 0 TeXcolorgray 255 5524 a Fm(\210)p 0 TeXcolorgray
+49 w Fn(Flexibilidade:)45 b(Deixa)32 b(as)h(m~)-49 b(aos,)33
+b(olhos)g(livres;)p 0 TeXcolorgray 255 5767 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(E\014ci)m(^)-46 b(encia:)45 b(T)-8
 b(em)33 b(uma)g(elev)-5 b(ada)33 b(taxa)g(de)g(informa\030)-43
 b(c~)-49 b(ao;)p 0 TeXcolorgray 109 5852 1512 4 v 221
-5913 a Fc(1)258 5943 y
+5913 a Fd(1)258 5943 y
 SDict begin H.S end
  258 5943 a 0 TeXcolorgray 0 TeXcolorgray
 258 5943 a
@@ -7341,7 +7503,7 @@ SDict begin H.R end
  258 5943 a 258 5943 a
 SDict begin [/View [/XYZ H.V]/Dest (Hfootnote.1) cvn /DEST pdfmark
 end
- 258 5943 a Fb(Disp)r(ositiv)n(o)27
+ 258 5943 a Fc(Disp)r(ositiv)n(o)27
 b(que)h(transforma)e(um)i(tip)r(o)g(de)f(energia)f(em)i(outro,)f
 (utilizando)g(para)g(isso)f(um)i(elemen)n(to)g(sensor)p
 0 TeXcolorgray 0 TeXcolorgray 0 TeXcolorgray eop end
@@ -7360,39 +7522,39 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.12) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3797 -28 a Fh(12)p 0 TeXcolorgray 109 256 a Fg(Desv)-6
+3797 -28 a Fi(12)p 0 TeXcolorgray 109 256 a Fh(Desv)-6
 b(an)m(tagens)39 b(no)e(uso)h(da)g(fala)h(em)f(sistemas)h(homem-m)o
-(\023)-55 b(aquina)109 541 y Fm(Mesmo)42 b(p)s(ossuindo)f(v)-5
+(\023)-55 b(aquina)109 541 y Fn(Mesmo)42 b(p)s(ossuindo)f(v)-5
 b(an)m(tagens)42 b(signi\014cativ)-5 b(as,)44 b(a)d(com)m(unica\030)-43
 b(c~)-49 b(ao)42 b(p)s(or)e(fala)g(tam)m(b)m(\023)-46
 b(em)42 b(p)s(ossui)g(des-)109 704 y(v)-5 b(an)m(tagens,)33
 b(como)841 704 y
 SDict begin H.S end
- 841 704 a 0 TeXcolorgray Fm(F)-8 b(urui)p
+ 841 704 a 0 TeXcolorgray Fn(F)-8 b(urui)p
 0 TeXcolorgray 1070 636 a
 SDict begin H.R end
  1070 636 a 1070 704 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavDigitalSadaoki) cvn H.B /ANN pdfmark end
  1070
-704 a 32 w Fm(\()1140 704 y
+704 a 32 w Fn(\()1140 704 y
 SDict begin H.S end
  1140 704 a 0 TeXcolorgray
-Fm(1989)p 0 TeXcolorgray 1335 640 a
+Fn(1989)p 0 TeXcolorgray 1335 640 a
 SDict begin H.R end
  1335 640 a 1335 704
 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavDigitalSadaoki) cvn H.B /ANN pdfmark end
- 1335 704 a Fm(\))33 b(descrev)m(eu:)p 0 TeXcolorgray
-255 1033 a Fl(\210)p 0 TeXcolorgray 49 w Fm(Ruidos:)52
+ 1335 704 a Fn(\))33 b(descrev)m(eu:)p 0 TeXcolorgray
+255 1033 a Fm(\210)p 0 TeXcolorgray 49 w Fn(Ruidos:)52
 b(O)36 b(sistema)j(\014ca)e(suscet)-11 b(\023)-38 b(\020v)m(el)39
 b(a)e(in)m(terfer)m(^)-46 b(encia)38 b(do)f(am)m(bien)m(te,)j
 (necessitando)e(de)g(um)353 1196 y(remo)m(v)m(edor)c(de)f(ru)-11
 b(\023)-38 b(\020dos)33 b(para)f(am)m(bien)m(tes)j(com)e(alto)21
 b(\023)-38 b(\020ndice)34 b(de)f(ru)-11 b(\023)-38 b(\020dos.)p
-0 TeXcolorgray 255 1442 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(Div)m(ersidade)48 b(da)e(l)-11 b(\023)-38 b(\020ngua:)72
+0 TeXcolorgray 255 1442 a Fm(\210)p 0 TeXcolorgray 49
+w Fn(Div)m(ersidade)48 b(da)e(l)-11 b(\023)-38 b(\020ngua:)72
 b(Caracter)-11 b(\023)-38 b(\020sticas)48 b(que)f(v)-5
 b(ariam)47 b(de)g(p)s(essoa)g(para)f(p)s(essoa,)51 b(como)353
 1604 y(sotaque,)33 b(v)m(elo)s(cidade)h(da)f(fala,)f(condi\030)-43
@@ -7405,36 +7567,36 @@ SDict begin 19.57509 H.A end
  109 1774 a 109 1774 a
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.2.2) cvn /DEST pdfmark
 end
- 109 1774 a 222 x Fe(2.2)160
+ 109 1774 a 222 x Ff(2.2)160
 b(O)54 b(Sistema)g(de)f(Reconhecimen)l(to)d(de)j(V)-13
 b(oz)109 2316 y
 SDict begin H.S end
- 109 2316 a 0 TeXcolorgray Fm(Rabiner)p
+ 109 2316 a 0 TeXcolorgray Fn(Rabiner)p
 0 TeXcolorgray 446 2247 a
 SDict begin H.R end
  446 2247 a 446 2316 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
  446 2316
-a 44 w Fm(\()528 2316 y
+a 44 w Fn(\()528 2316 y
 SDict begin H.S end
- 528 2316 a 0 TeXcolorgray Fm(1993)p
+ 528 2316 a 0 TeXcolorgray Fn(1993)p
 0 TeXcolorgray 723 2252 a
 SDict begin H.R end
  723 2252 a 723 2316 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
  723 2316
-a Fm(\))44 b(classi\014ca)i(os)f(reconhecedores)h(de)f(v)m(oz)g(em)g
-(tr)m(^)-46 b(es)45 b(grandes)g(classes:)69 b Fi(r)-5
+a Fn(\))44 b(classi\014ca)i(os)f(reconhecedores)h(de)f(v)m(oz)g(em)g
+(tr)m(^)-46 b(es)45 b(grandes)g(classes:)69 b Fj(r)-5
 b(e)g(c)g(onhe)g(ci-)109 2479 y(mento)41 b(p)-5 b(or)42
 b(c)-5 b(omp)g(ar)g(a\030)-45 b(c~)-50 b(ao)40 b(de)i(p)-5
-b(adr~)-50 b(oes)p Fm(,)41 b Fi(r)-5 b(e)g(c)g(onhe)g(cimento)40
+b(adr~)-50 b(oes)p Fn(,)41 b Fj(r)-5 b(e)g(c)g(onhe)g(cimento)40
 b(b)-5 b(ase)g(ado)41 b(na)g(an\023)-50 b(alise)41 b(ac)q(\023)-51
 b(ustic)-5 b(o-fon)n(\023)-47 b(etic)-5 b(a)109 2641
-y Fm(e)34 b Fi(r)-5 b(e)g(c)g(onhe)g(cimento)35 b(empr)-5
+y Fn(e)34 b Fj(r)-5 b(e)g(c)g(onhe)g(cimento)35 b(empr)-5
 b(e)g(gando)34 b(intelig)n(^)-47 b(encia)34 b(arti\014cial)p
-Fm(.)47 b(No)34 b(reconhecimen)m(to)j(p)s(or)c(compara\030)-43
+Fn(.)47 b(No)34 b(reconhecimen)m(to)j(p)s(or)c(compara\030)-43
 b(c~)-49 b(ao)109 2804 y(de)42 b(padr~)-49 b(oes,)46
 b(existem)e(duas)e(formas)h(distin)m(tas:)64 b(treinamen)m(to)43
 b(e)f(reconhecimen)m(to.)75 b(Na)42 b(fase)h(de)109 2966
@@ -7457,22 +7619,22 @@ b(a)30 b(necess\023)-49 b(ario)32 b(para)d(a)g(fase)109
 g(reconheci-)109 4163 y(men)m(to)27 b(\()436 4163 y
 SDict begin H.S end
  436
-4163 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray
+4163 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
 895 4095 a
 SDict begin H.R end
  895 4095 a 895 4163 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 895 4163 a Fm(,)951
+ 895 4163 a Fn(,)951
 4163 y
 SDict begin H.S end
- 951 4163 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
+ 951 4163 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
 1146 4099 a
 SDict begin H.R end
  1146 4099 a 1146 4163 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1146 4163 a Fm(\).)41
+ 1146 4163 a Fn(\).)41
 b(Nos)27 b(sistemas)i(com)e(reconhecimen)m(to)j(baseado)d(na)g(an\023)
 -49 b(alise)28 b(ac)s(\023)-51 b(ustico-)109 4325 y(fonema,)47
 b(o)d(sinal)g(de)h(fala)40 b(\023)-46 b(e)44 b(deco)s(di\014cado)h
@@ -7482,22 +7644,22 @@ b(c~)-49 b(oes)44 b(en)m(tre)g(essas)g(caracter)-11 b(\023)-38
 b(\020sticas)45 b(\()1674 4488 y
 SDict begin H.S end
  1674 4488 a 0 TeXcolorgray
-Fm(INCE)p 0 TeXcolorgray 1919 4420 a
+Fn(INCE)p 0 TeXcolorgray 1919 4420 a
 SDict begin H.R end
  1919 4420 a 1919
 4488 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.DigSpeechNejat) cvn H.B /ANN pdfmark end
- 1919 4488 a Fm(,)1991 4488 y
+ 1919 4488 a Fn(,)1991 4488 y
 SDict begin H.S end
  1991 4488 a 0 TeXcolorgray
-Fm(1992)p 0 TeXcolorgray 2187 4424 a
+Fn(1992)p 0 TeXcolorgray 2187 4424 a
 SDict begin H.R end
  2187 4424 a 2187
 4488 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.DigSpeechNejat) cvn H.B /ANN pdfmark end
- 2187 4488 a Fm(\).)2335 4463 y(\023)2326 4488
+ 2187 4488 a Fn(\).)2335 4463 y(\023)2326 4488
 y(E)e(iden)m(ti\014cada)i(as)e(unidades)h(fon)m(\023)-46
 b(eticas)109 4650 y(da)33 b(fala)g(a)g(ser)i(reconhecida,)g(e)f
 (concatenando)g(essas)h(unidades)d(\023)-46 b(e)34 b(reconhecida)h(a)e
@@ -7506,23 +7668,23 @@ b(\023)-46 b(e)49 b(necess\023)-49 b(ario)50 b(considerar)f(as)g
 (propriedades)h(in)m(v)-5 b(arian)m(tes)50 b(da)e(fala.)90
 b(Segundo)3554 4813 y
 SDict begin H.S end
- 3554 4813 a 0 TeXcolorgray Fm(Martins)p
+ 3554 4813 a 0 TeXcolorgray Fn(Martins)p
 0 TeXcolorgray 3888 4745 a
 SDict begin H.R end
  3888 4745 a 3888 4813 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
  3888
-4813 a 109 4975 a Fm(\()147 4975 y
+4813 a 109 4975 a Fn(\()147 4975 y
 SDict begin H.S end
  147 4975 a 0 TeXcolorgray
-Fm(1997)p 0 TeXcolorgray 342 4911 a
+Fn(1997)p 0 TeXcolorgray 342 4911 a
 SDict begin H.R end
  342 4911 a 342 4975
 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 342 4975 a Fm(\))27 b(Um)g(analisador)h(ac)s(\023)-51
+ 342 4975 a Fn(\))27 b(Um)g(analisador)h(ac)s(\023)-51
 b(ustico-fon)m(\023)-46 b(etica)27 b(apresen)m(ta)h(as)g(sequin)m(tes)i
 (fases:)42 b(an\023)-49 b(alise)28 b(esp)s(ectral,)h(de-)109
 5138 y(tec\030)-43 b(c~)-49 b(ao)30 b(das)f(caracter)-11
@@ -7554,7 +7716,7 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.13) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3797
--28 a Fh(13)p 0 TeXcolorgray 109 256 a Fm(neurais,)30
+-28 a Fi(13)p 0 TeXcolorgray 109 256 a Fn(neurais,)30
 b(cria-se)e(uma)h(matriz)f(de)g(p)s(ondera\030)-43 b(c~)-49
 b(oes)30 b(que)f(represen)m(ta)g(os)g(n\023)-49 b(os)28
 b(das)h(redes,)h(e)e(suas)h(sa)-11 b(\023)-38 b(\020das,)109
@@ -7562,22 +7724,22 @@ b(das)h(redes,)h(e)e(suas)h(sa)-11 b(\023)-38 b(\020das,)109
 (reconhecidas)h(\()2387 418 y
 SDict begin H.S end
  2387 418 a 0 TeXcolorgray
-Fm(MAR)-8 b(TINS)p 0 TeXcolorgray 2846 350 a
+Fn(MAR)-8 b(TINS)p 0 TeXcolorgray 2846 350 a
 SDict begin H.R end
  2846 350
 a 2846 418 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 2846 418 a Fm(,)2904 418 y
+ 2846 418 a Fn(,)2904 418 y
 SDict begin H.S end
  2904 418 a 0
-TeXcolorgray Fm(1997)p 0 TeXcolorgray 3099 354 a
+TeXcolorgray Fn(1997)p 0 TeXcolorgray 3099 354 a
 SDict begin H.R end
  3099
 354 a 3099 418 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3099 418 a Fm(\).)42 b(O)30 b(pro)s(cesso)i(para)109
+ 3099 418 a Fn(\).)42 b(O)30 b(pro)s(cesso)i(para)109
 581 y(o)40 b(reconhecimen)m(to)i(de)f(v)m(oz)g(p)s(o)s(de)g(ser)g
 (dividido)g(em)g(quatro)f(fases:)60 b(aquisi\030)-43
 b(c~)-49 b(ao)41 b(do)f(sinal)h(de)g(v)m(oz,)109 743
@@ -7587,151 +7749,274 @@ b(e)g(gera\030)-43 b(c~)-49 b(ao)30 b(dos)h(padr~)-49
 b(oes)32 b(de)f(v)m(oz)g(\()3295 743 y
 SDict begin H.S end
  3295 743 a 0 TeXcolorgray
-Fm(SIL)-11 b(V)g(A)p 0 TeXcolorgray 3570 675 a
+Fn(SIL)-11 b(V)g(A)p 0 TeXcolorgray 3570 675 a
 SDict begin H.R end
  3570 675
 a 3570 743 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavIsolAnderson) cvn H.B /ANN pdfmark end
- 3570 743 a Fm(,)3628 743 y
+ 3570 743 a Fn(,)3628 743 y
 SDict begin H.S end
  3628 743 a 0
-TeXcolorgray Fm(2009)p 0 TeXcolorgray 3823 679 a
+TeXcolorgray Fn(2009)p 0 TeXcolorgray 3823 679 a
 SDict begin H.R end
  3823
 679 a 3823 743 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.RavIsolAnderson) cvn H.B /ANN pdfmark end
- 3823 743 a Fm(\).)109 907 y
+ 3823 743 a Fn(\).)p 0 TeXcolorgray 109
+811 a
 SDict begin H.S end
- 109 907
-a 109 907 a
+ 109 811 a 109 811 a
 SDict begin 19.57509 H.A end
- 109 907 a 109 907 a
+ 109 811 a 109 811 a
+SDict begin [/View [/XYZ H.V]/Dest (figure.caption.4) cvn /DEST pdfmark
+end
+ 109 811
+a 109 1769 a
+ currentpoint currentpoint translate 0.7 0.7 scale neg exch neg exch
+translate
+ 109 1769 a 141 1145 a @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { moveto
+} def /ArrowB { BeginArrow 1.  1.  scale  false 0.4 1.4 1.50565 2.0
+  1. .setopacityalpha  Arrow  EndArrow  } def  [ 44.95538 16.50264
+0.0 17.07181   /Lineto /lineto load def false 0  setlinejoin Line 
+gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap stroke
+ grestore end
+
+
+@endspecial @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray   0. true 125.1919
+40.97202 44.95538 -8.5359 .5 Frame  gsave 1.13791 SLW 0  setgray  1.
+.setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { moveto
+} def /ArrowB { BeginArrow 1.  1.  scale  false 0.4 1.4 1.50565 2.0
+  1. .setopacityalpha  Arrow  EndArrow  } def  [ 170.14728 16.50264
+125.1919 17.07181   /Lineto /lineto load def false 0  setlinejoin Line
+ gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap stroke
+ grestore end
+ 
+@endspecial @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray   0. true 250.9534
+42.10992 170.71646 -7.39755 .5 Frame  gsave 1.13791 SLW 0  setgray
+ 1. .setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { moveto
+} def /ArrowB { BeginArrow 1.  1.  scale  false 0.4 1.4 1.50565 2.0
+  1. .setopacityalpha  Arrow  EndArrow  } def  [ 296.47752 17.07181
+251.52214 17.64055   /Lineto /lineto load def false 0  setlinejoin
+Line  gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap
+stroke  grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray   0. true 377.85239
+40.97202 297.61588 -8.5359 .5 Frame  gsave 1.13791 SLW 0  setgray 
+1. .setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial 223 982 a Fb(F)o(ala)583 953
+y(Aquisi\347\343o)24 b(do)595 1101 y(Sinal)h(de)g(V)-13
+b(oz)1586 1099 y(Processamento)1815 964 y(Pr\351-)2707
+967 y(Extra\347\343o)25 b(de)2696 1090 y(Informa\347\365es)141
+1145 y @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray   0. true 555.96642
+75.68439 475.7299 26.17647 .5 Frame  gsave 1.13791 SLW 0  setgray 
+1. .setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { moveto
+} def /ArrowB { BeginArrow 1.  1.  scale  false 0.4 1.4 1.50565 2.0
+  1. .setopacityalpha  Arrow  EndArrow  } def  [ 430.20534 51.7842
+404.02887 17.07181   /Lineto /lineto load def false 0  setlinejoin
+Line  gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap
+stroke  grestore end
+ 
+@endspecial @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { moveto
+} def /ArrowB { } def  [ 405.16722 17.64055 377.85239 17.64055   /Lineto
+/lineto load def false 0  setlinejoin Line  gsave 1.13791 SLW 0  setgray
+ 1. .setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial
+@beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { BeginArrow
+1.  1.  scale {1  setgray true} true /DS 2.00752 2.0 CLW mul add 2
+div def EndDot  EndArrow  moveto } def /ArrowB { } def  [ 475.7299
+51.21501 429.06741 51.21501   /Lineto /lineto load def false 0  setlinejoin
+Line  gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap
+stroke  grestore end
+ 
+@endspecial 4175 693 a(Gera\347\343o)h(dos)
+4257 827 y(P)o(adr\365es)3543 675 y(T)m(reinamento)141
+1145 y @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray   0. true 556.53558
+-24.46938 476.29907 -73.9773 .5 Frame  gsave 1.13791 SLW 0  setgray
+ 1. .setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray   0. true 682.29666
+-25.60728 602.06015 -75.11522 .5 Frame  gsave 1.13791 SLW 0  setgray
+ 1. .setopacityalpha  0  setlinecap stroke  grestore end
+ 
+@endspecial 4166 1577 a(Classi\002ca\347\343o)5301
+1535 y(P)o(ala)n(vra)5207 1672 y(Reconhecida)141 1145
+y @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { moveto
+} def /ArrowB { BeginArrow 1.  1.  scale  false 0.4 1.4 1.50565 2.0
+  1. .setopacityalpha  Arrow  EndArrow  } def  [ 602.06015 -50.64584
+557.10477 -50.07666   /Lineto /lineto load def false 0  setlinejoin
+Line  gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap
+stroke  grestore end
+ 
+@endspecial @beginspecial
+@setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { BeginArrow
+1.  1.  scale {1  setgray true} true /DS 2.00752 2.0 CLW mul add 2
+div def EndDot  EndArrow  moveto } def /ArrowB { } def  [ 476.29907
+-50.07666 429.6366 -50.07666   /Lineto /lineto load def false 0  setlinejoin
+Line  gsave 1.13791 SLW 0  setgray  1. .setopacityalpha  0  setlinecap
+stroke  grestore end
+ 
+@endspecial 3381 1691 a(Reconhecimento)141
+1145 y @beginspecial @setspecial
+  tx@Dict begin STP newpath 1.13791 SLW 0  setgray  /ArrowA { BeginArrow
+1.  1.  scale  false 0.4 1.4 1.50565 2.0   1. .setopacityalpha  Arrow
+ EndArrow  moveto } def /ArrowB { } def  386.95747 -13.65718 /y ED
+/x ED /r 62.02676 def /c 57.2957 r Div def /angleA 330.1096 0.0 c mul
+2 div add def /angleB 74.5115 0.0 c mul 2 div sub def /angleAtoB angleB
+angleA gt { true }{ false } ifelse def x y r angleA { ArrowA CP } r
+0 gt { { add } } { { sub } } ifelse ArcArrow angleB arc  gsave 1.13791
+SLW 0  setgray  1. .setopacityalpha  0  setlinecap stroke  grestore
+end
+ 
+@endspecial 109 1769
+a
+ currentpoint currentpoint translate 1 0.7 div 1 0.7 div scale neg
+exch neg exch translate
+ 109 1769 a 0 TeXcolorgray 476 1936 a Fn(Figura)32 b(1:)43
+b(Diagrama)32 b(de)h(blo)s(cos)g(de)g(um)g(sistema)h(de)f(reconhecimen)
+m(to)i(de)e(v)m(oz)p 0 TeXcolorgray 0 TeXcolorgray 109
+2112 a
+SDict begin H.S end
+ 109 2112 a 109 2112 a
+SDict begin 19.57509 H.A end
+ 109 2112 a 109 2112 a
 SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.2.1) cvn /DEST
 pdfmark end
- 109 907 a 184 x Fo(2.2.1)136
-b(Hist\023)-67 b(orico)46 b(dos)f(Sistemas)h(de)f(Reconhecimen)l(to)h
-(de)f(V)-11 b(oz)109 1377 y Fm(Sistemas)43 b(de)f(reconhecimen)m(to)i
-(autom\023)-49 b(atico)42 b(de)g(v)m(oz)g(v)m(em)h(sendo)g(estudados)g
-(desde)g(os)f(anos)g(50)109 1539 y(nos)32 b(lab)s(orat\023)-49
-b(orios)32 b(Bell,)h(quando)g(foi)f(criado,)h(o)f(primeiro)h
-(reconhecedor)h(de)f(d)-11 b(\023)-38 b(\020gitos)33
-b(isolados)g(com)109 1702 y(sup)s(orte)27 b(a)g(um)g(lo)s(cutor.\()p
-Fg(??)p Fm(\))41 b(As)27 b(redes)h(neurais)g(tam)m(b)m(\023)-46
-b(em)28 b(surgiram)f(nos)h(anos)e(50,)i(mas)f(n~)-49
-b(ao)27 b(houv)m(e)109 1864 y(prosseguimen)m(to)33 b(nos)e(estudos,)h
-(devido)g(a)f(problemas)h(pr\023)-49 b(aticos.)43 b(Muitos)32
-b(reconhecedores)h(de)e(v)m(oz,)109 2027 y(foram)h(criados)i(nas)f(d)m
-(\023)-46 b(ecadas)34 b(de)f(50)g(e)g(60.\()p Fg(??)p
-Fm(\))44 b(No)32 b(in)-11 b(\023)-38 b(\020cio)34 b(dos)f(anos)g(70,)g
-(surgiram)g(os)g(algoritmos)109 2189 y(para)43 b(sistemas)j(de)f(fala)f
-(con)m(t)-11 b(\023)-38 b(\020n)m(ua,)48 b(gra\030)-43
-b(cas)44 b(as)g(t)m(\023)-46 b(ecnicas)46 b(de)f Fi(Line)-5
-b(ar)45 b(Pr)-5 b(e)g(dictive)45 b(Co)-5 b(ding)52 b
-Fm(\(LPC\))109 2352 y(e)46 b Fi(Dynamic)g(Time)h(Warping)54
-b Fm(\(DTW\).)47 b(\()1752 2352 y
+ 109
+2112 a 208 x Fp(2.2.1)136 b(Hist\023)-67 b(orico)46 b(dos)f(Sistemas)h
+(de)f(Reconhecimen)l(to)h(de)f(V)-11 b(oz)109 2606 y
+Fn(Sistemas)43 b(de)f(reconhecimen)m(to)i(autom\023)-49
+b(atico)42 b(de)g(v)m(oz)g(v)m(em)h(sendo)g(estudados)g(desde)g(os)f
+(anos)g(50)109 2769 y(nos)32 b(lab)s(orat\023)-49 b(orios)32
+b(Bell,)h(quando)g(foi)f(criado,)h(o)f(primeiro)h(reconhecedor)h(de)f
+(d)-11 b(\023)-38 b(\020gitos)33 b(isolados)g(com)109
+2931 y(sup)s(orte)46 b(a)g(um)h(lo)s(cutor.\()p Fh(??)p
+Fn(\))83 b(As)47 b(redes)g(neurais)g(tam)m(b)m(\023)-46
+b(em)47 b(surgiram)g(nos)g(anos)f(50,)j(mas)d(n~)-49
+b(ao)109 3094 y(houv)m(e)36 b(prosseguimen)m(to)i(nos)e(estudos,)h
+(devido)g(a)e(problemas)i(pr\023)-49 b(aticos.)52 b(Muitos)37
+b(reconhecedores)109 3256 y(de)d(v)m(oz,)i(foram)e(criados)h(nas)g(d)m
+(\023)-46 b(ecadas)35 b(de)g(50)f(e)g(60)g(\()p Fh(??)p
+Fn(\).mak)m(e)h(No)f(in)-11 b(\023)-38 b(\020cio)35 b(dos)g(anos)f(70,)
+h(surgiram)109 3419 y(os)48 b(algoritmos)g(para)f(sistemas)j(de)e(fala)
+f(con)m(t)-11 b(\023)-38 b(\020n)m(ua,)53 b(gra\030)-43
+b(cas)48 b(as)g(t)m(\023)-46 b(ecnicas)50 b(de)e Fj(Line)-5
+b(ar)49 b(Pr)-5 b(e)g(dictive)109 3581 y(Co)g(ding)36
+b Fn(\(LPC\))30 b(e)g Fj(Dynamic)g(Time)h(Warping)38
+b Fn(\(DTW\).)29 b(\()2304 3581 y
 SDict begin H.S end
- 1752 2352 a 0 TeXcolorgray
-Fm(RABINER)p 0 TeXcolorgray 2212 2284 a
+ 2304 3581 a 0 TeXcolorgray
+Fn(RABINER)p 0 TeXcolorgray 2765 3513 a
 SDict begin H.R end
- 2212 2284 a 2212
-2352 a
+ 2765 3513 a 2765
+3581 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
- 2212 2352 a Fm(,)2289 2352 y
+ 2765 3581 a Fn(,)2821 3581 y
 SDict begin H.S end
- 2289 2352 a 0 TeXcolorgray
-Fm(1993)p 0 TeXcolorgray 2484 2288 a
+ 2821 3581 a 0 TeXcolorgray
+Fn(1993)p 0 TeXcolorgray 3017 3517 a
 SDict begin H.R end
- 2484 2288 a 2484
-2352 a
+ 3017 3517 a 3017
+3581 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
- 2484 2352 a Fm(\))f(E)g(os)h(anos)f(80)g(foram)g(marcados)109
-2515 y(p)s(ela)h(dissemina\030)-43 b(c~)-49 b(ao)48 b(dos)g(meto)s(dos)
-f(est\023)-49 b(aticos,)52 b(como)47 b Fi(M)16 b Fm(o)s(delos)47
-b(Ocultos)h(de)f(Mark)m(o)m(v)h(\(HMM\).)109 2677 y(\()147
-2677 y
+ 3017 3581 a Fn(\))g(E)g(os)h(anos)f(80)g(foram)109
+3744 y(marcados)43 b(p)s(ela)f(dissemina\030)-43 b(c~)-49
+b(ao)44 b(dos)f(meto)s(dos)g(est\023)-49 b(aticos,)46
+b(como)c Fj(M)16 b Fn(o)s(delos)43 b(Ocultos)g(de)g(Mark)m(o)m(v)109
+3906 y(\(HMM\).)48 b(\()549 3906 y
 SDict begin H.S end
- 147 2677 a 0 TeXcolorgray Fm(RABINER)p 0 TeXcolorgray
-607 2609 a
+ 549 3906 a 0 TeXcolorgray
+Fn(RABINER)p 0 TeXcolorgray 1010 3838 a
 SDict begin H.R end
- 607 2609 a 607 2677 a
+ 1010 3838 a 1010
+3906 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
- 607 2677 a Fm(,)659
-2677 y
+ 1010 3906 a Fn(,)1089 3906 y
 SDict begin H.S end
- 659 2677 a 0 TeXcolorgray Fm(1993)p 0 TeXcolorgray
-854 2613 a
+ 1089 3906 a 0 TeXcolorgray
+Fn(1993)p 0 TeXcolorgray 1284 3842 a
 SDict begin H.R end
- 854 2613 a 854 2677 a
+ 1284 3842 a 1284
+3906 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
- 854 2677 a Fm(\))23
-b(Esse)h(p)s(er)-11 b(\023)-38 b(\020o)s(do)22 b(foi)h(de)g(grande)g
-(ev)m(olu\030)-43 b(c~)-49 b(ao)24 b(para)e(os)h(sistemas)h(de)g
-(reconhecimen)m(to)109 2840 y(de)38 b(v)m(oz,)i(as)f(redes)g(neurais)g
-(passaram)f(a)g(ser)h(usadas)g(no)f(desen)m(v)m(olvimen)m(to)k(dos)c
-(sistemas,)j(sendo)109 3002 y(p)s(oss)-11 b(\023)-38
-b(\020v)m(el)39 b(implemen)m(tar)g(sistemas)h(mais)e(robustos,)h(com)f
-(v)m(o)s(cabul\023)-49 b(arios)39 b(grandes)f(e)g(com)g(taxas)g(de)109
-3165 y(acerto)32 b(de)h(mais)h(de)f(90\045.\()1134 3165
-y
+ 1284 3906 a Fn(\))f(Esse)j(p)s(er)-11 b(\023)-38
+b(\020o)s(do)47 b(foi)h(de)g(grande)g(ev)m(olu\030)-43
+b(c~)-49 b(ao)49 b(para)f(os)g(sistemas)i(de)109 4069
+y(reconhecimen)m(to)40 b(de)f(v)m(oz,)h(as)e(redes)i(neurais)f
+(passaram)f(a)g(ser)h(usadas)g(no)f(desen)m(v)m(olvimen)m(to)k(dos)109
+4231 y(sistemas,)e(sendo)d(p)s(oss)-11 b(\023)-38 b(\020v)m(el)39
+b(implemen)m(tar)g(sistemas)f(mais)g(robustos,)h(com)e(v)m(o)s
+(cabul\023)-49 b(arios)37 b(grandes)109 4394 y(e)c(com)f(taxas)h(de)h
+(acerto)e(de)h(mais)g(de)g(90\045.\()1803 4394 y
 SDict begin H.S end
- 1134 3165 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray
-1593 3096 a
+ 1803
+4394 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+2262 4326 a
 SDict begin H.R end
- 1593 3096 a 1593 3165 a
+ 2262 4326 a 2262 4394 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1593 3165 a Fm(,)1652
-3165 y
+ 2262 4394 a Fn(,)2322
+4394 y
 SDict begin H.S end
- 1652 3165 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
-1847 3100 a
+ 2322 4394 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+2517 4330 a
 SDict begin H.R end
- 1847 3100 a 1847 3165 a
+ 2517 4330 a 2517 4394 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1847 3165 a Fm(\))109
-3329 y
+ 2517 4394 a Fn(\))109
+4558 y
 SDict begin H.S end
- 109 3329 a 109 3329 a
+ 109 4558 a 109 4558 a
 SDict begin 19.57509 H.A end
- 109 3329 a 109 3329 a
+ 109 4558 a 109 4558 a
 SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.2.2) cvn /DEST
 pdfmark end
  109
-3329 a 183 x Fo(2.2.2)136 b(Caracter)-15 b(\023)-52 b(\020sticas)47
-b(de)e(Sistemas)h(RA)-15 b(V)109 3798 y Fm(Existem)42
+4558 a 184 x Fp(2.2.2)136 b(Caracter)-15 b(\023)-52 b(\020sticas)47
+b(de)e(Sistemas)h(RA)-15 b(V)109 5028 y Fn(Existem)42
 b(v\023)-49 b(arias)40 b(maneiras)h(de)g(categorizar)f(um)g(sistema)i
 (de)e(reconhecimen)m(to)j(de)d(v)m(oz,)j(os)e(mais)109
-3961 y(imp)s(ortan)m(tes)48 b(s~)-49 b(ao:)73 b(o)47
+5190 y(imp)s(ortan)m(tes)48 b(s~)-49 b(ao:)73 b(o)47
 b(estilo)h(de)g(pron)m(uncia)g(que)e(\023)-46 b(e)47
 b(aceito,)52 b(ao)46 b(tamanho)i(do)f(v)m(o)s(cabul\023)-49
-b(ario)48 b(e)f(\022)-49 b(a)109 4123 y(dep)s(end)m(^)j(encia)36
+b(ario)48 b(e)f(\022)-49 b(a)109 5353 y(dep)s(end)m(^)j(encia)36
 b(ou)f(indep)s(endencia)i(do)e(lo)s(cutor.)50 b(\()p
-Fg(??)p Fm(\))f(Essas)37 b(categorias)e(que)g(de\014nem)i(a)d(precis~)
--49 b(ao)109 4286 y(do)32 b(sistema)i(de)f(reconhecimen)m(to.)109
-4605 y Fg(Dep)s(end)n(^)-54 b(encia)39 b(do)f(lo)s(cutor)109
-4891 y Fm(P)m(o)s(demos)44 b(classi\014car)h(sistemas)g(de)f
-(reconhecimen)m(to)i(como)d(dep)s(enden)m(tes)j(e)e(indep)s(enden)m
-(tes)i(do)109 5053 y(lo)s(cutor.)41 b(Um)26 b(sistema)g(dep)s(enden)m
-(te)i(de)e(lo)s(cutor)g(reconhece)h(a)e(fala)g(das)h(p)s(essoas)h
-(cujas)f(v)m(ozes)i(foram)109 5216 y(utilizadas)f(para)g(treinar)g(o)f
-(sistema,)j(apresen)m(tando)f(uma)f(p)s(equena)h(taxa)f(de)g(erros,)i
-(para)d(o)g(lo)s(cutor)109 5378 y(para)i(qual)g(foi)g(treinado)h(o)f
-(sistema,)i(implemen)m(ta\030)-43 b(c~)-49 b(ao)31 b(mais)d(simples)j
-(que)e(sistemas)h(indep)s(enden)m(tes)109 5541 y(do)j(lo)s(cutor,)g
-(que)h(reconhecem)i(a)c(fala)h(de)h(qualquer)g(p)s(essoa)g(com)g(uma)f
-(taxa)h(de)f(acerto)h(aceit\023)-49 b(av)m(el.)109 5703
-y(Neste)38 b(caso)c(\023)-46 b(e)37 b(necess\023)-49
-b(ario)38 b(realizar)f(o)f(treino)h(do)g(sistema)h(com)f(uma)g(base)g
-(que)h(inclua)f(diferen)m(tes)109 5866 y(p)s(essoas)k(com)f(diferen)m
-(tes)i(idades,)h(sexo,)g(sotaques,)g(etc.)67 b(O)40 b(que)h
-(di\014culta)f(a)g(constru\030)-43 b(c~)-49 b(ao)41 b(desses)p
+Fh(??)p Fn(\))f(Essas)37 b(categorias)e(que)g(de\014nem)i(a)d(precis~)
+-49 b(ao)109 5515 y(do)32 b(sistema)i(de)f(reconhecimen)m(to.)p
 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 14 17
 TeXDict begin 14 16 bop 0 TeXcolorgray 0 0 a
@@ -7748,81 +8033,81 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.14) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3797 -28 a Fh(14)p 0 TeXcolorgray 109 256 a Fm(sistemas.)109
-574 y Fg(Mo)s(do)38 b(de)g(pron)s(\023)-59 b(uncia)109
-860 y Fm(Sistemas)46 b(RA)-11 b(V)44 b(p)s(o)s(dem)h(ser)g
-(classi\014cados)i(quan)m(to)e(ao)f(mo)s(do)g(de)h(pron)s(\023)-51
-b(uncia)44 b(de)h(duas)g(formas,)109 1023 y(sistemas)27
-b(de)f(pala)m(vras)h(isoladas)f(e)g(os)g(de)g(fala)f(conectadas\(con)m
-(t)-11 b(\023)-38 b(\020n)m(ua\).)43 b(Reconhecedor)27
-b(de)f(pala)m(vras)109 1185 y(isoladas)42 b(s~)-49 b(ao)41
-b(sistemas)i(que)f(reconhecem)h(pala)m(vras)f(faladas)f(isoladamen)m
-(te,)46 b(isto)38 b(\023)-46 b(e,)44 b(en)m(tre)e(cada)109
-1348 y(pala)m(vra)48 b(dev)m(e)h(existir)g(uma)f(pausa)g(m)-11
-b(\023)-38 b(\020nima,)52 b(para)c(que)g(seja)g(detectado)h(o)e(in)-11
-b(\023)-38 b(\020cio)49 b(e)f(o)f(\014m)h(da)109 1510
+3797 -28 a Fi(14)p 0 TeXcolorgray 109 256 a Fh(Dep)s(end)n(^)-54
+b(encia)39 b(do)f(lo)s(cutor)109 541 y Fn(P)m(o)s(demos)44
+b(classi\014car)h(sistemas)g(de)f(reconhecimen)m(to)i(como)d(dep)s
+(enden)m(tes)j(e)e(indep)s(enden)m(tes)i(do)109 704 y(lo)s(cutor.)41
+b(Um)26 b(sistema)g(dep)s(enden)m(te)i(de)e(lo)s(cutor)g(reconhece)h(a)
+e(fala)g(das)h(p)s(essoas)h(cujas)f(v)m(ozes)i(foram)109
+866 y(utilizadas)f(para)g(treinar)g(o)f(sistema,)j(apresen)m(tando)f
+(uma)f(p)s(equena)h(taxa)f(de)g(erros,)i(para)d(o)g(lo)s(cutor)109
+1029 y(para)i(qual)g(foi)g(treinado)h(o)f(sistema,)i(implemen)m(ta\030)
+-43 b(c~)-49 b(ao)31 b(mais)d(simples)j(que)e(sistemas)h(indep)s(enden)
+m(tes)109 1192 y(do)j(lo)s(cutor,)g(que)h(reconhecem)i(a)c(fala)h(de)h
+(qualquer)g(p)s(essoa)g(com)g(uma)f(taxa)h(de)f(acerto)h(aceit\023)-49
+b(av)m(el.)109 1354 y(Neste)38 b(caso)c(\023)-46 b(e)37
+b(necess\023)-49 b(ario)38 b(realizar)f(o)f(treino)h(do)g(sistema)h
+(com)f(uma)g(base)g(que)h(inclua)f(diferen)m(tes)109
+1517 y(p)s(essoas)k(com)f(diferen)m(tes)i(idades,)h(sexo,)g(sotaques,)g
+(etc.)67 b(O)40 b(que)h(di\014culta)f(a)g(constru\030)-43
+b(c~)-49 b(ao)41 b(desses)109 1679 y(sistemas.)109 1998
+y Fh(Mo)s(do)d(de)g(pron)s(\023)-59 b(uncia)109 2284
+y Fn(Sistemas)46 b(RA)-11 b(V)44 b(p)s(o)s(dem)h(ser)g(classi\014cados)
+i(quan)m(to)e(ao)f(mo)s(do)g(de)h(pron)s(\023)-51 b(uncia)44
+b(de)h(duas)g(formas,)109 2446 y(sistemas)27 b(de)f(pala)m(vras)h
+(isoladas)f(e)g(os)g(de)g(fala)f(conectadas\(con)m(t)-11
+b(\023)-38 b(\020n)m(ua\).)43 b(Reconhecedor)27 b(de)f(pala)m(vras)109
+2609 y(isoladas)42 b(s~)-49 b(ao)41 b(sistemas)i(que)f(reconhecem)h
+(pala)m(vras)f(faladas)f(isoladamen)m(te,)46 b(isto)38
+b(\023)-46 b(e,)44 b(en)m(tre)e(cada)109 2771 y(pala)m(vra)48
+b(dev)m(e)h(existir)g(uma)f(pausa)g(m)-11 b(\023)-38
+b(\020nima,)52 b(para)c(que)g(seja)g(detectado)h(o)e(in)-11
+b(\023)-38 b(\020cio)49 b(e)f(o)f(\014m)h(da)109 2934
 y(mesma.)42 b(Isso)28 b(prop)s(orciona)f(um)h(resultado)g(m)m(uito)f
 (sup)s(erior)h(aos)f(de)h(fala)e(con)m(t)-11 b(\023)-38
-b(\020n)m(ua,)30 b(estes)e(sistemas)109 1673 y(s~)-49
+b(\020n)m(ua,)30 b(estes)e(sistemas)109 3096 y(s~)-49
 b(ao)32 b(os)g(mais)h(simples)h(de)e(serem)i(implemen)m(tados.)45
 b(Um)33 b(exemplo)g(cl\023)-49 b(assico)33 b(de)g(reconhecedores)i(de)
-109 1835 y(pala)m(vras)30 b(isoladas)g(s~)-49 b(ao)29
+109 3259 y(pala)m(vras)30 b(isoladas)g(s~)-49 b(ao)29
 b(os)g(reconhecedores)j(de)e(d)-11 b(\023)-38 b(\020gitos,)30
 b(que)g(alcan\030)-43 b(cam)30 b(taxa)g(de)f(menos)i(de)e(2\045)h(de)
-109 1998 y(erro)37 b(para)f(d)-11 b(\023)-38 b(\020gitos)37
-b(de)h(0)e(\022)-49 b(a)37 b(10.\()p Fg(??)p Fm(\))56
+109 3421 y(erro)37 b(para)f(d)-11 b(\023)-38 b(\020gitos)37
+b(de)h(0)e(\022)-49 b(a)37 b(10.\()p Fh(??)p Fn(\))56
 b(J\023)-49 b(a)37 b(o)f(reconhecedor)j(de)f(pala)m(vras)f(conectadas)h
-(s~)-49 b(ao)37 b(sistemas)109 2160 y(mais)k(complexos)i(que)g(os)e(de)
+(s~)-49 b(ao)37 b(sistemas)109 3584 y(mais)k(complexos)i(que)g(os)e(de)
 h(pala)m(vras)g(isoladas)g(e)f(utilizam)h(pala)m(vras)g(como)g(unidade)
-g(fon)m(\023)-46 b(etica)109 2323 y(padr~)d(ao.)41 b(S~)-49
+g(fon)m(\023)-46 b(etica)109 3746 y(padr~)d(ao.)41 b(S~)-49
 b(ao)28 b(capazes)h(de)f(reconhecer)i(sen)m(ten\030)-43
 b(cas)30 b(completas,)g(pron)m(unciadas)f(sem)g(pausa)f(en)m(tre)h(as)
-109 2485 y(pala)m(vras,)39 b(e)e(p)s(or)g(isso)g(n~)-49
+109 3909 y(pala)m(vras,)39 b(e)e(p)s(or)g(isso)g(n~)-49
 b(ao)37 b(se)h(tem)f(informa\030)-43 b(c~)-49 b(ao)37
 b(de)h(onde)f(come\030)-43 b(cam)38 b(e)g(terminam)g(determinadas)109
-2648 y(pala)m(vras,)30 b(m)m(uitas)h(pala)m(vras)f(s~)-49
+4071 y(pala)m(vras,)30 b(m)m(uitas)h(pala)m(vras)f(s~)-49
 b(ao)29 b(mascaradas,)i(encurtadas)f(e)f(as)h(v)m(ezes)h(n~)-49
-b(ao)29 b(pron)m(unciadas.)44 b(Esses)109 2810 y(sistemas)34
+b(ao)29 b(pron)m(unciadas.)44 b(Esses)109 4234 y(sistemas)34
 b(precisam)g(lidar)e(com)h(to)s(das)f(as)g(caracter)-11
 b(\023)-38 b(\020sticas)34 b(e)f(v)-11 b(\023)-38 b(\020cios)34
-b(da)e(linguagem)h(natural,)f(como)109 2973 y(o)40 b(sotaque,)k(a)c
+b(da)e(linguagem)h(natural,)f(como)109 4397 y(o)40 b(sotaque,)k(a)c
 (dura\030)-43 b(c~)-49 b(ao)41 b(das)g(pala)m(vras,)i(a)d(pron)s(\023)
 -51 b(uncia)41 b(descuidada,)j(etc.)68 b(T)-8 b(ornando)41
-b(ainda)g(mais)109 3135 y(dif)-11 b(\023)-38 b(\020ceis)26
+b(ainda)g(mais)109 4559 y(dif)-11 b(\023)-38 b(\020ceis)26
 b(as)g(tarefas)f(do)h(reconhecedor)h(em)f(casos)g(como)g(\\ele)f(v)-5
 b(ai)26 b(morrer)f(em)h(dois)g(dias")g(que)g(m)m(uitas)109
-3298 y(v)m(ezes)32 b(\023)-46 b(e)32 b(dito)h(como)g(\\ele)g(v)-5
-b(ai)32 b(morrerem)i(dois)f(dias".\()p Fg(??)p Fm(\))109
-3616 y Fg(T)-9 b(amanho)39 b(do)e(v)m(o)s(cabul)o(\023)-55
-b(ario)109 3902 y Fm(Um)29 b(fator)g(m)m(uito)h(imp)s(ortan)m(te)g(na)f
+4722 y(v)m(ezes)32 b(\023)-46 b(e)32 b(dito)h(como)g(\\ele)g(v)-5
+b(ai)32 b(morrerem)i(dois)f(dias".\()p Fh(??)p Fn(\))109
+5040 y Fh(T)-9 b(amanho)39 b(do)e(v)m(o)s(cabul)o(\023)-55
+b(ario)109 5326 y Fn(Um)29 b(fator)g(m)m(uito)h(imp)s(ortan)m(te)g(na)f
 (precis~)-49 b(ao)31 b(de)f(um)g(RA)-11 b(V,)27 b(\023)-46
 b(e)29 b(o)g(tamanho)h(do)f(v)m(o)s(cabul\023)-49 b(ario,)31
-b(quan)m(to)109 4065 y(maior)37 b(seu)i(tamanho,)g(maior)f(a)g(quan)m
+b(quan)m(to)109 5489 y(maior)37 b(seu)i(tamanho,)g(maior)f(a)g(quan)m
 (tidade)h(de)g(pala)m(vras)f(am)m(b)-11 b(\023)-38 b(\020guas,)40
 b(com)f(realiza\030)-43 b(c~)-49 b(oes)39 b(sonoras)109
-4227 y(semelhan)m(tes,)j(o)s(casionando)37 b(maior)h(c)m(hance)h(de)f
+5651 y(semelhan)m(tes,)j(o)s(casionando)37 b(maior)h(c)m(hance)h(de)f
 (erros)h(p)s(or)e(parte)h(do)f(deco)s(di\014cador)i(resp)s(ons\023)-49
-b(av)m(el)109 4390 y(p)s(elo)32 b(reconhecimen)m(to.\()p
-Fg(??)p Fm(\))46 b(Segundo)33 b(\()p Fg(??)p Fm(\))43
+b(av)m(el)109 5814 y(p)s(elo)32 b(reconhecimen)m(to.\()p
+Fh(??)p Fn(\))46 b(Segundo)33 b(\()p Fh(??)p Fn(\))43
 b(v)m(o)s(cabul\023)-49 b(arios)34 b(p)s(o)s(dem)e(ser)i(de\014nidos)g
-(como:)p 0 TeXcolorgray 255 4718 a Fl(\210)p 0 TeXcolorgray
-49 w Fm(V)-8 b(o)s(cabul\023)-49 b(ario)32 b(p)s(equeno:)44
-b(reconhecem)35 b(at)m(\023)-46 b(e)33 b(20)f(pala)m(vras.)p
-0 TeXcolorgray 255 4963 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(V)-8 b(o)s(cabul\023)-49 b(ario)32 b(m)m(\023)-46
-b(edio:)44 b(reconhecem)35 b(en)m(tre)e(20)f(e)h(100)f(pala)m(vras.)p
-0 TeXcolorgray 255 5208 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(V)-8 b(o)s(cabul\023)-49 b(ario)32 b(grande:)43
-b(reconhecem)35 b(en)m(tre)f(100)e(e)g(1000)g(pala)m(vras.)p
-0 TeXcolorgray 255 5453 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(V)-8 b(o)s(cabul\023)-49 b(ario)32 b(m)m(uito)h(grande:)44
-b(reconhecem)34 b(mais)f(de)g(1000)f(pala)m(vras.)274
-5781 y(Sistemas)38 b(RA)-11 b(V)37 b(com)h(sup)s(orte)f(a)g(grandes)g
-(v)m(o)s(cabul\023)-49 b(arios)38 b(s~)-49 b(ao)37 b(c)m(hamados)h(de)f
-(Large)g(V)-8 b(o)s(cabu-)109 5943 y(lary)25 b(Con)m(tin)m(uos)i(Sp)s
-(eec)m(h)g(Recognition)f(\(L)-11 b(V)m(CSR\).)26 b(Existem)h(m)m(uitas)
-f(di\014culdades)i(encon)m(tradas)e(na)p 0 TeXcolorgray
-0 TeXcolorgray eop end
+(como:)p 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 15 18
 TeXDict begin 15 17 bop 0 TeXcolorgray 0 0 a
 SDict begin /product where{pop product(Distiller)search{pop pop pop
@@ -7838,203 +8123,180 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.15) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3797
--28 a Fh(15)p 0 TeXcolorgray 109 256 a Fm(cria\030)-43
+-28 a Fi(15)p 0 TeXcolorgray 0 TeXcolorgray 255 256 a
+Fm(\210)p 0 TeXcolorgray 49 w Fn(V)-8 b(o)s(cabul\023)-49
+b(ario)32 b(p)s(equeno:)44 b(reconhecem)35 b(at)m(\023)-46
+b(e)33 b(20)f(pala)m(vras.)p 0 TeXcolorgray 255 498 a
+Fm(\210)p 0 TeXcolorgray 49 w Fn(V)-8 b(o)s(cabul\023)-49
+b(ario)32 b(m)m(\023)-46 b(edio:)44 b(reconhecem)35 b(en)m(tre)e(20)f
+(e)h(100)f(pala)m(vras.)p 0 TeXcolorgray 255 741 a Fm(\210)p
+0 TeXcolorgray 49 w Fn(V)-8 b(o)s(cabul\023)-49 b(ario)32
+b(grande:)43 b(reconhecem)35 b(en)m(tre)f(100)e(e)g(1000)g(pala)m
+(vras.)p 0 TeXcolorgray 255 984 a Fm(\210)p 0 TeXcolorgray
+49 w Fn(V)-8 b(o)s(cabul\023)-49 b(ario)32 b(m)m(uito)h(grande:)44
+b(reconhecem)34 b(mais)f(de)g(1000)f(pala)m(vras.)274
+1302 y(Sistemas)38 b(RA)-11 b(V)37 b(com)h(sup)s(orte)f(a)g(grandes)g
+(v)m(o)s(cabul\023)-49 b(arios)38 b(s~)-49 b(ao)37 b(c)m(hamados)h(de)f
+(Large)g(V)-8 b(o)s(cabu-)109 1464 y(lary)25 b(Con)m(tin)m(uos)i(Sp)s
+(eec)m(h)g(Recognition)f(\(L)-11 b(V)m(CSR\).)26 b(Existem)h(m)m(uitas)
+f(di\014culdades)i(encon)m(tradas)e(na)109 1627 y(cria\030)-43
 b(c~)-49 b(ao)34 b(de)h(sistemas)h(L)-11 b(V)m(CSR,)36
 b(como:)47 b(a)35 b(disp)s(onibilidade)h(de)f(um)g(corpus)g(de)g(v)m
-(oz)g(digitalizada)g(e)109 418 y(transcrita)29 b(grande)g(o)g
+(oz)g(digitalizada)g(e)109 1789 y(transcrita)29 b(grande)g(o)g
 (su\014cien)m(te)i(para)d(treinamen)m(to)i(do)f(sistema,)i(recursos)g
-(como)e(bases)h(de)f(textos)109 581 y(de)k(tamanho)f(elev)-5
+(como)e(bases)h(de)f(textos)109 1952 y(de)k(tamanho)f(elev)-5
 b(ado)33 b(e)g(um)g(dicionario)g(fon)m(\023)-46 b(etico)33
-b(de)g(amplo)g(v)m(o)s(cabul\023)-49 b(ario.\()p Fg(??)p
-Fm(\))109 899 y Fg(P)m(erplexidade)109 1143 y(Rela\030)f(c)o(~)-55
+b(de)g(amplo)g(v)m(o)s(cabul\023)-49 b(ario.\()p Fh(??)p
+Fn(\))109 2269 y Fh(P)m(erplexidade)109 2513 y(Rela\030)f(c)o(~)-55
 b(ao)38 b(sinal)g({)g(ru)-12 b(\023)-44 b(\020do)109
-1224 y
+2594 y
 SDict begin H.S end
- 109 1224 a 109 1224 a
+ 109 2594 a 109 2594 a
 SDict begin 19.57509 H.A end
- 109 1224 a 109 1224 a
+ 109 2594 a 109 2594 a
 SDict begin [/View [/XYZ H.V]/Dest (section.resumo.2.3) cvn /DEST pdfmark
 end
  109
-1224 a 225 x Fe(2.3)160 b(Reconhecimen)l(to)51 b(de)i(v)l(oz)g(baseado)
-g(em)h(padr~)-81 b(oes)109 1769 y Fm(De)27 b(acordo)h(com)g(\()803
-1769 y
+2594 a 225 x Ff(2.3)160 b(Reconhecimen)l(to)51 b(de)i(v)l(oz)g(baseado)
+g(em)h(padr~)-81 b(oes)109 3139 y Fn(De)27 b(acordo)h(com)g(\()803
+3139 y
 SDict begin H.S end
- 803 1769 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0
-TeXcolorgray 1262 1701 a
+ 803 3139 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0
+TeXcolorgray 1262 3071 a
 SDict begin H.R end
- 1262 1701 a 1262 1769 a
+ 1262 3071 a 1262 3139 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
  1262
-1769 a Fm(,)1317 1769 y
+3139 a Fn(,)1317 3139 y
 SDict begin H.S end
- 1317 1769 a 0 TeXcolorgray Fm(1997)p
-0 TeXcolorgray 1512 1705 a
+ 1317 3139 a 0 TeXcolorgray Fn(1997)p
+0 TeXcolorgray 1512 3075 a
 SDict begin H.R end
- 1512 1705 a 1512 1769 a
+ 1512 3075 a 1512 3139 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
  1512
-1769 a Fm(\),)29 b(o)e(reconhecimen)m(to)j(baseado)f(em)f(padr~)-49
+3139 a Fn(\),)29 b(o)e(reconhecimen)m(to)j(baseado)f(em)f(padr~)-49
 b(oes,)26 b(\023)-46 b(e)28 b(a)f(t)m(\023)-46 b(ecnica)29
-b(que)109 1932 y(oferece)k(melhor)h(resultado)f(nos)g(sistemas)i(de)e
+b(que)109 3302 y(oferece)k(melhor)h(resultado)f(nos)g(sistemas)i(de)e
 (reconhecimen)m(to)i(de)f(fala,)e(en)m(t~)-49 b(ao)33
-b(a)f(implemen)m(ta\030)-43 b(c~)-49 b(ao)109 2094 y(do)32
+b(a)f(implemen)m(ta\030)-43 b(c~)-49 b(ao)109 3464 y(do)32
 b(sistema)i(ser\023)-49 b(a)32 b(usando)h(essa)h(t)m(\023)-46
 b(ecnica.)44 b(Um)33 b(sistema)h(de)f(reconhecimen)m(to)h(de)f(v)m(oz)g
-(usando)g(reco-)109 2257 y(nhecimen)m(to)h(de)f(padr~)-49
+(usando)g(reco-)109 3627 y(nhecimen)m(to)h(de)f(padr~)-49
 b(oes)34 b(p)s(o)s(der)e(ser)h(represen)m(tado)h(na)f(\014gura)f(X)h
-(\()2671 2257 y
+(\()2671 3627 y
 SDict begin H.S end
- 2671 2257 a 0 TeXcolorgray Fm(RABINER)p
-0 TeXcolorgray 3131 2189 a
+ 2671 3627 a 0 TeXcolorgray Fn(RABINER)p
+0 TeXcolorgray 3131 3559 a
 SDict begin H.R end
- 3131 2189 a 3131 2257 a
+ 3131 3559 a 3131 3627 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
  3131
-2257 a Fm(,)3191 2257 y
+3627 a Fn(,)3191 3627 y
 SDict begin H.S end
- 3191 2257 a 0 TeXcolorgray Fm(1993)p
-0 TeXcolorgray 3386 2193 a
+ 3191 3627 a 0 TeXcolorgray Fn(1993)p
+0 TeXcolorgray 3386 3563 a
 SDict begin H.R end
- 3386 2193 a 3386 2257 a
+ 3386 3563 a 3386 3627 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
  3386
-2257 a Fm(\):)274 2479 y(De)f(acordo)h(com)g(\()983 2479
+3627 a Fn(\):)274 3848 y(De)f(acordo)h(com)g(\()983 3848
 y
 SDict begin H.S end
- 983 2479 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray
-1442 2411 a
+ 983 3848 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+1442 3780 a
 SDict begin H.R end
- 1442 2411 a 1442 2479 a
+ 1442 3780 a 1442 3848 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1442 2479 a Fm(,)1501
-2479 y
+ 1442 3848 a Fn(,)1501
+3848 y
 SDict begin H.S end
- 1501 2479 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
-1696 2414 a
+ 1501 3848 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+1696 3784 a
 SDict begin H.R end
- 1696 2414 a 1696 2479 a
+ 1696 3784 a 1696 3848 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1696 2479 a Fm(\),)109
-2643 y
+ 1696 3848 a Fn(\),)109
+4011 y
 SDict begin H.S end
- 109 2643 a 109 2643 a
+ 109 4011 a 109 4011 a
 SDict begin 19.57509 H.A end
- 109 2643 a 109 2643 a
+ 109 4011 a 109 4011 a
 SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.3.1) cvn /DEST
 pdfmark end
  109
-2643 a 183 x Fo(2.3.1)136 b(Pro)t(cessamen)l(to)46 b(do)f(Sinal)g(de)g
-(F)-11 b(ala)109 3112 y Fm(Nessa)31 b(fase,)g(o)f(sinal)h(anal\023)-49
+4011 a 184 x Fp(2.3.1)136 b(Pro)t(cessamen)l(to)46 b(do)f(Sinal)g(de)g
+(F)-11 b(ala)109 4481 y Fn(Nessa)31 b(fase,)g(o)f(sinal)h(anal\023)-49
 b(ogico)27 b(\023)-46 b(e)30 b(digitalizado)h(para)f(ser)h(comparado)f
-(com)h(os)f(diferen)m(tes)i(tip)s(os)f(de)109 3275 y(padr~)-49
+(com)h(os)f(diferen)m(tes)i(tip)s(os)f(de)109 4643 y(padr~)-49
 b(oes,)29 b(para)e(essa)i(compara\030)-43 b(c~)-49 b(ao)28
 b(o)f(sinal)h(digital)d(\023)-46 b(e)28 b(con)m(v)m(ertido)h(em)f(um)g
-(conjun)m(to)h(de)f(par^)-49 b(ametros)109 3437 y(esp)s(ectrais)33
+(conjun)m(to)h(de)f(par^)-49 b(ametros)109 4806 y(esp)s(ectrais)33
 b(e)g(temp)s(or\023)-49 b(ais.)44 b(As)33 b(compara\030)-43
 b(c~)-49 b(oes)33 b(en)m(tre)g(formas)f(de)h(ondas)f(da)g(fala)g(s~)-49
-b(ao)32 b(m)m(uito)h(compli-)109 3600 y(cadas,)j(e)g(isso)g
+b(ao)32 b(m)m(uito)h(compli-)109 4968 y(cadas,)j(e)g(isso)g
 (justi\014ca)f(o)g(uso)h(de)g(par^)-49 b(ametros,)36
 b(como)f(exemplo,)j(p)s(o)s(demos)d(citar)g(uma)h(distor\030)-43
-b(c~)-49 b(ao)109 3762 y(de)34 b(fase)h(que)d(\023)-46
+b(c~)-49 b(ao)109 5131 y(de)34 b(fase)h(que)d(\023)-46
 b(e)34 b(imp)s(ercipt)-11 b(\023)-38 b(\020v)m(el)37
 b(ao)d(ouvido)g(h)m(umano,)h(mas)g(altera)f(a)g(forma)g(da)g(onda,)g
-(di\014cultando)109 3925 y(as)41 b(compara\030)-43 b(c~)-49
-b(oes)41 b(de)g(padr~)-49 b(oes)42 b(.\()1384 3925 y
+(di\014cultando)109 5293 y(as)41 b(compara\030)-43 b(c~)-49
+b(oes)41 b(de)g(padr~)-49 b(oes)42 b(.\()1384 5293 y
 SDict begin H.S end
 
-1384 3925 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray
-1843 3857 a
+1384 5293 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+1843 5225 a
 SDict begin H.R end
- 1843 3857 a 1843 3925 a
+ 1843 5225 a 1843 5293 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1843 3925 a Fm(,)1913
-3925 y
+ 1843 5293 a Fn(,)1913
+5293 y
 SDict begin H.S end
- 1913 3925 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
-2108 3861 a
+ 1913 5293 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+2108 5229 a
 SDict begin H.R end
- 2108 3861 a 2108 3925 a
+ 2108 5229 a 2108 5293 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 2108 3925 a Fm(\))40
+ 2108 5293 a Fn(\))40
 b(Um)h(grande)g(n)s(\023)-51 b(umero)40 b(de)i(par^)-49
-b(ametros)41 b(tem)109 4087 y(sido)34 b(prop)s(ostos,)g(segundo)g(\()
-1195 4087 y
+b(ametros)41 b(tem)109 5456 y(sido)34 b(prop)s(ostos,)g(segundo)g(\()
+1195 5456 y
 SDict begin H.S end
- 1195 4087 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p
-0 TeXcolorgray 1654 4019 a
+ 1195 5456 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p
+0 TeXcolorgray 1654 5388 a
 SDict begin H.R end
- 1654 4019 a 1654 4087 a
+ 1654 5388 a 1654 5456 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
  1654
-4087 a Fm(,)1715 4087 y
+5456 a Fn(,)1715 5456 y
 SDict begin H.S end
- 1715 4087 a 0 TeXcolorgray Fm(1997)p
-0 TeXcolorgray 1910 4023 a
+ 1715 5456 a 0 TeXcolorgray Fn(1997)p
+0 TeXcolorgray 1910 5392 a
 SDict begin H.R end
- 1910 4023 a 1910 4087 a
+ 1910 5392 a 1910 5456 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
  1910
-4087 a Fm(\))34 b(os)g(par^)-49 b(ametros)34 b(mais)g(usados)g(s~)-49
-b(ao)34 b(os:)45 b Fi(derivados)109 4250 y(dos)35 b(c)-5
-b(o)g(e\014cientes)34 b(LPC)47 b Fm(e)34 b(os)f Fi(derivados)h(dir)-5
+5456 a Fn(\))34 b(os)g(par^)-49 b(ametros)34 b(mais)g(usados)g(s~)-49
+b(ao)34 b(os:)45 b Fj(derivados)109 5618 y(dos)35 b(c)-5
+b(o)g(e\014cientes)34 b(LPC)47 b Fn(e)34 b(os)f Fj(derivados)h(dir)-5
 b(etamente)35 b(do)g(esp)-5 b(e)g(ctr)g(o)35 b(do)g(sinal)42
-b Fm(Como)34 b(j\023)-49 b(a)32 b(citado,)i(os)109 4413
+b Fn(Como)34 b(j\023)-49 b(a)32 b(citado,)i(os)109 5781
 y(reconhecedores)f(de)e(pala)m(vras)g(isoladas,)h(necessitam)h(de)e
 (capturar)f(os)h(p)s(on)m(tos)g(limitan)m(tes)h(de)f(cada)109
-4575 y(pala)m(vra.)62 b(Existem)41 b(v\023)-49 b(arios)39
+5943 y(pala)m(vra.)62 b(Existem)41 b(v\023)-49 b(arios)39
 b(algoritmos)g(de)g(detec\030)-43 b(c~)-49 b(ao)40 b(desse)h(in)-11
-b(\023)-38 b(\020cio)39 b(e)g(\014m)g(das)g(pala)m(vras,)j(usando)109
-4738 y(par^)-49 b(ametros)37 b(como:)51 b(energia)37
-b(e)g(taxa)f(de)h(cruzamen)m(to)h(de)f(zero)g(para)f(separar)h(o)f
-(sinal)h(de)g(fala)f(do)109 4900 y(ru)-11 b(\023)-38
-b(\020do.)43 b(\()439 4900 y
-SDict begin H.S end
- 439 4900 a 0 TeXcolorgray
-Fm(MAR)-8 b(TINS)p 0 TeXcolorgray 898 4832 a
-SDict begin H.R end
- 898 4832
-a 898 4900 a
-SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
-/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 898 4900 a Fm(,)958 4900 y
-SDict begin H.S end
- 958 4900 a 0
-TeXcolorgray Fm(1997)p 0 TeXcolorgray 1153 4836 a
-SDict begin H.R end
- 1153
-4836 a 1153 4900 a
-SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
-/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1153 4900 a Fm(\))109 5064 y
-SDict begin H.S end
- 109 5064
-a 109 5064 a
-SDict begin 19.57509 H.A end
- 109 5064 a 109 5064 a
-SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.3.2) cvn /DEST
-pdfmark end
- 109 5064 a 184 x Fo(2.3.2)136
-b(P)l(adr~)-67 b(oes)45 b(de)g(Refer)m(^)-64 b(encia)109
-5534 y Fm(P)m(adr~)-49 b(ao)31 b(de)g(refer)m(^)-46 b(encia)30
-b(\023)-46 b(e)30 b(o)h(pro)s(cesso)h(conhecido)g(como)f(treinamen)m
-(to,)i(p)s(ois)28 b(\023)-46 b(e)31 b(nessa)h(fase,)g(que)g(s~)-49
-b(ao)109 5696 y(criados)35 b(os)h(exemplares)h(das)f(unidades)h(a)d
-(serem)j(reconhecidas.)53 b(Como)36 b(a)f(maioria)g(dos)g(sistemas)109
-5859 y(de)c(reconhecimen)m(to)i(de)f(v)m(oz)g(s~)-49
-b(ao)30 b(reconhecedores)k(indep)s(enden)m(tes)g(de)d(lo)s(cutor,)g(s~)
--49 b(ao)31 b(necess\023)-49 b(arios)33 b(a)p 0 TeXcolorgray
-0 TeXcolorgray eop end
+b(\023)-38 b(\020cio)39 b(e)g(\014m)g(das)g(pala)m(vras,)j(usando)p
+0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 16 19
 TeXDict begin 16 18 bop 0 TeXcolorgray 0 0 a
 SDict begin /product where{pop product(Distiller)search{pop pop pop
@@ -8050,259 +8312,262 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.16) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3797 -28 a Fh(16)p 0 TeXcolorgray 109 256 a Fm(apresen)m(ta\030)-43
-b(c~)-49 b(ao)40 b(de)f(v\023)-49 b(arios)39 b(exemplos)i(de)e(cada)g
-(unidade,)i(com)e(a)g(maior)f(v)-5 b(ariedade)40 b(de)f(diferen)m(tes)
-109 418 y(lo)s(cutores)33 b(p)s(oss)-11 b(\023)-38 b(\020v)m(el,)34
-b(para)f(cria\030)-43 b(c~)-49 b(ao)32 b(de)h(um)g(sistema)h(robusto.)
-44 b(\()2540 418 y
+3797 -28 a Fi(16)p 0 TeXcolorgray 109 256 a Fn(par^)-49
+b(ametros)37 b(como:)51 b(energia)37 b(e)g(taxa)f(de)h(cruzamen)m(to)h
+(de)f(zero)g(para)f(separar)h(o)f(sinal)h(de)g(fala)f(do)109
+418 y(ru)-11 b(\023)-38 b(\020do.)43 b(\()439 418 y
 SDict begin H.S end
- 2540 418 a 0 TeXcolorgray Fm(MAR)-8
-b(TINS)p 0 TeXcolorgray 2999 350 a
+ 439
+418 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+898 350 a
 SDict begin H.R end
- 2999 350 a 2999 418
-a
+ 898 350 a 898 418 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 2999 418 a Fm(,)3059 418 y
+ 898 418 a Fn(,)958 418
+y
 SDict begin H.S end
- 3059 418 a 0 TeXcolorgray
-Fm(1997)p 0 TeXcolorgray 3254 354 a
+ 958 418 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray 1153
+354 a
 SDict begin H.R end
- 3254 354 a 3254 418
-a
+ 1153 354 a 1153 418 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3254 418 a Fm(\))274 640 y(\()312 640 y
+ 1153 418 a Fn(\))109 582
+y
 SDict begin H.S end
- 312 640 a 0
-TeXcolorgray Fm(INCE)p 0 TeXcolorgray 557 572 a
+ 109 582 a 109 582 a
+SDict begin 19.57509 H.A end
+ 109 582 a 109 582 a
+SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.3.2) cvn /DEST
+pdfmark end
+ 109 582 a 184
+x Fp(2.3.2)136 b(P)l(adr~)-67 b(oes)45 b(de)g(Refer)m(^)-64
+b(encia)109 1052 y Fn(P)m(adr~)-49 b(ao)31 b(de)g(refer)m(^)-46
+b(encia)30 b(\023)-46 b(e)30 b(o)h(pro)s(cesso)h(conhecido)g(como)f
+(treinamen)m(to,)i(p)s(ois)28 b(\023)-46 b(e)31 b(nessa)h(fase,)g(que)g
+(s~)-49 b(ao)109 1214 y(criados)35 b(os)h(exemplares)h(das)f(unidades)h
+(a)d(serem)j(reconhecidas.)53 b(Como)36 b(a)f(maioria)g(dos)g(sistemas)
+109 1377 y(de)c(reconhecimen)m(to)i(de)f(v)m(oz)g(s~)-49
+b(ao)30 b(reconhecedores)k(indep)s(enden)m(tes)g(de)d(lo)s(cutor,)g(s~)
+-49 b(ao)31 b(necess\023)-49 b(arios)33 b(a)109 1539
+y(apresen)m(ta\030)-43 b(c~)-49 b(ao)40 b(de)f(v\023)-49
+b(arios)39 b(exemplos)i(de)e(cada)g(unidade,)i(com)e(a)g(maior)f(v)-5
+b(ariedade)40 b(de)f(diferen)m(tes)109 1702 y(lo)s(cutores)33
+b(p)s(oss)-11 b(\023)-38 b(\020v)m(el,)34 b(para)f(cria\030)-43
+b(c~)-49 b(ao)32 b(de)h(um)g(sistema)h(robusto.)44 b(\()2540
+1702 y
+SDict begin H.S end
+ 2540 1702 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p
+0 TeXcolorgray 2999 1634 a
 SDict begin H.R end
- 557 572
-a 557 640 a
+ 2999 1634 a 2999 1702 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
-/Link/Dest (cite.DigSpeechNejat) cvn H.B /ANN pdfmark end
- 557 640 a Fm(,)615 640 y
+/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
+ 2999
+1702 a Fn(,)3059 1702 y
 SDict begin H.S end
- 615 640 a 0 TeXcolorgray
-Fm(1992)p 0 TeXcolorgray 810 575 a
+ 3059 1702 a 0 TeXcolorgray Fn(1997)p
+0 TeXcolorgray 3254 1638 a
 SDict begin H.R end
- 810 575 a 810 640
+ 3254 1638 a 3254 1702 a
+SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
+/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
+ 3254
+1702 a Fn(\))274 1923 y(\()312 1923 y
+SDict begin H.S end
+ 312 1923 a 0 TeXcolorgray
+Fn(INCE)p 0 TeXcolorgray 557 1855 a
+SDict begin H.R end
+ 557 1855 a 557 1923
 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.DigSpeechNejat) cvn H.B /ANN pdfmark end
- 810 640 a Fm(\))30 b(sugere)h(dois)g(tip)s(os)g(de)f(padr~)-49
+ 557 1923 a Fn(,)615 1923 y
+SDict begin H.S end
+ 615 1923 a 0 TeXcolorgray
+Fn(1992)p 0 TeXcolorgray 810 1859 a
+SDict begin H.R end
+ 810 1859 a 810 1923
+a
+SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
+/Link/Dest (cite.DigSpeechNejat) cvn H.B /ANN pdfmark end
+ 810 1923 a Fn(\))30 b(sugere)h(dois)g(tip)s(os)g(de)f(padr~)-49
 b(ao:)42 b(Um)31 b(tip)s(o)f(c)m(hamado)h(mo)s(delo)f(est\023)-49
-b(atico)31 b(que)g(faz)109 802 y(um)j(mo)s(delamen)m(to)h(est\023)-49
+b(atico)31 b(que)g(faz)109 2086 y(um)j(mo)s(delamen)m(to)h(est\023)-49
 b(atico)35 b(das)f(caracter)-11 b(\023)-38 b(\020sticas)36
-b(exemplares)g(do)e(padr~)-49 b(ao.)48 b Fi(Mo)-5 b(delos)36
-b(Ocultos)g(de)109 965 y(Markov)44 b Fm(\(HMM\))36 b(\()872
-965 y
+b(exemplares)g(do)e(padr~)-49 b(ao.)48 b Fj(Mo)-5 b(delos)36
+b(Ocultos)g(de)109 2249 y(Markov)44 b Fn(\(HMM\))36 b(\()872
+2249 y
 SDict begin H.S end
- 872 965 a 0 TeXcolorgray Fm(RABINER)p 0 TeXcolorgray
-1332 897 a
+ 872 2249 a 0 TeXcolorgray Fn(RABINER)p 0 TeXcolorgray
+1332 2180 a
 SDict begin H.R end
- 1332 897 a 1332 965 a
+ 1332 2180 a 1332 2249 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
- 1332 965 a Fm(,)1394
-965 y
+ 1332 2249 a Fn(,)1394
+2249 y
 SDict begin H.S end
- 1394 965 a 0 TeXcolorgray Fm(1993)p 0 TeXcolorgray
-1589 900 a
+ 1394 2249 a 0 TeXcolorgray Fn(1993)p 0 TeXcolorgray
+1589 2184 a
 SDict begin H.R end
- 1589 900 a 1589 965 a
+ 1589 2184 a 1589 2249 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.FundamentRabiner) cvn H.B /ANN pdfmark end
- 1589 965 a Fm(\))e(s~)-49
+ 1589 2249 a Fn(\))e(s~)-49
 b(ao)35 b(exemplos)h(desse)g(m)m(\023)-46 b(eto)s(do.)49
 b(Outro)34 b(tip)s(o)d(\023)-46 b(e)35 b(conhecido)109
-1127 y(como)41 b(padr~)-49 b(ao)41 b(de)h(refer)m(^)-46
+2411 y(como)41 b(padr~)-49 b(ao)41 b(de)h(refer)m(^)-46
 b(encia)42 b(n~)-49 b(ao)41 b(param)m(^)-46 b(etrico,)44
 b(p)s(o)s(dendo)d(ser)h(um)g(exemplo)g(do)g(padr~)-49
-b(ao)40 b(a)h(ser)109 1290 y(reconhecido)f(ou)e(um)h(padr~)-49
+b(ao)40 b(a)h(ser)109 2574 y(reconhecido)f(ou)e(um)h(padr~)-49
 b(ao)39 b(m)m(\023)-46 b(edio)39 b(do)g(padr~)-49 b(ao)38
-b(a)g(ser)i(reconhecido.)63 b(\()2930 1290 y
+b(a)g(ser)i(reconhecido.)63 b(\()2930 2574 y
 SDict begin H.S end
- 2930 1290
-a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray 3389
-1222 a
+ 2930 2574
+a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray 3389
+2505 a
 SDict begin H.R end
- 3389 1222 a 3389 1290 a
+ 3389 2505 a 3389 2574 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3389 1290 a Fm(,)3456
-1290 y
+ 3389 2574 a Fn(,)3456
+2574 y
 SDict begin H.S end
- 3456 1290 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
-3651 1225 a
+ 3456 2574 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+3651 2509 a
 SDict begin H.R end
- 3651 1225 a 3651 1290 a
+ 3651 2509 a 3651 2574 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3651 1290 a Fm(\))39
-b(Nos)109 1452 y Fi(Nos)d(Mo)-5 b(delos)36 b(Ocultos)h(de)f(Markov)45
-b Fm(\(HMM\))35 b(cada)f(padr~)-49 b(ao)31 b(\023)-46
+ 3651 2574 a Fn(\))39
+b(Nos)109 2736 y Fj(Nos)d(Mo)-5 b(delos)36 b(Ocultos)h(de)f(Markov)45
+b Fn(\(HMM\))35 b(cada)f(padr~)-49 b(ao)31 b(\023)-46
 b(e)35 b(represen)m(tado)h(p)s(or)e(uma)h(rede)g(com)109
-1615 y(N)41 b(estados,)k(que)e(s~)-49 b(ao)41 b(caracterizados)i(p)s
+2899 y(N)41 b(estados,)k(que)e(s~)-49 b(ao)41 b(caracterizados)i(p)s
 (or)e(uma)h(fun\030)-43 b(c~)-49 b(ao)42 b(de)g(probabilidade)g(de)g
-(transi\030)-43 b(c~)-49 b(ao)42 b(en)m(tre)109 1777
+(transi\030)-43 b(c~)-49 b(ao)42 b(en)m(tre)109 3061
 y(estados)f(e)f(um)h(conjun)m(to)f(de)h(fun\030)-43 b(c~)-49
 b(oes)41 b(de)g(probabilidade)g(de)g(s)-11 b(\023)-38
 b(\020m)m(b)s(olos)41 b(de)g(sa)-11 b(\023)-38 b(\020da.)66
-b(\()3402 1777 y
+b(\()3402 3061 y
 SDict begin H.S end
- 3402 1777 a 0 TeXcolorgray Fm(MAR)-8
-b(TINS)p 0 TeXcolorgray 3861 1709 a
+ 3402 3061 a 0 TeXcolorgray Fn(MAR)-8
+b(TINS)p 0 TeXcolorgray 3861 2993 a
 SDict begin H.R end
- 3861 1709 a 3861
-1777 a
+ 3861 2993 a 3861
+3061 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3861 1777 a Fm(,)109 1940 y
+ 3861 3061 a Fn(,)109 3224 y
 SDict begin H.S end
- 109 1940 a 0 TeXcolorgray
-Fm(1997)p 0 TeXcolorgray 304 1876 a
+ 109 3224 a 0 TeXcolorgray
+Fn(1997)p 0 TeXcolorgray 304 3159 a
 SDict begin H.R end
- 304 1876 a 304 1940
+ 304 3159 a 304 3224
 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 304 1940 a Fm(\))109 2104 y
+ 304 3224 a Fn(\))109 3388 y
 SDict begin H.S end
- 109 2104 a 109 2104 a
+ 109 3388 a 109 3388 a
 SDict begin 19.57509 H.A end
  109
-2104 a 109 2104 a
+3388 a 109 3388 a
 SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.3.3) cvn /DEST
 pdfmark end
- 109 2104 a 184 x Fo(2.3.3)136 b(Compara\030)-60
-b(c)o(~)-66 b(ao)46 b(de)f(P)l(adr~)-67 b(oes)109 2574
-y Fm(A)23 b(compara\030)-43 b(c~)-49 b(ao)23 b(de)g(padr~)-49
+ 109 3388 a 184 x Fp(2.3.3)136 b(Compara\030)-60
+b(c)o(~)-66 b(ao)46 b(de)f(P)l(adr~)-67 b(oes)109 3857
+y Fn(A)23 b(compara\030)-43 b(c~)-49 b(ao)23 b(de)g(padr~)-49
 b(oes,)23 b(\023)-46 b(e)23 b(a)f(fase)i(em)f(que)h(os)f(dados)g(s~)-49
 b(ao)23 b(cruzados,)j(o)d(conjun)m(to)g(de)h(par^)-49
-b(ametros)109 2736 y(que)28 b(represen)m(ta)i(o)d(padr~)-49
+b(ametros)109 4020 y(que)28 b(represen)m(ta)i(o)d(padr~)-49
 b(ao)28 b(desconhecido)f(\023)-46 b(e)28 b(comparado)f(com)i(os)f(div)m
 (ersos)h(padr~)-49 b(oes)29 b(de)f(refer)m(^)-46 b(encia,)109
-2899 y(esses)41 b(par^)-49 b(ametros)40 b(s~)-49 b(ao)39
+4182 y(esses)41 b(par^)-49 b(ametros)40 b(s~)-49 b(ao)39
 b(da)g(mesma)i(natureza)f(que)g(os)g(padr~)-49 b(oes)40
-b(j\023)-49 b(a)39 b(referenciados.)65 b(\()3402 2899
+b(j\023)-49 b(a)39 b(referenciados.)65 b(\()3402 4182
 y
 SDict begin H.S end
- 3402 2899 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray
-3861 2831 a
+ 3402 4182 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+3861 4114 a
 SDict begin H.R end
- 3861 2831 a 3861 2899 a
+ 3861 4114 a 3861 4182 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3861 2899 a Fm(,)109
-3061 y
+ 3861 4182 a Fn(,)109
+4345 y
 SDict begin H.S end
- 109 3061 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
-304 2997 a
+ 109 4345 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+304 4281 a
 SDict begin H.R end
- 304 2997 a 304 3061 a
+ 304 4281 a 304 4345 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 304 3061 a Fm(\))32
+ 304 4345 a Fn(\))32
 b(Nos)h(padr~)-49 b(oes)34 b(de)f(refer)m(^)-46 b(encia)34
-b(gerados)f(p)s(or)f Fi(Mo)-5 b(delos)35 b(de)f(Markov)h(Ocultos)8
-b Fm(\(HMM\),)34 b(a)e(com-)109 3224 y(para\030)-43 b(c~)-49
+b(gerados)f(p)s(or)f Fj(Mo)-5 b(delos)35 b(de)f(Markov)h(Ocultos)8
+b Fn(\(HMM\),)34 b(a)e(com-)109 4508 y(para\030)-43 b(c~)-49
 b(ao)21 b(resulta)i(na)f(probabilidade)h(de)f(que)i(cada)e(mo)s(delo)g
 (de)g(refer)m(^)-46 b(encia)24 b(tenha)e(gerado)g(o)g(conjun)m(to)109
-3386 y(de)33 b(param)m(^)-46 b(etros)33 b(de)g(en)m(trada.)44
-b(\()1310 3386 y
+4670 y(de)33 b(param)m(^)-46 b(etros)33 b(de)g(en)m(trada.)44
+b(\()1310 4670 y
 SDict begin H.S end
- 1310 3386 a 0 TeXcolorgray Fm(MAR)-8
-b(TINS)p 0 TeXcolorgray 1769 3318 a
+ 1310 4670 a 0 TeXcolorgray Fn(MAR)-8
+b(TINS)p 0 TeXcolorgray 1769 4602 a
 SDict begin H.R end
- 1769 3318 a 1769
-3386 a
+ 1769 4602 a 1769
+4670 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 1769 3386 a Fm(,)1828 3386 y
+ 1769 4670 a Fn(,)1828 4670 y
 SDict begin H.S end
- 1828 3386 a 0 TeXcolorgray
-Fm(1997)p 0 TeXcolorgray 2023 3322 a
+ 1828 4670 a 0 TeXcolorgray
+Fn(1997)p 0 TeXcolorgray 2023 4606 a
 SDict begin H.R end
- 2023 3322 a 2023
-3386 a
+ 2023 4606 a 2023
+4670 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 2023 3386 a Fm(\))109 3550 y
+ 2023 4670 a Fn(\))109 4834 y
 SDict begin H.S end
- 109 3550 a 109 3550
+ 109 4834 a 109 4834
 a
 SDict begin 19.57509 H.A end
- 109 3550 a 109 3550 a
+ 109 4834 a 109 4834 a
 SDict begin [/View [/XYZ H.V]/Dest (subsection.resumo.2.3.4) cvn /DEST
 pdfmark end
- 109 3550 a 184 x Fo(2.3.4)136
-b(P\023)-67 b(os-Pro)t(cessador)109 4020 y Fm(A)50 b(\023)-51
+ 109 4834 a 184 x Fp(2.3.4)136
+b(P\023)-67 b(os-Pro)t(cessador)109 5304 y Fn(A)50 b(\023)-51
 b(ultima)47 b(fase)h(seria)g(a)f(escolha)h(do)f(melhor)h(padr~)-49
 b(ao)47 b(referencial,)53 b(resultado)48 b(da)f(compara\030)-43
-b(c~)-49 b(ao)109 4182 y(de)44 b(padr~)-49 b(oes,)47
+b(c~)-49 b(ao)109 5466 y(de)44 b(padr~)-49 b(oes,)47
 b(para)d(o)f(padr~)-49 b(ao)44 b(desconhecido.)79 b(Como)44
 b(aux)-11 b(\023)-38 b(\020lio)45 b(na)e(escolha)i(do)f(melhor)g(padr~)
--49 b(ao,)109 4345 y(p)s(o)s(de-se)38 b(usar)g(restri\030)-43
+-49 b(ao,)109 5629 y(p)s(o)s(de-se)38 b(usar)g(restri\030)-43
 b(c~)-49 b(oes)40 b(sin)m(t\023)-49 b(aticas)39 b(e)g(sem^)-49
 b(an)m(ticas,)41 b(eliminando)e(os)f(candidatos)h(n~)-49
-b(ao)38 b(razo\023)-49 b(av)m(eis.)109 4508 y(\()147
-4508 y
+b(ao)38 b(razo\023)-49 b(av)m(eis.)109 5791 y(\()147
+5791 y
 SDict begin H.S end
- 147 4508 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0
-TeXcolorgray 606 4439 a
+ 147 5791 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0
+TeXcolorgray 606 5723 a
 SDict begin H.R end
- 606 4439 a 606 4508 a
+ 606 5723 a 606 5791 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 606 4508
-a Fm(,)665 4508 y
+ 606 5791
+a Fn(,)665 5791 y
 SDict begin H.S end
- 665 4508 a 0 TeXcolorgray Fm(1997)p
-0 TeXcolorgray 860 4443 a
+ 665 5791 a 0 TeXcolorgray Fn(1997)p
+0 TeXcolorgray 860 5727 a
 SDict begin H.R end
- 860 4443 a 860 4508 a
+ 860 5727 a 860 5791 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 860 4508
-a Fm(\))109 4683 y
-SDict begin H.S end
- 109 4683 a 109 4683 a
-SDict begin 19.57509 H.A end
- 109 4683 a 109
-4683 a
-SDict begin [/View [/XYZ H.V]/Dest (section.resumo.2.4) cvn /DEST pdfmark
-end
- 109 4683 a 216 x Fe(2.4)160 b(Av)-9 b(alia\030)-72
-b(c)o(~)-80 b(ao)55 b(de)e(Desemp)t(enho)e(de)j(um)g(Reconhecedor)109
-5220 y Fm(V\023)-49 b(arios)22 b(fatores)h(in)m(terferem)h(no)e(desemp)
-s(enho)i(de)f(um)g(reconhecedor)h(de)f(v)m(oz,)j(segundo)d(\()3402
-5220 y
-SDict begin H.S end
- 3402 5220 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p
-0 TeXcolorgray 3861 5151 a
-SDict begin H.R end
- 3861 5151 a 3861 5220 a
-SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
-/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3861
-5220 a Fm(,)109 5382 y
-SDict begin H.S end
- 109 5382 a 0 TeXcolorgray Fm(1997)p
-0 TeXcolorgray 304 5318 a
-SDict begin H.R end
- 304 5318 a 304 5382 a
-SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
-/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 304 5382
-a Fm(\))32 b(um)h(reconhecedor)i(de)e(pala)m(vras)g(isoladas)g(p)s(o)s
-(de)g(ser)g(a)m(v)-5 b(aliado)32 b(com)h(essas)h(medidas:)p
-0 TeXcolorgray 255 5687 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(P)m(orcen)m(tagem)j(de)g(acerto:)51 b(P)m(orcen)m(tagem)38
-b(de)f(pala)m(vras)f(que)i(foram)d(reconhecidas)k(correta-)353
-5849 y(men)m(te;)p 0 TeXcolorgray 0 TeXcolorgray eop
-end
+ 860 5791
+a Fn(\))p 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 17 20
 TeXDict begin 17 19 bop 0 TeXcolorgray 0 0 a
 SDict begin /product where{pop product(Distiller)search{pop pop pop
@@ -8318,47 +8583,82 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.17) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3797
--28 a Fh(17)p 0 TeXcolorgray 0 TeXcolorgray 255 256 a
-Fl(\210)p 0 TeXcolorgray 49 w Fm(P)m(orcen)m(tagem)32
-b(de)f(rejei\030)-43 b(c~)-49 b(ao:)43 b(P)m(orcen)m(tagem)33
-b(de)e(pala)m(vras)g(que)h(p)s(ertencem)g(ao)f(v)m(o)s(cabul\023)-49
-b(ario)31 b(e)353 418 y(foram)h(rejeitadas)h(erradamen)m(te;)p
-0 TeXcolorgray 255 664 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(P)m(orcen)m(tagem)49 b(de)g(erro:)75 b(P)m(orcen)m(tagem)49
-b(de)g(pala)m(vras)g(que)g(foram)f(reconhecidas)i(errada-)353
-826 y(men)m(te.)274 1131 y(J\023)-49 b(a)32 b(no)h(caso)g(de)g
-(reconhecedores)i(de)e(fala)f(con)m(t)-11 b(\023)-38
-b(\020n)m(ua,)34 b(as)f(medidas)g(seriam\()3103 1131
+-28 a Fi(17)p 0 TeXcolorgray 109 156 a
+SDict begin H.S end
+ 109 156 a 109
+156 a
+SDict begin 19.57509 H.A end
+ 109 156 a 109 156 a
+SDict begin [/View [/XYZ H.V]/Dest (section.resumo.2.4) cvn /DEST pdfmark
+end
+ 109 156 a 100 x Ff(2.4)160
+b(Av)-9 b(alia\030)-72 b(c)o(~)-80 b(ao)55 b(de)e(Desemp)t(enho)e(de)j
+(um)g(Reconhecedor)109 576 y Fn(V\023)-49 b(arios)22
+b(fatores)h(in)m(terferem)h(no)e(desemp)s(enho)i(de)f(um)g
+(reconhecedor)h(de)f(v)m(oz,)j(segundo)d(\()3402 576
 y
 SDict begin H.S end
- 3103 1131 a 0 TeXcolorgray Fm(MAR)-8 b(TINS)p 0 TeXcolorgray
-3563 1063 a
+ 3402 576 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+3861 508 a
 SDict begin H.R end
- 3563 1063 a 3563 1131 a
+ 3861 508 a 3861 576 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3563 1131 a Fm(,)3623
-1131 y
+ 3861 576 a Fn(,)109
+738 y
 SDict begin H.S end
- 3623 1131 a 0 TeXcolorgray Fm(1997)p 0 TeXcolorgray
-3818 1066 a
+ 109 738 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+304 674 a
 SDict begin H.R end
- 3818 1066 a 3818 1131 a
+ 304 674 a 304 738 a
 SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
 /Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
- 3818 1131 a Fm(\):)p
-0 TeXcolorgray 255 1435 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(P)m(orcen)m(tagem)46 b(de)g(inser\030)-43 b(c~)-49
+ 304 738 a Fn(\))32 b(um)h(reconhecedor)i
+(de)e(pala)m(vras)g(isoladas)g(p)s(o)s(de)g(ser)g(a)m(v)-5
+b(aliado)32 b(com)h(essas)h(medidas:)p 0 TeXcolorgray
+255 1043 a Fm(\210)p 0 TeXcolorgray 49 w Fn(P)m(orcen)m(tagem)j(de)g
+(acerto:)51 b(P)m(orcen)m(tagem)38 b(de)f(pala)m(vras)f(que)i(foram)d
+(reconhecidas)k(correta-)353 1205 y(men)m(te;)p 0 TeXcolorgray
+255 1451 a Fm(\210)p 0 TeXcolorgray 49 w Fn(P)m(orcen)m(tagem)32
+b(de)f(rejei\030)-43 b(c~)-49 b(ao:)43 b(P)m(orcen)m(tagem)33
+b(de)e(pala)m(vras)g(que)h(p)s(ertencem)g(ao)f(v)m(o)s(cabul\023)-49
+b(ario)31 b(e)353 1613 y(foram)h(rejeitadas)h(erradamen)m(te;)p
+0 TeXcolorgray 255 1859 a Fm(\210)p 0 TeXcolorgray 49
+w Fn(P)m(orcen)m(tagem)49 b(de)g(erro:)75 b(P)m(orcen)m(tagem)49
+b(de)g(pala)m(vras)g(que)g(foram)f(reconhecidas)i(errada-)353
+2021 y(men)m(te.)274 2326 y(J\023)-49 b(a)32 b(no)h(caso)g(de)g
+(reconhecedores)i(de)e(fala)f(con)m(t)-11 b(\023)-38
+b(\020n)m(ua,)34 b(as)f(medidas)g(seriam\()3103 2326
+y
+SDict begin H.S end
+ 3103 2326 a 0 TeXcolorgray Fn(MAR)-8 b(TINS)p 0 TeXcolorgray
+3563 2258 a
+SDict begin H.R end
+ 3563 2258 a 3563 2326 a
+SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
+/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
+ 3563 2326 a Fn(,)3623
+2326 y
+SDict begin H.S end
+ 3623 2326 a 0 TeXcolorgray Fn(1997)p 0 TeXcolorgray
+3818 2262 a
+SDict begin H.R end
+ 3818 2262 a 3818 2326 a
+SDict begin [/Color [0 1 0]/H /I/Border [0 0 0]BorderArrayPatch/Subtype
+/Link/Dest (cite.AvaliaTecJose) cvn H.B /ANN pdfmark end
+ 3818 2326 a Fn(\):)p
+0 TeXcolorgray 255 2631 a Fm(\210)p 0 TeXcolorgray 49
+w Fn(P)m(orcen)m(tagem)46 b(de)g(inser\030)-43 b(c~)-49
 b(ao:)70 b(P)m(orcen)m(tagem)47 b(de)e(pala)m(vras)h(extras)g
-(inseridas)h(na)e(sen)m(ten\030)-43 b(ca)353 1598 y(reconhecida;)p
-0 TeXcolorgray 255 1843 a Fl(\210)p 0 TeXcolorgray 49
-w Fm(P)m(orcen)m(tagem)40 b(de)g(omiss~)-49 b(ao:)57
+(inseridas)h(na)e(sen)m(ten\030)-43 b(ca)353 2793 y(reconhecida;)p
+0 TeXcolorgray 255 3039 a Fm(\210)p 0 TeXcolorgray 49
+w Fn(P)m(orcen)m(tagem)40 b(de)g(omiss~)-49 b(ao:)57
 b(P)m(orcen)m(tagem)40 b(de)g(pala)m(vras)f(corretas)h(omitidas)f(na)g
-(sen)m(ten\030)-43 b(ca)353 2006 y(reconhecida;)p 0 TeXcolorgray
-255 2251 a Fl(\210)p 0 TeXcolorgray 49 w Fm(P)m(orcen)m(tagem)44
+(sen)m(ten\030)-43 b(ca)353 3201 y(reconhecida;)p 0 TeXcolorgray
+255 3447 a Fm(\210)p 0 TeXcolorgray 49 w Fn(P)m(orcen)m(tagem)44
 b(de)f(substitui\030)-43 b(c~)-49 b(ao:)65 b(P)m(orcen)m(tagem)44
 b(de)f(corretas)h(substituidas)g(p)s(or)e(pala)m(vras)353
-2414 y(incorretas)33 b(na)f(sen)m(ten\030)-43 b(ca)35
+3609 y(incorretas)33 b(na)f(sen)m(ten\030)-43 b(ca)35
 b(reconhecida.)p 0 TeXcolorgray 0 TeXcolorgray eop end
 %%Page: 18 21
 TeXDict begin 18 20 bop 0 TeXcolorgray 0 0 a
@@ -8375,7 +8675,7 @@ SDict begin H.R end
  -136 -136 a -136 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.18) cvn /DEST pdfmark end
  -136 -136 a 0 TeXcolorgray
-3797 -28 a Fh(18)p 0 TeXcolorgray 109 156 a
+3797 -28 a Fi(18)p 0 TeXcolorgray 109 156 a
 SDict begin H.S end
  109 156 a
 109 156 a
@@ -8383,9 +8683,9 @@ SDict begin 19.57509 H.A end
  109 156 a 109 156 a
 SDict begin [/View [/XYZ H.V]/Dest (chapter.resumo.3) cvn /DEST pdfmark
 end
- 109 156 a 570 x Ff(3)245
+ 109 156 a 570 x Fg(3)245
 b(Mo)-12 b(delos)85 b(Ocultos)g(de)g(Markov)109 1542
-y Fm(S~)-49 b(ao)43 b(p)s(o)s(derosos)h(m)m(\023)-46
+y Fn(S~)-49 b(ao)43 b(p)s(o)s(derosos)h(m)m(\023)-46
 b(eto)s(dos)45 b(est\023)-49 b(aticos)45 b(que)f(p)s(o)s(dem)g(ser)h
 (usados)g(para)e(mo)s(delar)h(sinais)h(como)f(um)109
 1704 y(pro)s(cesso)33 b(aleat\023)-49 b(orio)32 b(param)m(\023)-46
@@ -8405,7 +8705,7 @@ SDict begin H.R end
  100 -136 a 100 -136 a
 SDict begin [/View [/XYZ H.V]/Dest (page.19) cvn /DEST pdfmark end
  100 -136 a 0 TeXcolorgray 3797
--28 a Fh(19)p 0 TeXcolorgray 649 651 a Ff(R)-12 b(efer)-6
+-28 a Fi(19)p 0 TeXcolorgray 649 651 a Fg(R)-12 b(efer)-6
 b(^)-116 b(encias)84 b(Biblio)-12 b(gr\023)-122 b(a\014c)-12
 b(as)109 1090 y
 SDict begin H.S end
@@ -8416,14 +8716,14 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.RavCadeiraAedb) cvn /DEST
 pdfmark end
  109 1090 a 0 TeXcolorgray 0 TeXcolorgray 114 x
-Fm(BAR)m(CELOS,)88 b(A.)g Fi(R)-5 b(e)g(c)g(onhe)g(cimento)84
+Fn(BAR)m(CELOS,)88 b(A.)g Fj(R)-5 b(e)g(c)g(onhe)g(cimento)84
 b(de)h(voz)g(p)-5 b(ar)g(a)109 1324 y(aplic)g(a\030)-45
 b(c~)-50 b(ao)73 b(em)i(c)-5 b(adeir)g(a)74 b(de)h(r)-5
-b(o)g(das)p Fm(.)76 b(2007.)g(Disp)s(on)-11 b(\023)-38
+b(o)g(das)p Fn(.)76 b(2007.)g(Disp)s(on)-11 b(\023)-38
 b(\020v)m(el)77 b(em:)109 1470 y
 SDict begin H.S end
  109 1470 a 0 TeXcolorgray
--25 x Fa(<)p Fm(h)m(ttp://www.aedb.br/seget/artigos08/445)s(\025)-51
+-25 x Fa(<)p Fn(h)m(ttp://www.aedb.br/seget/artigos08/445)s(\025)-51
 b(nderline)34 b(Reconhecimen)m(to)h(de)e(V)-8 b(oz)32
 b(aplicado)h(na)g(cadeira)g(de)g(ro)s(das.p)s(df)p Fa(>)p
 0 TeXcolorgray 4818 1370 a
@@ -8433,7 +8733,7 @@ SDict begin [/H /I/Border [0 0 0]BorderArrayPatch/Color [0 1 1]/Action
 << /Subtype /URI /URI (http://www.aedb.br/seget/artigos08/445_Reconhecimento\040de\040Voz\040aplicado\040na\040cadeira\040de\040rodas.pdf)
 >>/Subtype /Link H.B /ANN pdfmark end
  4818
-1445 a Fm(.)109 1565 y(Acesso)h(em:)44 b(14/03/2012.)109
+1445 a Fn(.)109 1565 y(Acesso)h(em:)44 b(14/03/2012.)109
 1624 y
 SDict begin H.S end
  109 1624 a 109 1624 a
@@ -8442,13 +8742,13 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.XBoxTechT) cvn /DEST pdfmark
 end
  109
-1624 a 0 TeXcolorgray 0 TeXcolorgray 129 x Fm(BOR)m(GES,)60
-b(D.)g Fi(XBox)g(360)g(r)-5 b(eview)p Fm(.)59 b(T)-8
+1624 a 0 TeXcolorgray 0 TeXcolorgray 129 x Fn(BOR)m(GES,)60
+b(D.)g Fj(XBox)g(360)g(r)-5 b(eview)p Fn(.)59 b(T)-8
 b(ec)m(hT)g(udo,)70 b(2010.)59 b(Disp)s(on)-11 b(\023)-38
 b(\020v)m(el)62 b(em:)109 1899 y
 SDict begin H.S end
  109 1899 a 0 TeXcolorgray
--25 x Fa(<)p Fm(h)m(ttp://www.tec)m(h)m(tudo.com.br/review/xb)s(o)m
+-25 x Fa(<)p Fn(h)m(ttp://www.tec)m(h)m(tudo.com.br/review/xb)s(o)m
 (x-360/um-dos-melhores-consoles)q(-da-atual-geracao.h)m(tml)p
 Fa(>)p 0 TeXcolorgray 4352 1799 a
 SDict begin H.R end
@@ -8457,7 +8757,7 @@ a
 SDict begin [/H /I/Border [0 0 0]BorderArrayPatch/Color [0 1 1]/Action
 << /Subtype /URI /URI (http://www.techtudo.com.br/review/xbox-360/um-dos-melhores-consoles-da-atual-geracao.html)
 >>/Subtype /Link H.B /ANN pdfmark end
- 4352 1874 a Fm(.)109 1994 y(Acesso)34 b(em:)44 b(13/03/2012.)109
+ 4352 1874 a Fn(.)109 1994 y(Acesso)34 b(em:)44 b(13/03/2012.)109
 2053 y
 SDict begin H.S end
  109 2053 a 109 2053 a
@@ -8467,12 +8767,12 @@ SDict begin [/View [/XYZ H.V]/Dest (cite.KinectTechT) cvn /DEST pdfmark
 end
  109
 2053 a 0 TeXcolorgray 0 TeXcolorgray 109 2198 261 4 v
-369 2182 a Fm(.)74 b Fi(Kine)-5 b(ct)72 b(r)-5 b(eview)p
-Fm(.)74 b(T)-8 b(ec)m(hT)g(udo,)86 b(2011.)73 b(Disp)s(on)-11
+369 2182 a Fn(.)74 b Fj(Kine)-5 b(ct)72 b(r)-5 b(eview)p
+Fn(.)74 b(T)-8 b(ec)m(hT)g(udo,)86 b(2011.)73 b(Disp)s(on)-11
 b(\023)-38 b(\020v)m(el)75 b(em:)109 2328 y
 SDict begin H.S end
  109 2328
-a 0 TeXcolorgray -25 x Fa(<)p Fm(h)m(ttp://www.tec)m(h)m
+a 0 TeXcolorgray -25 x Fa(<)p Fn(h)m(ttp://www.tec)m(h)m
 (tudo.com.br/review/kinect/o-acess)q(orio-rev)m
 (olucionario-da-microsoft.h)m(tml)p Fa(>)p 0 TeXcolorgray
 4042 2228 a
@@ -8481,7 +8781,7 @@ SDict begin H.R end
 SDict begin [/H /I/Border [0 0 0]BorderArrayPatch/Color [0 1 1]/Action
 << /Subtype /URI /URI (http://www.techtudo.com.br/review/kinect/o-acessorio-revolucionario-da-microsoft.html)
 >>/Subtype /Link H.B /ANN pdfmark end
- 4042 2303 a Fm(.)109
+ 4042 2303 a Fn(.)109
 2423 y(Acesso)34 b(em:)44 b(13/03/2012.)109 2482 y
 SDict begin H.S end
  109
@@ -8491,14 +8791,14 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.ImplementServVirtuaisDamasceno)
 cvn /DEST pdfmark end
  109 2482 a 0
-TeXcolorgray 0 TeXcolorgray 129 x Fm(D)m(AMASCENO,)71
-b(E.)g(F.)f Fi(Implementa\030)-45 b(c~)-50 b(ao)67 b(de)j(Servi\030)-45
+TeXcolorgray 0 TeXcolorgray 129 x Fn(D)m(AMASCENO,)71
+b(E.)g(F.)f Fj(Implementa\030)-45 b(c~)-50 b(ao)67 b(de)j(Servi\030)-45
 b(cos)68 b(de)h(V)-7 b(oz)109 2732 y(em)72 b(A)n(mbientes)g(Virtuais)p
-Fm(.)i(F)-8 b(ebruary)74 b(2005.)f(Disp)s(on)-11 b(\023)-38
+Fn(.)i(F)-8 b(ebruary)74 b(2005.)f(Disp)s(on)-11 b(\023)-38
 b(\020v)m(el)75 b(em:)109 2877 y
 SDict begin H.S end
  109 2877 a 0 TeXcolorgray
--25 x Fa(<)p Fm(h)m(ttp://www.dcc.u\015a.br/info)s(comp/artigos\045)35
+-25 x Fa(<)p Fn(h)m(ttp://www.dcc.u\015a.br/info)s(comp/artigos\045)35
 b(-/v4.3/art09.p)s(df)p Fa(>)p 0 TeXcolorgray 2835 2777
 a
 SDict begin H.R end
@@ -8506,7 +8806,7 @@ SDict begin H.R end
 SDict begin [/H /I/Border [0 0 0]BorderArrayPatch/Color [0 1 1]/Action
 << /Subtype /URI /URI (http://www.dcc.ufla.br/infocomp/artigos/v4.3/art09.pdf)
 >>/Subtype /Link H.B /ANN pdfmark end
- 2835 2852 a Fm(.)50 b(Acesso)h(em:)109
+ 2835 2852 a Fn(.)50 b(Acesso)h(em:)109
 2973 y(14/03/2012.)109 3031 y
 SDict begin H.S end
  109 3031 a 109 3031 a
@@ -8516,10 +8816,10 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.RavDigitalSadaoki) cvn /DEST
 pdfmark end
  109 3031 a 0 TeXcolorgray 0 TeXcolorgray
-130 x Fm(FUR)m(UI,)41 b(S.)g Fi(Digital)h(Sp)-5 b(e)g(e)g(ch)42
+130 x Fn(FUR)m(UI,)41 b(S.)g Fj(Digital)h(Sp)-5 b(e)g(e)g(ch)42
 b(Pr)-5 b(o)g(c)g(essing,)43 b(Synthesis,)h(and)e(R)-5
 b(e)g(c)g(o)g(gnition.)41 b(Mar)-5 b(c)g(el)43 b(Dekker)p
-Fm(.)109 3281 y(Monogra\014a,)32 b(1989.)109 3335 y
+Fn(.)109 3281 y(Monogra\014a,)32 b(1989.)109 3335 y
 SDict begin H.S end
  109
 3335 a 109 3335 a
@@ -8528,10 +8828,10 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.DigSpeechNejat) cvn /DEST
 pdfmark end
  109 3335 a 0
-TeXcolorgray 0 TeXcolorgray 134 x Fm(INCE,)k(A.)f(N.)h
-Fi(Digital)g(sp)-5 b(e)g(e)g(ch)37 b(pr)-5 b(o)g(c)g(essing:)48
+TeXcolorgray 0 TeXcolorgray 134 x Fn(INCE,)k(A.)f(N.)h
+Fj(Digital)g(sp)-5 b(e)g(e)g(ch)37 b(pr)-5 b(o)g(c)g(essing:)48
 b(sp)-5 b(e)g(e)g(ch)36 b(c)-5 b(o)g(ding,)37 b(synthesis,)g(and)g(r)-5
-b(e)g(c)g(o)g(gnition)p Fm(.)34 b([S.l.]:)109 3590 y(Klu)m(w)m(er)g
+b(e)g(c)g(o)g(gnition)p Fn(.)34 b([S.l.]:)109 3590 y(Klu)m(w)m(er)g
 (Academic)g(Publishers,)h(1992.)c(ISBN)j(0-7923-9220-5.)109
 3643 y
 SDict begin H.S end
@@ -8541,11 +8841,11 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.AvaliaTecJose) cvn /DEST pdfmark
 end
  109
-3643 a 0 TeXcolorgray 0 TeXcolorgray 135 x Fm(MAR)-8
-b(TINS,)44 b(J.)g(A.)g Fi(A)n(valia\030)-45 b(c~)-50
+3643 a 0 TeXcolorgray 0 TeXcolorgray 135 x Fn(MAR)-8
+b(TINS,)44 b(J.)g(A.)g Fj(A)n(valia\030)-45 b(c~)-50
 b(ao)43 b(de)i(difer)-5 b(entes)44 b(t)n(\023)-47 b(ecnic)-5
 b(as)43 b(p)-5 b(ar)g(a)44 b(r)-5 b(e)g(c)g(onhe)g(cimento)44
-b(de)g(fala)p Fm(.)109 3899 y(Monogra\014a)32 b(\(Doutorado\),)f
+b(de)g(fala)p Fn(.)109 3899 y(Monogra\014a)32 b(\(Doutorado\),)f
 (Campinas,)j(1997.)109 3957 y
 SDict begin H.S end
  109 3957 a 109 3957 a
@@ -8555,9 +8855,9 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.FundamentRabiner) cvn /DEST
 pdfmark end
  109 3957 a 0 TeXcolorgray 0 TeXcolorgray
-130 x Fm(RABINER,)f(L.)f(R.)h Fi(F)-7 b(undamentals)33
+130 x Fn(RABINER,)f(L.)f(R.)h Fj(F)-7 b(undamentals)33
 b(of)h(sp)-5 b(e)g(e)g(ch)34 b(r)-5 b(e)g(c)g(o)g(gnition)p
-Fm(.)32 b([S.l.]:)44 b(PTR)33 b(Pren)m(tice)i(Hall,)d(1993.)109
+Fn(.)32 b([S.l.]:)44 b(PTR)33 b(Pren)m(tice)i(Hall,)d(1993.)109
 4146 y
 SDict begin H.S end
  109 4146 a 109 4146 a
@@ -8566,14 +8866,14 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.HistJogosHenrique) cvn /DEST
 pdfmark end
  109
-4146 a 0 TeXcolorgray 0 TeXcolorgray 129 x Fm(RAMOS,)68
+4146 a 0 TeXcolorgray 0 TeXcolorgray 129 x Fn(RAMOS,)68
 b(H.)g(M.)g(Disciplina:)115 b(Computadores)70 b(e)e(so)s(ciedade,)78
-b Fi(A)109 4396 y(hist\023)-50 b(oria)69 b(dos)g(jo)-5
-b(gos)69 b(de)g(c)-5 b(omputador)g(es)p Fm(.)70 b(2007.)g(Disp)s(on)-11
+b Fj(A)109 4396 y(hist\023)-50 b(oria)69 b(dos)g(jo)-5
+b(gos)69 b(de)g(c)-5 b(omputador)g(es)p Fn(.)70 b(2007.)g(Disp)s(on)-11
 b(\023)-38 b(\020v)m(el)71 b(em:)109 4541 y
 SDict begin H.S end
  109 4541
-a 0 TeXcolorgray -25 x Fa(<)p Fm(h)m
+a 0 TeXcolorgray -25 x Fa(<)p Fn(h)m
 (ttp://www-usr.inf.ufsm.br/~hramos/elc1020/historia)p
 2485 4532 33 4 v 35 w(jogos.p)s(df)p Fa(>)p 0 TeXcolorgray
 2978 4441 a
@@ -8582,7 +8882,7 @@ SDict begin H.R end
 SDict begin [/H /I/Border [0 0 0]BorderArrayPatch/Color [0 1 1]/Action
 << /Subtype /URI /URI (http://www-usr.inf.ufsm.br/~hramos/elc1020/historia_jogos.pdf)
 >>/Subtype /Link H.B /ANN pdfmark end
- 2978 4516 a Fm(.)45
+ 2978 4516 a Fn(.)45
 b(Acesso)h(em:)109 4636 y(13/03/2012.)109 4695 y
 SDict begin H.S end
  109
@@ -8592,12 +8892,12 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.AcionamentRoboLegoFabio) cvn
 /DEST pdfmark end
  109 4695 a 0
-TeXcolorgray 0 TeXcolorgray 130 x Fm(R)m(ODRIGUES,)36
-b(F.)h(F.)g Fi(A)-5 b(cionamento)38 b(de)h(um)g(r)-5
+TeXcolorgray 0 TeXcolorgray 130 x Fn(R)m(ODRIGUES,)36
+b(F.)h(F.)g Fj(A)-5 b(cionamento)38 b(de)h(um)g(r)-5
 b(ob^)-50 b(o)38 b(le)-5 b(go)39 b(mindstorms)f(p)-5
 b(or)39 b(c)-5 b(omandos)37 b(vo)-5 b(c)g(ais)109 4945
 y(utilizando)34 b(r)-5 b(e)g(des)34 b(neur)-5 b(ais)35
-b(arti\014ciais)p Fm(.)d(Monogra\014a)g(\(Gradua\030)-43
+b(arti\014ciais)p Fn(.)d(Monogra\014a)g(\(Gradua\030)-43
 b(c~)-49 b(ao\),)32 b(Ouro)g(Preto,)h(2009.)109 5004
 y
 SDict begin H.S end
@@ -8607,10 +8907,10 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.RavIsolAnderson) cvn /DEST
 pdfmark end
  109 5004
-a 0 TeXcolorgray 0 TeXcolorgray 129 x Fm(SIL)-11 b(V)g(A,)28
-b(A.)f(G.)g(da.)g Fi(R)-5 b(e)g(c)g(onhe)g(cimento)29
+a 0 TeXcolorgray 0 TeXcolorgray 129 x Fn(SIL)-11 b(V)g(A,)28
+b(A.)f(G.)g(da.)g Fj(R)-5 b(e)g(c)g(onhe)g(cimento)29
 b(de)g(voz)h(p)-5 b(ar)g(a)29 b(p)-5 b(alavr)g(as)29
-b(isoladas)p Fm(.)d(Monogra\014a)h(\(Gradua\030)-43 b(c~)-49
+b(isoladas)p Fn(.)d(Monogra\014a)h(\(Gradua\030)-43 b(c~)-49
 b(ao\),)109 5254 y(Recife,)33 b(2009.)109 5307 y
 SDict begin H.S end
  109
@@ -8620,12 +8920,12 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.RavCorporaCarlos) cvn /DEST
 pdfmark end
  109 5307 a 0
-TeXcolorgray 0 TeXcolorgray 135 x Fm(SIL)-11 b(V)g(A,)38
-b(C.)g(P)-8 b(.)37 b(A.)g(da.)h Fi(Sistemas)g(de)h(R)-5
+TeXcolorgray 0 TeXcolorgray 135 x Fn(SIL)-11 b(V)g(A,)38
+b(C.)g(P)-8 b(.)37 b(A.)g(da.)h Fj(Sistemas)g(de)h(R)-5
 b(e)g(c)g(onhe)g(cimento)37 b(de)i(V)-7 b(oz)38 b(p)-5
 b(ar)g(a)39 b(o)g(Portugu)n(^)-47 b(es)39 b(br)-5 b(asileir)g(o)109
 5562 y(utilizando)34 b(os)h(Corp)-5 b(or)g(a)34 b(Sp)-5
-b(olte)g(ch)34 b(e)g(OGI-22)p Fm(.)e(Monogra\014a)g(\(Gradua\030)-43
+b(olte)g(ch)34 b(e)g(OGI-22)p Fn(.)e(Monogra\014a)g(\(Gradua\030)-43
 b(c~)-49 b(ao\),)32 b(Bel)m(\023)-46 b(em,)34 b(2008.)109
 5621 y
 SDict begin H.S end
@@ -8635,11 +8935,11 @@ SDict begin 14.5 H.A end
 SDict begin [/View [/XYZ H.V]/Dest (cite.RavPtBrCarlos) cvn /DEST pdfmark
 end
  109
-5621 a 0 TeXcolorgray 0 TeXcolorgray 130 x Fm(SIL)-11
-b(V)g(A,)34 b(C.)h(P)-8 b(.)34 b(A.)f(da.)h Fi(Um)i(Softwar)-5
+5621 a 0 TeXcolorgray 0 TeXcolorgray 130 x Fn(SIL)-11
+b(V)g(A,)34 b(C.)h(P)-8 b(.)34 b(A.)f(da.)h Fj(Um)i(Softwar)-5
 b(e)35 b(de)h(R)-5 b(e)g(c)g(onhe)g(cimento)34 b(de)i(V)-7
 b(oz)35 b(p)-5 b(ar)g(a)36 b(Portugu)n(^)-47 b(es)35
-b(Br)-5 b(asileir)g(o)p Fm(.)109 5871 y(Monogra\014a)32
+b(Br)-5 b(asileir)g(o)p Fn(.)109 5871 y(Monogra\014a)32
 b(\(P\023)-49 b(os-Gradua\030)-43 b(c~)-49 b(ao\),)32
 b(Bel)m(\023)-46 b(em,)34 b(2010.)p 0 TeXcolorgray 0
 TeXcolorgray eop end

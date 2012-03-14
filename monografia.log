@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 16:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 17:36
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1131,34 +1131,45 @@ Cap\'{\i }tulo 2.
 
 
 
-] [12]
+] (./graficos/sistema_rav.tex
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 54.
 
-LaTeX Warning: Citation `Historico1' on page 13 undefined on input line 46.
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+Overfull \hbox (27.84471pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+) [12]
+
+LaTeX Warning: Citation `Historico1' on page 13 undefined on input line 50.
 
 
-LaTeX Warning: Citation `RavSpeechSadaoki' on page 13 undefined on input line 4
-6.
+LaTeX Warning: Citation `RavSpeechSadaoki' on page 13 undefined on input line 5
+0.
 
 
-LaTeX Warning: Citation `Carac1' on page 13 undefined on input line 50.
+LaTeX Warning: Citation `Carac1' on page 13 undefined on input line 54.
 
 [13]
 
-LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 57.
+LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 61.
 
 
-LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 59.
+LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 63.
 
 
-LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 62.
+LaTeX Warning: Citation `RavPtBr' on page 14 undefined on input line 66.
 
 
-LaTeX Warning: Citation `RavIsoladas' on page 14 undefined on input line 62.
+LaTeX Warning: Citation `RavIsoladas' on page 14 undefined on input line 66.
 
+[14]
 
-LaTeX Warning: Citation `RvPatrick' on page 14 undefined on input line 72.
+LaTeX Warning: Citation `RvPatrick' on page 15 undefined on input line 76.
 
-[14] [15] [16] [17]
+[15] [16] [17]
 Cap\'{\i }tulo 3.
 ) [18
 
@@ -1241,12 +1252,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14007 strings out of 495042
- 194109 string characters out of 1181921
- 362784 words of memory out of 3000000
- 16880 multiletter control sequences out of 15000+50000
- 13440 words of font info for 50 fonts, out of 3000000 for 9000
+ 14048 strings out of 495042
+ 194703 string characters out of 1181921
+ 364784 words of memory out of 3000000
+ 16912 multiletter control sequences out of 15000+50000
+ 15084 words of font info for 51 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,8n,49p,1584b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (22 pages, 88768 bytes).
+Output written on monografia.dvi (22 pages, 94864 bytes).

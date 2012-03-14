@@ -37,9 +37,10 @@ O processo para o reconhecimento de voz pode ser dividido em quatro fases: aquis
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.6\textwidth]{graficos/srav.png}
+\input{./graficos/sistema_rav}
 \caption{Diagrama de blocos de um sistema de reconhecimento de voz}
 \end{figure}
+
 %por padrões te simplicidade de uso, maior entendimento, boas justificativas matemáticas e robustez. AvaliaTecJose e FundamentRabiner
 
 
@@ -47,7 +48,7 @@ O processo para o reconhecimento de voz pode ser dividido em quatro fases: aquis
 
 \subsection{Histórico dos Sistemas de Reconhecimento de Voz}\label{sec:red_khn}
 
-Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1} As redes neurais também surgiram nos anos 50, mas não houve prosseguimento nos estudos, devido a problemas práticos. Muitos reconhecedores de voz, foram criados nas décadas de 50 e 60.\cite{RavSpeechSadaoki} No início dos anos 70, surgiram os algoritmos para sistemas de fala contínua, graças as técnicas de \textit{Linear Predictive Coding} (LPC) e \textit{Dynamic Time Warping} (DTW). \cite{FundamentRabiner} E os anos 80 foram marcados pela disseminação dos metodos estáticos, como \textit Modelos Ocultos de Markov (HMM). \cite{FundamentRabiner} Esse período foi de grande evolução para os sistemas de reconhecimento de voz, as redes neurais passaram a ser usadas no desenvolvimento dos sistemas, sendo possível implementar sistemas mais robustos, com vocabulários grandes e com taxas de acerto de mais de 90{\%}.\cite{AvaliaTecJose} 
+Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado, o primeiro reconhecedor de dígitos isolados com suporte a um locutor.\cite{Historico1} As redes neurais também surgiram nos anos 50, mas não houve prosseguimento nos estudos, devido a problemas práticos. Muitos reconhecedores de voz, foram criados nas décadas de 50 e 60 \cite{RavSpeechSadaoki}.make No início dos anos 70, surgiram os algoritmos para sistemas de fala contínua, graças as técnicas de \textit{Linear Predictive Coding} (LPC) e \textit{Dynamic Time Warping} (DTW). \cite{FundamentRabiner} E os anos 80 foram marcados pela disseminação dos metodos estáticos, como \textit Modelos Ocultos de Markov (HMM). \cite{FundamentRabiner} Esse período foi de grande evolução para os sistemas de reconhecimento de voz, as redes neurais passaram a ser usadas no desenvolvimento dos sistemas, sendo possível implementar sistemas mais robustos, com vocabulários grandes e com taxas de acerto de mais de 90{\%}.\cite{AvaliaTecJose} 
 
 \subsection{Características de Sistemas RAV}\label{sec:red_neu}
 
