@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 18:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 20:59
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -392,6 +392,10 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks17
+)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
@@ -485,7 +489,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 \Fld@menulength=\count102
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-\Field@toks=\toks17
+\Field@toks=\toks18
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -507,10 +511,10 @@ File: hdvips.def 2009/10/09 v6.79a Hyperref driver for dvips
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
 File: pdfmark.def 2009/10/09 v6.79a Hyperref definitions for pdfmark specials
-\pdf@docset=\toks18
+\pdf@docset=\toks19
 \pdf@box=\box52
-\pdf@toks=\toks19
-\pdf@defaulttoks=\toks20
+\pdf@toks=\toks20
+\pdf@defaulttoks=\toks21
 \Fld@listcount=\count106
 ))
 (/usr/share/texmf/tex/latex/abntex/abntcite.sty
@@ -530,12 +534,12 @@ File: nbr10520-2002.def 2006/04/25 v1.4 Definicoes para abntcite (NBR10520:2002
 \biblabelsep=\skip54
 LaTeX Info: Redefining \newblock on input line 466.
 LaTeX Info: Redefining \cite on input line 493.
-\ABCItoken=\toks21
+\ABCItoken=\toks22
 )
 (/usr/share/texmf-texlive/tex/latex/listings/listings.sty
 \lst@mode=\count109
 \lst@gtempboxa=\box53
-\lst@token=\toks22
+\lst@token=\toks23
 \lst@length=\count110
 \lst@currlwidth=\dimen119
 \lst@column=\count111
@@ -776,7 +780,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks23
+\@emptytoks=\toks24
 \ex@=\dimen129
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
@@ -806,21 +810,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \dotsspace@=\muskip11
 \c@parentequation=\count128
 \dspbrk@lvl=\count129
-\tag@help=\toks24
+\tag@help=\toks25
 \row@=\count130
 \column@=\count131
 \maxfields@=\count132
-\andhelp@=\toks25
+\andhelp@=\toks26
 \eqnshift@=\dimen132
 \alignsep@=\dimen133
 \tagshift@=\dimen134
 \tagwidth@=\dimen135
 \totwidth@=\dimen136
 \lineht@=\dimen137
-\@envbody=\toks26
+\@envbody=\toks27
 \multlinegap=\skip70
 \multlinetaggap=\skip71
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -848,15 +852,15 @@ Package: pstricks 2011/10/31 v0.52 LaTeX wrapper for `PSTricks' (RN,HV)
 \pst@cntd=\count137
 \pst@cntg=\count138
 \pst@cnth=\count139
-\pst@toks=\toks28
+\pst@toks=\toks29
 (/usr/share/texmf-texlive/tex/generic/pstricks/pstricks.con)
 \psunit=\dimen147
 \psxunit=\dimen148
 \psyunit=\dimen149
 \pslinewidth=\dimen150
-\pst@customdefs=\toks29
+\pst@customdefs=\toks30
 \pslinearc=\dimen151
-\everypsbox=\toks30
+\everypsbox=\toks31
 \psframesep=\dimen152
 \pslabelsep=\dimen153
 \pst@shift=\dimen154
@@ -885,9 +889,9 @@ Package: epsfig 1996/10/04 v1.7 (e)psfig emulation (SPQR)
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count149
-\float@exts=\toks31
+\float@exts=\toks32
 \float@box=\box67
-\@float@everytoks=\toks32
+\@float@everytoks=\toks33
 \@floatcapt=\box68
 ) (./xy.sty
 (/usr/share/texmf-texlive/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes,
@@ -905,14 +909,14 @@ Loading kernel: messages; fonts; allocations: state,
 \D@c=\dimen160
 \L@c=\dimen161
 \R@c=\dimen162
-\Edge@c=\toks33
+\Edge@c=\toks34
 \X@p=\dimen163
 \Y@p=\dimen164
 \U@p=\dimen165
 \D@p=\dimen166
 \L@p=\dimen167
 \R@p=\dimen168
-\Edge@p=\toks34
+\Edge@p=\toks35
 \X@origin=\dimen169
 \Y@origin=\dimen170
 \X@xbase=\dimen171
@@ -940,10 +944,10 @@ Loading kernel: messages; fonts; allocations: state,
 \quotPTK@=\dimen184
 
 utility macros; pictures: \xy, positions,
-\swaptoks@@=\toks35
+\swaptoks@@=\toks36
 \connectobjectbox@@=\box71
  objects,
-\styletoks@=\toks36
+\styletoks@=\toks37
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
@@ -958,7 +962,7 @@ Package: xy 1999/02/16 Xy-pic version 3.7
 (/usr/share/texmf-texlive/tex/generic/xypic/xycurve.tex
  Xy-pic option: Curve and Spline extension v.3.7 curve,
 \crv@cnt@=\count154
-\crvpts@=\toks37
+\crvpts@=\toks38
 \splinebox@=\box72
 \splineval@=\dimen185
 \splinedepth@=\dimen186
@@ -981,8 +985,8 @@ Package: xy 1999/02/16 Xy-pic version 3.7
  Xy-pic option: Matrix feature v.3.4
 \Row=\count155
 \Col=\count156
-\queue@=\toks38
-\queue@@=\toks39
+\queue@=\toks39
+\queue@@=\toks40
 \qcount@=\count157
 \qcount@@=\count158
 \matrixsize@=\count159
@@ -1022,27 +1026,27 @@ LaTeX Warning: Label `sec:red_neu' multiply defined.
 ))
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
  (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 65.
-Package hyperref Info: Link coloring OFF on input line 65.
+LaTeX Font Info:    ... okay on input line 66.
+Package hyperref Info: Link coloring OFF on input line 66.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -1052,8 +1056,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 65.
-LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \ref on input line 66.
+LaTeX Info: Redefining \pageref on input line 66.
  (./monografia.out)
 (./monografia.out)
 \@outlinefile=\write4
@@ -1066,7 +1070,7 @@ Package caption Info: End \AtBeginDocument code.
  [0
 
 ]
-Underfull \hbox (badness 1394) in paragraph at lines 80--80
+Underfull \hbox (badness 1394) in paragraph at lines 81--81
 \OT1/cmr/m/n/12 ver-si-dade Es-ta-dual do Norte Flu-mi-nense
  []
 
@@ -1084,7 +1088,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 80--80
 ]
 
 Package hyperref Warning: No destination for bookmark of \addcontentsline,
-(hyperref)                destination is added on input line 85.
+(hyperref)                destination is added on input line 86.
 
 (./monografia.lof)
 \tf@lof=\write5
@@ -1213,7 +1217,7 @@ Underfull \hbox (badness 1264) in paragraph at lines 88--96
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 57.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
 [20] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
@@ -1223,12 +1227,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14050 strings out of 495042
- 194815 string characters out of 1181921
- 364784 words of memory out of 3000000
- 16914 multiletter control sequences out of 15000+50000
+ 14069 strings out of 495042
+ 195077 string characters out of 1181921
+ 365152 words of memory out of 3000000
+ 16931 multiletter control sequences out of 15000+50000
  15084 words of font info for 51 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,8n,49p,1584b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (23 pages, 99360 bytes).
+Output written on monografia.dvi (23 pages, 100392 bytes).

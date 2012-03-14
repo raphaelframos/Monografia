@@ -13,11 +13,6 @@
 \contentsline {subsubsection}{Desvantagens no uso da fala em sistemas homem-m\IeC {\'a}quina}{12}{section.resumo.2.1}
 \contentsline {section}{\numberline {2.2}O Sistema de Reconhecimento de Voz}{12}{section.resumo.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Caracter\IeC {\'\i }sticas de Sistemas RAV}{14}{subsection.resumo.2.2.1}
-\contentsline {subsubsection}{Depend\IeC {\^e}ncia do locutor}{14}{subsection.resumo.2.2.1}
-\contentsline {subsubsection}{Modo de pron\IeC {\'u}ncia}{14}{subsection.resumo.2.2.1}
-\contentsline {subsubsection}{Tamanho do vocabul\IeC {\'a}rio}{15}{subsection.resumo.2.2.1}
-\contentsline {subsubsection}{Perplexidade}{15}{subsection.resumo.2.2.1}
-\contentsline {subsubsection}{Rela\IeC {\c c}\IeC {\~a}o sinal \IeC {\textendash } ru\IeC {\'\i }do}{15}{subsection.resumo.2.2.1}
 \contentsline {section}{\numberline {2.3}Reconhecimento de voz baseado em padr\IeC {\~o}es}{15}{section.resumo.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Processamento do Sinal de Fala}{15}{subsection.resumo.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Padr\IeC {\~o}es de Refer\IeC {\^e}ncia}{16}{subsection.resumo.2.3.2}

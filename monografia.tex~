@@ -91,8 +91,8 @@ Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
 
 \sumario
 
-\include{tex/introducao}
-\include{tex/referencial_teorico}
+\include{introducao}
+\include{referencial_teorico}
 
 %--------------------------------- Bibliografia --------------------------------
 
