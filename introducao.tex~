@@ -44,6 +44,7 @@ Para o propósito deste trabalho se estabeleceu estudos de técnicas de reconhec
 
 \section{Visão Geral do Trabalho}
 Neste trabalhou buscou-se desenvolver um sistema \textit{RAV} com baixa taxa de erros, um dicionário pequeno de palavras e reconhecimento de palavras isoladas, que são a melhor forma de introdução nos estudos de sistemas com reconhecimento de fala, possibilitando estudos futuros em aplicações com reconhecimento de palavras contínuas e vocabulários grandes. O sistema desenvolvido é baseado nos modelos ocultos de Markov \textit{(HMM)}. 
+
 Este trabalho está dividido em %colocar a quantidade de cap. 
 capítulos, que são descritos a seguir:
 

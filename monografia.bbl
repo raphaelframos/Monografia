@@ -33,6 +33,12 @@ Dispon{\'\i}vel em:
 br/review/kinect/o-acessorio-revolucionario-da-microsoft.html}. Acesso em:
   13/03/2012.}
 
+\bibitem[Cunha 2003]{MetodosProAnderson}
+\abntrefinfo{Cunha}{CUNHA}{2003}
+{CUNHA, A.~M. da.
+\emph{Métodos probabilísticos para reconhecimento de voz}.
+Monografia (Graduação), Rio de Janeiro, 2003.}
+
 \bibitem[Damasceno 2005]{ImplementServVirtuaisDamasceno}
 \abntrefinfo{Damasceno}{DAMASCENO}{2005}
 {DAMASCENO, E.~F. \emph{Implementação de Serviços de Voz em Ambientes
@@ -48,6 +54,12 @@ pdf}. Acesso em: 14/03/2012.}
 \emph{Digital Speech Processing, Synthesis, and Recognition. Marcel Dekker}.
 Monografia, 1989.}
 
+\bibitem[Furui 1995]{RavSpeechSadaoki}
+\abntrefinfo{Furui}{FURUI}{1995}
+{FURUI, S.
+\emph{Speech Recognition - Past, Present and Future. NTT Review}.
+Monografia, 1995.}
+
 \bibitem[Ince 1992]{DigSpeechNejat}
 \abntrefinfo{Ince}{INCE}{1992}
 {INCE, A.~N. \emph{Digital speech processing: speech coding, synthesis, and
@@ -55,9 +67,15 @@ Monografia, 1989.}
 ISBN 0-7923-9220-5.}
 
 \bibitem[Martins 1997]{AvaliaTecJose}
-\abntrefinfo{Martins}{MARTINS}{1997}
+\abntrefinfo{Martins}{MARTINS}{1997a}
 {MARTINS, J.~A.
 \emph{Avaliação de diferentes técnicas para reconhecimento de fala}.
+Monografia (Doutorado), Campinas, 1997.}
+
+\bibitem[Martins 1997]{RavIsolMartins}
+\abntrefinfo{Martins}{MARTINS}{1997b}
+{MARTINS, J.~A.
+\emph{Reconhecimento de voz para palavras isoladas}.
 Monografia (Doutorado), Campinas, 1997.}
 
 \bibitem[Rabiner 1993]{FundamentRabiner}
