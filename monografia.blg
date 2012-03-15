@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: monografia.aux
+A level-1 auxiliary file: epigrafe.aux
+A level-1 auxiliary file: agradecimentos.aux
+A level-1 auxiliary file: introducao.aux
+A level-1 auxiliary file: referencial_teorico.aux
+A level-1 auxiliary file: estruturas_rav.aux
+The style file: abnt-alf.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: abnt-options.bib
+Database file #2: bibliografia.bib
+Warning--entry type for "XBoxTechT" isn't style-file defined
+--line 153 of file bibliografia.bib
+Warning--entry type for "KinectTechT" isn't style-file defined
+--line 162 of file bibliografia.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--faltando school em MetodosProAnderson
+Warning--faltando school em RavDigitalSadaoki
+Warning--faltando school em RavSpeechSadaoki
+Warning--faltando school em AvaliaTecJose
+Warning--faltando school em RavIsolMartins
+Warning--faltando school em AcionamentRoboLegoFabio
+Warning--faltando school em RavIsolAnderson
+Warning--faltando school em RavCorporaCarlos
+Warning--faltando school em RavPtBrCarlos
++---------------------------------------------------------+
+| Estilo bibliografico abnt-alf.bst versao 1.53           |
+| Implementa a NBR6023, NBR10520 e NBR10523               |
+| Em caso de duvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 20 entries,
+            6522 wiz_defined-function locations,
+            1269 strings with 11740 characters,
+and the built_in function-call counts, 28986 in all, are:
+= -- 3981
+> -- 255
+< -- 774
++ -- 906
+- -- 85
+* -- 1479
+:= -- 3223
+add.period$ -- 62
+call.type$ -- 21
+change.case$ -- 111
+chr.to.int$ -- 17
+cite$ -- 26
+duplicate$ -- 3594
+empty$ -- 1038
+format.name$ -- 391
+if$ -- 5732
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 321
+newline$ -- 103
+num.names$ -- 85
+pop$ -- 373
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 3777
+stack$ -- 1
+substring$ -- 1115
+swap$ -- 1017
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 38
+warning$ -- 9
+while$ -- 114
+width$ -- 0
+write$ -- 264
+(There were 11 warnings)

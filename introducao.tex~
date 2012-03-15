@@ -33,6 +33,10 @@ de realizar o atendimento ao cliente;
 \item Entreterimento: Jogos de computador estão sendo produzidos para responderem a comandos de voz, como o \textit{Tom Clancy's EndWar}, um jogo de estratégia que simula uma terceira guerra mundial, e sua equipe recebe seus comandos falados, simulando as ordens de um oficial.
 \end{itemize}
 
+\section{Metodologia}
+Para o propósito desde trabalho se estabeleceu um estudo de técnicas de reconhecimento de voz de comandos, técnicas de análise de sons para extração de atributos que serão alimentados como treinamento para um modelo de grafos de \textit{Cadeia de Markov Oculto}, implementação dos diferentes modelos, acoplação no jogo clássico \textit{pacman} e verificação dos resultados.
+
+A implementação será desenvolvida para dispositivos móveis com sistema operacional Android \footnote{Sistema operacional móvel que roda sobre o núcleo Linux. Foi inicialmente desenvolvido pelo Google e posteriormente pela Open Handset Alliance.}, que utiliza como linguagem de programação a linguagem Java.
 
 \section{Visão Geral do Trabalho}
 Neste trabalhou buscou-se desenvolver um sistema \textit{RAV} com baixa taxa de erros, um dicionário pequeno de palavras e reconhecimento de palavras isoladas, que são a melhor forma de introdução nos estudos de sistemas com reconhecimento de fala, possibilitando estudos futuros em aplicações com reconhecimento de palavras contínuas e vocabulários grandes. O sistema desenvolvido é baseado nos modelos ocultos de Markov \textit{(HMM)}. 
