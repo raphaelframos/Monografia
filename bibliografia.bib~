@@ -125,13 +125,22 @@
   address = {Campinas}
 }
 
-@monography{,
+@monography{SistAcionaPedro,
   title = {Sistema de acionamento de dispositivos por comandos de voz},
   author = {Pedro Henrique de Oliveira Ramiro},
   type = {Graduação},
   year = 2010,
   address = {Brasília},
   school = {Unb}
+}
+
+@monography{RavComputLouzada,
+  title = {Reconhecimento automático de fala por computador},
+  author = {Jailton Alkimin Louzada},
+  type = {Graduação},
+  year = 2010,
+  address = {Goiás},
+  school = {PUC-GO}
 }
 
 

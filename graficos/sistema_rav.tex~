@@ -4,7 +4,7 @@
 % \usepackage{epsfig}
 % \usepackage{pst-grad} % For gradients
 % \usepackage{pst-plot} % For axes
-\scalebox{0.5} % Change this value to rescale the drawing.
+\scalebox{0.7} % Change this value to rescale the drawing.
 {
 \begin{pspicture}(0,-2.64)(23.98,2.66)
 \psline[linewidth=0.04cm,arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.4]{->}(0.0,0.6)(1.58,0.58)
@@ -21,8 +21,7 @@
 \rput(2.9848437,0.33){Sinal de Voz}
 \usefont{T1}{ptm}{m}{n}
 \rput(7.382656,0.33){Processamento}
-\usefont{T1}{ptm}{m}{n}
-\rput(7.4384375,0.91){Pré-}
+\usefont{T1}{ptm}{m}{n}\rput(7.4384375,0.91){Pré-}
 \usefont{T1}{ptm}{m}{n}
 \rput(11.863438,0.85){Extração de}
 \usefont{T1}{ptm}{m}{n}

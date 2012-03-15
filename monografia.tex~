@@ -18,6 +18,7 @@
 \usepackage[alf]{abntcite}
 \usepackage{listings} % http://www.atscire.de/index.php?nav=products/listings2 http://linorg.usp.br/CTAN/macros/latex/contrib/listings/listings.pdf
 \usepackage{textcomp}
+\usepackage{url}\let\harvardurl\url
 \usepackage[usenames,dvipsnames]{xcolor} % http://en.wikibooks.org/wiki/LaTeX/Colors
 \usepackage[algoruled,longend]{algorithm2e}
 \usepackage{mathtools, mhsetup} % fórmulas matemáticas
@@ -94,7 +95,7 @@ Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
 
 \include{introducao}
 \include{referencial_teorico}
-\include{estrutras_rav}
+\include{estruturas_rav}
 
 %--------------------------------- Bibliografia --------------------------------
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 09:53
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 11:56
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1091,7 +1091,7 @@ Package hyperref Warning: No destination for bookmark of \addcontentsline,
 (hyperref)                destination is added on input line 86.
 
 (./monografia.lof
-Overfull \hbox (4.1109pt too wide) in paragraph at lines 3--3
+Overfull \hbox (4.1109pt too wide) in paragraph at lines 4--4
  [][] [] [][]  
  []
 
@@ -1136,37 +1136,39 @@ Cap\'{\i }tulo 2.
 
 
 
-] [12]
-Overfull \hbox (0.16043pt too wide) in paragraph at lines 37--38
+]
+File: graficos/aquisicao_fala.eps Graphic file (type eps)
+ <graficos/aquisicao_fala.eps> [12] [13]
+Overfull \hbox (0.16043pt too wide) in paragraph at lines 47--48
 \OT1/cmr/m/n/12 mento ([][][][], [][][][]). Nos sis-te-mas com re-co-nhe-ci-men
 to ba-se-ado na an^^Salise ac^^Sustico-
  []
 
 (./graficos/sistema_rav.tex
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 53.
- (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 55.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-Overfull \hbox (27.84471pt too wide) in paragraph at lines 53--54
+Overfull \hbox (27.84471pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-) [13] [14] (./graficos/rec_padroes.tex
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 48.
+) [14] [15] (./graficos/rec_padroes.tex
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
 
-(/usr/share/texmf-texlive/tex/latex/psnfss/t1ppl.fd
-File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)) [15] [16]) [17]
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)) [16] [17]) [18]
 \openout2 = `estruturas_rav.aux'.
 
 
 (./estruturas_rav.tex
 Cap\'{\i }tulo 3.
-[18
+[19
 
 
 
-]) [19] (./monografia.bbl
+]) [20] (./monografia.bbl
 Underfull \hbox (badness 3849) in paragraph at lines 10--17
 []\OT1/cmr/m/n/12 BARCELOS, A. \OT1/cmr/m/it/12 Re-co-nhe-ci-mento de voz para 
 
@@ -1212,18 +1214,18 @@ is-pon^^S^^Pvel em:
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 88--96
+Underfull \hbox (badness 1024) in paragraph at lines 94--102
 []\OT1/cmr/m/n/12 RAMOS, H. M. Dis-ci-plina: Com-pu-ta-do-res e so-ci-e-dade, \
 OT1/cmr/m/it/12 A 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 88--96
+Underfull \hbox (badness 1264) in paragraph at lines 94--102
 \OT1/cmr/m/it/12 hist^^Soria dos jo-gos de com-pu-ta-do-res\OT1/cmr/m/n/12 . 20
 07. Dis-pon^^S^^Pvel em: 
  []
 
-[20
+[21
 
 
 ])
@@ -1235,19 +1237,19 @@ Underfull \hbox (badness 1264) in paragraph at lines 88--96
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
-[21] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
+[22] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
 (./introducao.aux) (./referencial_teorico.aux) (./estruturas_rav.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14112 strings out of 495042
- 195721 string characters out of 1181921
- 365152 words of memory out of 3000000
- 16960 multiletter control sequences out of 15000+50000
+ 14122 strings out of 495042
+ 195921 string characters out of 1181921
+ 366152 words of memory out of 3000000
+ 16967 multiletter control sequences out of 15000+50000
  16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,8n,49p,1584b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (24 pages, 105976 bytes).
+Output written on monografia.dvi (25 pages, 111284 bytes).
