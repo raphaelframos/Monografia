@@ -4,6 +4,7 @@ A level-1 auxiliary file: epigrafe.aux
 A level-1 auxiliary file: agradecimentos.aux
 A level-1 auxiliary file: introducao.aux
 A level-1 auxiliary file: referencial_teorico.aux
+A level-1 auxiliary file: estruturas_rav.aux
 The style file: abnt-alf.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
@@ -30,7 +31,7 @@ Warning--faltando school em RavPtBrCarlos
 +---------------------------------------------------------+
 You've used 19 entries,
             6522 wiz_defined-function locations,
-            1262 strings with 11606 characters,
+            1263 strings with 11624 characters,
 and the built_in function-call counts, 28436 in all, are:
 = -- 3944
 > -- 240

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 20:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  14 MAR 2012 22:36
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1023,7 +1023,7 @@ Package caption Info: listings package is loaded.
 
 LaTeX Warning: Label `sec:red_neu' multiply defined.
 
-))
+) (./estruturas_rav.aux))
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1090,7 +1090,12 @@ Underfull \hbox (badness 1394) in paragraph at lines 81--81
 Package hyperref Warning: No destination for bookmark of \addcontentsline,
 (hyperref)                destination is added on input line 86.
 
-(./monografia.lof)
+(./monografia.lof
+Overfull \hbox (4.1109pt too wide) in paragraph at lines 3--3
+ [][] [] [][]  
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `monografia.lof'.
 
@@ -1113,8 +1118,7 @@ Package hyperref Warning: No destination for bookmark of \addcontentsline,
 \tf@toc=\write7
 \openout7 = `monografia.toc'.
 
-
-[6]
+ [6]
 \openout2 = `introducao.aux'.
 
  (./introducao.tex
@@ -1147,9 +1151,20 @@ Overfull \hbox (27.84471pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
-) [13] [14] [15] [16] [17]
+) [13] [14] (./graficos/rec_padroes.tex
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 48.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)) [15] [16]) [17]
+\openout2 = `estruturas_rav.aux'.
+
+
+(./estruturas_rav.tex
 Cap\'{\i }tulo 3.
 ) [18
+
+
 
 ] (./monografia.bbl
 Underfull \hbox (badness 3849) in paragraph at lines 10--17
@@ -1221,18 +1236,18 @@ Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
 [20] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
-(./introducao.aux) (./referencial_teorico.aux))
+(./introducao.aux) (./referencial_teorico.aux) (./estruturas_rav.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14069 strings out of 495042
- 195077 string characters out of 1181921
+ 14111 strings out of 495042
+ 195701 string characters out of 1181921
  365152 words of memory out of 3000000
- 16931 multiletter control sequences out of 15000+50000
- 15084 words of font info for 51 fonts, out of 3000000 for 9000
+ 16959 multiletter control sequences out of 15000+50000
+ 16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,8n,49p,1584b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (23 pages, 100392 bytes).
+Output written on monografia.dvi (23 pages, 101276 bytes).

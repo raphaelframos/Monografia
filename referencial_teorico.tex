@@ -86,61 +86,54 @@ tamanho elevado e um dicionario fonético de amplo vocabulário.
 \end{enumerate}
 
 \section{Reconhecimento de voz baseado em padrões}\label{sec:red_neu}
-De acordo com \cite{AvaliaTecJose}, o reconhecimento baseado em padrões, é a técnica que oferece melhor resultado nos sistemas de reconhecimento de fala, então a implementação do sistema será usando essa técnica.
-Um sistema de reconhecimento de voz usando reconhecimento de padrões poder ser representado na figura X \cite{FundamentRabiner}:
+De acordo com \citeonline{AvaliaTecJose}, o reconhecimento baseado em padrões, é a técnica que oferece melhor resultado nos sistemas de reconhecimento de fala, então a implementação do sistema será usando essa técnica.
+Um sistema de reconhecimento de voz usando reconhecimento de padrões poder ser representado na figura 2 \cite{FundamentRabiner}:
  
-%Figura
-
-De acordo com \cite{AvaliaTecJose}, 
-
-
-
-
+\begin{figure}[H]
+\centering
+\input{./graficos/rec_padroes}
+\caption{Sistema básico de reconhecimento de fala baseado na comparação de padrões}
+\end{figure}
 
 \subsection{Processamento do Sinal de Fala}
-Nessa fase, o sinal analógico é digitalizado para ser comparado com os diferentes tipos de padrões, para essa comparação o sinal digital é convertido em um conjunto de parâmetros espectrais e temporáis. As comparações entre formas de ondas da fala são muito complicadas, e isso justifica o uso de parâmetros, como exemplo, podemos citar uma distorção de fase que é imperciptível ao ouvido humano, mas altera a forma da onda, dificultando as comparações de padrões .\cite{AvaliaTecJose}
-Um grande número de parâmetros tem sido propostos, segundo \cite{AvaliaTecJose} os parâmetros mais usados são os: \textit{derivados dos coeficientes LPC} e os \textit{derivados diretamente do espectro do sinal}
-Como já citado, os reconhecedores de palavras isoladas, necessitam de capturar os pontos limitantes de cada palavra. Existem vários algoritmos de detecção desse início e fim das palavras, usando parâmetros como: energia e taxa de cruzamento de zero para separar o sinal de fala do ruído. \cite{AvaliaTecJose}
+Nessa fase, o sinal analógico é digitalizado para ser comparado com os diferentes tipos de padrões, para essa comparação o sinal digital é convertido em um conjunto de parâmetros espectrais e temporáis. As comparações entre formas de ondas da fala são muito complicadas, e isso justifica o uso de parâmetros, como exemplo, podemos citar uma distorção de fase que é imperciptível ao ouvido humano, mas altera a forma da onda, dificultando as comparações de padrões \cite{AvaliaTecJose}.
+Um grande número de parâmetros tem sido propostos, segundo \citeonline{AvaliaTecJose} os parâmetros mais usados são os: \textit{derivados dos coeficientes LPC} e os \textit{derivados diretamente do espectro do sinal}
+Como já citado, os reconhecedores de palavras isoladas, necessitam de capturar os pontos limitantes de cada palavra. Existem vários algoritmos de detecção desse início e fim das palavras, usando parâmetros como: energia e taxa de cruzamento de zero para separar o sinal de fala do ruído.
 
 \subsection{Padrões de Referência}
-Padrão de referência é o processo conhecido como treinamento, pois é nessa fase, que são criados os exemplares das unidades a serem reconhecidas. Como a maioria dos sistemas de reconhecimento de voz são reconhecedores independentes de locutor, são necessários a apresentação de vários exemplos de cada unidade, com a maior variedade de diferentes locutores possível, para criação de um sistema robusto. \cite{AvaliaTecJose}
+Padrão de referência é o processo conhecido como treinamento, pois é nessa fase, que são criados os exemplares das unidades a serem reconhecidas. Como a maioria dos sistemas de reconhecimento de voz são reconhecedores independentes de locutor, são necessários a apresentação de vários exemplos de cada unidade, com a maior variedade de diferentes locutores possível, para criação de um sistema robusto.
 %estudar robustez e parametros espectrais e temporais.
 
-\cite{DigSpeechNejat} sugere dois tipos de padrão: Um tipo chamado modelo estático que faz um modelamento estático das características exemplares do padrão. \textit{Modelos Ocultos de Markov} (HMM) \cite{FundamentRabiner} são exemplos desse método. Outro tipo é conhecido como padrão de referência não paramêtrico, podendo ser um exemplo do padrão a ser reconhecido ou um padrão médio do padrão a ser reconhecido. \cite{AvaliaTecJose}
+\citeonline{DigSpeechNejat} sugere dois tipos de padrão: Um tipo chamado modelo estático que faz um modelamento estático das características exemplares do padrão, \textit{Modelos Ocultos de Markov} (HMM) são exemplos desse método. Outro tipo é conhecido como padrão de referência não paramêtrico, podendo ser um exemplo do padrão a ser reconhecido ou um padrão médio do padrão a ser reconhecido.
 %Q eh padrão médio
-Nos \textit{Nos Modelos Ocultos de Markov} (HMM) cada padrão é representado por uma rede com N estados, que são caracterizados por uma função de probabilidade de transição entre estados e um conjunto de funções de probabilidade de símbolos de saída. \cite{AvaliaTecJose}
+Nos \textit{Nos Modelos Ocultos de Markov} (HMM) cada padrão é representado por uma rede com N estados, que são caracterizados por uma função de probabilidade de transição entre estados e um conjunto de funções de probabilidade de símbolos de saída \cite{AvaliaTecJose}.
 
 
 \subsection{Comparação de Padrões}
 
-A comparação de padrões, é a fase em que os dados são cruzados, o conjunto de parâmetros que representa o padrão desconhecido é comparado com os diversos padrões de referência, esses parâmetros são da mesma natureza que os padrões já referenciados. \cite{AvaliaTecJose}
-Nos padrões de referência gerados por \textit{Modelos de Markov Ocultos}(HMM), a comparação resulta na probabilidade de que cada modelo de referência tenha gerado o conjunto de paramêtros de entrada. \cite{AvaliaTecJose} 
+A comparação de padrões, é a fase em que os dados são cruzados, o conjunto de parâmetros que representa o padrão desconhecido é comparado com os diversos padrões de referência, esses parâmetros são da mesma natureza que os padrões já referenciados.
+Nos padrões de referência gerados por \textit{Modelos de Markov Ocultos}(HMM), a comparação resulta na probabilidade de que cada modelo de referência tenha gerado o conjunto de paramêtros de entrada \cite{AvaliaTecJose}.
 
 
 \subsection{Pós-Processador}
 
-A última fase seria a escolha do melhor padrão referencial, resultado da comparação de padrões, para o padrão desconhecido. Como auxílio na escolha do melhor padrão, pode-se usar restrições sintáticas e semânticas, eliminando os candidatos não razoáveis. \cite{AvaliaTecJose}
+A última fase seria a escolha do melhor padrão referencial, resultado da comparação de padrões, para o padrão desconhecido. \citeonline{AvaliaTecJose} mostra que como auxílio na escolha do melhor padrão, pode-se usar restrições sintáticas e semânticas, eliminando os candidatos não razoáveis. 
 
 \section{Avaliação de Desempenho de um Reconhecedor}
-Vários fatores interferem no desempenho de um reconhecedor de voz, segundo \cite{AvaliaTecJose} um reconhecedor de palavras isoladas pode ser avaliado com essas medidas:
+Vários fatores interferem no desempenho de um reconhecedor de voz, segundo \citeonline{AvaliaTecJose} um reconhecedor de palavras isoladas pode ser avaliado com essas medidas:
+
 \begin{itemize}
 \item Porcentagem de acerto: Porcentagem de palavras que foram reconhecidas corretamente;
 \item Porcentagem de rejeição: Porcentagem de palavras que pertencem ao vocabulário e foram rejeitadas erradamente;
 \item Porcentagem de erro: Porcentagem de palavras que foram reconhecidas erradamente.
 \end{itemize}
 
-Já no caso de reconhecedores de fala contínua, as medidas seriam\cite{AvaliaTecJose}:
+Já no caso de reconhecedores de fala contínua, as medidas seriam \cite{AvaliaTecJose}:
 \begin{itemize}
 \item Porcentagem de inserção: Porcentagem de palavras extras inseridas na sentença reconhecida;
 \item Porcentagem de omissão: Porcentagem de palavras corretas omitidas na sentença reconhecida;
 \item Porcentagem de substituição: Porcentagem de corretas substituidas por palavras incorretas na sentença reconhecida.
 \end{itemize}
-
-\chapter{Modelos Ocultos de Markov}
-São poderosos métodos estáticos que podem ser usados para modelar sinais como um processo aleatório paramétrico. 
-
-
-
 
 
 
