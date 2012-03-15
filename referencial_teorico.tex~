@@ -34,7 +34,7 @@ Mesmo possuindo vantagens significativas, a comunicação por fala também possu
 Aquisição do sinal de fala é a primeira etapa de um sistema \textit{RAV}, ele é responsável por capturar e converter um sinal analógico em um sinal elétrico, esse processo pode ser feito através de um microfone ou telefone. Todas as etapas de aquisição de voz, podem ser vistas na figura 1 \cite{RavIsolAnderson}:
 
 \begin{figure}
-\includegraphics[width=0.9\textwidth]{graficos/aquisicao_fala.eps}
+\includegraphics[width=1\textwidth]{graficos/aquisicao_fala.eps}
 \caption{Processo de aquisição do sinal da fala}
 \end{figure}
 
@@ -145,6 +145,7 @@ Já no caso de reconhecedores de fala contínua, as medidas seriam \cite{AvaliaT
 \item Porcentagem de substituição: Porcentagem de corretas substituidas por palavras incorretas na sentença reconhecida.
 \end{itemize}
 
+\section{Trabalhos Relacionados}
 
 
 

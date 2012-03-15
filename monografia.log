@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 11:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 13:54
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1158,17 +1158,17 @@ LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) [16] [17]) [18]
+)) [16] [17] [18]) [19]
 \openout2 = `estruturas_rav.aux'.
 
 
 (./estruturas_rav.tex
 Cap\'{\i }tulo 3.
-[19
+[20
 
 
 
-]) [20] (./monografia.bbl
+]) [21] (./monografia.bbl
 Underfull \hbox (badness 3849) in paragraph at lines 10--17
 []\OT1/cmr/m/n/12 BARCELOS, A. \OT1/cmr/m/it/12 Re-co-nhe-ci-mento de voz para 
 
@@ -1225,7 +1225,7 @@ Underfull \hbox (badness 1264) in paragraph at lines 94--102
 07. Dis-pon^^S^^Pvel em: 
  []
 
-[21
+[22
 
 
 ])
@@ -1237,19 +1237,19 @@ Underfull \hbox (badness 1264) in paragraph at lines 94--102
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
-[22] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
+[23] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
 (./introducao.aux) (./referencial_teorico.aux) (./estruturas_rav.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14122 strings out of 495042
- 195921 string characters out of 1181921
+ 14123 strings out of 495042
+ 195941 string characters out of 1181921
  366152 words of memory out of 3000000
- 16967 multiletter control sequences out of 15000+50000
+ 16968 multiletter control sequences out of 15000+50000
  16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 38i,8n,49p,1584b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,49p,1576b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (25 pages, 111284 bytes).
+Output written on monografia.dvi (26 pages, 113712 bytes).

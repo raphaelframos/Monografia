@@ -5,8 +5,7 @@
 \contentsline {section}{\numberline {1.1}Objetivos}{8}{section.resumo.1.1}
 \contentsline {section}{\numberline {1.2}Motiva\IeC {\c c}\IeC {\~o}es}{8}{section.resumo.1.2}
 \contentsline {section}{\numberline {1.3}Aplica\IeC {\c c}\IeC {\~o}es do reconhecimento autom\IeC {\'a}tico de fala}{9}{section.resumo.1.3}
-\contentsline {section}{\numberline {1.4}Metodologia}{10}{section.resumo.1.4}
-\contentsline {section}{\numberline {1.5}Vis\IeC {\~a}o Geral do Trabalho}{10}{section.resumo.1.5}
+\contentsline {section}{\numberline {1.4}Vis\IeC {\~a}o Geral do Trabalho}{9}{section.resumo.1.4}
 \contentsline {chapter}{\numberline {2}Sistemas de Reconhecimento Autom\IeC {\'a}tico de Voz}{11}{chapter.resumo.2}
 \contentsline {section}{\numberline {2.1}Fala}{12}{section.resumo.2.1}
 \contentsline {subsubsection}{Vantagens da comunica\IeC {\c c}\IeC {\~a}o pela fala em sistemas hom\IeC {\'e}m-m\IeC {\'a}quina}{12}{section.resumo.2.1}
@@ -20,6 +19,8 @@
 \contentsline {subsection}{\numberline {2.3.3}Compara\IeC {\c c}\IeC {\~a}o de Padr\IeC {\~o}es}{17}{subsection.resumo.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}P\IeC {\'o}s-Processador}{17}{subsection.resumo.2.3.4}
 \contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{18}{section.resumo.2.4}
-\contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{19}{chapter.resumo.3}
-\contentsline {section}{\numberline {3.1}Treinamento dos Modelos Ocultos de Markov}{19}{section.resumo.3.1}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{21}{section.resumo.3.1}
+\contentsline {section}{\numberline {2.5}Trabalhos Relacionados}{18}{section.resumo.2.5}
+\contentsline {section}{\numberline {2.6}Metodologia}{19}{section.resumo.2.6}
+\contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{20}{chapter.resumo.3}
+\contentsline {section}{\numberline {3.1}Treinamento dos Modelos Ocultos de Markov}{20}{section.resumo.3.1}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{22}{section.resumo.3.1}
