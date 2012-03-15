@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 14:34
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 16:03
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1139,7 +1139,7 @@ Cap\'{\i }tulo 2.
 ]
 File: graficos/aquisicao_fala.eps Graphic file (type eps)
  <graficos/aquisicao_fala.eps> [12] [13]
-Overfull \hbox (0.16043pt too wide) in paragraph at lines 47--48
+Overfull \hbox (0.16043pt too wide) in paragraph at lines 48--49
 \OT1/cmr/m/n/12 mento ([][][][], [][][][]). Nos sis-te-mas com re-co-nhe-ci-men
 to ba-se-ado na an^^Salise ac^^Sustico-
  []
@@ -1202,25 +1202,25 @@ Overfull \hbox (21.80093pt too wide) in paragraph at lines 29--35
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 44--50
+Underfull \hbox (badness 1242) in paragraph at lines 50--56
 []\OT1/cmr/m/n/12 DAMASCENO, E. F. \OT1/cmr/m/it/12 Im-ple-menta^^Xc~ao de Serv
 i^^Xcos de Voz 
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 44--50
+Underfull \hbox (badness 1616) in paragraph at lines 50--56
 \OT1/cmr/m/it/12 em Am-bi-en-tes Vir-tu-ais\OT1/cmr/m/n/12 . Fe-bru-ary 2005. D
 is-pon^^S^^Pvel em: 
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 94--102
+Underfull \hbox (badness 1024) in paragraph at lines 100--108
 []\OT1/cmr/m/n/12 RAMOS, H. M. Dis-ci-plina: Com-pu-ta-do-res e so-ci-e-dade, \
 OT1/cmr/m/it/12 A 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 94--102
+Underfull \hbox (badness 1264) in paragraph at lines 100--108
 \OT1/cmr/m/it/12 hist^^Soria dos jo-gos de com-pu-ta-do-res\OT1/cmr/m/n/12 . 20
 07. Dis-pon^^S^^Pvel em: 
  []
@@ -1244,12 +1244,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14123 strings out of 495042
- 195941 string characters out of 1181921
- 366152 words of memory out of 3000000
- 16968 multiletter control sequences out of 15000+50000
+ 14133 strings out of 495042
+ 196125 string characters out of 1181921
+ 364152 words of memory out of 3000000
+ 16978 multiletter control sequences out of 15000+50000
  16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,8n,49p,1576b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (26 pages, 113704 bytes).
+Output written on monografia.dvi (26 pages, 117432 bytes).
