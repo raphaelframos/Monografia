@@ -58,11 +58,6 @@ O processo para o reconhecimento de voz pode ser dividido em quatro fases: aquis
 
 %por padrões te simplicidade de uso, maior entendimento, boas justificativas matemáticas e robustez. AvaliaTecJose e FundamentRabiner
 
-
-
-
-
-
 \subsection{Características de Sistemas RAV}\label{sec:red_neu}
 
 Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os mais importantes são: o estilo de pronuncia que é aceito, o tamanho do vocabulário e à dependência ou independencia do locutor \cite{RavIsolMartins}. Essas categorias que definem a precisão do sistema de reconhecimento:
@@ -97,6 +92,30 @@ tamanho elevado e um dicionario fonético de amplo vocabulário.
 \item Perplexidade: 
 
 Uma medida popular que mede a dificuldade da tarefa, combinando o tamanho do vocabulário e o modelo de linguagem, que pode ser basicamente definida como a média do número de palavras que pode seguir uma palavra depois que o modelo de linguagem for aplicado. Pode ser pequena sendo menor que 10 ou grande sendo maior que 100 \cite{RavHmmCarlos}. A perplexidade de um modelo de linguagem depende do domínio de discurso. Na Tabela 1 tem-se um quadro comparativo para diversas aplicações \cite{SurveyCole} :
+
+\begin{table}[H] % aqui começa o ambiente tabela
+
+\centering
+
+\caption{Perplexidades típicas para vários domínios.} % igual ao ambiente figura
+
+\begin{tabular}{cc} % com este comando dizemos quantas colunas terá nossa tabela e a posição do texto dentro de cada coluna. Aqui temos três colunas (pois são três "c" dentre {}) e o texto estará centralizado em todas elas (indicado pelo "c", se quisermos alinhados à esquerda "l" ou direita "r" 
+
+\hline % este comando coloca uma linha na tabela
+
+Domínio & Perplexidade \\ % esta é a primeira linha de nossa tabela. O símbolo "&" separa as colunas e "\\" indica que aquela linha acabou.
+
+\hline
+\hline
+
+Radiologia & 20 \\
+Medicina de emergência & 60 \\
+Jornalismo & 105 \\
+Fala geral & 247 \\ 
+\hline
+\end{tabular}
+\label{tab}
+\end{table}
 
 %\item Relação snial - ruído
 
@@ -151,6 +170,31 @@ Já no caso de reconhecedores de fala contínua, as medidas seriam \cite{AvaliaT
 \item Porcentagem de omissão: Porcentagem de palavras corretas omitidas na sentença reconhecida;
 \item Porcentagem de substituição: Porcentagem de corretas substituidas por palavras incorretas na sentença reconhecida.
 \end{itemize}
+
+\section{Modelos Ocultos de Markov}
+Segundo \citeonline{AplicHmmWaghabi} a idéia principal dos \textit{Modelos Ocultos de Markov} (MOM) é representar uma variável aleatória como uma \textit{Cadeia de Markov}, com a idéia que essa variável não pode ser medida diretamente, mas sim com observações possíveis a partir de cada estado da variável. Em \citeonline{TutorialHmmRabiner} uma cadeia oculta de Markov é definida como uma máquina de estados finita que modifica seu estado a cada unidade de tempo. Podendo ser mais especificado como um modelo matemático formado por uma cadeia de estados conectados entre si, onde cada transição entre os estados possui uma probabilidade de ocorrência, além de cada estado está vinculado a um processo estocástico, que pode ser discreto ou contínuo, conhecido como processo de observação.
+\citeonline{SpeechLangMartin} em seu trabalho apresenta uma cadeia com 3 estados, mostradas na figura:
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{graficos/markov.eps}
+\caption{Cadeia de Markov para previsão do tempo}
+\label{Modelos Ocultos de Markov}
+\end{figure}
+
+\citeonline{AplicHmmWaghabi} explica o exemplo:
+“Imaginemos que um profissional que prevê o tempo não possa observar diretamente o clima. Trabalhando em um ambiente confinado, sua única dica de como está o tempo baseia-se nas vestimentas dos outros companheiros de trabalho. Como nem sempre seus companheiros conseguem prever corretamente o tempo, uma pessoa portando um guarda-chuva não significa certeza de chuva, mas tão somente uma probabilidade alta. Da mesma forma alguém de camiseta poderia ser surpreendido por um mau tempo, mas não tão frequentemente. Neste cenário ligeiramente estranho, a cadeia de estados do tempo está oculta ao meteorologista, e suas aferições têm que se basear em observações relacionadas com o tempo através de uma matriz de probabilidades”. Como:
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{graficos/markov_2.eps}
+\caption{MOM para previsão do tempo}
+\label{Modelos Ocultos de Markov}
+\end{figure}
+
+Com este modelo acima o meteorologista pode deduzir, observando o comportamento de seus companheiros durante um determinado tempo, qual foi a seqüência de estados ocultos(tempo) mais provável de produzir a seqüência de observações, obtendo assim uma expectativa de em qual estado o sistema está no momento atual, consequentemente permitindo a previsão do dia seguinte. 
+
+Um Modelo Oculto de Markov (MOM), é composto por:
+
+
 
 \section{Trabalhos Relacionados}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  15 MAR 2012 16:03
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  16 MAR 2012 11:40
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1023,6 +1023,9 @@ Package caption Info: listings package is loaded.
 
 LaTeX Warning: Label `sec:red_neu' multiply defined.
 
+
+LaTeX Warning: Label `Modelos Ocultos de Markov' multiply defined.
+
 ) (./estruturas_rav.aux))
 \openout1 = `monografia.aux'.
 
@@ -1153,22 +1156,27 @@ Overfull \hbox (27.84471pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-) [14] [15] (./graficos/rec_padroes.tex
+) [14] [15] [16] (./graficos/rec_padroes.tex
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) [16] [17] [18]) [19]
+)) [17] [18]
+File: graficos/markov.eps Graphic file (type eps)
+
+<graficos/markov.eps> [19]
+File: graficos/markov_2.eps Graphic file (type eps)
+ <graficos/markov_2.eps> [20]) [21]
 \openout2 = `estruturas_rav.aux'.
 
 
 (./estruturas_rav.tex
 Cap\'{\i }tulo 3.
-[20
+[22
 
 
 
-]) [21] (./monografia.bbl
+]) [23] (./monografia.bbl
 Underfull \hbox (badness 3849) in paragraph at lines 10--17
 []\OT1/cmr/m/n/12 BARCELOS, A. \OT1/cmr/m/it/12 Re-co-nhe-ci-mento de voz para 
 
@@ -1213,22 +1221,22 @@ Underfull \hbox (badness 1616) in paragraph at lines 50--56
 is-pon^^S^^Pvel em: 
  []
 
+[24
 
-Underfull \hbox (badness 1024) in paragraph at lines 100--108
+
+]
+Underfull \hbox (badness 1024) in paragraph at lines 110--118
 []\OT1/cmr/m/n/12 RAMOS, H. M. Dis-ci-plina: Com-pu-ta-do-res e so-ci-e-dade, \
 OT1/cmr/m/it/12 A 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 100--108
+Underfull \hbox (badness 1264) in paragraph at lines 110--118
 \OT1/cmr/m/it/12 hist^^Soria dos jo-gos de com-pu-ta-do-res\OT1/cmr/m/n/12 . 20
 07. Dis-pon^^S^^Pvel em: 
  []
 
-[22
-
-
-])
+)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
@@ -1237,19 +1245,19 @@ Underfull \hbox (badness 1264) in paragraph at lines 100--108
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
-[23] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
+[25] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
 (./introducao.aux) (./referencial_teorico.aux) (./estruturas_rav.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14133 strings out of 495042
- 196125 string characters out of 1181921
- 364152 words of memory out of 3000000
- 16978 multiletter control sequences out of 15000+50000
+ 14161 strings out of 495042
+ 196686 string characters out of 1181921
+ 365019 words of memory out of 3000000
+ 17004 multiletter control sequences out of 15000+50000
  16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 38i,8n,49p,1576b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,49p,1576b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (26 pages, 117432 bytes).
+Output written on monografia.dvi (28 pages, 129024 bytes).

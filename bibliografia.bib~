@@ -14,13 +14,31 @@
   publisher = {Kluwer Academic Publishers}
 }
 
-@book{,
+@book{SurveyCole,
   title = {Survey of the state of the art in human language technology},
   author = {Ronald Cole},
   isbn = {88-427-0018-5},
   year = {1997},
   publisher = {Cambridge University Press}
 }
+
+@book{SpeechLangMartin,
+  title = {Speech and Language Processing: An Introduction to Natural Language Processing},
+  author = {Daniel Jurafsky and James H. Martin},
+  year = {2006},
+  publisher = {Prentice Hall}
+}
+
+@book{TutorialHmmRabiner,
+  title = {A tutorial on hidden Markov models and selected applications in speech recognition},
+  author = {Lawrence R. Rabiner},
+  isbn = {},
+  year = {1993},
+  publisher = {Proceedings of the IEEE}
+}
+
+
+
 
 
 
@@ -50,6 +68,15 @@
   month = {February},
   url = {http://www.dcc.ufla.br/infocomp/artigos/v4.3/art09.pdf},
   urlaccessdate = {14/03/2012}
+}
+
+@misc{AplicHmmWaghabi,
+  title = {Aplicação de Modelos Ocultos de Markov na Teoria dos Jogos},
+  author = {Eduardo R. Waghabi, Mario R. F. Benevides},
+  year = {2009},
+  url = {},
+  urlaccessdate = {},
+  school = {UFRJ}
 }
 
 

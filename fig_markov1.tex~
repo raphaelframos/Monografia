@@ -1,0 +1,8 @@
+\begin{document} #% início do nosso documento, este comando só deve aparecer uma vez por documento.
+
+\begin{figure}% aqui começa o ambiente figura
+\centering % este comando é para centralizar a figura
+\label{markov_1} % este é o nome da figura e sempre que você se referir a esta figura no texto digite apenas \ref{debian} que ela será referida corretamente.
+\includegraphics[scale=1]{graficos/markov.eps} % aqui é onde chamamos a figura o que está entre [] são opções de formatação da figura e o que está entre {} é o nome da figura
+\caption{Figura inicial do arquivo teste} % esta é a legenda da figura
+\end{figure} % aqui acaba o ambiente figura.

@@ -72,6 +72,11 @@ Monografia, 1995.}
   recognition}. [S.l.]: Kluwer Academic Publishers, 1992.
 ISBN 0-7923-9220-5.}
 
+\bibitem[Jurafsky e Martin 2006]{SpeechLangMartin}
+\abntrefinfo{Jurafsky e Martin}{JURAFSKY; MARTIN}{2006}
+{JURAFSKY, D.; MARTIN, J.~H. \emph{Speech and Language Processing: An
+  Introduction to Natural Language Processing}. [S.l.]: Prentice Hall, 2006.}
+
 \bibitem[Louzada 2010]{RavComputLouzada}
 \abntrefinfo{Louzada}{LOUZADA}{2010}
 {LOUZADA, J.~A.
@@ -90,10 +95,15 @@ Monografia (Doutorado), Campinas, 1997.}
 \emph{Reconhecimento de voz para palavras isoladas}.
 Monografia (Doutorado), Campinas, 1997.}
 
+\bibitem[Rabiner 1989]{TutorialHmmRabiner}
+\abntrefinfo{Rabiner}{RABINER}{1989}
+{RABINER, L.~R. \emph{A tutorial on hidden Markov models and selected
+  applications in speech recognition}. [S.l.]: Proceedings of the IEEE, 1989.}
+
 \bibitem[Rabiner 1993]{FundamentRabiner}
 \abntrefinfo{Rabiner}{RABINER}{1993}
-{RABINER, L.~R. \emph{Fundamentals of speech recognition}. [S.l.]: PTR Prentice
-  Hall, 1993.}
+{\underline{\ \ \ \ \ \ \ \ }. \emph{Fundamentals of speech recognition}.
+  [S.l.]: PTR Prentice Hall, 1993.}
 
 \bibitem[Ramos 2007]{HistJogosHenrique}
 \abntrefinfo{Ramos}{RAMOS}{2007}
@@ -131,6 +141,11 @@ Monografia (Graduação), Belém, 2008.}
 {SILVA, C. P.~A. da.
 \emph{Um Software de Reconhecimento de Voz para Português Brasileiro}.
 Monografia (Pós-Graduação), Belém, 2010.}
+
+\bibitem[Waghabi 2009]{AplicHmmWaghabi}
+\abntrefinfo{Waghabi}{WAGHABI}{2009}
+{WAGHABI, M. R. F.~B. E.~R. \emph{Aplicação de Modelos Ocultos de Markov na
+  Teoria dos Jogos}. 2009.}
 
 \bibitem[Ynoguti 1999]{RavHmmCarlos}
 \abntrefinfo{Ynoguti}{YNOGUTI}{1999}
