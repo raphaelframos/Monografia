@@ -16,13 +16,14 @@
 \contentsline {subsection}{\numberline {2.2.1}Caracter\IeC {\'\i }sticas de Sistemas RAV}{14}{subsection.resumo.2.2.1}
 \contentsline {section}{\numberline {2.3}Reconhecimento de voz baseado em padr\IeC {\~o}es}{17}{section.resumo.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Processamento do Sinal de Fala}{17}{subsection.resumo.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Padr\IeC {\~o}es de Refer\IeC {\^e}ncia}{17}{subsection.resumo.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Padr\IeC {\~o}es de Refer\IeC {\^e}ncia}{18}{subsection.resumo.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Compara\IeC {\c c}\IeC {\~a}o de Padr\IeC {\~o}es}{18}{subsection.resumo.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}P\IeC {\'o}s-Processador}{18}{subsection.resumo.2.3.4}
-\contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{18}{section.resumo.2.4}
+\contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{19}{section.resumo.2.4}
 \contentsline {section}{\numberline {2.5}Modelos Ocultos de Markov}{19}{section.resumo.2.5}
-\contentsline {section}{\numberline {2.6}Trabalhos Relacionados}{20}{section.resumo.2.6}
+\contentsline {section}{\numberline {2.6}Trabalhos Relacionados}{21}{section.resumo.2.6}
 \contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{22}{chapter.resumo.3}
-\contentsline {section}{\numberline {3.1}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{23}{section.resumo.3.1}
-\contentsline {section}{\numberline {3.2}Treinamento dos Modelos Ocultos de Markov}{23}{section.resumo.3.2}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{24}{section.resumo.3.2}
+\contentsline {section}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o RAV}{23}{section.resumo.3.1}
+\contentsline {section}{\numberline {3.2}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{23}{section.resumo.3.2}
+\contentsline {section}{\numberline {3.3}Treinamento dos Modelos Ocultos de Markov}{23}{section.resumo.3.3}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{25}{section.resumo.3.3}

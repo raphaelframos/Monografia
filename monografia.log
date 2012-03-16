@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  16 MAR 2012 11:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  16 MAR 2012 15:19
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1172,11 +1172,12 @@ File: graficos/markov_2.eps Graphic file (type eps)
 
 (./estruturas_rav.tex
 Cap\'{\i }tulo 3.
-[22
+File: graficos/desenvolvimento_rav.eps Graphic file (type eps)
+<graficos/desenvolvimento_rav.eps> [22
 
 
 
-]) [23] (./monografia.bbl
+] [23]) [24] (./monografia.bbl
 Underfull \hbox (badness 3849) in paragraph at lines 10--17
 []\OT1/cmr/m/n/12 BARCELOS, A. \OT1/cmr/m/it/12 Re-co-nhe-ci-mento de voz para 
 
@@ -1221,7 +1222,7 @@ Underfull \hbox (badness 1616) in paragraph at lines 50--56
 is-pon^^S^^Pvel em: 
  []
 
-[24
+[25
 
 
 ]
@@ -1245,19 +1246,19 @@ Underfull \hbox (badness 1264) in paragraph at lines 110--118
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
-[25] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
+[26] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
 (./introducao.aux) (./referencial_teorico.aux) (./estruturas_rav.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14161 strings out of 495042
- 196686 string characters out of 1181921
- 365019 words of memory out of 3000000
- 17004 multiletter control sequences out of 15000+50000
+ 14160 strings out of 495042
+ 196708 string characters out of 1181921
+ 365120 words of memory out of 3000000
+ 17002 multiletter control sequences out of 15000+50000
  16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,9n,49p,1576b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (28 pages, 129024 bytes).
+Output written on monografia.dvi (29 pages, 134672 bytes).

@@ -1,6 +1,6 @@
 \chapter{Sistemas de Reconhecimento Automático de Voz}
 
-Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor \footnote{Dispositivo que transforma um tipo de energia em outro, utilizando para isso um elemento sensor}, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
+Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor \footnote{ Dispositivo que transforma um tipo de energia em outro, utilizando para isso um elemento sensor}, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
 
 %Descobrir o q eh analógico digital
 A primeira etapa é a \textit{aquisição de voz}, processo pelo qual ondas sonoras são convertidas em sinais elétricos, e depois é feita uma conversão analógico-digital do mesmo. Algumas características do ambiente de gravação podem atrapalhar no processo de reconhecimento, como ruídos, distância do microfone, etc. Assim é preciso passar por uma fase que é feita uma filtragem afim de tornar o sinal o mais próximo possível da fala pura, o nome desta etapa é \textit{Pré-Processamento}. Logo depois, é feita a \textit{extração de informações} do sinal, que consiste em representar segmentos, fonemas ou qualquer outra unidade de fala com o menor número possível de parâmetros, de forma que estes contenham informações suficientes para caracterizar o sinal de fala, já que um sinal digital possui uma grande quatidade de parâmetros, então a exigência por tempo e processamento seriam muito altas. Outra etapa, e uma das mais importantes é a \textit{geração de padrões}, também chamada de padrões de referência, que é realizada durante o treinamento do sistema, nesta fase é gravado o maior número possível de padrões, para cada palavra cadastrada no dicionário, para garantir o melhor funcionamento e tempo de resposta do reconhecedor.
@@ -117,7 +117,9 @@ Fala geral & 247 \\
 \label{tab}
 \end{table}
 
-%\item Relação snial - ruído
+\item Relação sinal - ruído:
+Também chamado de \textit{(SNR)}, do inglês Signal Noise Ratio, são problemas que podem prejudicar o desempenho do sistema, como: ruídos, ambiente, distorção acústica, diferentes microfones e outros.
+
 
 \end{enumerate}
 
@@ -194,6 +196,11 @@ Com este modelo acima o meteorologista pode deduzir, observando o comportamento 
 
 Um Modelo Oculto de Markov (MOM), é composto por:
 
+
+
+
+
+Segundo \citeonline{TutorialHmmRabiner} existem 3 problemas que são básicos no desenvolvimento de sistemas RAV modelados por HMMs, o problema da avaliação, problema da decodificação e o problema do treinamento. Dentre os algoritmos que podem resolver esses problemas encontrados: o algoritmo Forward ou o algoritmo Backward para o problema da avaliação, o algoritmo de Viterbi, que é próximo ao ótimo para o problema da decodificação e o algoritmo Baum-Welch para o problema de do treinamento \cite{RavIsolAnderson}.
 
 
 \section{Trabalhos Relacionados}
