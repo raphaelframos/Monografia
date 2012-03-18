@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  18 MAR 2012 18:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.3.6)  18 MAR 2012 20:11
 entering extended mode
  %&-line parsing enabled.
 **monografia.tex
@@ -1179,8 +1179,8 @@ File: graficos/desenvolvimento_rav.eps Graphic file (type eps)
 
 ] [23]
 File: graficos/pre_proc.eps Graphic file (type eps)
- <graficos/pre_proc.eps> [24])
-[25] (./monografia.bbl
+ <graficos/pre_proc.eps> [24]
+[25]) [26] (./monografia.bbl
 Underfull \hbox (badness 3849) in paragraph at lines 10--17
 []\OT1/cmr/m/n/12 BARCELOS, A. \OT1/cmr/m/it/12 Re-co-nhe-ci-mento de voz para 
 
@@ -1214,28 +1214,28 @@ Overfull \hbox (21.80093pt too wide) in paragraph at lines 29--35
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 62--68
+Underfull \hbox (badness 1242) in paragraph at lines 68--74
 []\OT1/cmr/m/n/12 DAMASCENO, E. F. \OT1/cmr/m/it/12 Im-ple-menta^^Xc~ao de Serv
 i^^Xcos de Voz 
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 62--68
+Underfull \hbox (badness 1616) in paragraph at lines 68--74
 \OT1/cmr/m/it/12 em Am-bi-en-tes Vir-tu-ais\OT1/cmr/m/n/12 . Fe-bru-ary 2005. D
 is-pon^^S^^Pvel em: 
  []
 
-[26
+[27
 
 
 ]
-Underfull \hbox (badness 1024) in paragraph at lines 134--142
+Underfull \hbox (badness 1024) in paragraph at lines 145--153
 []\OT1/cmr/m/n/12 RAMOS, H. M. Dis-ci-plina: Com-pu-ta-do-res e so-ci-e-dade, \
 OT1/cmr/m/it/12 A 
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 134--142
+Underfull \hbox (badness 1264) in paragraph at lines 145--153
 \OT1/cmr/m/it/12 hist^^Soria dos jo-gos de com-pu-ta-do-res\OT1/cmr/m/n/12 . 20
 07. Dis-pon^^S^^Pvel em: 
  []
@@ -1249,19 +1249,19 @@ Underfull \hbox (badness 1264) in paragraph at lines 134--142
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 58.
 See the caption package documentation for explanation.
 
-[27] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
+[28] (./monografia.aux (./epigrafe.aux) (./agradecimentos.aux)
 (./introducao.aux) (./referencial_teorico.aux) (./estruturas_rav.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 14185 strings out of 495042
- 197221 string characters out of 1181921
- 366074 words of memory out of 3000000
- 17026 multiletter control sequences out of 15000+50000
+ 14200 strings out of 495042
+ 197567 string characters out of 1181921
+ 366589 words of memory out of 3000000
+ 17041 multiletter control sequences out of 15000+50000
  16015 words of font info for 52 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  38i,9n,49p,1576b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on monografia.dvi (30 pages, 145880 bytes).
+Output written on monografia.dvi (31 pages, 153856 bytes).

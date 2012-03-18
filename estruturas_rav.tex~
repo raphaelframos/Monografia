@@ -9,13 +9,13 @@ Este trabalho pode ser dividido em 6 etapas: Aquisição da fala, Pré-Processam
 
 \section{Aplicação RAV}
 \begin{figure}[H]
-\includegraphics[width=0.8\textwidth]{graficos/desenvolvimento_rav.eps}
+\includegraphics[width=0.9\textwidth]{graficos/desenvolvimento_rav.eps}
 \caption{Diagrama de Atividades do Sistema}
 \end{figure}
 
 Com resultado da transcrição, são definidos os comandos do jogo.
 
-\section{Aquisição da fala}
+\subsection{Aquisição da fala}
 
 A interação do usuário com a aplicação é feita apenas com a voz, ao iniciar o sistema, a interface de voz com usuário é habilitada, permitindo ao usuário interagir com os comandos definidos no vocabulário. Como a aplicação é destinada a dispositivos móveis, a captura do som, é feita pelo microfone do celular ou tablet, fornecendo um sinal elétrico, sendo nessário uma filtragem do sinal analógico resultante por um filtro passa-baixas, chamado de anti-aliasing, para depois ser feita a conversão analógio-digital \cite{DigitalProcRabiner}. Esse filtro tem o intuito de suprimir componentes de frequência superiores à metade da frequência de amostragem, sendo chamado de Nyquist \cite{DigitalSigProakis}.
 
@@ -25,7 +25,7 @@ escolhidas a taxa de amostragem, impossibilitando a ocorrência do efeito de ali
 Todas etapas podem ser vistas na subseção \ref{subsec:fala} deste trabalho.
 
 
-\section{Pré-Processamento}
+\subsection{Pré-Processamento}
 Sistemas RAV sofrem com características do ambiente de gravação e o canal de comunicação, como ruídos de alta frequência, distância do microfone, períodos de silêncio, etc. Uma forma de amenizar esse proplemas é fazer o sinal passar por um processo chamado de pré-processamento, deixando o sinal mais próximo da fala pura. As etapas desse processo podem ser mostradas na figura 7 \cite{RavIsolAnderson}. 
 
 \begin{figure}[H]
@@ -39,20 +39,28 @@ A última fase do pré-processamento no sistema RAV de palavras isoladas é a de
  O extremo inicial é determinado pelo primeiro quadro onde realmente se inicia a fala e o extremo final é
 determinado pelo último quadro que ainda há fala.
 
-\section{Extração de Parâmetros} 
+\subsection{Extração de Parâmetros} 
+A extração de parâmetros é uma etapa de grande importância em um sistema RAV, pois o sinal digital possui uma grande quantidade de dados e uma análise direta necessitaria tempo e processamento consideráveis e ainda sim, não apresentariam um resultado expressivo. Muitas informações existentes no sinal digital puro não possuem significância alguma para a distinção fonética, assim o classificador empregado dificilmente conseguirá diferenciar amostras de palavras distintas.
 
+No trabalho de \citeonline{RavIsolAnderson} é mostrado a idéia básica da extração de parâmetros, que é representar segmentos, fonemas ou qualquer outra unidade de fala com o menor número possível de parâmetros, com informações necessárias para caracterizar o sinal de fala. Por melhor que seja o classificador, este só apresentará bons resultados se os parâmetros utilizados durante o treinamento ou reconhecimento contiverem informações relevantes. Uma redução no volume de dados mantendo informações suficientes para a caracterização do sinal viabilizará uma classificação robusta e confiável.
 
+Algumas técnicas de análise espectral são mostradas por \citeonline{DigitalProcRabiner} e são usadas para obter os parâmetros do sinal digital, elas são: a transformada rápida de Fourier (Fast Fourier Transform ou FFT), os métodos de banco de filtros (Filter Bank), os de análise homomórfica ou análise cepstral (mel-cepstrum) e os de codificação por
+predição linear (Linear Predictive Coding ou LPC).
 
-\section{Treinamento dos Modelos Ocultos de Markov}
+A técnica FFT, os métodos de banco de filtros e o LPC foram muito utilizados para a análise espectral da fala, no entanto, elas possuem algumas restrições, por isso \citeonline{DiscreteDeller} propõe o uso da técnica \textit{mel-cepstrum}, cujo os coeficientes mel-cepstrais (Mel-Frequency Cepstral Coefficients ou MFCC), são obtidos pela representação em freqüência na escala \textit{Mel}, a que considera a técnica mais apropriada para ser
+utilizada no processo de reconhecimento de voz. Com vantagens no uso dessa técnica, atualmente os coeficientes MFCC
+são os mais populares \cite{IsolatWordBouroba}.
+
+\subsection{Treinamento dos Modelos Ocultos de Markov}
 A fase de treinamento é uma das etapas de maior importancia em um sistema de reconhecimento de voz independente do locutor e ser o fator determinante na obtenção de um sistema com bons resultados ou não. É o momento em que são definidos os modelos HMMs para cada palavra do vocabulário utilizado.
 
 A definição da quantidade de estados necessários para modelar uma palavra e o número de misturas por estado não são definidos por uma regra, mas sim, dependente da familiaridade com os modelos HMMs ou por intuição, além de serem necessários muitos testes para obtenção do melhor resultado. 
 %Escrever a quantidade de estados e misturas no momento da implentação
 
-%\subsection{Aquisição do sinal de voz}
+\subsubsection{Construção do dicionário de códigos}
+Também chamado de codeblock  é gerado a partir da base de dados de treinamento seguindo um critério de otimização. \citeonline{AnAlgorLinde} propos um algoritmo muito eficiente para o treinamento, conhecido como algoritmo LBG. No caso do reconhecimento de voz para palavras isoladas, cada elocução é dividida em vetores (frames) com os parâmetros obtidos. Para cada um dos modelos HMM, todos os frames de cada elocução da palavra que ele
+representa são distribuídos entre todos os estados do mesmo de maneira uniforme. Após esta divisão calcula-se para cada estado um vetor centróide a partir de todos os vetores pertencentes a este estado \cite{RavIsolAnderson}.
 
-
-%\subsection{Pré-Processamento} 
 
 
  

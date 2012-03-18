@@ -24,8 +24,9 @@
 \contentsline {section}{\numberline {2.6}Trabalhos Relacionados}{21}{section.resumo.2.6}
 \contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{22}{chapter.resumo.3}
 \contentsline {section}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o RAV}{23}{section.resumo.3.1}
-\contentsline {section}{\numberline {3.2}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{23}{section.resumo.3.2}
-\contentsline {section}{\numberline {3.3}Pr\IeC {\'e}-Processamento}{24}{section.resumo.3.3}
-\contentsline {section}{\numberline {3.4}Extra\IeC {\c c}\IeC {\~a}o de Par\IeC {\^a}metros}{25}{section.resumo.3.4}
-\contentsline {section}{\numberline {3.5}Treinamento dos Modelos Ocultos de Markov}{25}{section.resumo.3.5}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{section.resumo.3.5}
+\contentsline {subsection}{\numberline {3.1.1}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{23}{subsection.resumo.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Pr\IeC {\'e}-Processamento}{24}{subsection.resumo.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Extra\IeC {\c c}\IeC {\~a}o de Par\IeC {\^a}metros}{25}{subsection.resumo.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Treinamento dos Modelos Ocultos de Markov}{26}{subsection.resumo.3.1.4}
+\contentsline {subsubsection}{Constru\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio de c\IeC {\'o}digos}{26}{subsection.resumo.3.1.4}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{27}{subsection.resumo.3.1.4}
