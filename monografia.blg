@@ -10,9 +10,9 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "XBoxTechT" isn't style-file defined
---line 194 of file bibliografia.bib
+--line 226 of file bibliografia.bib
 Warning--entry type for "KinectTechT" isn't style-file defined
---line 203 of file bibliografia.bib
+--line 235 of file bibliografia.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--faltando school em MetodosProAnderson
 Warning--faltando school em RavDigitalSadaoki
@@ -29,45 +29,45 @@ Warning--faltando school em RavPtBrCarlos
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 25 entries,
+You've used 29 entries,
             6522 wiz_defined-function locations,
-            1296 strings with 12429 characters,
-and the built_in function-call counts, 32156 in all, are:
-= -- 4209
-> -- 347
+            1320 strings with 12980 characters,
+and the built_in function-call counts, 34700 in all, are:
+= -- 4401
+> -- 407
 < -- 774
-+ -- 939
-- -- 115
-* -- 1677
-:= -- 3674
-add.period$ -- 78
-call.type$ -- 26
-change.case$ -- 145
-chr.to.int$ -- 22
-cite$ -- 31
-duplicate$ -- 3776
-empty$ -- 1329
-format.name$ -- 530
-if$ -- 6486
++ -- 959
+- -- 135
+* -- 1825
+:= -- 4042
+add.period$ -- 94
+call.type$ -- 30
+change.case$ -- 169
+chr.to.int$ -- 26
+cite$ -- 35
+duplicate$ -- 3936
+empty$ -- 1577
+format.name$ -- 622
+if$ -- 7102
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 412
-newline$ -- 126
-num.names$ -- 110
-pop$ -- 482
+missing$ -- 488
+newline$ -- 146
+num.names$ -- 130
+pop$ -- 570
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 88
 quote$ -- 0
-skip$ -- 3955
+skip$ -- 4091
 stack$ -- 1
-substring$ -- 1201
-swap$ -- 1090
+substring$ -- 1269
+swap$ -- 1154
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 42
 warning$ -- 9
-while$ -- 144
+while$ -- 168
 width$ -- 0
-write$ -- 336
+write$ -- 396
 (There were 11 warnings)

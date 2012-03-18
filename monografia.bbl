@@ -33,6 +33,18 @@ Dispon{\'\i}vel em:
 br/review/kinect/o-acessorio-revolucionario-da-microsoft.html}. Acesso em:
   13/03/2012.}
 
+\bibitem[Chou 2003]{PattRecChou}
+\abntrefinfo{Chou}{CHOU}{2003}
+{CHOU, B.-H.~J. W. \emph{Pattern Recognition in Speech and Language
+  Processing}. [S.l.]: CRC Press, 2003.
+ISBN 0849312329.}
+
+\bibitem[Chu 2003]{SpeechCodChu}
+\abntrefinfo{Chu}{CHU}{2003}
+{CHU, W.~C. \emph{Speech Coding Algorithms: Foundation and Evolution of
+  Standardized Coders}. [S.l.]: Wiley-Interscience, 2003.
+ISBN 0471373125.}
+
 \bibitem[Cole 1997]{SurveyCole}
 \abntrefinfo{Cole}{COLE}{1997}
 {COLE, R. \emph{Survey of the state of the art in human language technology}.
@@ -95,6 +107,12 @@ Monografia (Doutorado), Campinas, 1997.}
 \emph{Reconhecimento de voz para palavras isoladas}.
 Monografia (Doutorado), Campinas, 1997.}
 
+\bibitem[Proakis 1995]{DigitalSigProakis}
+\abntrefinfo{Proakis}{PROAKIS}{1995}
+{PROAKIS, D. K.~M. J.~G. \emph{Digital Signal Processing: Principles,
+  Algorithms and Applications}. [S.l.]: Prentice Hall, 1995.
+ISBN 0133737624.}
+
 \bibitem[Rabiner 1989]{TutorialHmmRabiner}
 \abntrefinfo{Rabiner}{RABINER}{1989}
 {RABINER, L.~R. \emph{A tutorial on hidden Markov models and selected
@@ -104,6 +122,12 @@ Monografia (Doutorado), Campinas, 1997.}
 \abntrefinfo{Rabiner}{RABINER}{1993}
 {\underline{\ \ \ \ \ \ \ \ }. \emph{Fundamentals of speech recognition}.
   [S.l.]: PTR Prentice Hall, 1993.}
+
+\bibitem[Rabiner 1978]{DigitalProcRabiner}
+\abntrefinfo{Rabiner}{RABINER}{1978}
+{RABINER, R. W.~S. L.~R. \emph{Digital processing of speech signals}. [S.l.]:
+  Prentice Hall; US edition, 1978.
+ISBN 0132136031.}
 
 \bibitem[Ramos 2007]{HistJogosHenrique}
 \abntrefinfo{Ramos}{RAMOS}{2007}

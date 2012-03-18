@@ -25,5 +25,7 @@
 \contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{22}{chapter.resumo.3}
 \contentsline {section}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o RAV}{23}{section.resumo.3.1}
 \contentsline {section}{\numberline {3.2}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{23}{section.resumo.3.2}
-\contentsline {section}{\numberline {3.3}Treinamento dos Modelos Ocultos de Markov}{23}{section.resumo.3.3}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{25}{section.resumo.3.3}
+\contentsline {section}{\numberline {3.3}Pr\IeC {\'e}-Processamento}{24}{section.resumo.3.3}
+\contentsline {section}{\numberline {3.4}Extra\IeC {\c c}\IeC {\~a}o de Par\IeC {\^a}metros}{25}{section.resumo.3.4}
+\contentsline {section}{\numberline {3.5}Treinamento dos Modelos Ocultos de Markov}{25}{section.resumo.3.5}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{26}{section.resumo.3.5}
