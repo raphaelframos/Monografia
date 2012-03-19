@@ -18,7 +18,6 @@
 \usepackage[alf]{abntcite}
 \usepackage{listings} % http://www.atscire.de/index.php?nav=products/listings2 http://linorg.usp.br/CTAN/macros/latex/contrib/listings/listings.pdf
 \usepackage{textcomp}
-\usepackage{url}\let\harvardurl\url
 \usepackage[usenames,dvipsnames]{xcolor} % http://en.wikibooks.org/wiki/LaTeX/Colors
 \usepackage[algoruled,longend]{algorithm2e}
 \usepackage{mathtools, mhsetup} % fórmulas matemáticas
@@ -69,11 +68,11 @@
 \titulo{Jogos fisicamente interativos baseados em reconhecimento de voz}
 \autor{Raphael Ferreira Ramos}
 \instituicao{Universidade Estadual do Norte Fluminense Darcy Ribeiro}
-\orientador[Tutor: ]{Rivera Antônio Escriba, DrSc.}
+\orientador[Tutor: ]{Luis Antônio Rivera Escriba, DrSc.}
 \comentario{Monografia apresentada ao Curso de Graduação em Ciência da
 Computação da Universidade Estadual do Norte Fluminense Darcy Ribeiro como
 requisito para obtenção do título de Bacharel em Ciência da Computação, sob
-orientação da Profº. Rivera Antônio Escriba, DrSc.}
+orientação do Profº. Luis Antônio Rivera Escriba, DrSc.}
 \local{Campos dos Goytacazes/RJ}
 \data{2012}
 

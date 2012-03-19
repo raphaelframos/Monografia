@@ -1,9 +1,9 @@
-\chapter{Sistemas de Reconhecimento Automático de Voz}
+\chapter{Reconhecimento Automático de Voz}
 
-Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor \footnote{ Dispositivo que transforma um tipo de energia em outro, utilizando para isso um elemento sensor}, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc.
+Sistemas de reconhecimento automático de voz, tem como objetivo, transformar um sinal analógico(fala) obtido através de um transdutor \footnote{ Dispositivo que transforma um tipo de energia em outro, utilizando para isso um elemento sensor}, mapeando-o a fim de produzir como saída a palavra, uma sequencia de fonemas ou uma sentenças correspondentes ao sinal de entrada. Com o resultado da tradução, pode-se tomar decisões, traduzir para outra língua, etc. Geralmente sistemas de reconhecimento de fala são divididos em 4 fases, que serão detalhadas mais a frente neste trabalho, fases essas de: aquisição de voz, pré-processamento, extração de informações e geração de padrões.  
 
 %Descobrir o q eh analógico digital
-A primeira etapa é a \textit{aquisição de voz}, processo pelo qual ondas sonoras são convertidas em sinais elétricos, e depois é feita uma conversão analógico-digital do mesmo. Algumas características do ambiente de gravação podem atrapalhar no processo de reconhecimento, como ruídos, distância do microfone, etc. Assim é preciso passar por uma fase que é feita uma filtragem afim de tornar o sinal o mais próximo possível da fala pura, o nome desta etapa é \textit{Pré-Processamento}. Logo depois, é feita a \textit{extração de informações} do sinal, que consiste em representar segmentos, fonemas ou qualquer outra unidade de fala com o menor número possível de parâmetros, de forma que estes contenham informações suficientes para caracterizar o sinal de fala, já que um sinal digital possui uma grande quatidade de parâmetros, então a exigência por tempo e processamento seriam muito altas. Outra etapa, e uma das mais importantes é a \textit{geração de padrões}, também chamada de padrões de referência, que é realizada durante o treinamento do sistema, nesta fase é gravado o maior número possível de padrões, para cada palavra cadastrada no dicionário, para garantir o melhor funcionamento e tempo de resposta do reconhecedor.
+A primeira etapa é a \textit{aquisição de voz}, processo pelo qual ondas sonoras são convertidas em sinais elétricos, e depois é feita uma conversão analógico-digital do mesmo. Algumas características do ambiente de gravação podem atrapalhar no processo de reconhecimento, como ruídos, distância do microfone, etc. Assim é preciso passar por uma fase que é feita uma filtragem afim de tornar o sinal o mais próximo possível da fala pura, o nome desta etapa é \textit{pré-processamento}. Logo depois, é feita a \textit{extração de informações} do sinal, que consiste em representar segmentos, fonemas ou qualquer outra unidade de fala com o menor número possível de parâmetros, de forma que estes contenham informações suficientes para caracterizar o sinal de fala, já que um sinal digital possui uma grande quatidade de parâmetros, então a exigência por tempo e processamento seriam muito altas. Outra etapa, e uma das mais importantes é a \textit{geração de padrões}, também chamada de padrões de referência, que é realizada durante o treinamento do sistema, nesta fase é gravado o maior número possível de padrões, para cada palavra cadastrada no dicionário, para garantir o melhor funcionamento e tempo de resposta do reconhecedor.
 \cite{RavIsolAnderson}, \cite{RavComputLouzada}. 
 
 
@@ -39,7 +39,7 @@ Aquisição do sinal de fala é a primeira etapa de um sistema \textit{RAV}, ele
 \end{figure}
 
 
-\section{O Sistema de Reconhecimento de Voz}\label{}
+\section{O Sistema de Reconhecimento de Fala}
 
 Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 50 nos laboratórios Bell, quando foi criado o primeiro reconhecedor de dígitos isolados com suporte a um locutor \cite{MetodosProAnderson}. As redes neurais também surgiram nos anos 50, mas não houve prosseguimento nos estudos, devido a problemas práticos. Muitos reconhecedores de voz, foram criados nas décadas de 50 e 60 \cite{RavSpeechSadaoki}. \citeonline{FundamentRabiner} mostra que no início dos anos 70, surgiram os algoritmos para sistemas de fala contínua, graças as técnicas de \textit{Linear Predictive Coding} (LPC) e \textit{Dynamic Time Warping} (DTW). E os anos 80 foram marcados pela disseminação dos metodos estáticos, como \textit Modelos Ocultos de Markov (HMM). Esse período foi de grande evolução para os sistemas de reconhecimento de voz, as redes neurais passaram a ser usadas no desenvolvimento dos sistemas, sendo possível implementar sistemas mais robustos, com vocabulários grandes e com taxas de acerto de mais de 90{\%} \cite{AvaliaTecJose}.
 
@@ -48,19 +48,21 @@ Sistemas de reconhecimento automático de voz vem sendo estudados desde os anos 
 Sistemas com Modelos Ocultos de Markov (HMM) utilizam essa classe de reconhecimento \cite{AvaliaTecJose}. Nos sistemas com reconhecimento baseado na análise acústico-fonema, o sinal de fala é decodificado baseado em suas características acústicas e nas relações entre essas características \cite{DigSpeechNejat}. É identificada as unidades fonéticas da fala a ser reconhecida, e concatenando essas unidades é reconhecida a palavra. Nessa análise é necessário considerar as propriedades invariantes da fala. Segundo \citeonline{AvaliaTecJose} um analisador acústico-fonética apresenta as sequintes fases: análise espectral, detecção das características que descrevem as unidades fonéticas, a fase mais importante de todo o processo que é: segmentação do sinal de fala e identificação das unidades fonéticas e escolha da palavra que melhor corresponde a sequência de unidades. 
 
 Reconhecimento empregando inteligência artificial explora os conceitos tanto do reconhecimento por padrões quanto o baseado em análise acústico-fonema. Utilizando redes neurais, cria-se uma matriz de ponderações que representa os nós das redes, e suas saídas, estão relacionadas as unidades a serem reconhecidas \cite{AvaliaTecJose}.
-O processo para o reconhecimento de voz pode ser dividido em quatro fases: aquisição do sinal de voz, pré-processamento, extração de informações e geração dos padrões de voz \cite{RavIsolAnderson}.
+Como dito anteriormente o processo para o reconhecimento de fala pode ser dividido em quatro fases: aquisição do sinal de voz, pré-processamento, extração de informações e geração dos padrões de voz, que podem ser vistas na figura \ref{figFala}, que além de mostrar essas etapas, também é ilustrado a fase de reconhecimento \cite{RavIsolAnderson}.
 
 \begin{figure}[H]
 \centering
 \input{./graficos/sistema_rav}
 \caption{Diagrama de blocos de um sistema de reconhecimento de voz}
+\label{figFala}
+
 \end{figure}
 
 %por padrões te simplicidade de uso, maior entendimento, boas justificativas matemáticas e robustez. AvaliaTecJose e FundamentRabiner
 
 \subsection{Características de Sistemas RAV}\label{sec:red_neu}
 
-Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os mais importantes são: o estilo de pronuncia que é aceito, o tamanho do vocabulário e à dependência ou independencia do locutor \cite{RavIsolMartins}. Essas categorias que definem a precisão do sistema de reconhecimento:
+Existem várias maneiras de categorizar um sistema de reconhecimento de voz, os mais importantes são: o estilo de pronuncia que é aceito, o tamanho do vocabulário, a dependência ou independencia do locutor, perplexidade e relação sinal-ruído \cite{RavIsolMartins}. As categorias que serão detalhadas a seguir definem a precisão do sistema de reconhecimento fala:
 
 \begin{enumerate}[A)]
 \item Dependência do locutor:
@@ -91,14 +93,12 @@ tamanho elevado e um dicionario fonético de amplo vocabulário.
 
 \item Perplexidade: 
 
-Uma medida popular que mede a dificuldade da tarefa, combinando o tamanho do vocabulário e o modelo de linguagem, que pode ser basicamente definida como a média do número de palavras que pode seguir uma palavra depois que o modelo de linguagem for aplicado. Pode ser pequena sendo menor que 10 ou grande sendo maior que 100 \cite{RavHmmCarlos}. A perplexidade de um modelo de linguagem depende do domínio de discurso. Na Tabela 1 tem-se um quadro comparativo para diversas aplicações \cite{SurveyCole} :
+Uma medida popular que mede a dificuldade da tarefa, combinando o tamanho do vocabulário e o modelo de linguagem, que pode ser basicamente definida como a média do número de palavras que pode seguir uma palavra depois que o modelo de linguagem for aplicado. Pode ser pequena sendo menor que 10 ou grande sendo maior que 100 \cite{RavHmmCarlos}. A perplexidade de um modelo de linguagem depende do domínio de discurso. Na tabela \ref{tabPerp} tem-se um quadro comparativo para diversas aplicações \cite{SurveyCole} :
 
 \begin{table}[H] % aqui começa o ambiente tabela
-
 \centering
-
 \caption{Perplexidades típicas para vários domínios.} % igual ao ambiente figura
-
+\label{tabPerp}
 \begin{tabular}{cc} % com este comando dizemos quantas colunas terá nossa tabela e a posição do texto dentro de cada coluna. Aqui temos três colunas (pois são três "c" dentre {}) e o texto estará centralizado em todas elas (indicado pelo "c", se quisermos alinhados à esquerda "l" ou direita "r" 
 
 \hline % este comando coloca uma linha na tabela
@@ -123,14 +123,15 @@ Também chamado de \textit{(SNR)}, do inglês Signal Noise Ratio, são problemas
 
 \end{enumerate}
 
-\section{Reconhecimento de voz baseado em padrões}\label{sec:red_neu}
+\section{Reconhecimento da fala baseado em padrões}\label{sec:red_neu}
 De acordo com \citeonline{AvaliaTecJose}, o reconhecimento baseado em padrões, é a técnica que oferece melhor resultado nos sistemas de reconhecimento de fala, então a implementação do sistema será usando essa técnica.
-Um sistema de reconhecimento de voz usando reconhecimento de padrões poder ser representado na figura 2 \cite{FundamentRabiner}:
+Um sistema de reconhecimento de voz usando reconhecimento de padrões foi representando por \citeonline{FundamentRabiner} e pode ser visto na figura \ref{figRecPad}:
  
 \begin{figure}[H]
 \centering
 \input{./graficos/rec_padroes}
 \caption{Sistema básico de reconhecimento de fala baseado na comparação de padrões}
+\label{figRecPad}
 \end{figure}
 
 \subsection{Processamento do Sinal de Fala}
@@ -175,21 +176,21 @@ Já no caso de reconhecedores de fala contínua, as medidas seriam \cite{AvaliaT
 
 \section{Modelos Ocultos de Markov}
 Segundo \citeonline{AplicHmmWaghabi} a idéia principal dos \textit{Modelos Ocultos de Markov} (MOM) é representar uma variável aleatória como uma \textit{Cadeia de Markov}, com a idéia que essa variável não pode ser medida diretamente, mas sim com observações possíveis a partir de cada estado da variável. Em \citeonline{TutorialHmmRabiner} uma cadeia oculta de Markov é definida como uma máquina de estados finita que modifica seu estado a cada unidade de tempo. Podendo ser mais especificado como um modelo matemático formado por uma cadeia de estados conectados entre si, onde cada transição entre os estados possui uma probabilidade de ocorrência, além de cada estado está vinculado a um processo estocástico, que pode ser discreto ou contínuo, conhecido como processo de observação.
-\citeonline{SpeechLangMartin} em seu trabalho apresenta uma cadeia com 3 estados, mostradas na figura:
+\citeonline{SpeechLangMartin} em seu trabalho apresenta uma cadeia com 3 estados, mostradas na figura \ref{FigHmm}, que detalha a probabilidade de ocorrência de um estado de tempo tendo-se por base o estado atual. Como exemplo é mostrado um dia de sol, as chances de um próximo dia ensolarado é de 50{\%}, do próximo dia ser chuvoso as chances são de 10{\%} e de um dia nublado 40{\%}. As probabilidades para os outros estados são diferentes mas seguem a mesma idéia.
 
 \begin{figure}[H]
 \includegraphics[width=0.9\textwidth]{graficos/markov.eps}
 \caption{Cadeia de Markov para previsão do tempo}
-\label{Modelos Ocultos de Markov}
+\label{FigHmm}
 \end{figure}
 
 \citeonline{AplicHmmWaghabi} explica o exemplo:
-“Imaginemos que um profissional que prevê o tempo não possa observar diretamente o clima. Trabalhando em um ambiente confinado, sua única dica de como está o tempo baseia-se nas vestimentas dos outros companheiros de trabalho. Como nem sempre seus companheiros conseguem prever corretamente o tempo, uma pessoa portando um guarda-chuva não significa certeza de chuva, mas tão somente uma probabilidade alta. Da mesma forma alguém de camiseta poderia ser surpreendido por um mau tempo, mas não tão frequentemente. Neste cenário ligeiramente estranho, a cadeia de estados do tempo está oculta ao meteorologista, e suas aferições têm que se basear em observações relacionadas com o tempo através de uma matriz de probabilidades”. Como:
+“Imaginemos que um profissional que prevê o tempo não possa observar diretamente o clima. Trabalhando em um ambiente confinado, sua única dica de como está o tempo baseia-se nas vestimentas dos outros companheiros de trabalho. Como nem sempre seus companheiros conseguem prever corretamente o tempo, uma pessoa portando um guarda-chuva não significa certeza de chuva, mas tão somente uma probabilidade alta. Da mesma forma alguém de camiseta poderia ser surpreendido por um mau tempo, mas não tão frequentemente. Neste cenário ligeiramente estranho, a cadeia de estados do tempo está oculta ao meteorologista, e suas aferições têm que se basear em observações relacionadas com o tempo através de uma matriz de probabilidades”. Como na figura \ref{figHmm2}:
 
 \begin{figure}[H]
 \includegraphics[width=0.9\textwidth]{graficos/markov_2.eps}
 \caption{MOM para previsão do tempo}
-\label{Modelos Ocultos de Markov}
+\label{figHmm2}
 \end{figure}
 
 Com este modelo acima o meteorologista pode deduzir, observando o comportamento de seus companheiros durante um determinado tempo, qual foi a seqüência de estados ocultos(tempo) mais provável de produzir a seqüência de observações, obtendo assim uma expectativa de em qual estado o sistema está no momento atual, consequentemente permitindo a previsão do dia seguinte. 
@@ -201,11 +202,11 @@ Um Modelo Oculto de Markov (MOM), é composto por \cite{AplicHmmWaghabi}:
 \item Uma matriz de probabilidades de transições $A=\{a_{ij}\}$ entre os estados ${q_{i}}$ e ${q_{j}}$, onde ${a_{ij}} = [0, 1]$ com $i, j \in [1, |Q|]$, e $\sum a_{ij} = 1$ para um mesmo estado ${q_{i}}$. 
 \item Um conjunto $O={o_{n}}$ de estados observáveis, ou observações.
 \item Uma matriz de probabilidades $B={b_{in}}$ indicando a chance do estado ${q_{i}}$ produzir a observação $O={o_{n}}$, onde ${b_{in}} = [0, 1]$ com $i \in [1, |Q|]$, $n \in [1, |O|]$.
-\item Uma distribuição $\Pi =  {{\pi_{i}}}$ de probabilidades da modelo iniciar no estado ${q_{i}}$, onde ${\pi_{i}} = [0, 1]$ com $i \in [1, |Q|]$
+\item Uma distribuição $\Pi =  {{\pi_{i}}}$ de probabilidades da modelo iniciar no estado ${q_{i}}$, onde ${\pi_{i}} = [0, 1]$ com $i \in [1, |Q|]$.
 \end{itemize}
 
 
-Segundo \citeonline{TutorialHmmRabiner} existem 3 problemas que são básicos no desenvolvimento de sistemas RAV modelados por HMMs, o problema da avaliação, problema da decodificação e o problema do treinamento. Dentre os algoritmos que podem resolver esses problemas encontrados: o algoritmo Forward ou o algoritmo Backward para o problema da avaliação, o algoritmo de Viterbi, que é próximo ao ótimo para o problema da decodificação e o algoritmo Baum-Welch para o problema de do treinamento \cite{RavIsolAnderson}.
+Segundo \citeonline{TutorialHmmRabiner} existem 3 problemas que são básicos no desenvolvimento de sistemas RAV modelados por HMMs, o problema da avaliação, problema da decodificação e o problema do treinamento. Dentre os algoritmos que podem resolver esses problemas encontrados: o algoritmo Forward ou o algoritmo Backward para o problema de seleção caso existam vários modelos, o algoritmo de Viterbi, que é próximo ao ótimo para o problema da decodificação e o algoritmo Baum-Welch para o problema de treinamento \cite{RavIsolAnderson}.
 
 
 

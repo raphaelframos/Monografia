@@ -110,8 +110,8 @@
   title = {Reconhecimento de voz para aplicação em cadeira de rodas},
   author = {Arlei Barcelos},
   year = {2007},
-  url = {http://www.aedb.br/seget/artigos08/445_Reconhecimento de Voz aplicado na cadeira de rodas.pdf},
   urlaccessdate = {14/03/2012},
+  howpublished = "\url{http://www.aedb.br/seget/artigos08/44_Reconhecimento de voz aplicado em cadeira de rodas.pdf}",
   type = {},
   annote = {Fabrício de Carvalho Souza, Jair Moraes dos Santos, Vitor Tomaz de Aquino}
 }

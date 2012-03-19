@@ -31,43 +31,43 @@ Warning--faltando school em RavPtBrCarlos
 +---------------------------------------------------------+
 You've used 32 entries,
             6522 wiz_defined-function locations,
-            1336 strings with 13341 characters,
-and the built_in function-call counts, 36295 in all, are:
-= -- 4485
+            1336 strings with 13346 characters,
+and the built_in function-call counts, 31978 in all, are:
+= -- 3731
 > -- 452
-< -- 774
-+ -- 975
+< -- 586
++ -- 787
 - -- 150
-* -- 1918
-:= -- 4285
+* -- 1727
+:= -- 3904
 add.period$ -- 103
 call.type$ -- 33
-change.case$ -- 190
+change.case$ -- 191
 chr.to.int$ -- 29
 cite$ -- 38
-duplicate$ -- 4041
+duplicate$ -- 3299
 empty$ -- 1721
 format.name$ -- 691
-if$ -- 7459
+if$ -- 6705
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 539
-newline$ -- 161
+missing$ -- 540
+newline$ -- 162
 num.names$ -- 145
-pop$ -- 633
+pop$ -- 624
 preamble$ -- 1
 purify$ -- 97
 quote$ -- 0
-skip$ -- 4181
+skip$ -- 3441
 stack$ -- 1
-substring$ -- 1321
-swap$ -- 1184
-text.length$ -- 10
+substring$ -- 1136
+swap$ -- 1000
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 42
 warning$ -- 9
-while$ -- 186
+while$ -- 184
 width$ -- 0
 write$ -- 438
 (There were 11 warnings)

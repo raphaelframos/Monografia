@@ -7,10 +7,12 @@ Este sistema foi desenvolvido em Java, com suas Apis e direcionada para sistemas
 
 Este trabalho pode ser dividido em 6 etapas: Aquisição da fala, Pré-Processamento, Extração de Parâmetros, Criação de referências, Classificação e Execução dos comandos.
 
-\section{Aplicação RAV}
+\section{Arquitetura de um sistema RAV}
+O sistema RAV pode ser definido em 4 processos que são mostrados na figura \ref{figArqRav}, esses processos são compostos por outras etapas. O primeiro processo da figura \ref{figArqRav} é chamado de \textit{Front-End}, que engloba as etapas de captura do sinal da fala, conversão do sinal elétrico em sinal analógico-digital e o processo de filtragem. Ou processo ilustrado na figura é o \textit{Modelo Acústico} que é a fase responsável pelo treinamento das unidades a serem reconhecidas. O \textit{Reconhecedor} é a parte que une todas os processos, é onde é feito as comparações entre o sinal falado e filtrado com os padrões de referência a
 \begin{figure}[H]
 \includegraphics[width=1\textwidth]{graficos/desenvolvimento_rav.eps}
 \caption{Diagrama de Atividades do Sistema}
+\label{figArqRav}
 \end{figure}
 
 Com resultado da transcrição, são definidos os comandos do jogo.
@@ -71,13 +73,8 @@ reconhecimento pode ser visualizado na figura baseada em \cite{TutorialHmmRabine
 \caption{Procedimento de reconhecimento}
 \end{figure}
 
-O reconhecimento pode ser obtido utilizando-se o algoritmo forward a fim de se determinar
-a probabilidade de cada modelo de palavra gerar uma dada elocução. O modelo com maior
-probabilidade é, então, escolhido como correspondendo à palavra falada, assumindo-se que, a
-priori, todas as palavras têm uma mesma probabilidade de ocorrência. O algoritmo de Viterbi
-também pode ser utilizado para esta classificação, embora este resulte apenas em uma aproximação
-para a probabilidade de uma dada sequência de observações. Os resultados utilizando-se um ou
-outro algoritmo são praticamente idênticos.
+O algoritmo \textit{forward} pode ser usado para o reconhecimento a fim de se determinar a probabilidade de cada modelo de palavra gerar uma dada elocução. O modelo com maior probabilidade é o escolhido como correspondente à palavra falada, assumindo que todas as palavras têm uma mesma probabilidade de ocorrência. O algoritmo de \textit{Viterbi} também pode ser utilizado para esta classificação, embora este resulte apenas em uma aproximação
+para a probabilidade de uma dada sequência de observações. Os resultados utilizando-se um ou outro algoritmo são praticamente idênticos \cite{RavIsolAnderson}.
 
 
 
