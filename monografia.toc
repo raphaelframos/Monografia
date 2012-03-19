@@ -24,10 +24,8 @@
 \contentsline {section}{\numberline {2.6}Trabalhos Relacionados}{22}{section.resumo.2.6}
 \contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{23}{chapter.resumo.3}
 \contentsline {section}{\numberline {3.1}Arquitetura de um sistema RAV}{24}{section.resumo.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{25}{subsection.resumo.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Pr\IeC {\'e}-Processamento}{25}{subsection.resumo.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Extra\IeC {\c c}\IeC {\~a}o de Par\IeC {\^a}metros}{26}{subsection.resumo.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Treinamento dos Modelos Ocultos de Markov}{27}{subsection.resumo.3.1.4}
-\contentsline {subsubsection}{Constru\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio de c\IeC {\'o}digos}{28}{subsection.resumo.3.1.4}
-\contentsline {section}{\numberline {3.2}Reconhecimento}{28}{section.resumo.3.2}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}{figure.caption.12}
+\contentsline {subsection}{\numberline {3.1.1}Front-End}{25}{subsection.resumo.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Modelo Ac\IeC {\'u}stico}{26}{subsection.resumo.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Reconhecedor}{28}{subsection.resumo.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Gram\IeC {\'a}tica}{29}{subsection.resumo.3.1.4}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{30}{Item.11}

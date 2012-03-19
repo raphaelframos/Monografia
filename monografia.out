@@ -21,9 +21,8 @@
 \BOOKMARK [1][-]{section.resumo.2.6}{Trabalhos Relacionados}{chapter.resumo.2}
 \BOOKMARK [0][-]{chapter.resumo.3}{Estruturas de um Sistema RAV}{}
 \BOOKMARK [1][-]{section.resumo.3.1}{Arquitetura de um sistema RAV}{chapter.resumo.3}
-\BOOKMARK [2][-]{subsection.resumo.3.1.1}{Aquisi\347\343o da fala}{section.resumo.3.1}
-\BOOKMARK [2][-]{subsection.resumo.3.1.2}{Pr\351-Processamento}{section.resumo.3.1}
-\BOOKMARK [2][-]{subsection.resumo.3.1.3}{Extra\347\343o de Par\342metros}{section.resumo.3.1}
-\BOOKMARK [2][-]{subsection.resumo.3.1.4}{Treinamento dos Modelos Ocultos de Markov}{section.resumo.3.1}
-\BOOKMARK [1][-]{section.resumo.3.2}{Reconhecimento}{chapter.resumo.3}
-\BOOKMARK [0][-]{figure.caption.12}{Refer\352ncias Bibliogr\341ficas}{}
+\BOOKMARK [2][-]{subsection.resumo.3.1.1}{Front-End}{section.resumo.3.1}
+\BOOKMARK [2][-]{subsection.resumo.3.1.2}{Modelo Ac\372stico}{section.resumo.3.1}
+\BOOKMARK [2][-]{subsection.resumo.3.1.3}{Reconhecedor}{section.resumo.3.1}
+\BOOKMARK [2][-]{subsection.resumo.3.1.4}{Gram\341tica}{section.resumo.3.1}
+\BOOKMARK [0][-]{Item.11}{Refer\352ncias Bibliogr\341ficas}{}
