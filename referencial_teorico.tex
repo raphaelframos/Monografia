@@ -194,13 +194,20 @@ Segundo \citeonline{AplicHmmWaghabi} a idéia principal dos \textit{Modelos Ocul
 
 Com este modelo acima o meteorologista pode deduzir, observando o comportamento de seus companheiros durante um determinado tempo, qual foi a seqüência de estados ocultos(tempo) mais provável de produzir a seqüência de observações, obtendo assim uma expectativa de em qual estado o sistema está no momento atual, consequentemente permitindo a previsão do dia seguinte. 
 
-Um Modelo Oculto de Markov (MOM), é composto por:
+Um Modelo Oculto de Markov (MOM), é composto por \cite{AplicHmmWaghabi}:
 
-
-
+\begin{itemize}
+\item Um conjunto $Q={\{q_{i}\}}$ de estados ocultos do modelo, ou apenas estados.
+\item Uma matriz de probabilidades de transições $A=\{a_{ij}\}$ entre os estados ${q_{i}}$ e ${q_{j}}$, onde ${a_{ij}} = [0, 1]$ com $i, j \in [1, |Q|]$, e $\sum a_{ij} = 1$ para um mesmo estado ${q_{i}}$. 
+\item Um conjunto $O={o_{n}}$ de estados observáveis, ou observações.
+\item Uma matriz de probabilidades $B={b_{in}}$ indicando a chance do estado ${q_{i}}$ produzir a observação $O={o_{n}}$, onde ${b_{in}} = [0, 1]$ com $i \in [1, |Q|]$, $n \in [1, |O|]$.
+\item Uma distribuição $\Pi =  {{\pi_{i}}}$ de probabilidades da modelo iniciar no estado ${q_{i}}$, onde ${\pi_{i}} = [0, 1]$ com $i \in [1, |Q|]$.
+\end{itemize}
 
 
 Segundo \citeonline{TutorialHmmRabiner} existem 3 problemas que são básicos no desenvolvimento de sistemas RAV modelados por HMMs, o problema da avaliação, problema da decodificação e o problema do treinamento. Dentre os algoritmos que podem resolver esses problemas encontrados: o algoritmo Forward ou o algoritmo Backward para o problema da avaliação, o algoritmo de Viterbi, que é próximo ao ótimo para o problema da decodificação e o algoritmo Baum-Welch para o problema de do treinamento \cite{RavIsolAnderson}.
+
+
 
 
 \section{Trabalhos Relacionados}

@@ -22,11 +22,12 @@
 \contentsline {section}{\numberline {2.4}Avalia\IeC {\c c}\IeC {\~a}o de Desempenho de um Reconhecedor}{19}{section.resumo.2.4}
 \contentsline {section}{\numberline {2.5}Modelos Ocultos de Markov}{19}{section.resumo.2.5}
 \contentsline {section}{\numberline {2.6}Trabalhos Relacionados}{21}{section.resumo.2.6}
-\contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{22}{chapter.resumo.3}
-\contentsline {section}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o RAV}{23}{section.resumo.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{23}{subsection.resumo.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Pr\IeC {\'e}-Processamento}{24}{subsection.resumo.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Extra\IeC {\c c}\IeC {\~a}o de Par\IeC {\^a}metros}{25}{subsection.resumo.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Treinamento dos Modelos Ocultos de Markov}{26}{subsection.resumo.3.1.4}
-\contentsline {subsubsection}{Constru\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio de c\IeC {\'o}digos}{26}{subsection.resumo.3.1.4}
-\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{27}{subsection.resumo.3.1.4}
+\contentsline {chapter}{\numberline {3}Estruturas de um Sistema RAV}{23}{chapter.resumo.3}
+\contentsline {section}{\numberline {3.1}Aplica\IeC {\c c}\IeC {\~a}o RAV}{24}{section.resumo.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Aquisi\IeC {\c c}\IeC {\~a}o da fala}{24}{subsection.resumo.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Pr\IeC {\'e}-Processamento}{25}{subsection.resumo.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Extra\IeC {\c c}\IeC {\~a}o de Par\IeC {\^a}metros}{26}{subsection.resumo.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Treinamento dos Modelos Ocultos de Markov}{27}{subsection.resumo.3.1.4}
+\contentsline {subsubsection}{Constru\IeC {\c c}\IeC {\~a}o do dicion\IeC {\'a}rio de c\IeC {\'o}digos}{27}{subsection.resumo.3.1.4}
+\contentsline {section}{\numberline {3.2}Reconhecimento}{27}{section.resumo.3.2}
+\contentsline {chapter}{Refer\^encias Bibliogr\'aficas}{29}{figure.caption.12}

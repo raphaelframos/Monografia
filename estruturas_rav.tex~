@@ -9,7 +9,7 @@ Este trabalho pode ser dividido em 6 etapas: Aquisição da fala, Pré-Processam
 
 \section{Aplicação RAV}
 \begin{figure}[H]
-\includegraphics[width=0.9\textwidth]{graficos/desenvolvimento_rav.eps}
+\includegraphics[width=1\textwidth]{graficos/desenvolvimento_rav.eps}
 \caption{Diagrama de Atividades do Sistema}
 \end{figure}
 
@@ -60,6 +60,25 @@ A definição da quantidade de estados necessários para modelar uma palavra e o
 \subsubsection{Construção do dicionário de códigos}
 Também chamado de codeblock  é gerado a partir da base de dados de treinamento seguindo um critério de otimização. \citeonline{AnAlgorLinde} propos um algoritmo muito eficiente para o treinamento, conhecido como algoritmo LBG. No caso do reconhecimento de voz para palavras isoladas, cada elocução é dividida em vetores (frames) com os parâmetros obtidos. Para cada um dos modelos HMM, todos os frames de cada elocução da palavra que ele
 representa são distribuídos entre todos os estados do mesmo de maneira uniforme. Após esta divisão calcula-se para cada estado um vetor centróide a partir de todos os vetores pertencentes a este estado \cite{RavIsolAnderson}.
+
+\section{Reconhecimento}
+
+Como citado em \citeonline{RavIsolAnderson} a fase de reconhecimento consiste em dada uma elocução, descobrir qual o modelo que tem a maior probabilidade de gerá-la. Nesta etapa é necessário apenas o pré-processamento e da extração de características que gera a sequência de observações a ser utilizada no algoritmo de reconhecimento. O procedimento de
+reconhecimento pode ser visualizado na figura baseada em \cite{TutorialHmmRabiner}.
+
+\begin{figure}[H]
+\includegraphics[width=0.9\textwidth]{graficos/reconhecimento.eps}
+\caption{Procedimento de reconhecimento}
+\end{figure}
+
+O reconhecimento pode ser obtido utilizando-se o algoritmo forward a fim de se determinar
+a probabilidade de cada modelo de palavra gerar uma dada elocução. O modelo com maior
+probabilidade é, então, escolhido como correspondendo à palavra falada, assumindo-se que, a
+priori, todas as palavras têm uma mesma probabilidade de ocorrência. O algoritmo de Viterbi
+também pode ser utilizado para esta classificação, embora este resulte apenas em uma aproximação
+para a probabilidade de uma dada sequência de observações. Os resultados utilizando-se um ou
+outro algoritmo são praticamente idênticos.
+
 
 
 
