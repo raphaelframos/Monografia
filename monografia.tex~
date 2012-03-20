@@ -12,6 +12,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage{url}
 \usepackage{graphicx}
 \usepackage{enumerate}
 \usepackage[pdfborder={0 0 0}]{hyperref} % http://www.tug.org/applications/hyperref/manual.html
@@ -77,18 +78,18 @@ orientação do Profº. Luis Antônio Rivera Escriba, DrSc.}
 \data{2012}
 
 
-\capa
+%\capa
 \folhaderosto
 
-\include{epigrafe}
-\include{agradecimentos}
+%\include{epigrafe}
+%\include{agradecimentos}
 
 \listoffigures
-\lstlistoflistings
+%\lstlistoflistings
 
-\begin{resumo}
-Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
-\end{resumo}
+%\begin{resumo}
+%Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
+%\end{resumo}
 
 \sumario
 
