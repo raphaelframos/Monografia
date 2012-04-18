@@ -66,30 +66,30 @@
 
 \begin{document}
 
-\titulo{Jogos fisicamente interativos baseados em reconhecimento de voz}
+\titulo{Jogos interativos baseados em reconhecimento de voz}
 \autor{Raphael Ferreira Ramos}
 \instituicao{Universidade Estadual do Norte Fluminense Darcy Ribeiro}
-\orientador[Tutor: ]{Luis Antônio Rivera Escriba, DrSc.}
+\orientador[Tutor: ]{Luis Antônio Rivera Escriba.}
 \comentario{Monografia apresentada ao Curso de Graduação em Ciência da
 Computação da Universidade Estadual do Norte Fluminense Darcy Ribeiro como
 requisito para obtenção do título de Bacharel em Ciência da Computação, sob
-orientação do Profº. Luis Antônio Rivera Escriba, DrSc.}
+orientação do Profº. Luis Antônio Rivera Escriba.}
 \local{Campos dos Goytacazes/RJ}
 \data{2012}
 
 
-%\capa
+\capa
 \folhaderosto
 
-%\include{epigrafe}
-%\include{agradecimentos}
+\include{epigrafe}
+\include{agradecimentos}
 
 \listoffigures
-%\lstlistoflistings
+\lstlistoflistings
 
-%\begin{resumo}
-%Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
-%\end{resumo}
+\begin{resumo}
+Aqui entra o resumo do meu trabalho que será a última coisa a ser feita.
+\end{resumo}
 
 \sumario
 

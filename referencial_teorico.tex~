@@ -93,6 +93,8 @@ tamanho elevado e um dicionario fonético de amplo vocabulário.
 
 \item Perplexidade: 
 
+É muito importante poder quantificar a dificuldade que os modelos de linguagem impõe aos sistemas \textit{RAV}
+
 Uma medida popular que mede a dificuldade da tarefa, combinando o tamanho do vocabulário e o modelo de linguagem, que pode ser basicamente definida como a média do número de palavras que pode seguir uma palavra depois que o modelo de linguagem for aplicado. Pode ser pequena sendo menor que 10 ou grande sendo maior que 100 \cite{RavHmmCarlos}. A perplexidade de um modelo de linguagem depende do domínio de discurso. Na tabela \ref{tabPerp} tem-se um quadro comparativo para diversas aplicações \cite{SurveyCole} :
 
 \begin{table}[H] % aqui começa o ambiente tabela
@@ -206,7 +208,7 @@ Um Modelo Oculto de Markov (MOM), é composto por \cite{AplicHmmWaghabi}:
 \end{itemize}
 
 
-Segundo \citeonline{TutorialHmmRabiner} existem 3 problemas que são básicos no desenvolvimento de sistemas RAV modelados por HMMs, o problema da avaliação, problema da decodificação e o problema do treinamento. Dentre os algoritmos que podem resolver esses problemas encontrados: o algoritmo Forward ou o algoritmo Backward para o problema de seleção caso existam vários modelos, o algoritmo de Viterbi, que é próximo ao ótimo para o problema da decodificação e o algoritmo Baum-Welch para o problema de treinamento \cite{RavIsolAnderson}.
+Segundo \citeonline{TutorialHmmRabiner} existem 3 problemas que são básicos no desenvolvimento de sistemas RAV modelados por HMMs, o problema da avaliação, problema da decodificação e o problema do treinamento. Dentre os algoritmos que podem resolver esses problemas encontrados: o algoritmo Forward ou o algoritmo Backward para o problema de seleção caso existam vários modelos, o algoritmo de Viterbi, que é próximo ao ótimo para o problema da decodificação ou reconhecimento e o algoritmo Baum-Welch para o problema de treinamento \cite{RavIsolAnderson}.
 
 
 
